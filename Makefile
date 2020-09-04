@@ -8,5 +8,5 @@ server:
 deploy:
 	hugo -D -d docs
 	git add .
-	git commit -am "deploy"
+	git commit -am "deploy" || true
 	git push
