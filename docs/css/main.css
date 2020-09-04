@@ -236,17 +236,22 @@ ul {
     height: 64px;
     overflow: hidden;
 }
+
 .header .site-title {
     margin: 0 0 10px 0;
     line-height: 0.2em;
 }
-    .site-title a {
-        color: #333;
-        text-decoration: none !important;
-    }
-    .site-title a:hover {
-        border-bottom-width: 3px;
-    }
+
+.site-title a {
+    color: #000;
+    text-decoration: none !important;
+}
+
+.site-title a:hover {
+    border-bottom: none;
+    color: #000;
+    text-decoration: none;
+}
 
 .header .site-description {
     display: flex;
@@ -425,6 +430,10 @@ ul {
 
 .pagination .page-item.page-next {
     text-align: right;
+}
+
+.show-on-dark-mode {
+    display: none;
 }
 
 @media (max-width: 900px) {

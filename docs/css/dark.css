@@ -57,7 +57,7 @@ html.dark .post-tags .tags a {
 }
 
 html.dark .site-title a {
-  color: #ddd;
+  color: #fff;
   text-decoration: none !important;
 }
 
@@ -68,4 +68,12 @@ html.dark .footer {
 
 html.dark .highlight {
   background-color: #333;
+}
+
+html.dark .show-on-dark-mode {
+  display: initial;
+}
+
+html.dark .hide-on-dark-mode {
+    display: none;
 }

@@ -5,7 +5,7 @@ theme = "hugo-ink"
 
 paginate = 5
 
-copyright = "© Copyright notice"
+copyright = "© Copyright Francesco Bianco"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
