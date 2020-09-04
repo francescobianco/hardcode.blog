@@ -54,7 +54,7 @@ weight = 4
 [[params.social]]
 name = "Github"
 icon = "github"
-url = "https://github.com/knadh/hugo-ink"
+url = "https://github.com/francescobianco/hardcode.blog"
 
 [[params.social]]
 name = "RSS"
@@ -62,4 +62,4 @@ icon = "rss"
 url = "/index.xml"
 
 [taxonomies]
-   tag = "tags"
+tag = "tags"
