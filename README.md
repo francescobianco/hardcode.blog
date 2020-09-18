@@ -1,4 +1,4 @@
-# hardcode.blog
+# HARDCODE.blog
 
 
  Print it
