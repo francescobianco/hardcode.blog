@@ -66,23 +66,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Primer</title>
-      <link>https://hardcode.blog/tags/primer/</link>
-      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
-      
-      <guid>https://hardcode.blog/tags/primer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>todo</title>
-      <link>https://hardcode.blog/tags/todo/</link>
-      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
-      
-      <guid>https://hardcode.blog/tags/todo/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
