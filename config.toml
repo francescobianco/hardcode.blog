@@ -57,6 +57,11 @@ icon = "github"
 url = "https://github.com/francescobianco/hardcode.blog"
 
 [[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/francescobianco"
+
+[[params.social]]
 name = "RSS"
 icon = "rss"
 url = "/index.xml"
