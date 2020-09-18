@@ -47,8 +47,8 @@ url = "/about"
 weight = 3
 
 [[menu.main]]
-name = "Topics"
-url = "/topics"
+name = "Tags"
+url = "/tags"
 weight = 4
 
 [[params.social]]
@@ -67,4 +67,4 @@ icon = "rss"
 url = "/index.xml"
 
 [taxonomies]
-topic = "topics"
+tag = "tags"
