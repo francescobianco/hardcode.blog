@@ -5,7 +5,7 @@
     <link>https://hardcode.blog/</link>
     <description>Recent content on HARDCODE.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>it-it</language>
+    <language>en-en</language>
     <copyright>© Copyright Francesco Bianco</copyright>
     <lastBuildDate>Fri, 19 Apr 2019 21:37:58 +0530</lastBuildDate>
     
@@ -14,13 +14,23 @@
     
     <item>
       <title>Modernize Vtiger</title>
-      <link>https://hardcode.blog/posts/modernize-vtiger/</link>
+      <link>https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/</link>
       <pubDate>Fri, 18 Sep 2020 12:13:35 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/modernize-vtiger/</guid>
+      <guid>https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/</guid>
       <description>When a project stands up to difficulties, it is said to have aged well. Surely Vtiger deserves its second life with all the requirements of a modern software it has helped many businesses to progress. Now it&amp;rsquo;s up to us to help him enter the CI/CD era.
 https://discussions.vtiger.com/search?Search=styleci
 https://discussions.vtiger.com/search?Search=docker</description>
+    </item>
+    
+    <item>
+      <title>Docker: Not soo bad!</title>
+      <link>https://hardcode.blog/posts/docker/20200101-not-soo-bad/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/docker/20200101-not-soo-bad/</guid>
+      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
+ https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
     </item>
     
     <item>
@@ -34,143 +44,152 @@ https://discussions.vtiger.com/search?Search=docker</description>
     
     <item>
       <title>Remote Working Spaghetti</title>
-      <link>https://hardcode.blog/posts/remote-working-spaghetti/</link>
+      <link>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hardcode.blog/posts/remote-working-spaghetti/</guid>
+      <guid>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</guid>
       <description>Puoi parlare di come adoperare al meglio wp e quali conoscenze bisogna avere per saper realmente utilizzare i suoi potenziali ma rimanendo sempre ben saldi a terra che appunto è wp e non puoi uscire da certi cavilli</description>
     </item>
     
     <item>
       <title>How to test dark mode?</title>
-      <link>https://hardcode.blog/posts/another-brick-in-the-wall/</link>
+      <link>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/another-brick-in-the-wall/</guid>
+      <guid>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</guid>
       <description>Puoi parlare di quanto sia importante la formazione e quanto un corso non possa sostituire l’università ma comunque possa introdurti nell’ambiente lavorativo</description>
     </item>
     
     <item>
       <title>Typography</title>
-      <link>https://hardcode.blog/posts/fullstack/</link>
+      <link>https://hardcode.blog/posts/20200305-fullstack/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/fullstack/</guid>
+      <guid>https://hardcode.blog/posts/20200305-fullstack/</guid>
       <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?</description>
     </item>
     
     <item>
       <title>A.I. cosa ci dobbiamo aspettare?</title>
-      <link>https://hardcode.blog/posts/ai/</link>
+      <link>https://hardcode.blog/posts/20200912-ai/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/ai/</guid>
+      <guid>https://hardcode.blog/posts/20200912-ai/</guid>
       <description>Frontiere A.I.</description>
     </item>
     
     <item>
       <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/features/</link>
+      <link>https://hardcode.blog/posts/20200202-smartphone-is-dead/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/features/</guid>
+      <guid>https://hardcode.blog/posts/20200202-smartphone-is-dead/</guid>
+      <description>Puoi parlare di cosa ci sarà dopo lo smartphone ? Gira voce che sia solo un ponte per una tecnologia sostitutiva</description>
+    </item>
+    
+    <item>
+      <title>Hugo shortcodes</title>
+      <link>https://hardcode.blog/posts/20200404-marte/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200404-marte/</guid>
       <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
 &amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017  Vimeo   Instagram    View this post on Instagram        #Talitha #Getty #yacht in #fjærland #fjærlandsfjorden #sognefjorden #mundal #norway #landscape #panorama #travel #instagoodmyphoto #justgoshoot #peoplescreatives #visualsoflife #photography #photoshoot #photodaily #photogram #instagood #picoftheday #fjærland #photooftheday #pentax #nrksf #sognavis</description>
     </item>
     
     <item>
       <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/flutter/</link>
+      <link>https://hardcode.blog/posts/20200409-nanotecnologie/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/flutter/</guid>
+      <guid>https://hardcode.blog/posts/20200409-nanotecnologie/</guid>
       <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
 &amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017  Vimeo   Instagram    View this post on Instagram        #Talitha #Getty #yacht in #fjærland #fjærlandsfjorden #sognefjorden #mundal #norway #landscape #panorama #travel #instagoodmyphoto #justgoshoot #peoplescreatives #visualsoflife #photography #photoshoot #photodaily #photogram #instagood #picoftheday #fjærland #photooftheday #pentax #nrksf #sognavis</description>
     </item>
     
     <item>
       <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/marte/</link>
+      <link>https://hardcode.blog/posts/20200621-php8/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/marte/</guid>
-      <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
-&amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017  Vimeo   Instagram    View this post on Instagram        #Talitha #Getty #yacht in #fjærland #fjærlandsfjorden #sognefjorden #mundal #norway #landscape #panorama #travel #instagoodmyphoto #justgoshoot #peoplescreatives #visualsoflife #photography #photoshoot #photodaily #photogram #instagood #picoftheday #fjærland #photooftheday #pentax #nrksf #sognavis</description>
-    </item>
-    
-    <item>
-      <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/nanotecnologie/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
-      
-      <guid>https://hardcode.blog/posts/nanotecnologie/</guid>
-      <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
-&amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017  Vimeo   Instagram    View this post on Instagram        #Talitha #Getty #yacht in #fjærland #fjærlandsfjorden #sognefjorden #mundal #norway #landscape #panorama #travel #instagoodmyphoto #justgoshoot #peoplescreatives #visualsoflife #photography #photoshoot #photodaily #photogram #instagood #picoftheday #fjærland #photooftheday #pentax #nrksf #sognavis</description>
-    </item>
-    
-    <item>
-      <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/php8/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
-      
-      <guid>https://hardcode.blog/posts/php8/</guid>
+      <guid>https://hardcode.blog/posts/20200621-php8/</guid>
       <description>Puoi parlare di php8 cosa c’è da aspettarsi</description>
     </item>
     
     <item>
       <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/ppaa/</link>
+      <link>https://hardcode.blog/posts/20200701-features/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/ppaa/</guid>
+      <guid>https://hardcode.blog/posts/20200701-features/</guid>
+      <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
+&amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017  Vimeo   Instagram    View this post on Instagram        #Talitha #Getty #yacht in #fjærland #fjærlandsfjorden #sognefjorden #mundal #norway #landscape #panorama #travel #instagoodmyphoto #justgoshoot #peoplescreatives #visualsoflife #photography #photoshoot #photodaily #photogram #instagood #picoftheday #fjærland #photooftheday #pentax #nrksf #sognavis</description>
+    </item>
+    
+    <item>
+      <title>Hugo shortcodes</title>
+      <link>https://hardcode.blog/posts/20200722-ppaa/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200722-ppaa/</guid>
       <description>Puoi parlare di come i privati si siano adoperati per digitalizzarsi ma invece le PA non (le scuole faticano a firmare documenti digitali, giusto un esempio)</description>
     </item>
     
     <item>
       <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/smartphone-is-dead/</link>
+      <link>https://hardcode.blog/posts/20200801-flutter/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/smartphone-is-dead/</guid>
-      <description>Puoi parlare di cosa ci sarà dopo lo smartphone ? Gira voce che sia solo un ponte per una tecnologia sostitutiva</description>
+      <guid>https://hardcode.blog/posts/20200801-flutter/</guid>
+      <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
+&amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017  Vimeo   Instagram    View this post on Instagram        #Talitha #Getty #yacht in #fjærland #fjærlandsfjorden #sognefjorden #mundal #norway #landscape #panorama #travel #instagoodmyphoto #justgoshoot #peoplescreatives #visualsoflife #photography #photoshoot #photodaily #photogram #instagood #picoftheday #fjærland #photooftheday #pentax #nrksf #sognavis</description>
     </item>
     
     <item>
       <title>Getting Started with Traveling Ultralight</title>
-      <link>https://hardcode.blog/posts/blockchain-is-dead/</link>
+      <link>https://hardcode.blog/posts/20200101-blockchain-is-dead/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:35 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/blockchain-is-dead/</guid>
+      <guid>https://hardcode.blog/posts/20200101-blockchain-is-dead/</guid>
       <description>Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tasse</description>
     </item>
     
     <item>
       <title>How I Learned to Stop Procrastinating, &amp; Love Letting Go</title>
-      <link>https://hardcode.blog/posts/coding-spaghetti/</link>
+      <link>https://hardcode.blog/posts/20200201-coding-spaghetti/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:32 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/coding-spaghetti/</guid>
+      <guid>https://hardcode.blog/posts/20200201-coding-spaghetti/</guid>
       <description>Puoi parlare di come insegnare la programmazione ai bambini</description>
     </item>
     
     <item>
       <title>Fearlessness: How to Stop Running from Space</title>
-      <link>https://hardcode.blog/posts/neuralink/</link>
+      <link>https://hardcode.blog/posts/20200512-neuralink/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
       
-      <guid>https://hardcode.blog/posts/neuralink/</guid>
+      <guid>https://hardcode.blog/posts/20200512-neuralink/</guid>
       <description>Puoi parlare della nuova invenzione neuroscientifica di elon musk</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://hardcode.blog/posts/my-first-post/</link>
+      <link>https://hardcode.blog/posts/19700101-my-first-post/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:01 +0000</pubDate>
       
-      <guid>https://hardcode.blog/posts/my-first-post/</guid>
+      <guid>https://hardcode.blog/posts/19700101-my-first-post/</guid>
       <description>As first post I want move your focus to one the most important technological constant of our era. I&amp;rsquo;m talking about the first second of the Unix time, and the word joke inside.
 Ream more:
  https://en.wikipedia.org/wiki/Unix_time  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hardcode.blog/policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/policy/</guid>
+      <description></description>
     </item>
     
   </channel>

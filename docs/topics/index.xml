@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topics on HARDCODE.blog</title>
+    <link>https://hardcode.blog/topics/</link>
+    <description>Recent content in Topics on HARDCODE.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Copyright Francesco Bianco</copyright>
+    
+	<atom:link href="https://hardcode.blog/topics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

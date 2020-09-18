@@ -258,6 +258,10 @@ ul {
     justify-content: space-between;
 }
 
+.header .site-description p {
+    margin-top: 10px;
+}
+
 .header nav {
     border-top: 1px solid #eee;
     padding-top: 15px;

@@ -1,5 +1,5 @@
 baseURL = "https://hardcode.blog/"
-languageCode = "it-it"
+languageCode = "en-en"
 title = "HARDCODE.blog"
 theme = "hugo-ink"
 
@@ -11,11 +11,11 @@ pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-googleAnalytics = "UA-123-45"
-disqusShortname = "ink-demo"
+googleAnalytics = "UA-178422206-1"
+disqusShortname = "hardcode-blog"
 
 [params]
-subtitle = "Crisp, minimal personal [blog theme for Hugo](https://github.com/knadh/hugo-ink)"
+subtitle = "Programming is a superpower that no one want to have"
 
 # Optional 64x64 avatar image.
 avatar = "/images/logo.png"
@@ -36,10 +36,10 @@ name = "Home"
 url = "/"
 weight = 1
 
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
+#[[menu.main]]
+#name = "All posts"
+#url = "/posts"
+#weight = 2
 
 [[menu.main]]
 name = "About"
@@ -47,8 +47,8 @@ url = "/about"
 weight = 3
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "Topics"
+url = "/topics"
 weight = 4
 
 [[params.social]]
@@ -67,4 +67,4 @@ icon = "rss"
 url = "/index.xml"
 
 [taxonomies]
-tag = "tags"
+topic = "topics"

@@ -3,13 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hardcode.blog/posts/modernize-vtiger/</loc>
+    <loc>https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/</loc>
     <lastmod>2020-09-18T12:13:35+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://hardcode.blog/posts/</loc>
     <lastmod>2020-09-18T12:13:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hardcode.blog/posts/docker/20200101-not-soo-bad/</loc>
+    <lastmod>2020-01-01T12:10:00+02:00</lastmod>
   </url>
   
   <url>
@@ -23,113 +28,87 @@
   </url>
   
   <url>
-    <loc>https://hardcode.blog/tags/css/</loc>
+    <loc>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hardcode.blog/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hardcode.blog/posts/remote-working-spaghetti/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hardcode.blog/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hardcode.blog/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hardcode.blog/posts/another-brick-in-the-wall/</loc>
+    <loc>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</loc>
     <lastmod>2018-03-18T12:13:38+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/posts/fullstack/</loc>
+    <loc>https://hardcode.blog/posts/20200305-fullstack/</loc>
     <lastmod>2018-03-18T12:13:38+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/posts/ai/</loc>
+    <loc>https://hardcode.blog/posts/20200912-ai/</loc>
     <lastmod>2018-03-18T12:13:36+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/posts/features/</loc>
+    <loc>https://hardcode.blog/posts/20200202-smartphone-is-dead/</loc>
     <lastmod>2018-03-18T12:13:36+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/posts/flutter/</loc>
+    <loc>https://hardcode.blog/posts/20200404-marte/</loc>
     <lastmod>2018-03-18T12:13:36+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/posts/marte/</loc>
+    <loc>https://hardcode.blog/posts/20200409-nanotecnologie/</loc>
     <lastmod>2018-03-18T12:13:36+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/posts/nanotecnologie/</loc>
+    <loc>https://hardcode.blog/posts/20200621-php8/</loc>
     <lastmod>2018-03-18T12:13:36+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/posts/php8/</loc>
+    <loc>https://hardcode.blog/posts/20200701-features/</loc>
     <lastmod>2018-03-18T12:13:36+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/posts/ppaa/</loc>
+    <loc>https://hardcode.blog/posts/20200722-ppaa/</loc>
     <lastmod>2018-03-18T12:13:36+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/posts/smartphone-is-dead/</loc>
+    <loc>https://hardcode.blog/posts/20200801-flutter/</loc>
     <lastmod>2018-03-18T12:13:36+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/posts/blockchain-is-dead/</loc>
+    <loc>https://hardcode.blog/posts/20200101-blockchain-is-dead/</loc>
     <lastmod>2018-03-18T12:13:35+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/posts/coding-spaghetti/</loc>
+    <loc>https://hardcode.blog/posts/20200201-coding-spaghetti/</loc>
     <lastmod>2018-03-18T12:13:32+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/tags/procrastinating/</loc>
-    <lastmod>2018-03-18T12:13:32+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hardcode.blog/posts/neuralink/</loc>
+    <loc>https://hardcode.blog/posts/20200512-neuralink/</loc>
     <lastmod>2018-03-18T12:13:30+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hardcode.blog/tags/space/</loc>
-    <lastmod>2018-03-18T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hardcode.blog/posts/my-first-post/</loc>
+    <loc>https://hardcode.blog/posts/19700101-my-first-post/</loc>
     <lastmod>1970-01-01T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hardcode.blog/policy/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hardcode.blog/topics/</loc>
   </url>
   
 </urlset>
