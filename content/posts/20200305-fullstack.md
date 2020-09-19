@@ -1,6 +1,6 @@
 ---
-title: "Typography"
-date: 2018-03-18T12:13:38+05:30
+title: "Full-stack "
+date: 2020-03-05T10:51:18+02:00
 ---
 
 Puoi parlare di fullstack, creatura mitologica, conviene o non?
