@@ -1,7 +1,7 @@
 ---
 title: "Remote Working Spaghetti"
-date: "2019-03-11"
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+date: 2020-04-12T13:31:31+02:00
 tags: [markdown, css, html, themes]
 categories: [themes, syntax]
 ---

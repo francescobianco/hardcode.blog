@@ -1,6 +1,7 @@
 ---
-title: "Fearlessness: How to Stop Running from Space"
-date: 2018-03-18T12:13:30+05:30
+title: "Neuralink: dalla fantascienza l'inspirazione per la medicina"
+description: ""
+date: 2020-05-12T18:10:20+02:00
 tags: [Space]
 ---
 
