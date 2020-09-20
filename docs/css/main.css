@@ -6,7 +6,7 @@ Original font
 body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    color: #333;
+    color: #111111;
     line-height: 1.8em;
     font-size: 17px;
 }
@@ -21,7 +21,7 @@ a {
     }
 
 html,button,input,select,textarea {
-    color: #333;
+    color: #111111;
 }
 
 ::-moz-selection {
@@ -126,7 +126,7 @@ blockquote em {
 
 
 h1, h2, h3, h4, h5, h6 {
-    color: #333;
+    color: #111111;
     font-weight: 500;
     line-height: 1.3em;
     margin: 30px 0 20px 0;
@@ -216,7 +216,7 @@ ul {
 }
 
 .wrapper {
-    max-width: 760px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -241,8 +241,9 @@ ul {
 }
 
 .header .site-title {
-    margin: 0 0 10px 0;
+    font-weight: bold;
     line-height: 0.2em;
+    margin: 0 0 10px 0;
 }
 
 .site-title a {
@@ -283,7 +284,7 @@ ul {
 }
 
 .header nav.social a {
-    color: #333;
+    color: #111111;
 }
 
 .header nav.social a:hover {
