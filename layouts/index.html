@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html {{- if (eq .Site.Params.mode "dark") -}}class="dark"{{ end }}>
-{{ partial "header.html" . }}
+{{ partial "head.html" . }}
 <body>
 	<div class="container wrapper">
-		{{ partial "head.html" . }}
+		{{ partial "header.html" . }}
 
 		<div class="recent-posts section">
 			<div class="posts">
@@ -14,7 +14,7 @@
 						<div class="post-header">
 							<div class="meta">
 								<div class="date">
-									<span class="day">{{ dateFormat "02" .Date }}</span>
+									<span class="day">{{ dateFormat "2" .Date }}</span>
 							<span class="rest">{{ if $.Site.Data.month }}{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}{{ else }}{{ dateFormat "Jan 2006" .Date }}{{ end }}</span>
 								</div>
 							</div>
