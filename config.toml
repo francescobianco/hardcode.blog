@@ -1,7 +1,6 @@
 baseURL = "https://hardcode.blog/"
 languageCode = "en-en"
 title = "HARDCODE.blog"
-theme = "hugo-ink"
 
 paginate = 5
 

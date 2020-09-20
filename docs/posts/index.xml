@@ -24,74 +24,81 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>Docker: Not soo bad!</title>
-      <link>https://hardcode.blog/posts/docker/20200101-not-soo-bad/</link>
-      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/docker/20200101-not-soo-bad/</guid>
-      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
- https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
-    </item>
-    
-    <item>
-      <title>Remote Working Spaghetti</title>
-      <link>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</guid>
-      <description>Puoi parlare di come adoperare al meglio wp e quali conoscenze bisogna avere per saper realmente utilizzare i suoi potenziali ma rimanendo sempre ben saldi a terra che appunto è wp e non puoi uscire da certi cavilli</description>
-    </item>
-    
-    <item>
-      <title>How to test dark mode?</title>
-      <link>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</guid>
-      <description>Puoi parlare di quanto sia importante la formazione e quanto un corso non possa sostituire l’università ma comunque possa introdurti nell’ambiente lavorativo</description>
-    </item>
-    
-    <item>
-      <title>Typography</title>
-      <link>https://hardcode.blog/posts/20200305-fullstack/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200305-fullstack/</guid>
-      <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?</description>
-    </item>
-    
-    <item>
       <title>A.I. cosa ci dobbiamo aspettare?</title>
       <link>https://hardcode.blog/posts/20200912-ai/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
+      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/20200912-ai/</guid>
       <description>Frontiere A.I.</description>
     </item>
     
     <item>
-      <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/20200202-smartphone-is-dead/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
+      <title>La formazione sta diventando il dilemma del secolo: serve o non serve, è questo il problema?🇮🇹</title>
+      <link>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</link>
+      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
       
-      <guid>https://hardcode.blog/posts/20200202-smartphone-is-dead/</guid>
-      <description>Puoi parlare di cosa ci sarà dopo lo smartphone ? Gira voce che sia solo un ponte per una tecnologia sostitutiva</description>
+      <guid>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</guid>
+      <description>Puoi parlare di quanto sia importante la formazione e quanto un corso non possa sostituire l’università ma comunque possa introdurti nell’ambiente lavorativo</description>
     </item>
     
     <item>
-      <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/20200404-marte/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
+      <title>Flutter! Sei pronto?</title>
+      <link>https://hardcode.blog/posts/20200801-flutter/</link>
+      <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
       
-      <guid>https://hardcode.blog/posts/20200404-marte/</guid>
-      <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
-&amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017  Vimeo   Instagram    View this post on Instagram        #Talitha #Getty #yacht in #fjærland #fjærlandsfjorden #sognefjorden #mundal #norway #landscape #panorama #travel #instagoodmyphoto #justgoshoot #peoplescreatives #visualsoflife #photography #photoshoot #photodaily #photogram #instagood #picoftheday #fjærland #photooftheday #pentax #nrksf #sognavis</description>
+      <guid>https://hardcode.blog/posts/20200801-flutter/</guid>
+      <description>Flutter</description>
+    </item>
+    
+    <item>
+      <title>La Pubblica Amministrazione</title>
+      <link>https://hardcode.blog/posts/20200722-ppaa/</link>
+      <pubDate>Wed, 22 Jul 2020 21:12:40 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200722-ppaa/</guid>
+      <description>Puoi parlare di come i privati si siano adoperati per digitalizzarsi ma invece le PA non (le scuole faticano a firmare documenti digitali, giusto un esempio)</description>
+    </item>
+    
+    <item>
+      <title>Le Features, queste sconosciute</title>
+      <link>https://hardcode.blog/posts/20200701-features/</link>
+      <pubDate>Wed, 01 Jul 2020 12:43:36 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200701-features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PHP8, Prime impressioni</title>
+      <link>https://hardcode.blog/posts/20200621-php8/</link>
+      <pubDate>Sun, 21 Jun 2020 12:58:30 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200621-php8/</guid>
+      <description>Puoi parlare di php8 cosa c’è da aspettarsi</description>
+    </item>
+    
+    <item>
+      <title>Neuralink: dalla fantascienza l&#39;inspirazione per la medicina</title>
+      <link>https://hardcode.blog/posts/20200512-neuralink/</link>
+      <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200512-neuralink/</guid>
+      <description>Puoi parlare della nuova invenzione neuroscientifica di elon musk</description>
+    </item>
+    
+    <item>
+      <title>Remote Working Spaghetti</title>
+      <link>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</link>
+      <pubDate>Sun, 12 Apr 2020 13:31:31 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</guid>
+      <description>Puoi parlare di come adoperare al meglio wp e quali conoscenze bisogna avere per saper realmente utilizzare i suoi potenziali ma rimanendo sempre ben saldi a terra che appunto è wp e non puoi uscire da certi cavilli</description>
     </item>
     
     <item>
       <title>Hugo shortcodes</title>
       <link>https://hardcode.blog/posts/20200409-nanotecnologie/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
+      <pubDate>Thu, 09 Apr 2020 16:13:06 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/20200409-nanotecnologie/</guid>
       <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
@@ -99,68 +106,60 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/20200621-php8/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
+      <title>Hugo shortcodes 🇮🇹</title>
+      <link>https://hardcode.blog/posts/20200404-marte/</link>
+      <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
       
-      <guid>https://hardcode.blog/posts/20200621-php8/</guid>
-      <description>Puoi parlare di php8 cosa c’è da aspettarsi</description>
-    </item>
-    
-    <item>
-      <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/20200701-features/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200701-features/</guid>
+      <guid>https://hardcode.blog/posts/20200404-marte/</guid>
       <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
 &amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017  Vimeo   Instagram    View this post on Instagram        #Talitha #Getty #yacht in #fjærland #fjærlandsfjorden #sognefjorden #mundal #norway #landscape #panorama #travel #instagoodmyphoto #justgoshoot #peoplescreatives #visualsoflife #photography #photoshoot #photodaily #photogram #instagood #picoftheday #fjærland #photooftheday #pentax #nrksf #sognavis</description>
     </item>
     
     <item>
-      <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/20200722-ppaa/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
+      <title>Full-stack esistono davvero?</title>
+      <link>https://hardcode.blog/posts/20200305-fullstack/</link>
+      <pubDate>Thu, 05 Mar 2020 10:51:18 +0200</pubDate>
       
-      <guid>https://hardcode.blog/posts/20200722-ppaa/</guid>
-      <description>Puoi parlare di come i privati si siano adoperati per digitalizzarsi ma invece le PA non (le scuole faticano a firmare documenti digitali, giusto un esempio)</description>
+      <guid>https://hardcode.blog/posts/20200305-fullstack/</guid>
+      <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?
+ https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740  </description>
     </item>
     
     <item>
-      <title>Hugo shortcodes</title>
-      <link>https://hardcode.blog/posts/20200801-flutter/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
+      <title>Il ventennio telematico degli smartphone</title>
+      <link>https://hardcode.blog/posts/20200202-smartphone-is-dead/</link>
+      <pubDate>Sun, 02 Feb 2020 18:44:36 +0200</pubDate>
       
-      <guid>https://hardcode.blog/posts/20200801-flutter/</guid>
-      <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
-&amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017  Vimeo   Instagram    View this post on Instagram        #Talitha #Getty #yacht in #fjærland #fjærlandsfjorden #sognefjorden #mundal #norway #landscape #panorama #travel #instagoodmyphoto #justgoshoot #peoplescreatives #visualsoflife #photography #photoshoot #photodaily #photogram #instagood #picoftheday #fjærland #photooftheday #pentax #nrksf #sognavis</description>
+      <guid>https://hardcode.blog/posts/20200202-smartphone-is-dead/</guid>
+      <description>Puoi parlare di cosa ci sarà dopo lo smartphone ? Gira voce che sia solo un ponte per una tecnologia sostitutiva</description>
     </item>
     
     <item>
-      <title>Getting Started with Traveling Ultralight</title>
-      <link>https://hardcode.blog/posts/20200101-blockchain-is-dead/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:35 +0530</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200101-blockchain-is-dead/</guid>
-      <description>Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tasse</description>
-    </item>
-    
-    <item>
-      <title>How I Learned to Stop Procrastinating, &amp; Love Letting Go</title>
+      <title>I figli del coding, la nuova generazione di baby-automi</title>
       <link>https://hardcode.blog/posts/20200201-coding-spaghetti/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:32 +0530</pubDate>
+      <pubDate>Sat, 01 Feb 2020 02:13:32 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/20200201-coding-spaghetti/</guid>
       <description>Puoi parlare di come insegnare la programmazione ai bambini</description>
     </item>
     
     <item>
-      <title>Fearlessness: How to Stop Running from Space</title>
-      <link>https://hardcode.blog/posts/20200512-neuralink/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
+      <title>Le Blockchain sono morte🇮🇹 🇮🇹:it:🇮🇹🇮🇹🇮🇹🇮🇹</title>
+      <link>https://hardcode.blog/posts/20200101-blockchain-is-dead/</link>
+      <pubDate>Wed, 01 Jan 2020 12:17:31 +0200</pubDate>
       
-      <guid>https://hardcode.blog/posts/20200512-neuralink/</guid>
-      <description>Puoi parlare della nuova invenzione neuroscientifica di elon musk</description>
+      <guid>https://hardcode.blog/posts/20200101-blockchain-is-dead/</guid>
+      <description>Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tasse</description>
+    </item>
+    
+    <item>
+      <title>Docker: Not soo bad!</title>
+      <link>https://hardcode.blog/posts/docker/20200101-not-soo-bad/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/docker/20200101-not-soo-bad/</guid>
+      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
+ https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
     </item>
     
     <item>

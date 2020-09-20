@@ -5,17 +5,26 @@
     <link>https://hardcode.blog/tags/</link>
     <description>Recent content in Tags on HARDCODE.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>it-it</language>
+    <language>en-en</language>
     <copyright>© Copyright Francesco Bianco</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 18:10:20 +0200</lastBuildDate>
     
 	<atom:link href="https://hardcode.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Space</title>
+      <link>https://hardcode.blog/tags/space/</link>
+      <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/tags/space/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>css</title>
       <link>https://hardcode.blog/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Apr 2020 13:31:31 +0200</pubDate>
       
       <guid>https://hardcode.blog/tags/css/</guid>
       <description></description>
@@ -24,7 +33,7 @@
     <item>
       <title>html</title>
       <link>https://hardcode.blog/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Apr 2020 13:31:31 +0200</pubDate>
       
       <guid>https://hardcode.blog/tags/html/</guid>
       <description></description>
@@ -33,7 +42,7 @@
     <item>
       <title>markdown</title>
       <link>https://hardcode.blog/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Apr 2020 13:31:31 +0200</pubDate>
       
       <guid>https://hardcode.blog/tags/markdown/</guid>
       <description></description>
@@ -42,27 +51,27 @@
     <item>
       <title>themes</title>
       <link>https://hardcode.blog/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Apr 2020 13:31:31 +0200</pubDate>
       
       <guid>https://hardcode.blog/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Procrastinating</title>
-      <link>https://hardcode.blog/tags/procrastinating/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:32 +0530</pubDate>
+      <title>coding</title>
+      <link>https://hardcode.blog/tags/coding/</link>
+      <pubDate>Sat, 01 Feb 2020 02:13:32 +0200</pubDate>
       
-      <guid>https://hardcode.blog/tags/procrastinating/</guid>
+      <guid>https://hardcode.blog/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Space</title>
-      <link>https://hardcode.blog/tags/space/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
+      <title>didattica</title>
+      <link>https://hardcode.blog/tags/didattica/</link>
+      <pubDate>Sat, 01 Feb 2020 02:13:32 +0200</pubDate>
       
-      <guid>https://hardcode.blog/tags/space/</guid>
+      <guid>https://hardcode.blog/tags/didattica/</guid>
       <description></description>
     </item>
     
