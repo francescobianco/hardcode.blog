@@ -1,7 +1,8 @@
 ---
 title: "Docker: Not soo bad!"
-date: 2020-01-01T12:10:00+02:00
 description: "Vi racconto come Docker ha cambiato la mia giornata lavorativa"
+date: 2020-01-01T12:10:00+02:00
+tags: [docker]
 ---
 
 ## Docker 

@@ -1,7 +1,8 @@
 ---
 title: "My First Post"
+description: "The journey of a thousand miles begins with one step. (Lao Tzu)"
 date: 1970-01-01T00:00:01+00:00
-draft: false
+tags: [unix, humor]
 ---
 
 As first post I want move your focus to one the most important technological constant of our era. 

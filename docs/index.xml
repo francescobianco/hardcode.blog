@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HARDCODE.blog</title>
+    <link>https://hardcode.blog/</link>
+    <description>Recent content on HARDCODE.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Copyright Francesco Bianco</copyright>
+    <lastBuildDate>Fri, 19 Apr 2019 21:37:58 +0530</lastBuildDate>
+    
+	<atom:link href="https://hardcode.blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modernize Vtiger</title>
+      <link>https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/</link>
+      <pubDate>Fri, 18 Sep 2020 12:13:35 +0530</pubDate>
+      
+      <guid>https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/</guid>
+      <description>When a project stands up to difficulties, it is said to have aged well. Surely Vtiger deserves its second life with all the requirements of a modern software it has helped many businesses to progress. Now it&amp;rsquo;s up to us to help him enter the CI/CD era.
+https://discussions.vtiger.com/search?Search=styleci
+https://discussions.vtiger.com/search?Search=docker</description>
+    </item>
+    
+    <item>
+      <title>A.I. cosa ci dobbiamo aspettare?</title>
+      <link>https://hardcode.blog/posts/20200912-ai/</link>
+      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200912-ai/</guid>
+      <description>Frontiere A.I.</description>
+    </item>
+    
+    <item>
+      <title>L&#39;Università serve ancora? 🇮🇹</title>
+      <link>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</link>
+      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</guid>
+      <description>Puoi parlare di quanto sia importante la formazione e quanto un corso non possa sostituire l’università ma comunque possa introdurti nell’ambiente lavorativo</description>
+    </item>
+    
+    <item>
+      <title>Flutter! Sei pronto?</title>
+      <link>https://hardcode.blog/posts/20200801-flutter/</link>
+      <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200801-flutter/</guid>
+      <description>Flutter</description>
+    </item>
+    
+    <item>
+      <title>La Pubblica Amministrazione</title>
+      <link>https://hardcode.blog/posts/20200722-ppaa/</link>
+      <pubDate>Wed, 22 Jul 2020 21:12:40 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200722-ppaa/</guid>
+      <description>Puoi parlare di come i privati si siano adoperati per digitalizzarsi ma invece le PA non (le scuole faticano a firmare documenti digitali, giusto un esempio)</description>
+    </item>
+    
+    <item>
+      <title>Le Features, queste sconosciute</title>
+      <link>https://hardcode.blog/posts/20200701-features/</link>
+      <pubDate>Wed, 01 Jul 2020 12:43:36 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200701-features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PHP8, Prime impressioni</title>
+      <link>https://hardcode.blog/posts/20200621-php8/</link>
+      <pubDate>Sun, 21 Jun 2020 12:58:30 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200621-php8/</guid>
+      <description>Puoi parlare di php8 cosa c’è da aspettarsi</description>
+    </item>
+    
+    <item>
+      <title>Neuralink: dalla fantascienza l&#39;inspirazione per la medicina</title>
+      <link>https://hardcode.blog/posts/20200512-neuralink/</link>
+      <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200512-neuralink/</guid>
+      <description>Puoi parlare della nuova invenzione neuroscientifica di elon musk</description>
+    </item>
+    
+    <item>
+      <title>Remote Working Spaghetti</title>
+      <link>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</link>
+      <pubDate>Sun, 12 Apr 2020 13:31:31 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</guid>
+      <description>Puoi parlare di come adoperare al meglio wp e quali conoscenze bisogna avere per saper realmente utilizzare i suoi potenziali ma rimanendo sempre ben saldi a terra che appunto è wp e non puoi uscire da certi cavilli</description>
+    </item>
+    
+    <item>
+      <title>Nanotecnologie, facciamo il punto</title>
+      <link>https://hardcode.blog/posts/20200409-nanotecnologie/</link>
+      <pubDate>Thu, 09 Apr 2020 16:13:06 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200409-nanotecnologie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marte, come riusciremo a sopravvivere? 🇮🇹</title>
+      <link>https://hardcode.blog/posts/20200404-marte/</link>
+      <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200404-marte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Full-stack, esistono davvero?</title>
+      <link>https://hardcode.blog/posts/20200305-fullstack/</link>
+      <pubDate>Thu, 05 Mar 2020 10:51:18 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200305-fullstack/</guid>
+      <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?
+ https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740  </description>
+    </item>
+    
+    <item>
+      <title>Il ventennio telematico degli smartphone</title>
+      <link>https://hardcode.blog/posts/20200202-smartphone-is-dead/</link>
+      <pubDate>Sun, 02 Feb 2020 18:44:36 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200202-smartphone-is-dead/</guid>
+      <description>Puoi parlare di cosa ci sarà dopo lo smartphone ? Gira voce che sia solo un ponte per una tecnologia sostitutiva</description>
+    </item>
+    
+    <item>
+      <title>I figli del coding, la nuova generazione di baby-automi</title>
+      <link>https://hardcode.blog/posts/20200201-coding-spaghetti/</link>
+      <pubDate>Sat, 01 Feb 2020 02:13:32 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200201-coding-spaghetti/</guid>
+      <description>Puoi parlare di come insegnare la programmazione ai bambini</description>
+    </item>
+    
+    <item>
+      <title>Le Blockchain sono morte! 🇮🇹</title>
+      <link>https://hardcode.blog/posts/20200101-blockchain-is-dead/</link>
+      <pubDate>Wed, 01 Jan 2020 12:17:31 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200101-blockchain-is-dead/</guid>
+      <description>Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tasse</description>
+    </item>
+    
+    <item>
+      <title>Docker: Not soo bad!</title>
+      <link>https://hardcode.blog/posts/docker/20200101-not-soo-bad/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/docker/20200101-not-soo-bad/</guid>
+      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
+ https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://hardcode.blog/about/</link>
+      <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
+      
+      <guid>https://hardcode.blog/about/</guid>
+      <description>This is some static page where you can write about yourself.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://hardcode.blog/posts/19700101-my-first-post/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:01 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/19700101-my-first-post/</guid>
+      <description>As first post I want move your focus to one the most important technological constant of our era. I&amp;rsquo;m talking about the first second of the Unix time, and the word joke inside.
+Ream more:
+ https://en.wikipedia.org/wiki/Unix_time  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hardcode.blog/policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/policy/</guid>
+      <description>What are comments?
+Our comments section is the voice of our readers. We strive to create an open, engaging and friendly environment. We advocate for consumers and want them to feel comfortable sharing their problems with us without fear of being attacked. Commenting on this site is a privilege, not a right.
+Why do you have comments?
+We offer the option of commenting to responsible readers who want to say something about the topic of a story.</description>
+    </item>
+    
+  </channel>
+</rss>
