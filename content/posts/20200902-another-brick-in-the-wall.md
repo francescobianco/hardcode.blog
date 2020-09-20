@@ -1,6 +1,6 @@
 ---
-title: "La formazione sta diventando il dilemma del secolo: serve o non serve, è questo il problema?🇮🇹"
-description: "Here is how you can setup dark mode for Ink and test on various OS like iOS, Android, macOS and Windows 10."
+title: "L'Università serve ancora? 🇮🇹"
+description: "Nell'era del digitale la formazione sta diventando il dilemma del secolo: serve o non serve, è questo il problema?"
 date: 2020-09-02T19:38:58+02:00
 ---
 
