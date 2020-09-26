@@ -5,3 +5,5 @@ https://www.linkedin.com/pulse/principi-solid-perch%C3%A9-spesso-peggiorano-la-q
 - https://www.martinfowler.com/articles/testing-culture.html
 
 
+- https://ben.balter.com/2014/06/02/how-to-identify-a-strong-open-source-project/
+
