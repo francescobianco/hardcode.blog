@@ -7,3 +7,4 @@ https://www.linkedin.com/pulse/principi-solid-perch%C3%A9-spesso-peggiorano-la-q
 
 - https://ben.balter.com/2014/06/02/how-to-identify-a-strong-open-source-project/
 
+- https://twitter.com/macerub/status/1309873361233866753?s=19
