@@ -354,6 +354,8 @@ ul {
     display: block;
     font-size: 0.75em;
 }
+
+h1.page-title ,
 .post-header h1.title {
     margin: -10px 0 0 0;
 }
