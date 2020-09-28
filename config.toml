@@ -14,7 +14,7 @@ googleAnalytics = "UA-178422206-1"
 disqusShortname = "hardcode-blog"
 
 [params]
-subtitle = "{☕} Programming is the superpower that no one want to have"
+subtitle = "{☕} Programming is the superpower that no one to want to have"
 
 # Optional 64x64 avatar image.
 avatar = "/images/logo.png"
@@ -46,14 +46,24 @@ weight = 2
 #weight = 3
 
 [[menu.main]]
-name = "About"
-url = "/about"
+name = "Docker"
+url = "/tags/docker"
 weight = 4
+
+[[menu.main]]
+name = "Vtiger"
+url = "/tags/vtiger"
+weight = 5
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 5
+weight = 6
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 7
 
 [[params.social]]
 name = "Github"

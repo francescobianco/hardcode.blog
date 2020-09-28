@@ -292,11 +292,10 @@ ul {
 }
 
 .header .site-description nav {
-    margin: 0;
-    padding: 0;
     border: none;
+    margin: 12px 0 0 40px;
     min-width: 50px;
-    margin-left: 30px;
+    padding: 0;
 }
 
 .header .site-description nav ul svg {
@@ -304,6 +303,7 @@ ul {
 }
 
 .header .site-description .scheme-toggle {
+    margin-top: 12px;
     height: 100%;
 }
 
@@ -354,6 +354,8 @@ ul {
     display: block;
     font-size: 0.75em;
 }
+
+h1.page-title ,
 .post-header h1.title {
     margin: -10px 0 0 0;
 }
@@ -374,6 +376,7 @@ ul {
     background-color: #f9f2f4;
 }
 
+.term-title .term,
 .tag-cloud a,
 .post .tags a {
     display: inline-block;
@@ -384,9 +387,15 @@ ul {
     background: #3700ff;
     color: #ffffff;
     line-height: 20px;
-    font-size: 0.85em;
+    font-size: 14px;
     text-decoration: none;
     margin: 0 10px 0 0;
+}
+
+h1.term-title {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
 }
 
 .tag-cloud ul.flat li,

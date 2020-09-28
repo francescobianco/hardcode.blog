@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://hardcode.blog/</loc>
+    <lastmod>2020-09-28T13:19:26+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hardcode.blog/posts/</loc>
     <lastmod>2020-09-28T13:19:26+02:00</lastmod>
   </url>
@@ -188,16 +193,6 @@
   </url>
   
   <url>
-    <loc>https://hardcode.blog/about/</loc>
-    <lastmod>2019-04-19T21:37:58+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hardcode.blog/</loc>
-    <lastmod>2019-04-19T21:37:58+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hardcode.blog/tags/humor/</loc>
     <lastmod>1970-01-01T00:00:01+00:00</lastmod>
   </url>
@@ -215,6 +210,10 @@
   <url>
     <loc>https://hardcode.blog/policy/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hardcode.blog/about/</loc>
   </url>
   
 </urlset>

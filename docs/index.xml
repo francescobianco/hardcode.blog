@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Copyright Francesco Bianco</copyright>
-    <lastBuildDate>Fri, 19 Apr 2019 21:37:58 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2020 13:19:26 +0200</lastBuildDate>
     
 	<atom:link href="https://hardcode.blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -183,15 +183,6 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://hardcode.blog/about/</link>
-      <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
-      
-      <guid>https://hardcode.blog/about/</guid>
-      <description>This is some static page where you can write about yourself.</description>
-    </item>
-    
-    <item>
       <title>My First Post</title>
       <link>https://hardcode.blog/posts/19700101-my-first-post/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:01 +0000</pubDate>
@@ -212,6 +203,15 @@ Ream more:
 Our comments section is the voice of our readers. We strive to create an open, engaging and friendly environment. We advocate for consumers and want them to feel comfortable sharing their problems with us without fear of being attacked. Commenting on this site is a privilege, not a right.
 Why do you have comments?
 We offer the option of commenting to responsible readers who want to say something about the topic of a story.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://hardcode.blog/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/about/</guid>
+      <description>This is some static page where you can write about yourself.</description>
     </item>
     
   </channel>
