@@ -1,6 +1,9 @@
 What are comments?
 
-Our comments section is the voice of our readers. We strive to create an open, engaging and friendly environment. We advocate for consumers and want them to feel comfortable sharing their problems with us without fear of being attacked. Commenting on this site is a privilege, not a right.
+Our comments section is the voice of our readers. 
+We strive to create an open, engaging and friendly environment. 
+We advocate for consumers and want them to feel comfortable sharing their problems with us 
+without fear of being attacked. Commenting on this site is a privilege, not a right.
 
 Why do you have comments?
 
