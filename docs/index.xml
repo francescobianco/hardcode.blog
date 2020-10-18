@@ -60,6 +60,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
   https://www.martinfowler.com/articles/testing-culture.html
   https://ben.balter.com/2014/06/02/how-to-identify-a-strong-open-source-project/
   https://twitter.com/macerub/status/1309873361233866753?s=19
+  https://albracu.gitbooks.io/developer-guide/content/develop-extensions-for-vtiger/examples/world-clock.html
   </description>
     </item>
     
@@ -211,7 +212,7 @@ We offer the option of commenting to responsible readers who want to say somethi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hardcode.blog/about/</guid>
-      <description>This is some static page where you can write about yourself.</description>
+      <description>I&amp;rsquo;m Francesco Bianco, I&amp;rsquo;m a senior software engineer living on Sicily Island</description>
     </item>
     
   </channel>

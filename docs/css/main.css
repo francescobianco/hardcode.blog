@@ -395,7 +395,6 @@ h1.page-title ,
 h1.term-title {
     font-size: 14px;
     margin-bottom: 30px;
-    text-transform: capitalize;
 }
 
 .tag-cloud ul.flat li,
