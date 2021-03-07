@@ -14,7 +14,7 @@ googleAnalytics = "UA-178422206-1"
 disqusShortname = "hardcode-blog"
 
 [params]
-subtitle = "{☕} Programming is the superpower that no one to want to have"
+subtitle = "{☕} Coding, the superpower that no one to want to have"
 
 # Optional 64x64 avatar image.
 avatar = "/images/logo.png"
@@ -24,7 +24,8 @@ disableDisqusTypes = ["page"]
 
 featherIconsCDN = true
 
-mode = "auto" # "dark" or "auto"
+mode = "auto"
+# "dark" or "auto"
 # customCSS = "css/custom.css"  # Custom CSS applied to default styles.
 # customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
 # customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
