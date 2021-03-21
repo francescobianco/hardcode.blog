@@ -7,6 +7,8 @@ server:
 
 deploy:
 	rm -fr docs || true
+	mkdir docs
+	echo 'hardcode.blog' > docs/CNAME
 	hugo -d docs
 	git add .
 	git commit -am "deploy" || true
