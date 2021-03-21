@@ -33,7 +33,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>A.I. cosa ci dobbiamo aspettare?</title>
+      <title>A.I. cosa ci dobbiamo aspettare? 🇮🇹</title>
       <link>https://hardcode.blog/posts/20200912-ai/</link>
       <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
       
@@ -189,7 +189,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
       <pubDate>Thu, 01 Jan 1970 00:00:01 +0000</pubDate>
       
       <guid>https://hardcode.blog/posts/19700101-my-first-post/</guid>
-      <description>As first post I want move your focus to one the most important technological constant of our era. I&amp;rsquo;m talking about the first second of the Unix time, and the word joke inside.
+      <description>As first post, I want to move your focus to one the most important technological constant of our era. I&amp;rsquo;m talking about the first second of the Unix time, and the word joke inside.
 Ream more:
  https://en.wikipedia.org/wiki/Unix_time  </description>
     </item>
@@ -204,6 +204,38 @@ Ream more:
 Our comments section is the voice of our readers. We strive to create an open, engaging and friendly environment. We advocate for consumers and want them to feel comfortable sharing their problems with us without fear of being attacked. Commenting on this site is a privilege, not a right.
 Why do you have comments?
 We offer the option of commenting to responsible readers who want to say something about the topic of a story.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hardcode.blog/posts/crm-developer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/crm-developer/</guid>
+      <description>Cosa fanno gli sviluppatori CRM? CRM è l&amp;rsquo;acronimo di Customer Relationship Management, un termine usato per descrivere qualsiasi sistema utilizzato da un&amp;rsquo;azienda per gestire le sue interazioni relative ai clienti. I sistemi CRM hanno comunemente legami con diverse funzioni aziendali interne, comprese le vendite, il marketing, le comunicazioni e il servizio clienti.
+In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie convenzionali di posta, telefono e mass media. Sebbene i call center facciano ancora parte delle moderne strategie di CRM, la maggior parte di questi altri componenti tradizionali è stata sostituita con soluzioni basate su software.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hardcode.blog/posts/javascript/good-or-bad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/javascript/good-or-bad/</guid>
+      <description>La mia ipotesi si basa sul fatto che l&amp;rsquo;approccio abbrebiato espone il codice a dimostrare l&amp;rsquo;esistenza di una variabile con quel nome
+Quindi se esiste l&amp;rsquo;attributo &amp;lsquo;name&amp;rsquo; in un oggetto potrebbe esistere una variable nel sorgente con lo stesso nome &amp;lsquo;name&amp;rsquo;
+https://twitter.com/francescobianco/status/1317772038845681664
+https://jsfiddle.net/francescobianco/4sue8ym9/27/</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hardcode.blog/posts/le-skill-del-crm-developer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/le-skill-del-crm-developer/</guid>
+      <description>#CRM #TempoPieno Ciao Ragazzi, sto cercando nel gruppo programmatori che si occupino a tempo pieno di sviluppo software nel mondo CRM, su vari ambiti: Integrazione CRM con sistemi di terzi, Realizzazione moduli o plugin per CRM esistenti, Sviluppo CRM custom, importazione ed esportazione dati CRM, etc&amp;hellip;
+Fatevi avanti (non è un job post), sto facendo uno studio per capire se in italia ci sono sviluppatori Full CRM (cioè che lavorano esclusivamente in questo ambio), non cerco aziende di questo settore ma sviluppatori, sia freelance che dipendenti.</description>
     </item>
     
     <item>
