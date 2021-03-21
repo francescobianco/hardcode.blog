@@ -6,7 +6,7 @@
     <description>Recent content in Posts on HARDCODE.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
-    <copyright>© Copyright Francesco Bianco</copyright>
+    <copyright>© Francesco Bianco</copyright>
     <lastBuildDate>Mon, 28 Sep 2020 13:19:26 +0200</lastBuildDate>
     
 	<atom:link href="https://hardcode.blog/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -33,7 +33,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>A.I. cosa ci dobbiamo aspettare? 🇮🇹</title>
+      <title>A.I. cosa ci dobbiamo aspettare? &amp;#x1f1ee;&amp;#x1f1f9;🇮🇹</title>
       <link>https://hardcode.blog/posts/20200912-ai/</link>
       <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
       
@@ -42,7 +42,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>L&#39;Università serve ancora? 🇮🇹</title>
+      <title>L&#39;Università serve ancora? &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</link>
       <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
       
@@ -51,7 +51,27 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>Flutter! Sei pronto?</title>
+      <title>L&#39;Università serve ancora? &amp;#x1f1ee;&amp;#x1f1f9;</title>
+      <link>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</link>
+      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</guid>
+      <description>#CRM #TempoPieno Ciao Ragazzi, sto cercando nel gruppo programmatori che si occupino a tempo pieno di sviluppo software nel mondo CRM, su vari ambiti: Integrazione CRM con sistemi di terzi, Realizzazione moduli o plugin per CRM esistenti, Sviluppo CRM custom, importazione ed esportazione dati CRM, etc&amp;hellip;
+Fatevi avanti (non è un job post), sto facendo uno studio per capire se in italia ci sono sviluppatori Full CRM (cioè che lavorano esclusivamente in questo ambio), non cerco aziende di questo settore ma sviluppatori, sia freelance che dipendenti.</description>
+    </item>
+    
+    <item>
+      <title>L&#39;Università serve ancora? &amp;#x1f1ee;&amp;#x1f1f9;</title>
+      <link>https://hardcode.blog/posts/20210210-crm-developer/</link>
+      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20210210-crm-developer/</guid>
+      <description>Cosa fanno gli sviluppatori CRM? CRM è l&amp;rsquo;acronimo di Customer Relationship Management, un termine usato per descrivere qualsiasi sistema utilizzato da un&amp;rsquo;azienda per gestire le sue interazioni relative ai clienti. I sistemi CRM hanno comunemente legami con diverse funzioni aziendali interne, comprese le vendite, il marketing, le comunicazioni e il servizio clienti.
+In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie convenzionali di posta, telefono e mass media. Sebbene i call center facciano ancora parte delle moderne strategie di CRM, la maggior parte di questi altri componenti tradizionali è stata sostituita con soluzioni basate su software.</description>
+    </item>
+    
+    <item>
+      <title>Flutter! Sei pronto? &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200801-flutter/</link>
       <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
       
@@ -60,7 +80,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>La Pubblica Amministrazione</title>
+      <title>La Pubblica Amministrazione &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200722-ppaa/</link>
       <pubDate>Wed, 22 Jul 2020 21:12:40 +0200</pubDate>
       
@@ -69,7 +89,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>Le Features, queste sconosciute</title>
+      <title>Le Features, queste sconosciute &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200701-features/</link>
       <pubDate>Wed, 01 Jul 2020 12:43:36 +0200</pubDate>
       
@@ -78,7 +98,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>PHP8, Prime impressioni</title>
+      <title>PHP8, Prime impressioni &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200621-php8/</link>
       <pubDate>Sun, 21 Jun 2020 12:58:30 +0200</pubDate>
       
@@ -87,7 +107,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>Neuralink: dalla fantascienza l&#39;inspirazione per la medicina</title>
+      <title>Neuralink: dalla fantascienza l&#39;inspirazione per la medicina &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200512-neuralink/</link>
       <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
       
@@ -96,7 +116,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>Remote Working Spaghetti</title>
+      <title>Remote Working Spaghetti &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</link>
       <pubDate>Sun, 12 Apr 2020 13:31:31 +0200</pubDate>
       
@@ -105,7 +125,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>Nanotecnologie, facciamo il punto</title>
+      <title>Nanotecnologie, facciamo il punto &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200409-nanotecnologie/</link>
       <pubDate>Thu, 09 Apr 2020 16:13:06 +0200</pubDate>
       
@@ -114,7 +134,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>Marte, come riusciremo a sopravvivere? 🇮🇹</title>
+      <title>Marte, come riusciremo a sopravvivere? 🇮🇹&amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200404-marte/</link>
       <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
       
@@ -123,7 +143,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>Full-stack, esistono davvero?</title>
+      <title>Full-stack, esistono davvero? &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200305-fullstack/</link>
       <pubDate>Thu, 05 Mar 2020 10:51:18 +0200</pubDate>
       
@@ -133,7 +153,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>Il ventennio telematico degli smartphone</title>
+      <title>Il ventennio telematico degli smartphone &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200202-smartphone-is-dead/</link>
       <pubDate>Sun, 02 Feb 2020 18:44:36 +0200</pubDate>
       
@@ -142,7 +162,7 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>I figli del coding, la nuova generazione di baby-automi</title>
+      <title>I figli del coding, la nuova generazione di baby-automi &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200201-coding-spaghetti/</link>
       <pubDate>Sat, 01 Feb 2020 02:13:32 +0200</pubDate>
       
@@ -182,34 +202,14 @@ Ream more:
     
     <item>
       <title></title>
-      <link>https://hardcode.blog/posts/crm-developer/</link>
+      <link>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hardcode.blog/posts/crm-developer/</guid>
-      <description>Cosa fanno gli sviluppatori CRM? CRM è l&amp;rsquo;acronimo di Customer Relationship Management, un termine usato per descrivere qualsiasi sistema utilizzato da un&amp;rsquo;azienda per gestire le sue interazioni relative ai clienti. I sistemi CRM hanno comunemente legami con diverse funzioni aziendali interne, comprese le vendite, il marketing, le comunicazioni e il servizio clienti.
-In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie convenzionali di posta, telefono e mass media. Sebbene i call center facciano ancora parte delle moderne strategie di CRM, la maggior parte di questi altri componenti tradizionali è stata sostituita con soluzioni basate su software.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hardcode.blog/posts/javascript/good-or-bad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/posts/javascript/good-or-bad/</guid>
+      <guid>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</guid>
       <description>La mia ipotesi si basa sul fatto che l&amp;rsquo;approccio abbrebiato espone il codice a dimostrare l&amp;rsquo;esistenza di una variabile con quel nome
 Quindi se esiste l&amp;rsquo;attributo &amp;lsquo;name&amp;rsquo; in un oggetto potrebbe esistere una variable nel sorgente con lo stesso nome &amp;lsquo;name&amp;rsquo;
 https://twitter.com/francescobianco/status/1317772038845681664
 https://jsfiddle.net/francescobianco/4sue8ym9/27/</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hardcode.blog/posts/le-skill-del-crm-developer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/posts/le-skill-del-crm-developer/</guid>
-      <description>#CRM #TempoPieno Ciao Ragazzi, sto cercando nel gruppo programmatori che si occupino a tempo pieno di sviluppo software nel mondo CRM, su vari ambiti: Integrazione CRM con sistemi di terzi, Realizzazione moduli o plugin per CRM esistenti, Sviluppo CRM custom, importazione ed esportazione dati CRM, etc&amp;hellip;
-Fatevi avanti (non è un job post), sto facendo uno studio per capire se in italia ci sono sviluppatori Full CRM (cioè che lavorano esclusivamente in questo ambio), non cerco aziende di questo settore ma sviluppatori, sia freelance che dipendenti.</description>
     </item>
     
   </channel>

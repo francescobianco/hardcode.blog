@@ -4,7 +4,7 @@ title = "HARDCODE.blog"
 
 paginate = 5
 
-copyright = "© Copyright Francesco Bianco"
+copyright = "© Francesco Bianco"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true

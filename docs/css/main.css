@@ -386,7 +386,7 @@ h1.page-title ,
     padding: 0px 6px;
     /*color: #3700ff;*/
     background: #3700ff;
-    color: #ffffff;
+    color: #ffffff !important;
     line-height: 20px;
     font-size: 14px;
     text-decoration: none;

@@ -1,3 +1,10 @@
+---
+title: "L'Università serve ancora? &#x1f1ee;&#x1f1f9;"
+description: "Nell'era del digitale la formazione sta diventando il dilemma del secolo: serve o non serve, è questo il problema?"
+date: 2020-09-02T19:38:58+02:00
+tags: [didattica, università, carriera]
+---
+
 Cosa fanno gli sviluppatori CRM?
 CRM è l'acronimo di Customer Relationship Management, un termine usato per descrivere qualsiasi sistema utilizzato da un'azienda per gestire le sue interazioni relative ai clienti. I sistemi CRM hanno comunemente legami con diverse funzioni aziendali interne, comprese le vendite, il marketing, le comunicazioni e il servizio clienti.
 

@@ -1,5 +1,5 @@
 ---
-title: "Il ventennio telematico degli smartphone"
+title: "Il ventennio telematico degli smartphone &#x1f1ee;&#x1f1f9;"
 description: "Ci sono cose che non cambiano mai"
 date: 2020-02-02T18:44:36+02:00
 tags: [futuro, fantascienza, smartphone]

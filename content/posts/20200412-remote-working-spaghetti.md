@@ -1,5 +1,5 @@
 ---
-title: "Remote Working Spaghetti"
+title: "Remote Working Spaghetti &#x1f1ee;&#x1f1f9;"
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 date: 2020-04-12T13:31:31+02:00
 tags: [remote working]
