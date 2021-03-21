@@ -30,6 +30,8 @@ mode = "auto"
 # customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
 # customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
 
+repository = "https://github.com/francescobianco/hardcode.blog"
+
 # Nav.
 #[[menu.main]]
 #name = "🍕"

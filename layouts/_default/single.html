@@ -17,6 +17,20 @@
 				{{ end }}
 				<div class="matter">
 					<h1 class="title">{{ .Title }}</h1>
+                    <div class="social">
+                        <a href="{{ .Site.Params.repository }}/edit/main/content/{{ .File }}">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}">
+                            <i data-feather="twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        <a href="http://www.reddit.com/submit?url={{ .Permalink }}">
+                            <i data-feather="link-2"></i>
+                        </a>
+                    </div>
 				</div>
 			</div>
 
