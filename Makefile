@@ -6,7 +6,7 @@ server:
 	hugo server -D
 
 deploy:
-	hugo -D -d docs
+	hugo -d docs
 	git add .
 	git commit -am "deploy" || true
 	git push
