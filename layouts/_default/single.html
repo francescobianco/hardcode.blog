@@ -16,7 +16,7 @@
 					</div>
 				{{ end }}
 				<div class="matter">
-					<h1 class="title">{{ .Title }}</h1>
+					<h1 class="title">{{ .Title | markdownify }}</h1>
                     <div class="social">
                         <a href="{{ .Site.Params.repository }}/edit/main/content/{{ .File }}">
                             <i data-feather="github"></i>
