@@ -11,8 +11,9 @@ push:
 	git push
 
 prepare-release:
-	rm -fr docs && true
+	rm -fr docs || true
 	mv public docs
+	echo 'hardcode.blog' > docs/CNAME
 
 deploy:
 	rm -fr docs || true
