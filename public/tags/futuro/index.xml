@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>futuro on HARDCODE.blog</title>
+    <link>https://hardcode.blog/tags/futuro/</link>
+    <description>Recent content in futuro on HARDCODE.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Mon, 28 Sep 2020 13:19:26 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/futuro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agile is dead</title>
+      <link>https://hardcode.blog/posts/20200928-agile-is-dead/</link>
+      <pubDate>Mon, 28 Sep 2020 13:19:26 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200928-agile-is-dead/</guid>
+      <description> https://softwareengineering.stackexchange.com/questions/416243/apply-agile-to-the-letter  </description>
+    </item>
+    
+    <item>
+      <title>A.I. cosa ci dobbiamo aspettare? &amp;#x1f1ee;&amp;#x1f1f9;🇮🇹</title>
+      <link>https://hardcode.blog/posts/20200912-ai/</link>
+      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200912-ai/</guid>
+      <description>Frontiere A.I.</description>
+    </item>
+    
+    <item>
+      <title>Neuralink: dalla fantascienza l&#39;inspirazione per la medicina &amp;#x1f1ee;&amp;#x1f1f9;</title>
+      <link>https://hardcode.blog/posts/20200512-neuralink/</link>
+      <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200512-neuralink/</guid>
+      <description>Puoi parlare della nuova invenzione neuroscientifica di elon musk</description>
+    </item>
+    
+    <item>
+      <title>Nanotecnologie, facciamo il punto &amp;#x1f1ee;&amp;#x1f1f9;</title>
+      <link>https://hardcode.blog/posts/20200409-nanotecnologie/</link>
+      <pubDate>Thu, 09 Apr 2020 16:13:06 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200409-nanotecnologie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marte, come riusciremo a sopravvivere? 🇮🇹&amp;#x1f1ee;&amp;#x1f1f9;</title>
+      <link>https://hardcode.blog/posts/20200404-marte/</link>
+      <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200404-marte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Il ventennio telematico degli smartphone &amp;#x1f1ee;&amp;#x1f1f9;</title>
+      <link>https://hardcode.blog/posts/20200202-smartphone-is-dead/</link>
+      <pubDate>Sun, 02 Feb 2020 18:44:36 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20200202-smartphone-is-dead/</guid>
+      <description>Puoi parlare di cosa ci sarà dopo lo smartphone ? Gira voce che sia solo un ponte per una tecnologia sostitutiva</description>
+    </item>
+    
+  </channel>
+</rss>
