@@ -11,7 +11,7 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     env:
-      HUGO_DESTINATION: docs
+
 
     steps:
       - name: Checkout Code
@@ -19,6 +19,8 @@ jobs:
 
       - name: Build Hugo Files
         uses: klakegg/actions-hugo@1.0.0
+        env:
+          HUGO_DESTINATION: docs
 
       - name: Commit Blog Changes
         uses: stefanzweifel/git-auto-commit-action@v4
