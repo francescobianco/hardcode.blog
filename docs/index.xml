@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Mon, 28 Sep 2020 13:19:26 +0200</lastBuildDate>
-    
-	<atom:link href="https://hardcode.blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 28 Sep 2020 13:19:26 +0200</lastBuildDate><atom:link href="https://hardcode.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agile is dead</title>
       <link>https://hardcode.blog/posts/20200928-agile-is-dead/</link>
@@ -56,7 +52,8 @@ https://discussions.vtiger.com/search?Search=docker</description>
       <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</guid>
-      <description>#CRM #TempoPieno Ciao Ragazzi, sto cercando nel gruppo programmatori che si occupino a tempo pieno di sviluppo software nel mondo CRM, su vari ambiti: Integrazione CRM con sistemi di terzi, Realizzazione moduli o plugin per CRM esistenti, Sviluppo CRM custom, importazione ed esportazione dati CRM, etc&amp;hellip;
+      <description>🇮🇹
+#CRM #TempoPieno Ciao Ragazzi, sto cercando nel gruppo programmatori che si occupino a tempo pieno di sviluppo software nel mondo CRM, su vari ambiti: Integrazione CRM con sistemi di terzi, Realizzazione moduli o plugin per CRM esistenti, Sviluppo CRM custom, importazione ed esportazione dati CRM, etc&amp;hellip;
 Fatevi avanti (non è un job post), sto facendo uno studio per capire se in italia ci sono sviluppatori Full CRM (cioè che lavorano esclusivamente in questo ambio), non cerco aziende di questo settore ma sviluppatori, sia freelance che dipendenti.</description>
     </item>
     
@@ -176,7 +173,18 @@ In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie co
       <pubDate>Wed, 01 Jan 2020 12:17:31 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/20200101-blockchain-is-dead/</guid>
-      <description>Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tasse</description>
+      <description>🇮🇹
+Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tasse</description>
+    </item>
+    
+    <item>
+      <title>Docker: Not soo bad!</title>
+      <link>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</guid>
+      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
+ https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
     </item>
     
     <item>
@@ -185,6 +193,36 @@ In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie co
       <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/docker/20200101-not-soo-bad/</guid>
+      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
+ https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
+    </item>
+    
+    <item>
+      <title>Docker: Not soo bad!</title>
+      <link>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</guid>
+      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
+ https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
+    </item>
+    
+    <item>
+      <title>Docker: Not soo bad!</title>
+      <link>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</guid>
+      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
+ https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
+    </item>
+    
+    <item>
+      <title>Docker: Not soo bad!</title>
+      <link>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</guid>
       <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
  https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
     </item>
