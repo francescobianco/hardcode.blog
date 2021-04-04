@@ -1,10 +1,18 @@
 # HARDCODE.blog
 
+[![Deploy](https://github.com/github/docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/francescobianco/hardcode.blog/actions/workflows/deploy.yml)
+[![Super Linter](https://github.com/github/docs/actions/workflows/super-linter.yml/badge.svg)](https://github.com/francescobianco/hardcode.blog/actions/workflows/super-linter.yml)
 
- Print it
- Free download
+This is my personal blog, the place where I talk about programming stuff.
 
-## Logo
+- Docker
+- Vtiger
+- Shell Programming
+- Italiano
+
+## Credits
+
+### Logo
 
 Source: <https://creazilla.com/nodes/59048-bull-logo-clipart>
  
@@ -18,14 +26,17 @@ Source: <https://creazilla.com/nodes/59048-bull-logo-clipart>
   You may obtain a copy of the License at <https://creativecommons.org/publicdomain/zero/1.0/>.
 
 
-# Ink
+## TL;DR
+
 Crisp, minimal personal website and blog theme Hugo. Forked from [Ezhil](https://github.com/vividvilla/ezhil).
 
-## Demo
+### Demo
+
 [View demo](https://hugo-ink.netlify.com)
 ![Screenshot](https://user-images.githubusercontent.com/547147/69119000-3ace9280-0abb-11ea-81bc-5af68433e845.png "Ink light theme")
 
-## Features
+### Features
+
 * Google Analytics integration
 * Syntax highlighting
 * Twitter cards and opengraph tags support
@@ -34,7 +45,7 @@ Crisp, minimal personal website and blog theme Hugo. Forked from [Ezhil](https:/
 * Custom CSS/JS
 * Multilingual months support
 
-## Installation
+### Installation
 
 cd into your hugo site's root directory and:
 
@@ -45,8 +56,7 @@ git clone https://github.com/knadh/hugo-ink.git
 
 For more information read the [official setup guide](https://gohugo.io/overview/installing/) of Hugo.
 
-
-## Content type
+### Content type
 
 You can specify content type with field `type` in your content. For example static pages can be set as type `page` which are excluded from recent posts and all posts page. You can use site params `mainSections` and `disableDisqusTypes` to control which page types are excluded from recent posts and Disqus comments respectively.
 
@@ -60,7 +70,7 @@ type: "page"
 This is some static page where you can write about yourself.
 ```
 
-## Language Settings for the month
+### Language Settings for the month
 
 Due to the currently unavailable feature for multilingual dates in ``.Date`` from
 Go. It is possible to create a ``month.yaml`` in the data folder of your
@@ -84,7 +94,7 @@ cat > month.yaml << EOF
 EOF
 ```
 
-## Credits
+### Credits
 
 * [Ezhil theme](https://github.com/vividvilla/ezhil) from which Ink was forked
 
