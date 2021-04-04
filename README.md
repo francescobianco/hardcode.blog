@@ -5,10 +5,10 @@
 
 This is my personal blog, the place where I talk about programming stuff.
 
-- Docker
-- Vtiger
-- Shell Programming
-- Italiano
+- [Docker](https://hardcode.blog/tags/docker/)
+- [Vtiger](https://hardcode.blog/tags/vtiger/)
+- Shell Programming (Coming Soon)
+- [Italiano](https://hardcode.blog/tags/italiano/)
 
 ## Credits
 
@@ -29,11 +29,6 @@ Source: <https://creazilla.com/nodes/59048-bull-logo-clipart>
 ## TL;DR
 
 Crisp, minimal personal website and blog theme Hugo. Forked from [Ezhil](https://github.com/vividvilla/ezhil).
-
-### Demo
-
-[View demo](https://hugo-ink.netlify.com)
-![Screenshot](https://user-images.githubusercontent.com/547147/69119000-3ace9280-0abb-11ea-81bc-5af68433e845.png "Ink light theme")
 
 ### Features
 
