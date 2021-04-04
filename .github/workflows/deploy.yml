@@ -17,8 +17,11 @@ jobs:
 
       - name: Build Hugo Files
         uses: klakegg/actions-hugo@1.0.0
-        env:
-          HUGO_DESTINATION: docs
+
+      - name: Prepare Release
+        run:
+          - rm -fr docs && true
+          - mv public docs
 
       - name: Commit Blog Changes
         uses: stefanzweifel/git-auto-commit-action@v4
