@@ -5,11 +5,13 @@ logo:
 server:
 	hugo server -D
 
+push:
+	git add .
+	git commit -am "deploy" || true
+	git push
+
 deploy:
 	rm -fr docs || true
 	mkdir docs
 	echo 'hardcode.blog' > docs/CNAME
 	hugo -d docs
-	git add .
-	git commit -am "deploy" || true
-	git push

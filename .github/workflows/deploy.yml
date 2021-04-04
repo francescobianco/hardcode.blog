@@ -10,12 +10,15 @@ jobs:
   build:
     name: Deploy
     runs-on: ubuntu-latest
+    env:
+      HUGO_DESTINATION: docs
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
 
-      - name: Lint Code Base
+      - name: Build Hugo Files
         uses: klakegg/actions-hugo@1.0.0
 
-#  - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit Blog Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
