@@ -10,8 +10,6 @@ jobs:
   build:
     name: Deploy
     runs-on: ubuntu-latest
-    env:
-
 
     steps:
       - name: Checkout Code
