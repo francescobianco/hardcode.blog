@@ -10,7 +10,7 @@ push:
 	git commit -am "deploy" || true
 	git push
 
-github-workflow-prepare-release:
+prepare-release:
 	rm -fr docs && true
 	mv public docs
 
