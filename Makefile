@@ -10,6 +10,10 @@ push:
 	git commit -am "deploy" || true
 	git push
 
+github-workflow-prepare-release:
+	rm -fr docs && true
+	mv public docs
+
 deploy:
 	rm -fr docs || true
 	mkdir docs

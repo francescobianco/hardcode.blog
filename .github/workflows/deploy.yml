@@ -19,9 +19,7 @@ jobs:
         uses: klakegg/actions-hugo@1.0.0
 
       - name: Prepare Release
-        run:
-          - rm -fr docs && true
-          - mv public docs
+        run: make github-workflow-prepare-relase
 
       - name: Commit Blog Changes
         uses: stefanzweifel/git-auto-commit-action@v4
