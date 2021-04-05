@@ -14,9 +14,10 @@ with their thousand variations derived from their own experience. This leads me 
 ## What I miss
 
 1. Can a methodology determine success or failure, or only responsible for wasted resources?
-2. Because the fundamental concepts of Agile are not patterns that can be incorporated into any other methodology
-3. Because we talk so much about frameworks, but then we never wanted to create tools with interfaces that can be connected with any method and organization of work
-4. How can I dismantle my belief that Agile is something that cannot be easily transferred from one experience to another, but it is something that only those who have the vision to fully realize can do.
+2. Why the fundamental concepts of Agile are not patterns that can be incorporated into any other methodology?
+3. Why we talk so much about frameworks, but then we never wanted to create tools with interfaces that can be connected with any method and organization of work?
+4. How can I dismantle my belief that Agile is something that cannot be easily transferred from one experience to another? 
+5. Is it something that only those who have the vision to fully realize can do?
 
 ## My vision
 
