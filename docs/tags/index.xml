@@ -7,31 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Mon, 28 Sep 2020 13:19:26 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Apr 2021 13:19:26 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ai</title>
-      <link>https://hardcode.blog/tags/ai/</link>
-      <pubDate>Mon, 28 Sep 2020 13:19:26 +0200</pubDate>
+      <title>agile</title>
+      <link>https://hardcode.blog/tags/agile/</link>
+      <pubDate>Mon, 05 Apr 2021 13:19:26 +0200</pubDate>
       
-      <guid>https://hardcode.blog/tags/ai/</guid>
+      <guid>https://hardcode.blog/tags/agile/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>fantascienza</title>
-      <link>https://hardcode.blog/tags/fantascienza/</link>
-      <pubDate>Mon, 28 Sep 2020 13:19:26 +0200</pubDate>
+      <title>geek-culture</title>
+      <link>https://hardcode.blog/tags/geek-culture/</link>
+      <pubDate>Mon, 05 Apr 2021 13:19:26 +0200</pubDate>
       
-      <guid>https://hardcode.blog/tags/fantascienza/</guid>
+      <guid>https://hardcode.blog/tags/geek-culture/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>futuro</title>
-      <link>https://hardcode.blog/tags/futuro/</link>
-      <pubDate>Mon, 28 Sep 2020 13:19:26 +0200</pubDate>
+      <title>project-management</title>
+      <link>https://hardcode.blog/tags/project-management/</link>
+      <pubDate>Mon, 05 Apr 2021 13:19:26 +0200</pubDate>
       
-      <guid>https://hardcode.blog/tags/futuro/</guid>
+      <guid>https://hardcode.blog/tags/project-management/</guid>
       <description></description>
     </item>
     
@@ -50,6 +50,33 @@
       <pubDate>Fri, 18 Sep 2020 12:13:35 +0530</pubDate>
       
       <guid>https://hardcode.blog/tags/vtiger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ai</title>
+      <link>https://hardcode.blog/tags/ai/</link>
+      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fantascienza</title>
+      <link>https://hardcode.blog/tags/fantascienza/</link>
+      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/tags/fantascienza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>futuro</title>
+      <link>https://hardcode.blog/tags/futuro/</link>
+      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/tags/futuro/</guid>
       <description></description>
     </item>
     
