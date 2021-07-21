@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Thu, 01 Jan 1970 00:00:01 +0000</lastBuildDate>
-    
-	<atom:link href="https://hardcode.blog/tags/humor/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:01 +0000</lastBuildDate><atom:link href="https://hardcode.blog/tags/humor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>https://hardcode.blog/posts/19700101-my-first-post/</link>

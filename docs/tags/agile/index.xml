@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Mon, 05 Apr 2021 13:19:26 +0200</lastBuildDate>
-    
-	<atom:link href="https://hardcode.blog/tags/agile/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 05 Apr 2021 13:19:26 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agile is dead!</title>
       <link>https://hardcode.blog/posts/20200928-agile-is-dead/</link>
