@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>humor on HARDCODE.blog</title>
+    <link>https://hardcode.blog/tags/humor/</link>
+    <description>Recent content in humor on HARDCODE.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://hardcode.blog/tags/humor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://hardcode.blog/posts/19700101-my-first-post/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:01 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/19700101-my-first-post/</guid>
+      <description>As first post, I want to move your focus to one the most important technological constant of our era. I&amp;rsquo;m talking about the first second of the Unix time, and the word joke inside.
+Ream more:
+ https://en.wikipedia.org/wiki/Unix_time  </description>
+    </item>
+    
+  </channel>
+</rss>
