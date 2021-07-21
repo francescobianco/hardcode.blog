@@ -14,6 +14,7 @@ prepare-release:
 	rm -fr docs || true
 	mv public docs
 	echo 'hardcode.blog' > docs/CNAME
+	sed -i "s/> Last update:.*/> Last update: $(shell date)/" README.md
 	git add .
 	git status
 
