@@ -1,6 +1,6 @@
 # HARDCODE.blog
 
-> Last update: Wed Jul 21 09:56:33 UTC 2021
+> Last update: Wed Jul 21 09:57:54 UTC 2021
 
 [![Deploy](https://github.com/francescobianco/hardcode.blog/actions/workflows/deploy.yml/badge.svg)](https://github.com/francescobianco/hardcode.blog/actions/workflows/deploy.yml)
 [![Super Linter](https://github.com/francescobianco/hardcode.blog/actions/workflows/super-linter.yml/badge.svg)](https://github.com/francescobianco/hardcode.blog/actions/workflows/super-linter.yml)
