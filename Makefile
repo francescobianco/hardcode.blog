@@ -14,6 +14,8 @@ prepare-release:
 	rm -fr docs || true
 	mv public docs
 	echo 'hardcode.blog' > docs/CNAME
+	git add .
+	git status
 
 deploy:
 	rm -fr docs || true

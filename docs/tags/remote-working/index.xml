@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Sun, 12 Apr 2020 13:31:31 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/remote-working/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Apr 2020 13:31:31 +0200</lastBuildDate>
+    
+	<atom:link href="https://hardcode.blog/tags/remote-working/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Remote Working Spaghetti &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</link>
