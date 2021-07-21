@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hardcode.blog/</loc>
+    <lastmod>2021-07-20T12:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20210720-letture-efficaci/</loc>
+    <lastmod>2021-07-20T12:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/libri/</loc>
+    <lastmod>2021-07-20T12:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/</loc>
+    <lastmod>2021-07-20T12:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/</loc>
+    <lastmod>2021-07-20T12:10:00+02:00</lastmod>
+  </url><url>
     <loc>https://hardcode.blog/tags/agile/</loc>
     <lastmod>2021-04-05T13:19:26+02:00</lastmod>
   </url><url>
@@ -11,16 +26,7 @@
     <loc>https://hardcode.blog/tags/geek-culture/</loc>
     <lastmod>2021-04-05T13:19:26+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/</loc>
-    <lastmod>2021-04-05T13:19:26+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/posts/</loc>
-    <lastmod>2021-04-05T13:19:26+02:00</lastmod>
-  </url><url>
     <loc>https://hardcode.blog/tags/project-management/</loc>
-    <lastmod>2021-04-05T13:19:26+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/tags/</loc>
     <lastmod>2021-04-05T13:19:26+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/crm/</loc>
