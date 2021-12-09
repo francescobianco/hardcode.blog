@@ -2,7 +2,7 @@ baseURL = "https://hardcode.blog/"
 languageCode = "en-en"
 title = "HARDCODE.BLOG"
 
-paginate = 5
+paginate = 4
 
 copyright = "© Francesco Bianco"
 
@@ -39,7 +39,7 @@ repository = "https://github.com/francescobianco/hardcode.blog"
 #weight = 1
 
 [[menu.main]]
-name = "Home"
+name = "📰 Home"
 url = "/"
 weight = 2
 
@@ -49,23 +49,23 @@ weight = 2
 #weight = 3
 
 [[menu.main]]
-name = "Docker"
+name = "🐋 Docker"
 url = "/tags/docker"
 weight = 4
 
 [[menu.main]]
-name = "Vtiger"
+name = "🐯 Vtiger"
 url = "/tags/vtiger"
 weight = 5
 
 [[menu.main]]
-name = "Tags"
+name = "🏷️ Tags"
 url = "/tags"
 weight = 6
 
 [[menu.main]]
-name = "About"
-url = "/about"
+name = "📜 Readme"
+url = "/readme"
 weight = 7
 
 [[params.social]]
