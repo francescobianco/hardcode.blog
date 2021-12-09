@@ -10,3 +10,5 @@ tags: [docker]
 Si tratta di una storia molto lunga per adesso beccatevi questo:
 
 - <https://www.youtube.com/watch?v=XVJ5EkiqLkk>
+
+- "Quanto spreco di byte"
