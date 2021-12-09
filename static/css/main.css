@@ -342,14 +342,17 @@ ul {
     margin-right: 30px;
     width: 64px;
     text-align: center;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px #eee;
 }
 .post-header .meta .date .day {
     font-family: "Playfair Display", serif;
     font-weight: 700;
-    line-height: 0.45em;
+    line-height: 0.85em;
     font-size: 3em;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .post-header .meta .date .rest {
     display: block;
