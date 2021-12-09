@@ -1,4 +1,4 @@
-# HARDCODE.blog
+# HARDCODE.BLOG
 
 > Last update: Wed Jul 21 09:50:30 UTC 2021
 
