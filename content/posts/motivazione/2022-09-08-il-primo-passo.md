@@ -3,7 +3,7 @@
 Dopo una bellissima chiacchierata con un coach professionista mi è stato chiesto di stilare una lista di 10 argomenti che potrei approfondire per migliorare me stesso.
 Ho preso la palla al balzo è ho raccolto i 10 video di Doc. Filippo Ongaro da ascoltare fino allo sfinimento:
 
-1. Dormire troppo poco ti rende più stupido - https://www.youtube.com/watch?v=RRDb_FWGj5I
+1. Come adottare delle buone abitudini per affrontare un cambiamento - https://www.youtube.com/watch?v=JsV5EwC1Fec
 2. Impara a chiedere aiuto e vai oltre il tuo orgoglio personale - https://www.youtube.com/watch?v=HUWwbUkC2v4
 3. Come capire se stai facendo carriera? - https://www.youtube.com/watch?v=h6r1ZdvJ2Fo
 4. Trasforma il tuo lavoro in una missione, anche se non ti piace - https://www.youtube.com/watch?v=xR-5S-TImTk
