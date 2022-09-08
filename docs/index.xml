@@ -14,7 +14,7 @@
       <pubDate>Tue, 20 Jul 2021 12:10:00 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/20210720-letture-efficaci/</guid>
-      <description>Letture Efficaci 2021  L&amp;rsquo;arte della pazienza - Raffaele Gaito (Letto il 17/07/2021)  </description>
+      <description>Letture Efficaci 2021 L&amp;rsquo;arte della pazienza - Raffaele Gaito (Letto il 17/07/2021) </description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       
       <guid>https://hardcode.blog/posts/20200928-agile-is-dead/</guid>
       <description>Intro The premise is perhaps too dramatic and maybe a little click-catcher, but I think there is juice. Today when we talk about Agile everyone wants to have their say, everyone wants to apply their method with their thousand variations derived from their own experience. This leads me to ask myself some fundamental questions:
-What I miss  Can a methodology determine success or failure, or only responsible for wasted resources?</description>
+What I miss Can a methodology determine success or failure, or only responsible for wasted resources? Why the fundamental concepts of Agile are not patterns that can be incorporated into any other methodology?</description>
     </item>
     
     <item>
@@ -156,7 +156,7 @@ In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie co
       
       <guid>https://hardcode.blog/posts/20200305-fullstack/</guid>
       <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?
- https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740  </description>
+https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740 </description>
     </item>
     
     <item>
@@ -166,7 +166,7 @@ In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie co
       
       <guid>https://hardcode.blog/posts/fun/20200305-the-lifter/</guid>
       <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?
- https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740  </description>
+https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740 </description>
     </item>
     
     <item>
@@ -204,7 +204,7 @@ Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tass
       
       <guid>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</guid>
       <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
- https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
+https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
     </item>
     
     <item>
@@ -214,9 +214,8 @@ Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tass
       
       <guid>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</guid>
       <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
-  https://www.youtube.com/watch?v=XVJ5EkiqLkk
-  &amp;ldquo;Quanto spreco di byte&amp;rdquo;
-  </description>
+https://www.youtube.com/watch?v=XVJ5EkiqLkk
+&amp;ldquo;Quanto spreco di byte&amp;rdquo;</description>
     </item>
     
     <item>
@@ -226,7 +225,7 @@ Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tass
       
       <guid>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</guid>
       <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
- https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
+https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
     </item>
     
     <item>
@@ -236,7 +235,7 @@ Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tass
       
       <guid>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</guid>
       <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
- https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
+https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
     </item>
     
     <item>
@@ -247,7 +246,7 @@ Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tass
       <guid>https://hardcode.blog/posts/19700101-my-first-post/</guid>
       <description>As first post, I want to move your focus to one the most important technological constant of our era. I&amp;rsquo;m talking about the first second of the Unix time, and the word joke inside.
 Ream more:
- https://en.wikipedia.org/wiki/Unix_time  </description>
+https://en.wikipedia.org/wiki/Unix_time </description>
     </item>
     
     <item>
@@ -269,9 +268,19 @@ We offer the option of commenting to responsible readers who want to say somethi
       
       <guid>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</guid>
       <description>La mia ipotesi si basa sul fatto che l&amp;rsquo;approccio abbrebiato espone il codice a dimostrare l&amp;rsquo;esistenza di una variabile con quel nome
-Quindi se esiste l&amp;rsquo;attributo &amp;lsquo;name&amp;rsquo; in un oggetto potrebbe esistere una variable nel sorgente con lo stesso nome &amp;lsquo;name&amp;rsquo;
+Quindi se esiste l&amp;rsquo;attributo &amp;rsquo;name&amp;rsquo; in un oggetto potrebbe esistere una variable nel sorgente con lo stesso nome &amp;rsquo;name&#39;
 https://twitter.com/francescobianco/status/1317772038845681664
 https://jsfiddle.net/francescobianco/4sue8ym9/27/</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hardcode.blog/posts/motivazione/2022-09-08-il-primo-passo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/motivazione/2022-09-08-il-primo-passo/</guid>
+      <description>Motivazione - Il promo passo Dopo una bellissima chiacchierata con un coach professionista mi è stato chiesto di stilare una lista di 10 argomenti che potrei approfondire per migliorare me stesso. Ho preso la palla al balzo è ho raccolto i 10 video di Doc. Filippo Ongaro da ascoltare fino allo sfinimento:
+Come eliminare la pigrizia e iniziare ad allenarti con motivazione - https://www.youtube.com/watch?v=VSUGAj84jYc Impara a chiedere aiuto e vai oltre il tuo orgoglio personale - https://www.</description>
     </item>
     
     <item>
