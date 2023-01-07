@@ -22,6 +22,9 @@
 								<h4 class="title small">
 									<a href="{{ .RelPermalink }}">
                                         {{ .Title | markdownify }}
+                                        {{ if in .Params.tags "italian" }}
+                                            <span>&#127470;&#127481;<span>
+                                        {{ end }}
                                         {{ if .Draft }}
                                             <sup class="draft-label">DRAFT</sup>
                                         {{ end }}

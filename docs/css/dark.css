@@ -33,7 +33,7 @@ html.dark h6 {
 }
 
 html.dark a,a:hover {
-  color: #9375fd;
+  /*color: #9375fd;*/
   text-decoration: none;
 }
 
