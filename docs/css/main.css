@@ -203,6 +203,10 @@ ul {
     display: inline;
 }
 
+.post p {
+    text-align: justify;
+}
+
 .highlight pre {
     margin-bottom: 0;
     margin-top: 0;
