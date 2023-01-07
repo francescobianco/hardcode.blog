@@ -1,8 +1,8 @@
 <div class="footer wrapper">
 	<nav class="nav">
 		<div>
-            {{ .Date.Year }} {{ with .Site.Copyright }} {{ . | safeHTML }} | {{ end }}
-            <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
+            {{ now.Format "2006"}} {{ with .Site.Copyright }} {{ . | safeHTML }} | {{ end }}
+            Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
             theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
         </div>
 	</nav>
