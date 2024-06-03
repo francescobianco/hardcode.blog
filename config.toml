@@ -74,9 +74,9 @@ icon = "github"
 url = "https://github.com/francescobianco"
 
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/francescobianco"
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://linkedin.com/in/yafb"
 
 [[params.social]]
 name = "RSS"
