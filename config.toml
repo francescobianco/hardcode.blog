@@ -49,7 +49,7 @@ weight = 2
 #weight = 3
 
 [[menu.main]]
-name = "🐋 Docker"
+name = "🐳 Docker"
 url = "/tags/docker"
 weight = 4
 
@@ -64,7 +64,7 @@ url = "/tags"
 weight = 6
 
 [[menu.main]]
-name = "📜 About"
+name = "👷 About"
 url = "/about"
 weight = 7
 
