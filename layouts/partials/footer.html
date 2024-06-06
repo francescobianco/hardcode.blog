@@ -1,9 +1,11 @@
 <div class="footer wrapper">
 	<nav class="nav">
-		<div>
-            {{ now.Format "2006"}} {{ with .Site.Copyright }} {{ . | safeHTML }} | {{ end }}
+        <div>
+            {{ now.Format "2006" }} {{ with .Site.Copyright }} {{ . | safeHTML }} | {{ end }}
             Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
-            theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            theme on <a href="https://gohugo.io" target="_blank">Hugo</a> |
+            Visit the <a href="{{ .Site.Params.repository }}" title="{{ .Site.Title }}" target="_blank">repo</a> |
+            Write a new <a href="{{ .Site.Params.repository }}" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
         </div>
 	</nav>
 </div>
