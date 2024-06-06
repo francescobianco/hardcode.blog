@@ -32,8 +32,8 @@ html.dark h6 {
   color: #ddd;
 }
 
-html.dark a,a:hover {
-  /*color: #9375fd;*/
+html.dark a, html.dark a:hover {
+  color: #32CD32 !important;
   text-decoration: none;
 }
 
@@ -75,5 +75,13 @@ html.dark .show-on-dark-mode {
 }
 
 html.dark .hide-on-dark-mode {
-    display: none;
+  display: none;
+}
+
+html.dark .post-header .meta .date {
+  box-shadow: 2px 2px 3px #666 !important;
+}
+
+html.dark .site-title a {
+  color: #FFF !important;
 }

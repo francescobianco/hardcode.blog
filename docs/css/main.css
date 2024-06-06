@@ -273,7 +273,8 @@ ul {
 
 .header nav {
     border-top: 1px solid #eee;
-    padding-top: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
 }
 
 .header nav ul,
@@ -545,4 +546,9 @@ h1.term-title {
       overflow-x: auto;
       width: 100%;
     }
+}
+
+.font-fixedsys {
+  font-family: fixedsys;
+  font-size: 16px;
 }
