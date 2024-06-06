@@ -555,3 +555,7 @@ h1.term-title {
   font-family: fixedsys;
   font-size: 16px;
 }
+
+#disqus_thread {
+    margin-top: 25px;
+}
