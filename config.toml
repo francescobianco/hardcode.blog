@@ -39,7 +39,7 @@ repository = "https://github.com/francescobianco/hardcode.blog"
 #weight = 1
 
 [[menu.main]]
-name = "📰 Home"
+name = "🏠 Home"
 url = "/"
 weight = 2
 

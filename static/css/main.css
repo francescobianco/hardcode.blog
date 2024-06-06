@@ -419,14 +419,15 @@ h1.page-title ,
     display: inline-block;
     border: 1px solid #3700ff;
     border-radius: 3px;
-    padding: 0px 6px;
+    padding: 0px 8px;
     /*color: #3700ff;*/
     background: #3700ff;
     color: #ffffff !important;
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 19px;
+    font-size: 16px;
     text-decoration: none;
-    margin: 0 10px 0 0;
+    margin: 0 6px 0 0;
+    font-family: fixedsys;
 }
 
 h1.term-title {
