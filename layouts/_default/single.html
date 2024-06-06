@@ -18,7 +18,7 @@
 				<div class="matter">
 					<h1 class="title">{{ .Title | markdownify }}</h1>
                     <div class="social">
-                        <a href="{{ .Site.Params.repository }}/edit/main/content/{{ .File }}">
+                        <a href="{{ .Site.Params.repository }}/edit/main/content/{{ .File.Path }}">
                             <i data-feather="github"></i>
                         </a>
                         <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}">
