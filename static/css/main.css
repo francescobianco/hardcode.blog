@@ -346,14 +346,16 @@ ul {
 .post-header {
     display: flex;
 }
+
 .post-header .meta .date {
     margin-right: 30px;
     width: 64px;
     text-align: center;
     border: 1px solid #eee;
-    border-radius: 8px;
+    border-radius: 6px;
     box-shadow: 2px 2px 3px #eee;
 }
+
 .post-header .meta .date .day {
     font-family: "Playfair Display", serif;
     font-weight: 700;
