@@ -12,13 +12,14 @@ body {
 }
 
 a {
-    color: #3700ff;
-    text-decoration: none;
-    word-break: break-word;
+  color: #3700ff;
+  text-decoration: none;
+  word-break: break-word;
 }
-    a:hover {
-        border-bottom: 2px solid #3700ff;
-    }
+
+a:hover {
+  /*border-bottom: 2px solid #3700ff;*/
+}
 
 html,button,input,select,textarea {
     color: #111111;

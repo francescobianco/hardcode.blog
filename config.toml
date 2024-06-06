@@ -64,8 +64,8 @@ url = "/tags"
 weight = 6
 
 [[menu.main]]
-name = "📜 Readme"
-url = "/readme"
+name = "📜 About"
+url = "/about"
 weight = 7
 
 [[params.social]]

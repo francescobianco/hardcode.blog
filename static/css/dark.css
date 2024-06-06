@@ -85,3 +85,11 @@ html.dark .post-header .meta .date {
 html.dark .site-title a {
   color: #FFF !important;
 }
+
+html.dark .term-title .term,
+html.dark .tag-cloud a,
+html.dark .post .tags a {
+    border: 1px solid #32CD32;
+    background: #32CD32;
+    color: #ffffff !important;
+}
