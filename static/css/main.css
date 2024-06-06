@@ -249,6 +249,8 @@ ul {
     font-weight: bold;
     line-height: 0.2em;
     margin: 0 0 10px 0;
+    font-family: 'Impact', 'Techno', 'Lato Heavy', 'Arial Black', 'Roboto Black', 'Anton', sans-serif-black, sans-serif;
+    font-size-adjust:.65;
 }
 
 .site-title a {
@@ -269,7 +271,7 @@ ul {
 
 .header .site-description p {
     font-size: 15px;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 .header nav {
@@ -300,7 +302,7 @@ ul {
 
 .header .site-description nav {
     border: none;
-    margin: 12px 0 0 40px;
+    margin: 8px 0 0 40px;
     min-width: 50px;
     padding: 0;
 }
@@ -310,7 +312,7 @@ ul {
 }
 
 .header .site-description .scheme-toggle {
-    margin-top: 12px;
+    margin-top: 8px;
     height: 100%;
 }
 

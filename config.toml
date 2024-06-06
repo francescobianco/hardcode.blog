@@ -14,7 +14,7 @@ googleAnalytics = "UA-178422206-1"
 disqusShortname = "hardcode-blog"
 
 [params]
-subtitle = "{☕} Coding, the superpower that no one to want to have"
+subtitle = "{☕} Coding, the superpower that nobody wants to have."
 
 # Optional 64x64 avatar image.
 avatar = "/images/logo.png"
