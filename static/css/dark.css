@@ -48,7 +48,7 @@ html.dark .site-description a:hover {
 }
 
 html.dark a:hover {
-  opacity: 0.8;
+  /*opacity: 0.8;*/
 }
 
 html.dark .post-tags .tags a {
@@ -92,4 +92,8 @@ html.dark .post .tags a {
     border: 1px solid #32CD32;
     background: #32CD32;
     color: #ffffff !important;
+}
+
+html.dark .site-title a:hover {
+    color: #FFF !important;
 }
