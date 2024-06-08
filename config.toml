@@ -10,7 +10,7 @@ pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-googleAnalytics = "UA-178422206-1"
+#googleAnalytics = "UA-178422206-1"
 disqusShortname = "hardcode-blog"
 
 [params]
