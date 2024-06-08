@@ -2,7 +2,7 @@
 title: "Agile is dead!"
 description: "The myth of Agile culture still in ongoing fall down, the only cases of success are due to highly qualified people who would have been successful regardless of the methodology"
 date: 2021-04-05T13:19:26+02:00
-tags: [agile, project-management, geek-culture]
+tags: [agile, project-management, geek-culture, english]
 ---
 
 ## Intro

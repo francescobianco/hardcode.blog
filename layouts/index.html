@@ -25,6 +25,9 @@
                                         {{ if in .Params.tags "italian" }}
                                             <span>&#127470;&#127481;<span>
                                         {{ end }}
+                                        {{ if in .Params.tags "english" }}
+                                            <span>&#127468;&#127463; &#127482;&#127480;<span>
+                                        {{ end }}
                                         {{ if .Draft }}
                                             <sup class="draft-label">DRAFT</sup>
                                         {{ end }}
