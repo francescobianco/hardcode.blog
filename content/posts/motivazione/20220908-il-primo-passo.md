@@ -1,7 +1,18 @@
-# Motivazione - Il promo passo
+---
+title: "Prima trovate un coach, poi trovate la motivazione"
+description: "La crescita professionale è un processo attivo, deve essere vissuto con umiltà e con gentilezza"
+date: 2022-09-08T02:13:32+02:00
+tags: [javascript]
+---
 
-Dopo una bellissima chiacchierata con un coach professionista mi è stato chiesto di stilare una lista di 10 argomenti che potrei approfondire per migliorare me stesso.
-Ho preso la palla al balzo è ho raccolto i 10 video di Doc. Filippo Ongaro da ascoltare fino allo sfinimento:
+> 🚧 WORK IN PROGRESS 🚧
+
+## Motivazione - Il promo passo
+
+Dopo una bellissima chiacchierata con un coach professionista, 
+mi è stato chiesto di stilare una lista di 10 argomenti che potrei approfondire 
+per migliorare me stesso. Ho colto l'occasione e ho raccolto 10 video 
+del dottor Filippo Ongaro da ascoltare fino allo sfinimento:
 
 1. Come adottare delle buone abitudini per affrontare un cambiamento - https://www.youtube.com/watch?v=JsV5EwC1Fec
 2. Impara a chiedere aiuto e vai oltre il tuo orgoglio personale - https://www.youtube.com/watch?v=HUWwbUkC2v4

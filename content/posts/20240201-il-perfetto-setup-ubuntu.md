@@ -1,7 +1,7 @@
 ---
 title: "I perfetto setup per ubuntu, riflessioni e segreti"
 description: "Dopo oltre 10 anni voglio fare delle riflessioni su ubuntu, penso di aver maturato una buona esperienza"
-date: 2020-02-01T02:13:32+02:00
+date: 2024-02-01T02:13:32+02:00
 tags: [ubuntu, linux]
 ---
 
