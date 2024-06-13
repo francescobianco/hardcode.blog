@@ -5,6 +5,8 @@ date: 2024-06-13T16:37:36.550Z
 tags: [software, llm, ai]
 ---
 
+> Attenzione: Le riflessioni che seguono sono tratte dal lavoro di Chris Paik
+
 Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione.
 
 ## La rivoluzione dei media
@@ -27,7 +29,11 @@ SaaS, ARR, numeri magici: tutti questi sono indicatori del vecchio modello di bu
 
 ---
 
-Per approfondire queste riflessioni, puoi leggere il documento completo di Jeremy Baksht [qui](https://docs.google.com/document/d/103cGe8qixC7ZzFsRu5Ww2VEW5YgH9zQaiaqbBsZ1lcc/edit).
+Per approfondire queste riflessioni, puoi leggere il documento originale di Chris Paik [qui](https://docs.google.com/document/d/103cGe8qixC7ZzFsRu5Ww2VEW5YgH9zQaiaqbBsZ1lcc/edit).
 
-Inoltre, Jeremy ha discusso di queste idee anche in un post su LinkedIn, che puoi trovare [qui](https://www.linkedin.com/posts/baksht_the-end-of-software-activity-7202696655089868800-59gi?utm_source=share&utm_medium=member_desktop).
+Inoltre, sono presenti diversi post LinkedIn che possono darti un idea dell'impatto di questa visione:
+
+- <https://www.linkedin.com/posts/baksht_the-end-of-software-activity-7202696655089868800-59gi>
+- <https://www.linkedin.com/posts/gethackteam_the-end-of-software-activity-7202676192422834176-8IcC>
+
 
