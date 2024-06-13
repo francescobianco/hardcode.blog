@@ -1,5 +1,5 @@
 ---
-title: "Riflessione sul Futuro del Software: Lezioni dalla Storia dei Media"
+title: "Riflessione sul futuro del software: Lezioni dalla storia dei media"
 description: "Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione."
 date: 2024-06-13T16:37:36.550Z
 tags: [software, llm, ai]
@@ -7,7 +7,7 @@ tags: [software, llm, ai]
 
 Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione.
 
-## La Rivoluzione dei Media
+## La rivoluzione dei media
 
 Prima dell'avvento di Internet, il settore dei media era molto diverso. Creare contenuti era un'impresa costosa: si doveva pagare persone per produrre, modificare e distribuire materiale. Di conseguenza, i contenuti dovevano generare profitto, e i consumatori pagavano per giornali, riviste, libri, TV via cavo e pay-per-view. Warren Buffett amava i giornali, e chi non avrebbe amato un business con abbonamenti prevedibili e dinamiche monopolistiche locali?
 
@@ -15,7 +15,7 @@ Quando Internet è arrivato, le aziende mediatiche lo hanno visto come un'opport
 
 Queste piattaforme hanno completamente travolto le aziende mediatiche. Come azienda mediatica, si competeva per la stessa attenzione degli utenti, ma con costi di produzione decisamente superiori. Più persone si avevano in organico per creare contenuti, più si era esposti alla concorrenza delle piattaforme di contenuti generati dagli utenti. Strutturalmente, investire nei media è diventata una proposta di valore perdente, con il valore che si è spostato interamente sulle piattaforme che controllano la distribuzione.
 
-## Un Parallelo con il Software
+## Un parallelo con il software
 
 Creare software è costoso. Bisogna pagare persone per crearlo, mantenerlo e distribuirlo. Di conseguenza, il software deve generare profitto: paghiamo per le licenze, SaaS, prezzi per utente, ecc. I margini del software sono stati storicamente invidiabili, con oltre il 90% di margini e costi marginali di distribuzione nulli.
 
@@ -30,3 +30,4 @@ SaaS, ARR, numeri magici: tutti questi sono indicatori del vecchio modello di bu
 Per approfondire queste riflessioni, puoi leggere il documento completo di Jeremy Baksht [qui](https://docs.google.com/document/d/103cGe8qixC7ZzFsRu5Ww2VEW5YgH9zQaiaqbBsZ1lcc/edit).
 
 Inoltre, Jeremy ha discusso di queste idee anche in un post su LinkedIn, che puoi trovare [qui](https://www.linkedin.com/posts/baksht_the-end-of-software-activity-7202696655089868800-59gi?utm_source=share&utm_medium=member_desktop).
+
