@@ -587,10 +587,10 @@ h1.term-title {
 
     .markdown img[src*='#style='][src*='float:left'] {
         float: left;
-        margin: 6px 20px 20px 0;
+        margin: 6px 16px 10px 0;
     }
 }
 
-.markdown img[src*='#style='][src*='width:200px'] {
-    width: 200px;
+.markdown img[src*='#style='][src*='width:128px'] {
+    width: 128px;
 }
