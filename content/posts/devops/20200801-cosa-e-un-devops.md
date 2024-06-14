@@ -1,5 +1,11 @@
+---
+title: "DevOps, il mistero dietro le sue skill"
+description: "Essere un DevOps richiede diverse skill non di poco conto, una delle quali è aver vissuto gli anni 90"
+date: 2020-08-01T08:16:42+02:00
+tags: [devops]
+---
 
-
+> 🚧 WORK IN PROGRESS 🚧
 
 Un devops è una figura che lavora all'intersezione tra il team di sviluppo software e il team di operations. 
 In genere, un devops si occupa di automatizzare il processo di build, test e deploy del software, 
