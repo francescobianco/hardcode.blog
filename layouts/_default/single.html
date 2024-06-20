@@ -5,7 +5,7 @@
 	<div class="container wrapper">
 		{{ partial "header.html" . }}
 
-		<div class="post">
+		<div class="post {{ .Type }}-single">
 			<div class="post-header">
 				{{ if ne .Date.Year 1 }}
 					<div class="meta">

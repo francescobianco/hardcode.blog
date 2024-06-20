@@ -11,7 +11,7 @@ Se sei un professionista dell'informatica o un appassionato di tecnologia, proba
 
 InfoQ è stato lanciato nel 2006 con l'obiettivo di fornire contenuti di alta qualità su sviluppo software, architettura, metodologia e tecnologie emergenti. Fondato da Floyd Marinescu, pioniere nelle comunità online per sviluppatori, InfoQ si è rapidamente affermato come risorsa fondamentale per professionisti IT e sviluppatori di tutto il mondo. La missione del sito è promuovere la conoscenza condivisa e l'innovazione continua nel settore dell'ingegneria del software.
 
-## Scoop e notizie rilevanti
+### Scoop e notizie rilevanti
 Nel corso degli anni, InfoQ ha pubblicato scoop e notizie di rilievo che hanno rafforzato la sua reputazione:
 
 * Introduzione di microservizi: InfoQ è stato uno dei primi portali a discutere approfonditamente l'architettura a microservizi, offrendo case study e interviste con leader del settore che stavano adottando questo approccio innovativo.

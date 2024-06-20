@@ -171,7 +171,7 @@ h6 {
 }
 
 ul {
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
 ul.flat {
@@ -194,7 +194,22 @@ ul.flat li {
 }
 
 ul {
-    list-style: disc inside;
+    list-style-type: none;
+}
+
+ul li::marker {
+    font-family: fixedsys;
+    content: '==> ';
+}
+
+.markdown h2::before,
+.markdown h3::before {
+    width: 22px;
+    margin-left: -22px;
+    font-weight: normal;
+    font-family: fixedsys;
+    content: '#';
+    display: inline-block;
 }
 
 .post ul li {
@@ -357,6 +372,22 @@ ul {
 
 .post-header {
     display: flex;
+}
+
+@media (min-width: 1000px) {
+    .posts-single .post-header .meta {
+        width: 80px;
+    }
+
+    .posts-single .post-header {
+        margin-left: -80px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hide-on-mobile {
+        display: none;
+    }
 }
 
 .post-header .meta .date {
