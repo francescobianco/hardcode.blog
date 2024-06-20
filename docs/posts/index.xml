@@ -7,7 +7,71 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Tue, 20 Jul 2021 12:10:00 +0200</lastBuildDate><atom:link href="https://hardcode.blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jun 2024 16:08:23 +0000</lastBuildDate><atom:link href="https://hardcode.blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Il pericolo del gold plating: quando troppe funzionalità portano al fallimento</title>
+      <link>https://hardcode.blog/posts/20240620-gold-plating/</link>
+      <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20240620-gold-plating/</guid>
+      <description>Nel mondo della gestione dei progetti e dello sviluppo software, il termine &amp;ldquo;gold plating&amp;rdquo; si riferisce all&amp;rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un&amp;rsquo;ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po&amp;rsquo; di zucchero può migliorare il sapore, ma troppo può renderla imbevibile.</description>
+    </item>
+    
+    <item>
+      <title>Riflessione sul futuro del software: Lezioni dalla storia dei media</title>
+      <link>https://hardcode.blog/posts/20240613-riflessione-sul-futuro-del-software/</link>
+      <pubDate>Thu, 13 Jun 2024 16:37:36 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20240613-riflessione-sul-futuro-del-software/</guid>
+      <description>Attenzione: Le riflessioni che seguono sono tratte dal lavoro di Chris Paik
+Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione.
+La rivoluzione dei media Prima dell&amp;rsquo;avvento di Internet, il settore dei media era molto diverso. Creare contenuti era un&amp;rsquo;impresa costosa: si doveva pagare persone per produrre, modificare e distribuire materiale.</description>
+    </item>
+    
+    <item>
+      <title>Ingegneria del Software, la storia del portale InfoQ</title>
+      <link>https://hardcode.blog/posts/20240606-la-storia-di-infoq/</link>
+      <pubDate>Thu, 06 Jun 2024 17:02:03 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20240606-la-storia-di-infoq/</guid>
+      <description>Se sei un professionista dell&amp;rsquo;informatica o un appassionato di tecnologia, probabilmente hai già sentito parlare di InfoQ.com. Ma cosa rende questo portale così speciale? Scopri la sua storia, gli scoop più rilevanti che lo hanno portato alla ribalta e perché dovresti considerarlo un punto di riferimento per la cultura dell&amp;rsquo;ingegneria del software.
+La storia di InfoQ.com InfoQ è stato lanciato nel 2006 con l&amp;rsquo;obiettivo di fornire contenuti di alta qualità su sviluppo software, architettura, metodologia e tecnologie emergenti.</description>
+    </item>
+    
+    <item>
+      <title>I perfetto setup per ubuntu, riflessioni e segreti</title>
+      <link>https://hardcode.blog/posts/20240201-il-perfetto-setup-ubuntu/</link>
+      <pubDate>Thu, 01 Feb 2024 02:13:32 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20240201-il-perfetto-setup-ubuntu/</guid>
+      <description>Oggi voglio condividere con voi un traguardo speciale: sono ormai un utente Ubuntu da 10 anni! In questo decennio, ho esplorato e sperimentato con innumerevoli configurazioni e strumenti per ottimizzare la mia esperienza con questo fantastico sistema operativo. Oggi voglio svelare alcune delle mie fonti preferite per trovare le migliori configurazioni e darvi qualche consiglio utile per un&amp;rsquo;esperienza Ubuntu senza intoppi.
+I migliori consigli per il setup di Ubuntu Flameshot - Flameshot è uno strumento di cattura dello schermo potente e personalizzabile che ha semplificato enormemente il mio lavoro quotidiano.</description>
+    </item>
+    
+    <item>
+      <title>Prima trovate un coach, poi trovate la motivazione</title>
+      <link>https://hardcode.blog/posts/motivazione/20220908-il-primo-passo/</link>
+      <pubDate>Thu, 08 Sep 2022 02:13:32 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/motivazione/20220908-il-primo-passo/</guid>
+      <description>🚧 WORK IN PROGRESS 🚧
+Motivazione - Il promo passo Dopo una bellissima chiacchierata con un coach professionista, mi è stato chiesto di stilare una lista di 10 argomenti che potrei approfondire per migliorare me stesso. Ho colto l&amp;rsquo;occasione e ho raccolto 10 video del dottor Filippo Ongaro da ascoltare fino allo sfinimento:
+Come adottare delle buone abitudini per affrontare un cambiamento - https://www.youtube.com/watch?v=JsV5EwC1Fec Impara a chiedere aiuto e vai oltre il tuo orgoglio personale - https://www.</description>
+    </item>
+    
+    <item>
+      <title>Anche se molto utile, odio le chiavi implicite</title>
+      <link>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</link>
+      <pubDate>Mon, 11 Oct 2021 02:13:32 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</guid>
+      <description>🚧 WORK IN PROGRESS 🚧
+La mia ipotesi si basa sul fatto che l&amp;rsquo;approccio abbrebiato espone il codice a dimostrare l&amp;rsquo;esistenza di una variabile con quel nome
+Quindi se esiste l&amp;rsquo;attributo &amp;rsquo;name&amp;rsquo; in un oggetto potrebbe esistere una variable nel sorgente con lo stesso nome &amp;rsquo;name&#39;
+https://twitter.com/francescobianco/status/1317772038845681664
+https://jsfiddle.net/francescobianco/4sue8ym9/27/</description>
+    </item>
+    
     <item>
       <title>Letture Efficaci </title>
       <link>https://hardcode.blog/posts/20210720-letture-efficaci/</link>
@@ -57,23 +121,12 @@ https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
     <item>
-      <title>L&#39;Università serve ancora? &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</link>
+      <title>L&#39;Università serve ancora?</title>
+      <link>https://hardcode.blog/posts/20200902-universita-serve-ancora/</link>
       <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
       
-      <guid>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</guid>
-      <description>Puoi parlare di quanto sia importante la formazione e quanto un corso non possa sostituire l’università ma comunque possa introdurti nell’ambiente lavorativo</description>
-    </item>
-    
-    <item>
-      <title>L&#39;Università serve ancora? &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</link>
-      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</guid>
-      <description>🇮🇹
-#CRM #TempoPieno Ciao Ragazzi, sto cercando nel gruppo programmatori che si occupino a tempo pieno di sviluppo software nel mondo CRM, su vari ambiti: Integrazione CRM con sistemi di terzi, Realizzazione moduli o plugin per CRM esistenti, Sviluppo CRM custom, importazione ed esportazione dati CRM, etc&amp;hellip;
-Fatevi avanti (non è un job post), sto facendo uno studio per capire se in italia ci sono sviluppatori Full CRM (cioè che lavorano esclusivamente in questo ambio), non cerco aziende di questo settore ma sviluppatori, sia freelance che dipendenti.</description>
+      <guid>https://hardcode.blog/posts/20200902-universita-serve-ancora/</guid>
+      <description>Nel mondo contemporaneo, caratterizzato da rapide innovazioni tecnologiche e cambiamenti nel mercato del lavoro, una domanda ricorrente è: l’università serve ancora? La risposta, sebbene complessa, tende a confermare l&amp;rsquo;importanza di un&amp;rsquo;istruzione universitaria, pur riconoscendo il valore crescente dei corsi professionali e delle certificazioni. In questo blog post, esploreremo perché l’università resta un pilastro fondamentale della formazione e come i corsi di breve durata possano comunque offrire un&amp;rsquo;importante introduzione al mondo del lavoro.</description>
     </item>
     
     <item>
@@ -87,6 +140,26 @@ In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie co
     </item>
     
     <item>
+      <title>La figura del CRM Developer: skill, opportunità e campo di azione</title>
+      <link>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</link>
+      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</guid>
+      <description>In un mondo sempre più orientato alla gestione efficiente delle relazioni con i clienti, il ruolo del CRM Developer sta emergendo come una figura chiave nel panorama tecnologico. Ma chi è esattamente un CRM Developer, quali competenze possiede e quali sono le sue opportunità di lavoro? Partendo da un recente annuncio che cerca sviluppatori specializzati in CRM, esploriamo questo affascinante ruolo.
+Chi è il CRM Developer? Il CRM Developer è uno sviluppatore software specializzato nella progettazione, implementazione e manutenzione di sistemi di Customer Relationship Management (CRM).</description>
+    </item>
+    
+    <item>
+      <title>DevOps, il mistero dietro le sue skill</title>
+      <link>https://hardcode.blog/posts/devops/20200801-cosa-e-un-devops/</link>
+      <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/devops/20200801-cosa-e-un-devops/</guid>
+      <description>🚧 WORK IN PROGRESS 🚧
+Un devops è una figura che lavora all&amp;rsquo;intersezione tra il team di sviluppo software e il team di operations. In genere, un devops si occupa di automatizzare il processo di build, test e deploy del software, in modo da rendere più efficiente il processo di sviluppo e rendere più facile il roll-out di nuove funzionalità. Un devops lavora anche a stretto contatto con il team di sviluppo per garantire che il software sia progettato per essere facile da distribuire e gestire in produzione.</description>
+    </item>
+    
+    <item>
       <title>Flutter! Sei pronto? &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200801-flutter/</link>
       <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
@@ -96,12 +169,12 @@ In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie co
     </item>
     
     <item>
-      <title>La Pubblica Amministrazione &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200722-ppaa/</link>
+      <title>La Pubblica Amministrazione, il treno del digitale è sempre in ritardo</title>
+      <link>https://hardcode.blog/posts/20200722-le-pa-sono-lente-ma-lente/</link>
       <pubDate>Wed, 22 Jul 2020 21:12:40 +0200</pubDate>
       
-      <guid>https://hardcode.blog/posts/20200722-ppaa/</guid>
-      <description>Puoi parlare di come i privati si siano adoperati per digitalizzarsi ma invece le PA non (le scuole faticano a firmare documenti digitali, giusto un esempio)</description>
+      <guid>https://hardcode.blog/posts/20200722-le-pa-sono-lente-ma-lente/</guid>
+      <description>Negli ultimi anni, la trasformazione digitale ha rivoluzionato il mondo privato, portando a miglioramenti significativi in termini di efficienza, produttività e accessibilità dei servizi. Tuttavia, la Pubblica Amministrazione (PA) sembra procedere con un passo più lento. Mentre molte aziende private hanno abbracciato con entusiasmo l&amp;rsquo;era digitale, molte istituzioni pubbliche, incluse le scuole, lottano ancora per adattarsi a questa nuova realtà. In questo blogpost, esploreremo le sfide e le opportunità legate alla digitalizzazione della PA.</description>
     </item>
     
     <item>
@@ -207,13 +280,13 @@ Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tass
     </item>
     
     <item>
-      <title>Docker: Not soo bad!</title>
+      <title>Docker: Il cuore di GitLab CI</title>
       <link>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</link>
       <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</guid>
-      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
-https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
+      <description>Introduzione Docker è ormai dappertutto. In pochi anni, è diventato uno strumento imprescindibile nel panorama DevOps, rivoluzionando il modo in cui sviluppatori e ingegneri gestiscono il ciclo di vita delle applicazioni. Oggi, voglio condividere con voi come Docker sia diventato il cuore pulsante della Continuous Integration (CI) di GitLab e come questa integrazione renda le pipeline di sviluppo incredibilmente potenti ed efficienti.
+Docker e GitLab CI: Una combinazione vincente GitLab CI è una piattaforma di Continuous Integration e Continuous Delivery (CI/CD) che permette ai team di sviluppo di automatizzare la costruzione, il testing e il deployment delle applicazioni.</description>
     </item>
     
     <item>
@@ -238,13 +311,13 @@ https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
     </item>
     
     <item>
-      <title>Docker: Not soo bad!</title>
+      <title>Docker: Un ambiente ideale per il CRM vtiger</title>
       <link>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</link>
       <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</guid>
-      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
-https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
+      <description>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).
+Perché scegliere Docker per vtiger? Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
     </item>
     
     <item>
@@ -256,47 +329,6 @@ https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
       <description>As first post, I want to move your focus to one the most important technological constant of our era. I&amp;rsquo;m talking about the first second of the Unix time, and the word joke inside.
 Ream more:
 https://en.wikipedia.org/wiki/Unix_time </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hardcode.blog/posts/devops/cosa-e-un-devops/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/posts/devops/cosa-e-un-devops/</guid>
-      <description>Un devops è una figura che lavora all&amp;rsquo;intersezione tra il team di sviluppo software e il team di operations. In genere, un devops si occupa di automatizzare il processo di build, test e deploy del software, in modo da rendere più efficiente il processo di sviluppo e rendere più facile il roll-out di nuove funzionalità. Un devops lavora anche a stretto contatto con il team di sviluppo per garantire che il software sia progettato per essere facile da distribuire e gestire in produzione.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hardcode.blog/posts/il-perfetto-setup-ubuntu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/posts/il-perfetto-setup-ubuntu/</guid>
-      <description>I mogliori consigli per il setup ubuntu sono
-https://github.com/flameshot-org/flameshot/ https://hluk.github.io/CopyQ/ </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</guid>
-      <description>La mia ipotesi si basa sul fatto che l&amp;rsquo;approccio abbrebiato espone il codice a dimostrare l&amp;rsquo;esistenza di una variabile con quel nome
-Quindi se esiste l&amp;rsquo;attributo &amp;rsquo;name&amp;rsquo; in un oggetto potrebbe esistere una variable nel sorgente con lo stesso nome &amp;rsquo;name&#39;
-https://twitter.com/francescobianco/status/1317772038845681664
-https://jsfiddle.net/francescobianco/4sue8ym9/27/</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hardcode.blog/posts/motivazione/2022-09-08-il-primo-passo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/posts/motivazione/2022-09-08-il-primo-passo/</guid>
-      <description>Motivazione - Il promo passo Dopo una bellissima chiacchierata con un coach professionista mi è stato chiesto di stilare una lista di 10 argomenti che potrei approfondire per migliorare me stesso. Ho preso la palla al balzo è ho raccolto i 10 video di Doc. Filippo Ongaro da ascoltare fino allo sfinimento:
-Come adottare delle buone abitudini per affrontare un cambiamento - https://www.youtube.com/watch?v=JsV5EwC1Fec Impara a chiedere aiuto e vai oltre il tuo orgoglio personale - https://www.</description>
     </item>
     
   </channel>

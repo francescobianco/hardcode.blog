@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Sat, 01 Aug 2020 08:16:42 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2024 16:37:36 +0000</lastBuildDate><atom:link href="https://hardcode.blog/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Riflessione sul futuro del software: Lezioni dalla storia dei media</title>
+      <link>https://hardcode.blog/posts/20240613-riflessione-sul-futuro-del-software/</link>
+      <pubDate>Thu, 13 Jun 2024 16:37:36 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20240613-riflessione-sul-futuro-del-software/</guid>
+      <description>Attenzione: Le riflessioni che seguono sono tratte dal lavoro di Chris Paik
+Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione.
+La rivoluzione dei media Prima dell&amp;rsquo;avvento di Internet, il settore dei media era molto diverso. Creare contenuti era un&amp;rsquo;impresa costosa: si doveva pagare persone per produrre, modificare e distribuire materiale.</description>
+    </item>
+    
     <item>
       <title>Flutter! Sei pronto? &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200801-flutter/</link>

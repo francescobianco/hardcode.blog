@@ -9,23 +9,12 @@
     <copyright>© Francesco Bianco</copyright>
     <lastBuildDate>Wed, 02 Sep 2020 19:38:58 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/didattica/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>L&#39;Università serve ancora? &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</link>
+      <title>L&#39;Università serve ancora?</title>
+      <link>https://hardcode.blog/posts/20200902-universita-serve-ancora/</link>
       <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
       
-      <guid>https://hardcode.blog/posts/20200902-another-brick-in-the-wall/</guid>
-      <description>Puoi parlare di quanto sia importante la formazione e quanto un corso non possa sostituire l’università ma comunque possa introdurti nell’ambiente lavorativo</description>
-    </item>
-    
-    <item>
-      <title>L&#39;Università serve ancora? &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</link>
-      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</guid>
-      <description>🇮🇹
-#CRM #TempoPieno Ciao Ragazzi, sto cercando nel gruppo programmatori che si occupino a tempo pieno di sviluppo software nel mondo CRM, su vari ambiti: Integrazione CRM con sistemi di terzi, Realizzazione moduli o plugin per CRM esistenti, Sviluppo CRM custom, importazione ed esportazione dati CRM, etc&amp;hellip;
-Fatevi avanti (non è un job post), sto facendo uno studio per capire se in italia ci sono sviluppatori Full CRM (cioè che lavorano esclusivamente in questo ambio), non cerco aziende di questo settore ma sviluppatori, sia freelance che dipendenti.</description>
+      <guid>https://hardcode.blog/posts/20200902-universita-serve-ancora/</guid>
+      <description>Nel mondo contemporaneo, caratterizzato da rapide innovazioni tecnologiche e cambiamenti nel mercato del lavoro, una domanda ricorrente è: l’università serve ancora? La risposta, sebbene complessa, tende a confermare l&amp;rsquo;importanza di un&amp;rsquo;istruzione universitaria, pur riconoscendo il valore crescente dei corsi professionali e delle certificazioni. In questo blog post, esploreremo perché l’università resta un pilastro fondamentale della formazione e come i corsi di breve durata possano comunque offrire un&amp;rsquo;importante introduzione al mondo del lavoro.</description>
     </item>
     
     <item>
@@ -36,6 +25,16 @@ Fatevi avanti (non è un job post), sto facendo uno studio per capire se in ital
       <guid>https://hardcode.blog/posts/20210210-crm-developer/</guid>
       <description>Cosa fanno gli sviluppatori CRM? CRM è l&amp;rsquo;acronimo di Customer Relationship Management, un termine usato per descrivere qualsiasi sistema utilizzato da un&amp;rsquo;azienda per gestire le sue interazioni relative ai clienti. I sistemi CRM hanno comunemente legami con diverse funzioni aziendali interne, comprese le vendite, il marketing, le comunicazioni e il servizio clienti.
 In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie convenzionali di posta, telefono e mass media. Sebbene i call center facciano ancora parte delle moderne strategie di CRM, la maggior parte di questi altri componenti tradizionali è stata sostituita con soluzioni basate su software.</description>
+    </item>
+    
+    <item>
+      <title>La figura del CRM Developer: skill, opportunità e campo di azione</title>
+      <link>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</link>
+      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</guid>
+      <description>In un mondo sempre più orientato alla gestione efficiente delle relazioni con i clienti, il ruolo del CRM Developer sta emergendo come una figura chiave nel panorama tecnologico. Ma chi è esattamente un CRM Developer, quali competenze possiede e quali sono le sue opportunità di lavoro? Partendo da un recente annuncio che cerca sviluppatori specializzati in CRM, esploriamo questo affascinante ruolo.
+Chi è il CRM Developer? Il CRM Developer è uno sviluppatore software specializzato nella progettazione, implementazione e manutenzione di sistemi di Customer Relationship Management (CRM).</description>
     </item>
     
     <item>

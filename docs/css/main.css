@@ -12,13 +12,15 @@ body {
 }
 
 a {
-    color: #3700ff;
-    text-decoration: none;
-    word-break: break-word;
+  color: #3700ff;
+  text-decoration: none;
+  word-break: break-word;
 }
-    a:hover {
-        border-bottom: 2px solid #3700ff;
-    }
+
+a:hover {
+  /*border-bottom: 2px solid #3700ff;*/
+    opacity: 0.8;
+}
 
 html,button,input,select,textarea {
     color: #111111;
@@ -137,11 +139,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 h4 {
@@ -169,7 +171,7 @@ h6 {
 }
 
 ul {
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
 ul.flat {
@@ -192,7 +194,22 @@ ul.flat li {
 }
 
 ul {
-    list-style: disc inside;
+    list-style-type: none;
+}
+
+ul li::marker {
+    font-family: fixedsys;
+    content: '==> ';
+}
+
+.markdown h2::before,
+.markdown h3::before {
+    width: 22px;
+    margin-left: -22px;
+    font-weight: normal;
+    font-family: fixedsys;
+    content: '#';
+    display: inline-block;
 }
 
 .post ul li {
@@ -238,16 +255,23 @@ ul {
     float: left;
     margin: -25px 20px 0 0;
 }
+
 .header .avatar img {
     width: 64px;
     height: 64px;
     overflow: hidden;
 }
 
+.header .avatar a:hover {
+    opacity: 1;
+}
+
 .header .site-title {
     font-weight: bold;
     line-height: 0.2em;
     margin: 0 0 10px 0;
+    font-family: 'Impact', 'Anton', 'Techno', 'Lato Heavy', 'Arial Black', 'Roboto Black', 'Anton', sans-serif-black, sans-serif;
+    font-size-adjust:.65;
 }
 
 .site-title a {
@@ -258,6 +282,7 @@ ul {
 .site-title a:hover {
     border-bottom: none;
     color: #000;
+    opacity: 1;
     text-decoration: none;
 }
 
@@ -269,6 +294,7 @@ ul {
 .header .site-description p {
     font-size: 15px;
     margin-top: 10px;
+    line-height: 20px;
 }
 
 .header nav {
@@ -289,6 +315,10 @@ ul {
     margin: 0 30px 0 0;
 }
 
+.header nav li a {
+    padding: 5px 0;
+}
+
 .header nav.social a {
     color: #111111;
 }
@@ -299,7 +329,7 @@ ul {
 
 .header .site-description nav {
     border: none;
-    margin: 12px 0 0 40px;
+    margin: 8px 0 0 40px;
     min-width: 50px;
     padding: 0;
 }
@@ -309,7 +339,7 @@ ul {
 }
 
 .header .site-description .scheme-toggle {
-    margin-top: 12px;
+    margin-top: 8px;
     height: 100%;
 }
 
@@ -343,14 +373,32 @@ ul {
 .post-header {
     display: flex;
 }
+
+@media (min-width: 1000px) {
+    .posts-single .post-header .meta {
+        width: 80px;
+    }
+
+    .posts-single .post-header {
+        margin-left: -80px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
 .post-header .meta .date {
     margin-right: 30px;
     width: 64px;
     text-align: center;
     border: 1px solid #eee;
-    border-radius: 8px;
+    border-radius: 6px;
     box-shadow: 2px 2px 3px #eee;
 }
+
 .post-header .meta .date .day {
     font-family: "Playfair Display", serif;
     font-weight: 700;
@@ -414,14 +462,15 @@ h1.page-title ,
     display: inline-block;
     border: 1px solid #3700ff;
     border-radius: 3px;
-    padding: 0px 6px;
+    padding: 0px 8px;
     /*color: #3700ff;*/
     background: #3700ff;
     color: #ffffff !important;
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 19px;
+    font-size: 16px;
     text-decoration: none;
-    margin: 0 10px 0 0;
+    margin: 0 6px 0 0;
+    font-family: fixedsys;
 }
 
 h1.term-title {
@@ -483,6 +532,10 @@ h1.term-title {
     display: inline-block;
     margin: 0;
     padding: 0;
+}
+
+.pagination li a {
+    padding: 5px 0;
 }
 
 .pagination .page-prev {
@@ -551,4 +604,24 @@ h1.term-title {
 .font-fixedsys {
   font-family: fixedsys;
   font-size: 16px;
+}
+
+#disqus_thread {
+    margin-top: 25px;
+}
+
+@media (min-width: 600px) {
+    .markdown img[src*='#style='][src*='float:right'] {
+        float: right;
+        margin: 6px 0 20px 20px;
+    }
+
+    .markdown img[src*='#style='][src*='float:left'] {
+        float: left;
+        margin: 6px 16px 10px 0;
+    }
+}
+
+.markdown img[src*='#style='][src*='width:128px'] {
+    width: 128px;
 }

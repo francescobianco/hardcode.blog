@@ -9,13 +9,13 @@
     <copyright>© Francesco Bianco</copyright>
     <lastBuildDate>Wed, 01 Jan 2020 12:10:00 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docker: Not soo bad!</title>
+      <title>Docker: Il cuore di GitLab CI</title>
       <link>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</link>
       <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</guid>
-      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
-https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
+      <description>Introduzione Docker è ormai dappertutto. In pochi anni, è diventato uno strumento imprescindibile nel panorama DevOps, rivoluzionando il modo in cui sviluppatori e ingegneri gestiscono il ciclo di vita delle applicazioni. Oggi, voglio condividere con voi come Docker sia diventato il cuore pulsante della Continuous Integration (CI) di GitLab e come questa integrazione renda le pipeline di sviluppo incredibilmente potenti ed efficienti.
+Docker e GitLab CI: Una combinazione vincente GitLab CI è una piattaforma di Continuous Integration e Continuous Delivery (CI/CD) che permette ai team di sviluppo di automatizzare la costruzione, il testing e il deployment delle applicazioni.</description>
     </item>
     
     <item>
@@ -40,13 +40,13 @@ https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
     </item>
     
     <item>
-      <title>Docker: Not soo bad!</title>
+      <title>Docker: Un ambiente ideale per il CRM vtiger</title>
       <link>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</link>
       <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</guid>
-      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
-https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
+      <description>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).
+Perché scegliere Docker per vtiger? Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
     </item>
     
   </channel>

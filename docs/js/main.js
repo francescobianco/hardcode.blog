@@ -43,3 +43,23 @@ function lightscheme(toggle, container) {
   toggle.className = "light";
   container.className = "";
 }
+
+function writeNewPost(element) {
+    const postDate = (new Date()).toISOString();
+    const template = `---
+title: "New post!"
+description: "A bit of post."
+date: ${postDate}
+tags: [tag1, tag2]
+---
+
+That's the post...
+`;
+    const dateSlug = (new Date()).toISOString().replace(/-/g, '').split('T')[0];
+    const dirUrl = '/new/main/content/posts';
+    const newPostUrl = element.href + dirUrl + '?filename=' + dateSlug + '-new-post.md&value=' + encodeURIComponent(template);
+
+    window.open(newPostUrl, '_blank');
+
+    return false;
+}

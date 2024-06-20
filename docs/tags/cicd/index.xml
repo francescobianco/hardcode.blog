@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cicd on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/cicd/</link>
+    <description>Recent content in cicd on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Wed, 01 Jan 2020 12:10:00 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/cicd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker: Il cuore di GitLab CI</title>
+      <link>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</guid>
+      <description>Introduzione Docker è ormai dappertutto. In pochi anni, è diventato uno strumento imprescindibile nel panorama DevOps, rivoluzionando il modo in cui sviluppatori e ingegneri gestiscono il ciclo di vita delle applicazioni. Oggi, voglio condividere con voi come Docker sia diventato il cuore pulsante della Continuous Integration (CI) di GitLab e come questa integrazione renda le pipeline di sviluppo incredibilmente potenti ed efficienti.
+Docker e GitLab CI: Una combinazione vincente GitLab CI è una piattaforma di Continuous Integration e Continuous Delivery (CI/CD) che permette ai team di sviluppo di automatizzare la costruzione, il testing e il deployment delle applicazioni.</description>
+    </item>
+    
+  </channel>
+</rss>

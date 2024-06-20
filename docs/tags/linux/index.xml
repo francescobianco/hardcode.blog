@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/linux/</link>
+    <description>Recent content in linux on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Thu, 01 Feb 2024 02:13:32 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I perfetto setup per ubuntu, riflessioni e segreti</title>
+      <link>https://hardcode.blog/posts/20240201-il-perfetto-setup-ubuntu/</link>
+      <pubDate>Thu, 01 Feb 2024 02:13:32 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20240201-il-perfetto-setup-ubuntu/</guid>
+      <description>Oggi voglio condividere con voi un traguardo speciale: sono ormai un utente Ubuntu da 10 anni! In questo decennio, ho esplorato e sperimentato con innumerevoli configurazioni e strumenti per ottimizzare la mia esperienza con questo fantastico sistema operativo. Oggi voglio svelare alcune delle mie fonti preferite per trovare le migliori configurazioni e darvi qualche consiglio utile per un&amp;rsquo;esperienza Ubuntu senza intoppi.
+I migliori consigli per il setup di Ubuntu Flameshot - Flameshot è uno strumento di cattura dello schermo potente e personalizzabile che ha semplificato enormemente il mio lavoro quotidiano.</description>
+    </item>
+    
+  </channel>
+</rss>

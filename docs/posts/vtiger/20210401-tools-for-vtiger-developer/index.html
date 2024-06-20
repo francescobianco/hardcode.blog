@@ -2,21 +2,24 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Docker: Not soo bad! - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta itemprop="name" content="Docker: Not soo bad!">
-<meta itemprop="description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa"><meta itemprop="datePublished" content="2020-01-01T12:10:00+02:00" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Docker: Un ambiente ideale per il CRM vtiger - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="Docker: Un ambiente ideale per il CRM vtiger">
+<meta itemprop="description" content="Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti, vediamo come applicarlo sul CRM vtiger"><meta itemprop="datePublished" content="2020-01-01T12:10:00+02:00" />
 <meta itemprop="dateModified" content="2020-01-01T12:10:00+02:00" />
-<meta itemprop="wordCount" content="13">
-<meta itemprop="keywords" content="docker," /><meta property="og:title" content="Docker: Not soo bad!" />
-<meta property="og:description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa" />
+<meta itemprop="wordCount" content="444">
+<meta itemprop="keywords" content="docker,vtiger," /><meta property="og:title" content="Docker: Un ambiente ideale per il CRM vtiger" />
+<meta property="og:description" content="Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti, vediamo come applicarlo sul CRM vtiger" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-01-01T12:10:00+02:00" />
 <meta property="article:modified_time" content="2020-01-01T12:10:00+02:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Docker: Not soo bad!"/>
-<meta name="twitter:description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa"/>
-<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+<meta name="twitter:title" content="Docker: Un ambiente ideale per il CRM vtiger"/>
+<meta name="twitter:description" content="Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti, vediamo come applicarlo sul CRM vtiger"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
@@ -25,6 +28,8 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 		<script src="https://hardcode.blog/js/main.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
 </head>
 
 <body>
@@ -39,19 +44,19 @@
 		</div>
 	
     <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
-	<div class="site-description font-fixedsys"><p>{☕} Coding, the superpower that no one to want to have</p><nav class="nav social">
-			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li><li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li><li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li></ul>
+	<div class="site-description font-fixedsys"><p>{☕} Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li><li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li><li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li><li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li></ul>
 		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
 
 	<nav class="nav">
 		<ul class="flat">
 			
 			<li class="font-fixedsys">
-				<a href="/">📰 Home</a>
+				<a href="/">🏠 Home</a>
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/docker">🐋 Docker</a>
+				<a href="/tags/docker">🐳 Docker</a>
 			</li>
 			
 			<li class="font-fixedsys">
@@ -63,7 +68,7 @@
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/readme">📜 Readme</a>
+				<a href="/about">👷 About</a>
 			</li>
 			
 		</ul>
@@ -71,7 +76,7 @@
 </div>
 
 
-		<div class="post">
+		<div class="post posts-single">
 			<div class="post-header">
 				
 					<div class="meta">
@@ -82,18 +87,15 @@
 					</div>
 				
 				<div class="matter">
-					<h1 class="title">Docker: Not soo bad!</h1>
+					<h1 class="title">Docker: Un ambiente ideale per il CRM vtiger</h1>
                     <div class="social">
-                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/vtiger/20210401-tools-for-vtiger-developer.md">
+                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/vtiger/20210401-tools-for-vtiger-developer.md" target="_blank">
                             <i data-feather="github"></i>
                         </a>
-                        <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fhardcode.blog%2fposts%2fvtiger%2f20210401-tools-for-vtiger-developer%2f">
-                            <i data-feather="twitter"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fhardcode.blog%2fposts%2fvtiger%2f20210401-tools-for-vtiger-developer%2f">
+                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fhardcode.blog%2fposts%2fvtiger%2f20210401-tools-for-vtiger-developer%2f" target="_blank">
                             <i data-feather="linkedin"></i>
                         </a>
-                        <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhardcode.blog%2fposts%2fvtiger%2f20210401-tools-for-vtiger-developer%2f">
+                        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fhardcode.blog%2fposts%2fvtiger%2f20210401-tools-for-vtiger-developer%2f" target="_blank">
                             <i data-feather="link-2"></i>
                         </a>
                     </div>
@@ -101,11 +103,49 @@
 			</div>
 
 			<div class="markdown">
-				<h2 id="docker">Docker</h2>
-<p>Si tratta di una storia molto lunga per adesso beccatevi questo:</p>
+				<p>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).</p>
+<h2 id="perché-scegliere-docker-per-vtiger">Perché scegliere Docker per vtiger?</h2>
+<ol>
+<li>
+<p><strong>Ambienti consistenti</strong>: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione. Questo elimina problemi di compatibilità e garantisce che il codice funzioni allo stesso modo su qualsiasi macchina.</p>
+</li>
+<li>
+<p><strong>Facilità di setup</strong>: Con Docker, puoi configurare un ambiente vtiger CRM completo con pochi comandi. Questo risparmia tempo e riduce la complessità dell&rsquo;installazione manuale.</p>
+</li>
+<li>
+<p><strong>Isolamento delle applicazioni</strong>: Ogni container Docker esegue una copia isolata dell&rsquo;applicazione, riducendo i rischi di conflitti tra diverse applicazioni o versioni delle stesse librerie.</p>
+</li>
+<li>
+<p><strong>Scalabilità</strong>: Docker facilita la scalabilità delle applicazioni. Puoi facilmente distribuire e gestire più istanze di vtiger CRM per soddisfare le esigenze di crescita della tua azienda.</p>
+</li>
+</ol>
+<h2 id="utilizzare-docker-per-sviluppare-vtiger">Utilizzare Docker per sviluppare vtiger</h2>
+<h3 id="passo-1-clonare-i-repositori-github">Passo 1: Clonare i repositori GitHub</h3>
+<p>Per iniziare, clona i repositori necessari per configurare l&rsquo;ambiente di sviluppo vtiger CRM. Ecco tre repositori essenziali:</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=XVJ5EkiqLkk">https://www.youtube.com/watch?v=XVJ5EkiqLkk</a></li>
+<li><a href="https://github.com/javanile/vtiger">vtiger</a>: Questo repositorio contiene il codice sorgente principale di vtiger CRM.</li>
+<li><a href="https://github.com/javanile/vtiger-dev">vtiger-dev</a>: Utilizzato per impostare l&rsquo;ambiente di sviluppo, offre script e configurazioni Docker per facilitare il processo di sviluppo.</li>
+<li><a href="https://github.com/javanile/vtiger-demo">vtiger-demo</a>: Un&rsquo;istanza dimostrativa di vtiger CRM, utile per vedere come l&rsquo;applicazione dovrebbe funzionare una volta configurata correttamente.</li>
 </ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/javanile/vtiger.git
+</span></span><span style="display:flex;"><span>git clone https://github.com/javanile/vtiger-dev.git
+</span></span><span style="display:flex;"><span>git clone https://github.com/javanile/vtiger-demo.git
+</span></span></code></pre></div><h3 id="passo-2-configurare-lambiente-docker">Passo 2: Configurare l&rsquo;ambiente Docker</h3>
+<p>Una volta clonati i repositori, naviga nella directory <code>vtiger-dev</code> e configura l&rsquo;ambiente Docker:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd vtiger-dev
+</span></span><span style="display:flex;"><span>docker-compose up -d
+</span></span></code></pre></div><p>Questo comando avvierà i container necessari per eseguire vtiger CRM in un ambiente Docker. <code>docker-compose</code> è uno strumento che permette di definire e gestire applicazioni multi-container.</p>
+<h3 id="passo-3-accedere-allapplicazione">Passo 3: Accedere all&rsquo;applicazione</h3>
+<p>Dopo che i container sono stati avviati, puoi accedere a vtiger CRM attraverso il tuo browser, utilizzando l&rsquo;indirizzo e la porta configurati (ad esempio, <code>http://localhost:8080</code>).</p>
+<h2 id="approfondisci-con-i-repositori-di-github">Approfondisci con i repositori di GitHub</h2>
+<p>Per ulteriori dettagli e personalizzazioni, consulta i seguenti repositori:</p>
+<ul>
+<li><a href="https://github.com/javanile/vtiger">vtiger</a>: Scopri il codice sorgente di vtiger CRM e contribuisci allo sviluppo della piattaforma.</li>
+<li><a href="https://github.com/javanile/vtiger-dev">vtiger-dev</a>: Ottieni script e configurazioni per semplificare il setup del tuo ambiente di sviluppo.</li>
+<li><a href="https://github.com/javanile/vtiger-demo">vtiger-demo</a>: Esplora un&rsquo;istanza dimostrativa di vtiger CRM per vedere come dovrebbe apparire e funzionare l&rsquo;applicazione.</li>
+</ul>
+<h2 id="conclusione">Conclusione</h2>
+<p>Utilizzare Docker per sviluppare vtiger CRM offre numerosi vantaggi, tra cui la consistenza dell&rsquo;ambiente, la facilità di setup e l&rsquo;isolamento delle applicazioni. Seguendo i passi descritti in questo articolo e consultando i repositori GitHub indicati, potrai configurare e gestire un ambiente di sviluppo vtiger CRM in modo rapido ed efficiente. Buon sviluppo!</p>
 
 			</div>
 
@@ -115,6 +155,8 @@
 						<ul class="flat">
 							
 							<li><a href="/tags/docker">docker</a></li>
+							
+							<li><a href="/tags/vtiger">vtiger</a></li>
 							
 						</ul>
 					
@@ -139,25 +181,21 @@
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
-		<div>
+        <div>
             2024  © Francesco Bianco | 
             Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
             theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            <span class="hide-on-mobile">
+                | Visit the <a href="https://github.com/francescobianco/hardcode.blog" title="HARDCODE.BLOG" target="_blank">repo</a> |
+                Write a new <a href="https://github.com/francescobianco/hardcode.blog" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
+            </span>
         </div>
 	</nav>
 </div>
 
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-178422206-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 <script>feather.replace()</script>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
 </body>
 </html>

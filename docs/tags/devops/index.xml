@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devops on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/devops/</link>
+    <description>Recent content in devops on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Sat, 01 Aug 2020 08:16:42 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps, il mistero dietro le sue skill</title>
+      <link>https://hardcode.blog/posts/devops/20200801-cosa-e-un-devops/</link>
+      <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/devops/20200801-cosa-e-un-devops/</guid>
+      <description>🚧 WORK IN PROGRESS 🚧
+Un devops è una figura che lavora all&amp;rsquo;intersezione tra il team di sviluppo software e il team di operations. In genere, un devops si occupa di automatizzare il processo di build, test e deploy del software, in modo da rendere più efficiente il processo di sviluppo e rendere più facile il roll-out di nuove funzionalità. Un devops lavora anche a stretto contatto con il team di sviluppo per garantire che il software sia progettato per essere facile da distribuire e gestire in produzione.</description>
+    </item>
+    
+  </channel>
+</rss>

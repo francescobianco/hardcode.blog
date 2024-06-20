@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ingegneria del software on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/ingegneria-del-software/</link>
+    <description>Recent content in ingegneria del software on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Thu, 20 Jun 2024 16:08:23 +0000</lastBuildDate><atom:link href="https://hardcode.blog/tags/ingegneria-del-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Il pericolo del gold plating: quando troppe funzionalità portano al fallimento</title>
+      <link>https://hardcode.blog/posts/20240620-gold-plating/</link>
+      <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20240620-gold-plating/</guid>
+      <description>Nel mondo della gestione dei progetti e dello sviluppo software, il termine &amp;ldquo;gold plating&amp;rdquo; si riferisce all&amp;rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un&amp;rsquo;ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po&amp;rsquo; di zucchero può migliorare il sapore, ma troppo può renderla imbevibile.</description>
+    </item>
+    
+    <item>
+      <title>Ingegneria del Software, la storia del portale InfoQ</title>
+      <link>https://hardcode.blog/posts/20240606-la-storia-di-infoq/</link>
+      <pubDate>Thu, 06 Jun 2024 17:02:03 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20240606-la-storia-di-infoq/</guid>
+      <description>Se sei un professionista dell&amp;rsquo;informatica o un appassionato di tecnologia, probabilmente hai già sentito parlare di InfoQ.com. Ma cosa rende questo portale così speciale? Scopri la sua storia, gli scoop più rilevanti che lo hanno portato alla ribalta e perché dovresti considerarlo un punto di riferimento per la cultura dell&amp;rsquo;ingegneria del software.
+La storia di InfoQ.com InfoQ è stato lanciato nel 2006 con l&amp;rsquo;obiettivo di fornire contenuti di alta qualità su sviluppo software, architettura, metodologia e tecnologie emergenti.</description>
+    </item>
+    
+  </channel>
+</rss>

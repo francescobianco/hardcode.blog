@@ -28,5 +28,15 @@ https://discussions.vtiger.com/search?Search=styleci
 https://discussions.vtiger.com/search?Search=docker</description>
     </item>
     
+    <item>
+      <title>Docker: Un ambiente ideale per il CRM vtiger</title>
+      <link>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</guid>
+      <description>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).
+Perché scegliere Docker per vtiger? Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
+    </item>
+    
   </channel>
 </rss>
