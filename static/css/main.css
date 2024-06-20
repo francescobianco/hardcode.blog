@@ -609,3 +609,19 @@ h1.term-title {
 #disqus_thread {
     margin-top: 25px;
 }
+
+@media (min-width: 600px) {
+    .markdown img[src*='#style='][src*='float:right'] {
+        float: right;
+        margin: 6px 0 20px 20px;
+    }
+
+    .markdown img[src*='#style='][src*='float:left'] {
+        float: left;
+        margin: 6px 16px 10px 0;
+    }
+}
+
+.markdown img[src*='#style='][src*='width:128px'] {
+    width: 128px;
+}

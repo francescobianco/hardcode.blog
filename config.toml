@@ -79,6 +79,11 @@ icon = "linkedin"
 url = "https://linkedin.com/in/yafb"
 
 [[params.social]]
+name = "YouTube"
+icon = "youtube"
+url = "https://www.youtube.com/@yafb/"
+
+[[params.social]]
 name = "RSS"
 icon = "rss"
 url = "/index.xml"
