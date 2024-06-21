@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>PHP: Potenza e responsabilità, l&#39;uso di `call_user_func_array` - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="PHP: Potenza e responsabilità, l&#39;uso di `call_user_func_array`">
+<meta itemprop="description" content="Nel vasto mondo di PHP, call_user_func_array è stata una delle funzioni più potenti e versatili a disposizione degli sviluppatori. Questa funzione permette di chiamare una funzione in modo dinamico, passando i parametri come array."><meta itemprop="datePublished" content="2024-06-21T12:17:31+02:00" />
+<meta itemprop="dateModified" content="2024-06-21T12:17:31+02:00" />
+<meta itemprop="wordCount" content="696">
+<meta itemprop="keywords" content="coding,didattica,php," /><meta property="og:title" content="PHP: Potenza e responsabilità, l&#39;uso di `call_user_func_array`" />
+<meta property="og:description" content="Nel vasto mondo di PHP, call_user_func_array è stata una delle funzioni più potenti e versatili a disposizione degli sviluppatori. Questa funzione permette di chiamare una funzione in modo dinamico, passando i parametri come array." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-06-21T12:17:31+02:00" />
+<meta property="article:modified_time" content="2024-06-21T12:17:31+02:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="PHP: Potenza e responsabilità, l&#39;uso di `call_user_func_array`"/>
+<meta name="twitter:description" content="Nel vasto mondo di PHP, call_user_func_array è stata una delle funzioni più potenti e versatili a disposizione degli sviluppatori. Questa funzione permette di chiamare una funzione in modo dinamico, passando i parametri come array."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+
+    <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="https://hardcode.blog/js/main.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://hardcode.blog/">
+				<img src="/images/logo.png" alt="HARDCODE.BLOG" class="hide-on-dark-mode" />
+                <img src="/images/logo.png@dark" alt="HARDCODE.BLOG" class="show-on-dark-mode" />
+			</a>
+		</div>
+	
+    <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
+	<div class="site-description font-fixedsys"><p>{☕} Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li><li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li><li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li><li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li></ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li class="font-fixedsys">
+				<a href="/">🏠 Home</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/docker">🐳 Docker</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/vtiger">🐯 Vtiger</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags">🏷️ Tags</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/about">👷 About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post posts-single">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">21</span>
+							<span class="rest">Jun 2024</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">PHP: Potenza e responsabilità, l&rsquo;uso di <code>call_user_func_array</code></h1>
+                    <div class="social">
+                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/php/20240621-chiamata-indiretta-di-una-funzione.md" target="_blank">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fhardcode.blog%2fposts%2fphp%2f20240621-chiamata-indiretta-di-una-funzione%2f" target="_blank">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fhardcode.blog%2fposts%2fphp%2f20240621-chiamata-indiretta-di-una-funzione%2f" target="_blank">
+                            <i data-feather="link-2"></i>
+                        </a>
+                    </div>
+				</div>
+			</div>
+
+			<div class="markdown">
+				<p>Nel vasto mondo di PHP, la funzione <code>call_user_func_array</code> è una delle più potenti e versatili a disposizione degli sviluppatori. Permette di chiamare una funzione in modo dinamico, passando i parametri come array. Questo articolo esplora come utilizzare questa funzione, presenta esempi pratici e analizza le implicazioni filosofiche dell&rsquo;uso di chiamate di funzione indiretta.</p>
+<h2 id="cosè-call_user_func_array">Cos&rsquo;è <code>call_user_func_array</code>?</h2>
+<p>La funzione <code>call_user_func_array</code> in PHP consente di chiamare una funzione specificata con un array di parametri. Questa capacità di chiamare funzioni dinamicamente è particolarmente utile quando i parametri sono determinati a runtime.</p>
+<p><strong>Sintassi:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="nx">mixed</span> <span class="nx">call_user_func_array</span><span class="p">(</span><span class="nx">callable</span> <span class="nv">$callback</span><span class="p">,</span> <span class="k">array</span> <span class="nv">$args</span><span class="p">)</span>
+</code></pre></div><ul>
+<li><code>$callback</code>: La funzione da chiamare.</li>
+<li><code>$args</code>: Un array di parametri da passare alla funzione.</li>
+</ul>
+<h2 id="esempi-pratici">Esempi pratici</h2>
+<h3 id="esempio-1-somma-di-numeri-variabili">Esempio 1: somma di numeri variabili</h3>
+<p>Supponiamo di avere una funzione che somma un numero variabile di argomenti.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">add</span><span class="p">(</span><span class="o">...</span><span class="nv">$numbers</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">array_sum</span><span class="p">(</span><span class="nv">$numbers</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nv">$args</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">];</span>
+<span class="nv">$result</span> <span class="o">=</span> <span class="nx">call_user_func_array</span><span class="p">(</span><span class="s1">&#39;add&#39;</span><span class="p">,</span> <span class="nv">$args</span><span class="p">);</span>
+<span class="k">echo</span> <span class="nv">$result</span><span class="p">;</span>  <span class="c1">// Output: 15
+</span></code></pre></div><p>In questo esempio, <code>call_user_func_array</code> chiama la funzione <code>add</code> passando l&rsquo;array <code>$args</code> come argomenti.</p>
+<h3 id="esempio-2-chiamata-di-metodi-di-classe">Esempio 2: chiamata di metodi di classe</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">class</span> <span class="nc">Calculator</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">multiply</span><span class="p">(</span><span class="nv">$a</span><span class="p">,</span> <span class="nv">$b</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nv">$a</span> <span class="o">*</span> <span class="nv">$b</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nv">$calculator</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Calculator</span><span class="p">();</span>
+<span class="nv">$args</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
+<span class="nv">$result</span> <span class="o">=</span> <span class="nx">call_user_func_array</span><span class="p">([</span><span class="nv">$calculator</span><span class="p">,</span> <span class="s1">&#39;multiply&#39;</span><span class="p">],</span> <span class="nv">$args</span><span class="p">);</span>
+<span class="k">echo</span> <span class="nv">$result</span><span class="p">;</span>  <span class="c1">// Output: 6
+</span></code></pre></div><p>Questo esempio mostra come <code>call_user_func_array</code> può essere utilizzata per chiamare metodi di una classe.</p>
+<h2 id="implicazioni-filosofiche-e-di-progettazione">Implicazioni filosofiche e di progettazione</h2>
+<h3 id="potenza-e-flessibilità">Potenza e flessibilità</h3>
+<p>L&rsquo;utilizzo di <code>call_user_func_array</code> conferisce grande flessibilità, permettendo di costruire applicazioni dinamiche dove le funzioni da chiamare e i relativi parametri possono essere determinati a runtime. Questo può essere particolarmente utile in scenari come:</p>
+<ul>
+<li><strong>Framework di Test</strong>: Dove le funzioni di test vengono chiamate dinamicamente.</li>
+<li><strong>Router di Applicazioni Web</strong>: Dove i controller e le azioni vengono determinate in base all&rsquo;URL.</li>
+<li><strong>Plugin e Hook Systems</strong>: Dove le funzioni registrate vengono chiamate con parametri variabili.</li>
+</ul>
+<h3 id="responsabilità-e-rischi">Responsabilità e rischi</h3>
+<p>Tuttavia, con grande potenza viene anche grande responsabilità. Un uso eccessivo di chiamate di funzione indirette può portare a:</p>
+<ul>
+<li><strong>Difficoltà di Debugging</strong>: Le chiamate dinamiche possono rendere il codice meno leggibile e più difficile da debuggare.</li>
+<li><strong>Problemi di Prestazioni</strong>: Anche se l&rsquo;impatto può essere minimo, le chiamate indirette introducono un piccolo overhead.</li>
+<li><strong>Rischi di Sicurezza</strong>: Se i nomi delle funzioni o i parametri sono controllati dall&rsquo;utente, c&rsquo;è il rischio di esporre vulnerabilità di sicurezza.</li>
+</ul>
+<h3 id="considerazioni-filosofiche">Considerazioni filosofiche</h3>
+<p>L&rsquo;uso di chiamate di funzione indiretta può essere visto come un passo verso un design più flessibile e modulare, ma deve essere bilanciato con la necessità di mantenere il codice comprensibile e sicuro. In filosofia della programmazione, l&rsquo;approccio deve sempre considerare il compromesso tra potenza e mantenibilità.</p>
+<h2 id="equivalenti-di-call_user_func_array-in-altri-linguaggi">Equivalenti di <code>call_user_func_array</code> in altri linguaggi</h2>
+<h3 id="equivalente-in-javascript">Equivalente in JavaScript</h3>
+<p>In JavaScript, per chiamare una funzione il cui nome è rappresentato come una stringa, puoi utilizzare il metodo <code>Function.prototype.apply()</code> o l&rsquo;oggetto globale <code>window</code> (nel contesto del browser) per accedere alla funzione tramite il suo nome come stringa.</p>
+<p><strong>Esempio con <code>apply</code>:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">const</span> <span class="nx">args</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
+<span class="kr">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">sum</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="nx">args</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span>  <span class="c1">// Output: 5
+</span></code></pre></div><p><strong>Esempio con nome della funzione come stringa:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">const</span> <span class="nx">functionName</span> <span class="o">=</span> <span class="s1">&#39;sum&#39;</span><span class="p">;</span>
+<span class="kr">const</span> <span class="nx">args</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
+<span class="kr">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nb">window</span><span class="p">[</span><span class="nx">functionName</span><span class="p">](...</span><span class="nx">args</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span>  <span class="c1">// Output: 5
+</span></code></pre></div><h3 id="equivalente-in-python">Equivalente in Python</h3>
+<p>In Python, puoi utilizzare il metodo <code>getattr</code> per ottenere una funzione da un oggetto o un modulo usando una stringa che rappresenta il nome della funzione.</p>
+<p><strong>Esempio:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">multiply</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+
+<span class="n">function_name</span> <span class="o">=</span> <span class="s1">&#39;multiply&#39;</span>
+<span class="n">args</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="n">result</span> <span class="o">=</span> <span class="nb">globals</span><span class="p">()[</span><span class="n">function_name</span><span class="p">](</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>  <span class="c1"># Output: 20</span>
+</code></pre></div><h2 id="riflessioni-finali">Riflessioni finali</h2>
+<p>La capacità di chiamare funzioni dinamicamente è una caratteristica comune a molti linguaggi di programmazione moderni. Mentre <code>call_user_func_array</code> in PHP offre un modo potente per gestire le chiamate di funzione dinamiche, le controparti in JavaScript e Python (rispettivamente <code>apply</code> e <code>getattr</code>) forniscono simili livelli di flessibilità e potenza.</p>
+<p>Tuttavia, come in PHP, l&rsquo;uso eccessivo o improprio di queste tecniche in JavaScript e Python può portare a codice difficile da mantenere e potenziali problemi di sicurezza. È importante usare questi strumenti con consapevolezza, bilanciando potenza e leggibilità del codice.</p>
+<p>In definitiva, che tu stia programmando in PHP, JavaScript, o Python, la chiave è sempre trovare il giusto equilibrio tra flessibilità e semplicità per creare applicazioni robuste e manutenibili.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/coding">coding</a></li>
+							
+							<li><a href="/tags/didattica">didattica</a></li>
+							
+							<li><a href="/tags/php">php</a></li>
+							
+						</ul>
+					
+				
+			</div><div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'hardcode-blog';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the </a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+        <div>
+            2024  © Francesco Bianco | 
+            Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
+            theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            <span class="hide-on-mobile">
+                | Visit the <a href="https://github.com/francescobianco/hardcode.blog" title="HARDCODE.BLOG" target="_blank">repo</a> |
+                Write a new <a href="https://github.com/francescobianco/hardcode.blog" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
+            </span>
+        </div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+</body>
+</html>

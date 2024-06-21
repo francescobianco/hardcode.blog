@@ -13,6 +13,7 @@
 <meta property="og:url" content="https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-01-01T12:10:00+02:00" />
 <meta property="article:modified_time" content="2020-01-01T12:10:00+02:00" />
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Docker: Un ambiente ideale per il CRM vtiger"/>
 <meta name="twitter:description" content="Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti, vediamo come applicarlo sul CRM vtiger"/>
@@ -23,6 +24,7 @@
     <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
 
     <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
 
@@ -127,14 +129,14 @@
 <li><a href="https://github.com/javanile/vtiger-dev">vtiger-dev</a>: Utilizzato per impostare l&rsquo;ambiente di sviluppo, offre script e configurazioni Docker per facilitare il processo di sviluppo.</li>
 <li><a href="https://github.com/javanile/vtiger-demo">vtiger-demo</a>: Un&rsquo;istanza dimostrativa di vtiger CRM, utile per vedere come l&rsquo;applicazione dovrebbe funzionare una volta configurata correttamente.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/javanile/vtiger.git
-</span></span><span style="display:flex;"><span>git clone https://github.com/javanile/vtiger-dev.git
-</span></span><span style="display:flex;"><span>git clone https://github.com/javanile/vtiger-demo.git
-</span></span></code></pre></div><h3 id="passo-2-configurare-lambiente-docker">Passo 2: Configurare l&rsquo;ambiente Docker</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git clone https://github.com/javanile/vtiger.git
+git clone https://github.com/javanile/vtiger-dev.git
+git clone https://github.com/javanile/vtiger-demo.git
+</code></pre></div><h3 id="passo-2-configurare-lambiente-docker">Passo 2: Configurare l&rsquo;ambiente Docker</h3>
 <p>Una volta clonati i repositori, naviga nella directory <code>vtiger-dev</code> e configura l&rsquo;ambiente Docker:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd vtiger-dev
-</span></span><span style="display:flex;"><span>docker-compose up -d
-</span></span></code></pre></div><p>Questo comando avvierà i container necessari per eseguire vtiger CRM in un ambiente Docker. <code>docker-compose</code> è uno strumento che permette di definire e gestire applicazioni multi-container.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> vtiger-dev
+docker-compose up -d
+</code></pre></div><p>Questo comando avvierà i container necessari per eseguire vtiger CRM in un ambiente Docker. <code>docker-compose</code> è uno strumento che permette di definire e gestire applicazioni multi-container.</p>
 <h3 id="passo-3-accedere-allapplicazione">Passo 3: Accedere all&rsquo;applicazione</h3>
 <p>Dopo che i container sono stati avviati, puoi accedere a vtiger CRM attraverso il tuo browser, utilizzando l&rsquo;indirizzo e la porta configurati (ad esempio, <code>http://localhost:8080</code>).</p>
 <h2 id="approfondisci-con-i-repositori-di-github">Approfondisci con i repositori di GitHub</h2>

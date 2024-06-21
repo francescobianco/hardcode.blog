@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Thu, 05 Mar 2020 10:51:18 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jun 2024 12:17:31 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHP: Potenza e responsabilità, l&#39;uso di `call_user_func_array`</title>
+      <link>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</link>
+      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</guid>
+      <description>Nel vasto mondo di PHP, la funzione call_user_func_array è una delle più potenti e versatili a disposizione degli sviluppatori. Permette di chiamare una funzione in modo dinamico, passando i parametri come array. Questo articolo esplora come utilizzare questa funzione, presenta esempi pratici e analizza le implicazioni filosofiche dell&amp;rsquo;uso di chiamate di funzione indiretta.
+Cos&amp;rsquo;è call_user_func_array? La funzione call_user_func_array in PHP consente di chiamare una funzione specificata con un array di parametri.</description>
+    </item>
+    
     <item>
       <title>Full-stack, esistono davvero? &amp;#x1f1ee;&amp;#x1f1f9;</title>
       <link>https://hardcode.blog/posts/20200305-fullstack/</link>
@@ -15,7 +25,7 @@
       
       <guid>https://hardcode.blog/posts/20200305-fullstack/</guid>
       <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?
-https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740 </description>
+ https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740  </description>
     </item>
     
     <item>
@@ -25,7 +35,7 @@ https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283
       
       <guid>https://hardcode.blog/posts/fun/20200305-the-lifter/</guid>
       <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?
-https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740 </description>
+ https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740  </description>
     </item>
     
     <item>

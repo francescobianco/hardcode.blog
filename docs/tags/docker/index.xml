@@ -25,8 +25,9 @@ Docker e GitLab CI: Una combinazione vincente GitLab CI è una piattaforma di Co
       
       <guid>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</guid>
       <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
-https://www.youtube.com/watch?v=XVJ5EkiqLkk
-&amp;ldquo;Quanto spreco di byte&amp;rdquo;</description>
+  https://www.youtube.com/watch?v=XVJ5EkiqLkk
+  &amp;ldquo;Quanto spreco di byte&amp;rdquo;
+  </description>
     </item>
     
     <item>
@@ -36,7 +37,7 @@ https://www.youtube.com/watch?v=XVJ5EkiqLkk
       
       <guid>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</guid>
       <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
-https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
+ https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
     </item>
     
     <item>
@@ -46,7 +47,7 @@ https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
       
       <guid>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</guid>
       <description>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).
-Perché scegliere Docker per vtiger? Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
+Perché scegliere Docker per vtiger?   Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
     </item>
     
   </channel>

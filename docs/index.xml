@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Thu, 20 Jun 2024 16:08:23 +0000</lastBuildDate><atom:link href="https://hardcode.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jun 2024 12:17:31 +0200</lastBuildDate><atom:link href="https://hardcode.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHP: Potenza e responsabilità, l&#39;uso di `call_user_func_array`</title>
+      <link>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</link>
+      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</guid>
+      <description>Nel vasto mondo di PHP, la funzione call_user_func_array è una delle più potenti e versatili a disposizione degli sviluppatori. Permette di chiamare una funzione in modo dinamico, passando i parametri come array. Questo articolo esplora come utilizzare questa funzione, presenta esempi pratici e analizza le implicazioni filosofiche dell&amp;rsquo;uso di chiamate di funzione indiretta.
+Cos&amp;rsquo;è call_user_func_array? La funzione call_user_func_array in PHP consente di chiamare una funzione specificata con un array di parametri.</description>
+    </item>
+    
     <item>
       <title>Il pericolo del gold plating: quando troppe funzionalità portano al fallimento</title>
       <link>https://hardcode.blog/posts/20240620-gold-plating/</link>
       <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
       
       <guid>https://hardcode.blog/posts/20240620-gold-plating/</guid>
-      <description>Nel mondo della gestione dei progetti e dello sviluppo software, il termine &amp;ldquo;gold plating&amp;rdquo; si riferisce all&amp;rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un&amp;rsquo;ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po&amp;rsquo; di zucchero può migliorare il sapore, ma troppo può renderla imbevibile.</description>
+      <description>Nel mondo della gestione dei progetti e dello sviluppo software, il termine &amp;ldquo;gold plating&amp;rdquo; si riferisce all&amp;rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un&amp;rsquo;ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po&#39; di zucchero può migliorare il sapore, ma troppo può renderla imbevibile.</description>
     </item>
     
     <item>
@@ -24,7 +34,7 @@
       
       <guid>https://hardcode.blog/posts/20240613-riflessione-sul-futuro-del-software/</guid>
       <description>Attenzione: Le riflessioni che seguono sono tratte dal lavoro di Chris Paik
-Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione.
+ Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione.
 La rivoluzione dei media Prima dell&amp;rsquo;avvento di Internet, il settore dei media era molto diverso. Creare contenuti era un&amp;rsquo;impresa costosa: si doveva pagare persone per produrre, modificare e distribuire materiale.</description>
     </item>
     
@@ -45,7 +55,7 @@ La storia di InfoQ.com InfoQ è stato lanciato nel 2006 con l&amp;rsquo;obiettiv
       
       <guid>https://hardcode.blog/posts/20240201-il-perfetto-setup-ubuntu/</guid>
       <description>Oggi voglio condividere con voi un traguardo speciale: sono ormai un utente Ubuntu da 10 anni! In questo decennio, ho esplorato e sperimentato con innumerevoli configurazioni e strumenti per ottimizzare la mia esperienza con questo fantastico sistema operativo. Oggi voglio svelare alcune delle mie fonti preferite per trovare le migliori configurazioni e darvi qualche consiglio utile per un&amp;rsquo;esperienza Ubuntu senza intoppi.
-I migliori consigli per il setup di Ubuntu Flameshot - Flameshot è uno strumento di cattura dello schermo potente e personalizzabile che ha semplificato enormemente il mio lavoro quotidiano.</description>
+I migliori consigli per il setup di Ubuntu  Flameshot - Flameshot è uno strumento di cattura dello schermo potente e personalizzabile che ha semplificato enormemente il mio lavoro quotidiano.</description>
     </item>
     
     <item>
@@ -55,8 +65,8 @@ I migliori consigli per il setup di Ubuntu Flameshot - Flameshot è uno strument
       
       <guid>https://hardcode.blog/posts/motivazione/20220908-il-primo-passo/</guid>
       <description>🚧 WORK IN PROGRESS 🚧
-Motivazione - Il promo passo Dopo una bellissima chiacchierata con un coach professionista, mi è stato chiesto di stilare una lista di 10 argomenti che potrei approfondire per migliorare me stesso. Ho colto l&amp;rsquo;occasione e ho raccolto 10 video del dottor Filippo Ongaro da ascoltare fino allo sfinimento:
-Come adottare delle buone abitudini per affrontare un cambiamento - https://www.youtube.com/watch?v=JsV5EwC1Fec Impara a chiedere aiuto e vai oltre il tuo orgoglio personale - https://www.</description>
+ Motivazione - Il promo passo Dopo una bellissima chiacchierata con un coach professionista, mi è stato chiesto di stilare una lista di 10 argomenti che potrei approfondire per migliorare me stesso. Ho colto l&amp;rsquo;occasione e ho raccolto 10 video del dottor Filippo Ongaro da ascoltare fino allo sfinimento:
+ Come adottare delle buone abitudini per affrontare un cambiamento - https://www.youtube.com/watch?v=JsV5EwC1Fec Impara a chiedere aiuto e vai oltre il tuo orgoglio personale - https://www.</description>
     </item>
     
     <item>
@@ -66,8 +76,8 @@ Come adottare delle buone abitudini per affrontare un cambiamento - https://www.
       
       <guid>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</guid>
       <description>🚧 WORK IN PROGRESS 🚧
-La mia ipotesi si basa sul fatto che l&amp;rsquo;approccio abbrebiato espone il codice a dimostrare l&amp;rsquo;esistenza di una variabile con quel nome
-Quindi se esiste l&amp;rsquo;attributo &amp;rsquo;name&amp;rsquo; in un oggetto potrebbe esistere una variable nel sorgente con lo stesso nome &amp;rsquo;name&#39;
+ La mia ipotesi si basa sul fatto che l&amp;rsquo;approccio abbrebiato espone il codice a dimostrare l&amp;rsquo;esistenza di una variabile con quel nome
+Quindi se esiste l&amp;rsquo;attributo &amp;lsquo;name&amp;rsquo; in un oggetto potrebbe esistere una variable nel sorgente con lo stesso nome &amp;lsquo;name&amp;rsquo;
 https://twitter.com/francescobianco/status/1317772038845681664
 https://jsfiddle.net/francescobianco/4sue8ym9/27/</description>
     </item>
@@ -78,7 +88,7 @@ https://jsfiddle.net/francescobianco/4sue8ym9/27/</description>
       <pubDate>Tue, 20 Jul 2021 12:10:00 +0200</pubDate>
       
       <guid>https://hardcode.blog/posts/20210720-letture-efficaci/</guid>
-      <description>Letture Efficaci 2021 L&amp;rsquo;arte della pazienza - Raffaele Gaito (Letto il 17/07/2021) </description>
+      <description>Letture Efficaci 2021  L&amp;rsquo;arte della pazienza - Raffaele Gaito (Letto il 17/07/2021)  </description>
     </item>
     
     <item>
@@ -88,7 +98,7 @@ https://jsfiddle.net/francescobianco/4sue8ym9/27/</description>
       
       <guid>https://hardcode.blog/posts/20200928-agile-is-dead/</guid>
       <description>Intro The premise is perhaps too dramatic and maybe a little click-catcher, but I think there is juice. Today when we talk about Agile everyone wants to have their say, everyone wants to apply their method with their thousand variations derived from their own experience. This leads me to ask myself some fundamental questions:
-What I miss Can a methodology determine success or failure, or only responsible for wasted resources? Why the fundamental concepts of Agile are not patterns that can be incorporated into any other methodology?</description>
+What I miss  Can a methodology determine success or failure, or only responsible for wasted resources?</description>
     </item>
     
     <item>
@@ -156,7 +166,7 @@ Chi è il CRM Developer? Il CRM Developer è uno sviluppatore software specializ
       
       <guid>https://hardcode.blog/posts/devops/20200801-cosa-e-un-devops/</guid>
       <description>🚧 WORK IN PROGRESS 🚧
-Un devops è una figura che lavora all&amp;rsquo;intersezione tra il team di sviluppo software e il team di operations. In genere, un devops si occupa di automatizzare il processo di build, test e deploy del software, in modo da rendere più efficiente il processo di sviluppo e rendere più facile il roll-out di nuove funzionalità. Un devops lavora anche a stretto contatto con il team di sviluppo per garantire che il software sia progettato per essere facile da distribuire e gestire in produzione.</description>
+ Un devops è una figura che lavora all&amp;rsquo;intersezione tra il team di sviluppo software e il team di operations. In genere, un devops si occupa di automatizzare il processo di build, test e deploy del software, in modo da rendere più efficiente il processo di sviluppo e rendere più facile il roll-out di nuove funzionalità. Un devops lavora anche a stretto contatto con il team di sviluppo per garantire che il software sia progettato per essere facile da distribuire e gestire in produzione.</description>
     </item>
     
     <item>
@@ -238,7 +248,7 @@ Un devops è una figura che lavora all&amp;rsquo;intersezione tra il team di svi
       
       <guid>https://hardcode.blog/posts/20200305-fullstack/</guid>
       <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?
-https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740 </description>
+ https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740  </description>
     </item>
     
     <item>
@@ -248,7 +258,7 @@ https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283
       
       <guid>https://hardcode.blog/posts/fun/20200305-the-lifter/</guid>
       <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?
-https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740 </description>
+ https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740  </description>
     </item>
     
     <item>
@@ -296,8 +306,9 @@ Docker e GitLab CI: Una combinazione vincente GitLab CI è una piattaforma di Co
       
       <guid>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</guid>
       <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
-https://www.youtube.com/watch?v=XVJ5EkiqLkk
-&amp;ldquo;Quanto spreco di byte&amp;rdquo;</description>
+  https://www.youtube.com/watch?v=XVJ5EkiqLkk
+  &amp;ldquo;Quanto spreco di byte&amp;rdquo;
+  </description>
     </item>
     
     <item>
@@ -307,7 +318,7 @@ https://www.youtube.com/watch?v=XVJ5EkiqLkk
       
       <guid>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</guid>
       <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
-https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
+ https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
     </item>
     
     <item>
@@ -317,7 +328,7 @@ https://www.youtube.com/watch?v=XVJ5EkiqLkk </description>
       
       <guid>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</guid>
       <description>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).
-Perché scegliere Docker per vtiger? Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
+Perché scegliere Docker per vtiger?   Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
     </item>
     
     <item>
@@ -328,7 +339,7 @@ Perché scegliere Docker per vtiger? Ambienti consistenti: Docker permette di cr
       <guid>https://hardcode.blog/posts/19700101-my-first-post/</guid>
       <description>As first post, I want to move your focus to one the most important technological constant of our era. I&amp;rsquo;m talking about the first second of the Unix time, and the word joke inside.
 Ream more:
-https://en.wikipedia.org/wiki/Unix_time </description>
+ https://en.wikipedia.org/wiki/Unix_time  </description>
     </item>
     
     <item>

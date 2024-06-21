@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Thu, 20 Jun 2024 16:08:23 +0000</lastBuildDate><atom:link href="https://hardcode.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jun 2024 12:17:31 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coding</title>
+      <link>https://hardcode.blog/tags/coding/</link>
+      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/tags/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>didattica</title>
+      <link>https://hardcode.blog/tags/didattica/</link>
+      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/tags/didattica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://hardcode.blog/tags/php/</link>
+      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
+      
+      <guid>https://hardcode.blog/tags/php/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>agile</title>
       <link>https://hardcode.blog/tags/agile/</link>
@@ -180,15 +207,6 @@
     </item>
     
     <item>
-      <title>didattica</title>
-      <link>https://hardcode.blog/tags/didattica/</link>
-      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/didattica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>università</title>
       <link>https://hardcode.blog/tags/universit%C3%A0/</link>
       <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
@@ -234,15 +252,6 @@
     </item>
     
     <item>
-      <title>php</title>
-      <link>https://hardcode.blog/tags/php/</link>
-      <pubDate>Sun, 21 Jun 2020 12:58:30 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>medicina</title>
       <link>https://hardcode.blog/tags/medicina/</link>
       <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
@@ -266,15 +275,6 @@
       <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
       
       <guid>https://hardcode.blog/tags/italiano/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>coding</title>
-      <link>https://hardcode.blog/tags/coding/</link>
-      <pubDate>Thu, 05 Mar 2020 10:51:18 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/coding/</guid>
       <description></description>
     </item>
     
