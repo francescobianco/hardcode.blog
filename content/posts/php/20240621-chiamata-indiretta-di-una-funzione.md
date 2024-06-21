@@ -1,6 +1,6 @@
 ---
 title: "Potenza e responsabilità, l'uso di `call_user_func_array` in php"
-description: "Nel vasto mondo di PHP, call_user_func_array è stata una delle funzioni più potenti e versatili a disposizione degli sviluppatori. Questa funzione permette di chiamare una funzione in modo dinamico, passando i parametri come array."
+description: "Nel vasto mondo di PHP, `call_user_func_array` è stata una delle funzioni più potenti e versatili a disposizione degli sviluppatori. Questa funzione permette di chiamare una funzione in modo dinamico, passando i parametri come array."
 date: 2024-06-21T12:17:31+02:00
 tags: [coding, didattica, php]
 authors: ["Francesco Bianco"]

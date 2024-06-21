@@ -35,7 +35,7 @@
 								</h4>
 								<span class="description">
 									{{ if isset .Params "description" }}
-										{{ .Description }}
+										{{ .Description | markdownify }}
 									{{ else if gt (len .RawContent) 120 }}
 										{{ slicestr .RawContent 0 120 }}...
 									{{ else }}

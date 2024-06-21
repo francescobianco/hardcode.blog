@@ -19,7 +19,7 @@ Cos&amp;rsquo;è call_user_func_array? La funzione call_user_func_array in PHP c
     </item>
     
     <item>
-      <title>Il pericolo del gold plating: quando troppe funzionalità portano al fallimento</title>
+      <title>Il pericolo del **gold plating**: quando troppe funzionalità portano al fallimento</title>
       <link>https://hardcode.blog/posts/20240620-gold-plating/</link>
       <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
       
