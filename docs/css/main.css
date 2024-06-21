@@ -204,12 +204,13 @@ ul li::marker {
 
 .markdown h2::before,
 .markdown h3::before {
-    width: 22px;
-    margin-left: -22px;
+    width: 28px;
+    margin-left: -28px;
     font-weight: normal;
     font-family: fixedsys;
     content: '#';
     display: inline-block;
+    text-align: center;
 }
 
 .post ul li {
@@ -231,15 +232,15 @@ code, kbd, pre, samp {
 .highlight pre {
     margin-bottom: 0;
     margin-top: 0;
-    padding: 8px 16px;
     /*background-color: transparent !important;*/
-    font-size: 16px;
-    line-height: 24px;
 }
 
 .highlight {
-    background: 0 0;
-    background-color: #FAFAFA;
+    background-color: #272822;
+    padding: 8px 16px 10px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
 }
 
 .wrapper {
@@ -632,3 +633,39 @@ h1.term-title {
 .markdown img[src*='#style='][src*='width:128px'] {
     width: 128px;
 }
+
+.copy-code-button {
+    color: #000000;
+    background-color: #555555;
+    border: 2px solid #000000;
+    display: block;
+    padding: 3px 8px;
+    font-size: 14px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    font-family: fixedsys, monospace, Monospaced
+}
+
+.copy-code-button:hover {
+    cursor: pointer;
+    background-color: #AAAAAA;
+}
+
+.copy-code-button:focus {
+    /* Avoid an ugly focus outline on click in Chrome,
+       but darken the button for accessibility.
+       See https://stackoverflow.com/a/25298082/1481479 */
+    background-color: #999999;
+    outline: 0;
+}
+
+.copy-code-button:active {
+    background-color: #999999;
+}
+
+.highlight pre {
+    /* Avoid pushing up the copy buttons. */
+    margin: 0;
+}
+

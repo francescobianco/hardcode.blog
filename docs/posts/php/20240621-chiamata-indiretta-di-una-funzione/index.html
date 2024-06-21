@@ -6,7 +6,7 @@
 	<meta itemprop="name" content="PHP: Potenza e responsabilità, l&#39;uso di `call_user_func_array`">
 <meta itemprop="description" content="Nel vasto mondo di PHP, call_user_func_array è stata una delle funzioni più potenti e versatili a disposizione degli sviluppatori. Questa funzione permette di chiamare una funzione in modo dinamico, passando i parametri come array."><meta itemprop="datePublished" content="2024-06-21T12:17:31+02:00" />
 <meta itemprop="dateModified" content="2024-06-21T12:17:31+02:00" />
-<meta itemprop="wordCount" content="696">
+<meta itemprop="wordCount" content="736">
 <meta itemprop="keywords" content="coding,didattica,php," /><meta property="og:title" content="PHP: Potenza e responsabilità, l&#39;uso di `call_user_func_array`" />
 <meta property="og:description" content="Nel vasto mondo di PHP, call_user_func_array è stata una delle funzioni più potenti e versatili a disposizione degli sviluppatori. Questa funzione permette di chiamare una funzione in modo dinamico, passando i parametri come array." />
 <meta property="og:type" content="article" />
@@ -109,24 +109,58 @@
 <h2 id="cosè-call_user_func_array">Cos&rsquo;è <code>call_user_func_array</code>?</h2>
 <p>La funzione <code>call_user_func_array</code> in PHP consente di chiamare una funzione specificata con un array di parametri. Questa capacità di chiamare funzioni dinamicamente è particolarmente utile quando i parametri sono determinati a runtime.</p>
 <p><strong>Sintassi:</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="nx">mixed</span> <span class="nx">call_user_func_array</span><span class="p">(</span><span class="nx">callable</span> <span class="nv">$callback</span><span class="p">,</span> <span class="k">array</span> <span class="nv">$args</span><span class="p">)</span>
-</code></pre></div><ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="nx">mixed</span> <span class="nx">call_user_func_array</span><span class="p">(</span><span class="nx">callable</span> <span class="nv">$callback</span><span class="p">,</span> <span class="k">array</span> <span class="nv">$args</span><span class="p">)</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
 <li><code>$callback</code>: La funzione da chiamare.</li>
 <li><code>$args</code>: Un array di parametri da passare alla funzione.</li>
 </ul>
 <h2 id="esempi-pratici">Esempi pratici</h2>
 <h3 id="esempio-1-somma-di-numeri-variabili">Esempio 1: somma di numeri variabili</h3>
 <p>Supponiamo di avere una funzione che somma un numero variabile di argomenti.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">add</span><span class="p">(</span><span class="o">...</span><span class="nv">$numbers</span><span class="p">)</span> <span class="p">{</span>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">add</span><span class="p">(</span><span class="o">...</span><span class="nv">$numbers</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">return</span> <span class="nx">array_sum</span><span class="p">(</span><span class="nv">$numbers</span><span class="p">);</span>
 <span class="p">}</span>
 
 <span class="nv">$args</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">];</span>
 <span class="nv">$result</span> <span class="o">=</span> <span class="nx">call_user_func_array</span><span class="p">(</span><span class="s1">&#39;add&#39;</span><span class="p">,</span> <span class="nv">$args</span><span class="p">);</span>
 <span class="k">echo</span> <span class="nv">$result</span><span class="p">;</span>  <span class="c1">// Output: 15
-</span></code></pre></div><p>In questo esempio, <code>call_user_func_array</code> chiama la funzione <code>add</code> passando l&rsquo;array <code>$args</code> come argomenti.</p>
+</span></code></pre></td></tr></table>
+</div>
+</div><p>In questo esempio, <code>call_user_func_array</code> chiama la funzione <code>add</code> passando l&rsquo;array <code>$args</code> come argomenti.</p>
 <h3 id="esempio-2-chiamata-di-metodi-di-classe">Esempio 2: chiamata di metodi di classe</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">class</span> <span class="nc">Calculator</span> <span class="p">{</span>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">class</span> <span class="nc">Calculator</span> <span class="p">{</span>
     <span class="k">public</span> <span class="k">function</span> <span class="nf">multiply</span><span class="p">(</span><span class="nv">$a</span><span class="p">,</span> <span class="nv">$b</span><span class="p">)</span> <span class="p">{</span>
         <span class="k">return</span> <span class="nv">$a</span> <span class="o">*</span> <span class="nv">$b</span><span class="p">;</span>
     <span class="p">}</span>
@@ -136,7 +170,9 @@
 <span class="nv">$args</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
 <span class="nv">$result</span> <span class="o">=</span> <span class="nx">call_user_func_array</span><span class="p">([</span><span class="nv">$calculator</span><span class="p">,</span> <span class="s1">&#39;multiply&#39;</span><span class="p">],</span> <span class="nv">$args</span><span class="p">);</span>
 <span class="k">echo</span> <span class="nv">$result</span><span class="p">;</span>  <span class="c1">// Output: 6
-</span></code></pre></div><p>Questo esempio mostra come <code>call_user_func_array</code> può essere utilizzata per chiamare metodi di una classe.</p>
+</span></code></pre></td></tr></table>
+</div>
+</div><p>Questo esempio mostra come <code>call_user_func_array</code> può essere utilizzata per chiamare metodi di una classe.</p>
 <h2 id="implicazioni-filosofiche-e-di-progettazione">Implicazioni filosofiche e di progettazione</h2>
 <h3 id="potenza-e-flessibilità">Potenza e flessibilità</h3>
 <p>L&rsquo;utilizzo di <code>call_user_func_array</code> conferisce grande flessibilità, permettendo di costruire applicazioni dinamiche dove le funzioni da chiamare e i relativi parametri possono essere determinati a runtime. Questo può essere particolarmente utile in scenari come:</p>
@@ -158,15 +194,40 @@
 <h3 id="equivalente-in-javascript">Equivalente in JavaScript</h3>
 <p>In JavaScript, per chiamare una funzione il cui nome è rappresentato come una stringa, puoi utilizzare il metodo <code>Function.prototype.apply()</code> o l&rsquo;oggetto globale <code>window</code> (nel contesto del browser) per accedere alla funzione tramite il suo nome come stringa.</p>
 <p><strong>Esempio con <code>apply</code>:</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">return</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="kr">const</span> <span class="nx">args</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
 <span class="kr">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">sum</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="nx">args</span><span class="p">);</span>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span>  <span class="c1">// Output: 5
-</span></code></pre></div><p><strong>Esempio con nome della funzione come stringa:</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+</span></code></pre></td></tr></table>
+</div>
+</div><p><strong>Esempio con nome della funzione come stringa:</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">return</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
 <span class="p">}</span>
 
@@ -174,17 +235,32 @@
 <span class="kr">const</span> <span class="nx">args</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
 <span class="kr">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nb">window</span><span class="p">[</span><span class="nx">functionName</span><span class="p">](...</span><span class="nx">args</span><span class="p">);</span>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span>  <span class="c1">// Output: 5
-</span></code></pre></div><h3 id="equivalente-in-python">Equivalente in Python</h3>
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id="equivalente-in-python">Equivalente in Python</h3>
 <p>In Python, puoi utilizzare il metodo <code>getattr</code> per ottenere una funzione da un oggetto o un modulo usando una stringa che rappresenta il nome della funzione.</p>
 <p><strong>Esempio:</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">multiply</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">multiply</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
 
 <span class="n">function_name</span> <span class="o">=</span> <span class="s1">&#39;multiply&#39;</span>
 <span class="n">args</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
 <span class="n">result</span> <span class="o">=</span> <span class="nb">globals</span><span class="p">()[</span><span class="n">function_name</span><span class="p">](</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>  <span class="c1"># Output: 20</span>
-</code></pre></div><h2 id="riflessioni-finali">Riflessioni finali</h2>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="riflessioni-finali">Riflessioni finali</h2>
 <p>La capacità di chiamare funzioni dinamicamente è una caratteristica comune a molti linguaggi di programmazione moderni. Mentre <code>call_user_func_array</code> in PHP offre un modo potente per gestire le chiamate di funzione dinamiche, le controparti in JavaScript e Python (rispettivamente <code>apply</code> e <code>getattr</code>) forniscono simili livelli di flessibilità e potenza.</p>
 <p>Tuttavia, come in PHP, l&rsquo;uso eccessivo o improprio di queste tecniche in JavaScript e Python può portare a codice difficile da mantenere e potenziali problemi di sicurezza. È importante usare questi strumenti con consapevolezza, bilanciando potenza e leggibilità del codice.</p>
 <p>In definitiva, che tu stia programmando in PHP, JavaScript, o Python, la chiave è sempre trovare il giusto equilibrio tra flessibilità e semplicità per creare applicazioni robuste e manutenibili.</p>
