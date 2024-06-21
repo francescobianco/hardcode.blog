@@ -79,12 +79,13 @@ function addCopyButtons(clipboard) {
                 /* Chrome doesn't seem to blur automatically,
                    leaving the button in a focused state. */
                 button.blur();
-
+                button.classList.add('copied');
                 button.innerText = 'Copied!';
 
                 setTimeout(function () {
                     button.innerText = 'Copy';
-                }, 2000);
+                    button.classList.remove('copied');
+                }, 1500);
             }, function (error) {
                 button.innerText = 'Error';
             });
