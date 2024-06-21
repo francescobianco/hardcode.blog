@@ -241,6 +241,7 @@ code, kbd, pre, samp {
     font-size: 16px;
     line-height: 24px;
     position: relative;
+    margin-bottom: 2px;
 }
 
 .wrapper {
@@ -449,7 +450,7 @@ h1.page-title ,
 }
 
 .post .title.small {
-    margin: 0 0 10px 0;
+    margin: -4px 0 10px 0;
 }
 .post .post-header {
     margin-bottom: 30px;
@@ -495,7 +496,7 @@ h1.term-title {
 
 .list .posts .post-header .meta {
     margin-bottom: 0;
-    margin-left: 5px;
+    /*margin-left: 5px;*/
 }
 
 .footer {
@@ -634,7 +635,7 @@ h1.term-title {
     width: 128px;
 }
 
-.copy-code-button {
+.code-button {
     color: #000000;
     background-color: #555555;
     border: 2px solid #000000;
@@ -647,21 +648,21 @@ h1.term-title {
     font-family: fixedsys, monospace, Monospaced
 }
 
-.copy-code-button:hover {
+.code-button:hover {
     cursor: pointer;
     background-color: #AAAAAA;
 }
 
-.copy-code-button:focus {
+.code-button:focus {
     background-color: #AAAAAA;
     outline: 0;
 }
 
-.copy-code-button:active {
+.code-button:active {
     background-color: #AAAAAA;
 }
 
-.copy-code-button.copied {
+.code-button.copied {
     background-color: #AAAAAA;
 }
 

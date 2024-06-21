@@ -69,8 +69,8 @@ function addCopyButtons(clipboard) {
     console.log('addCopyButtons');
     document.querySelectorAll('.highlight').forEach(function (codeBlock) {
         console.log('codeBlock', codeBlock);
-        var button = document.createElement('button');
-        button.className = 'copy-code-button';
+        const button = document.createElement('button');
+        button.className = 'code-button';
         button.type = 'button';
         button.innerText = 'Copy';
 
@@ -78,7 +78,8 @@ function addCopyButtons(clipboard) {
             const cloneBlock = codeBlock.cloneNode(true);
             cloneBlock.querySelectorAll('.ln').forEach(element => element.remove());
             cloneBlock.querySelectorAll('.lnt').forEach(element => element.remove());
-            clipboard.writeText(cloneBlock.innerText).then(function () {
+            cloneBlock.querySelectorAll('.code-button').forEach(element => element.remove());
+            clipboard.writeText(cloneBlock.innerText.trim()).then(function () {
                 button.blur();
                 button.classList.add('copied');
                 button.innerText = 'Copied!';
