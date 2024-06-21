@@ -91,6 +91,7 @@ icon = "rss"
 url = "/index.xml"
 
 [taxonomies]
+author = "authors"
 tag = "tags"
 
 [markup.highlight]

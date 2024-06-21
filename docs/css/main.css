@@ -482,6 +482,11 @@ h1.page-title ,
     font-family: fixedsys;
 }
 
+.post .authors {
+    font-style: italic;
+    font-size: 14px;
+}
+
 h1.term-title {
     font-size: 14px;
     margin-bottom: 30px;

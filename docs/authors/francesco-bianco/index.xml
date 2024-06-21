@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Francesco Bianco on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/authors/francesco-bianco/</link>
+    <description>Recent content in Francesco Bianco on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Thu, 20 Jun 2024 16:08:23 +0000</lastBuildDate><atom:link href="https://hardcode.blog/authors/francesco-bianco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Il pericolo del gold plating: quando troppe funzionalità portano al fallimento</title>
+      <link>https://hardcode.blog/posts/20240620-gold-plating/</link>
+      <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
+      
+      <guid>https://hardcode.blog/posts/20240620-gold-plating/</guid>
+      <description>Nel mondo della gestione dei progetti e dello sviluppo software, il termine &amp;ldquo;gold plating&amp;rdquo; si riferisce all&amp;rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un&amp;rsquo;ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po&#39; di zucchero può migliorare il sapore, ma troppo può renderla imbevibile.</description>
+    </item>
+    
+  </channel>
+</rss>

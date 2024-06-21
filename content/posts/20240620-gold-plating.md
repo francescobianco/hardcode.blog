@@ -3,6 +3,7 @@ title: "Il pericolo del gold plating: quando troppe funzionalità portano al fal
 description: "Nel mondo della gestione dei progetti e dello sviluppo software, il termine gold plating si riferisce all'aggiunta di funzionalità o caratteristiche non richieste ai prodotti."
 date: 2024-06-20T16:08:23.077Z
 tags: ["ingegneria del software", "agile"]
+authors: ["Francesco Bianco", "Alice Rossi"]
 ---
 
 Nel mondo della gestione dei progetti e dello sviluppo software, il termine "gold plating" si riferisce all'aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un'ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po' di zucchero può migliorare il sapore, ma troppo può renderla imbevibile. Allo stesso modo, il gold plating può trasformare un progetto ben intenzionato in un disastro. Ecco alcuni esempi di casi reali in cui il gold plating ha causato fallimenti o grandi scossoni.
