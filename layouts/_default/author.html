@@ -1,6 +1,8 @@
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url={{ index $.Site.Data.authors $.Page.Title }}">
+    {{ if hasPrefix (index $.Site.Data.authors $.Page.Title) "https://" }}
+        <meta http-equiv="refresh" content="0; url={{ index $.Site.Data.authors $.Page.Title }}">
+    {{ end }}
 </head>
 <body>Redirect to external link...</body>
 </html>
