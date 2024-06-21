@@ -50,7 +50,8 @@ function writeNewPost(element) {
 title: "New post!"
 description: "A bit of post."
 date: ${postDate}
-tags: [tag1, tag2]
+tags: ["tag1", "tag2"]
+authors: ["Francesco Bianco"]
 ---
 
 That's the post...
