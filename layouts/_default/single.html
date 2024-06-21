@@ -40,7 +40,7 @@
 					{{ if gt .Params.tags 0 }}
 						<ul class="flat">
 							{{ range .Params.tags }}
-							    <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+							    <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a></li>
 							{{ end }}
 						</ul>
 					{{ end }}
@@ -52,7 +52,7 @@
                     {{ if gt .Params.authors 0 }}
                         Written by:
                         {{ range $index, $author := .Params.authors }}
-                            <a href="{{ "/authors/" | relLangURL }}{{ $author | urlize }}" target="_blank">{{ $author }}</a>{{ if lt (add $index 1) $.Params.authors }}, {{ end }}
+                            <a href="{{ "/authors/" | relLangURL }}{{ $author | urlize }}/" target="_blank">{{ $author }}</a>{{ if lt (add $index 1) $.Params.authors }}, {{ end }}
                         {{ end }}
                     {{ end }}
                 {{ end }}
