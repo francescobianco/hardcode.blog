@@ -6,7 +6,7 @@
 	<meta itemprop="name" content="Docker: Il cuore di GitLab CI">
 <meta itemprop="description" content="Docker ormai è dappertutto, vi racconto come la CI di GitLab sia una piattaforma che non ne può più fare a meno"><meta itemprop="datePublished" content="2020-01-01T12:10:00+02:00" />
 <meta itemprop="dateModified" content="2020-01-01T12:10:00+02:00" />
-<meta itemprop="wordCount" content="530">
+<meta itemprop="wordCount" content="511">
 <meta itemprop="keywords" content="docker,cicd,gitlab," /><meta property="og:title" content="Docker: Il cuore di GitLab CI" />
 <meta property="og:description" content="Docker ormai è dappertutto, vi racconto come la CI di GitLab sia una piattaforma che non ne può più fare a meno" />
 <meta property="og:type" content="article" />
@@ -115,49 +115,25 @@
 <p>Docker permette di scalare le pipeline CI con facilità. Ogni job in una pipeline GitLab CI può essere eseguito in un container Docker separato, consentendo di parallelizzare i task e ridurre i tempi di esecuzione complessivi. Questo approccio non solo migliora l&rsquo;efficienza, ma consente anche di gestire carichi di lavoro molto più grandi senza intoppi.</p>
 <h2 id="come-configurare-gitlab-ci-con-docker">Come configurare GitLab CI con Docker</h2>
 <p>Configurare GitLab CI per utilizzare Docker è relativamente semplice. Tutto inizia con la creazione di un file <code>.gitlab-ci.yml</code> nel repository del progetto. Ecco un esempio di configurazione base:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">docker:latest</span><span class="w">
-</span><span class="w">
-</span><span class="w"></span><span class="nt">services</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span>- <span class="l">docker:dind</span><span class="w">
-</span><span class="w">
-</span><span class="w"></span><span class="nt">stages</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span>- <span class="l">build</span><span class="w">
-</span><span class="w">  </span>- <span class="l">test</span><span class="w">
-</span><span class="w">
-</span><span class="w"></span><span class="nt">build</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">stage</span><span class="p">:</span><span class="w"> </span><span class="l">build</span><span class="w">
-</span><span class="w">  </span><span class="nt">script</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span>- <span class="l">docker build -t my-app .</span><span class="w">
-</span><span class="w">
-</span><span class="w"></span><span class="nt">test</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">stage</span><span class="p">:</span><span class="w"> </span><span class="l">test</span><span class="w">
-</span><span class="w">  </span><span class="nt">script</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span>- <span class="l">docker run my-app npm test</span><span class="w">
-</span></code></pre></td></tr></table>
-</div>
-</div><p>In questo esempio, utilizziamo l&rsquo;immagine Docker ufficiale e il servizio <code>docker:dind</code> (Docker-in-Docker) per eseguire i comandi Docker all&rsquo;interno delle pipeline. Dividiamo la pipeline in due stage: <code>build</code> e <code>test</code>, ciascuno con il proprio set di comandi da eseguire.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="ln"> 1</span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">docker:latest</span><span class="w">
+</span><span class="ln"> 2</span><span class="w">
+</span><span class="ln"> 3</span><span class="w"></span><span class="nt">services</span><span class="p">:</span><span class="w">
+</span><span class="ln"> 4</span><span class="w">  </span>- <span class="l">docker:dind</span><span class="w">
+</span><span class="ln"> 5</span><span class="w">
+</span><span class="ln"> 6</span><span class="w"></span><span class="nt">stages</span><span class="p">:</span><span class="w">
+</span><span class="ln"> 7</span><span class="w">  </span>- <span class="l">build</span><span class="w">
+</span><span class="ln"> 8</span><span class="w">  </span>- <span class="l">test</span><span class="w">
+</span><span class="ln"> 9</span><span class="w">
+</span><span class="ln">10</span><span class="w"></span><span class="nt">build</span><span class="p">:</span><span class="w">
+</span><span class="ln">11</span><span class="w">  </span><span class="nt">stage</span><span class="p">:</span><span class="w"> </span><span class="l">build</span><span class="w">
+</span><span class="ln">12</span><span class="w">  </span><span class="nt">script</span><span class="p">:</span><span class="w">
+</span><span class="ln">13</span><span class="w">    </span>- <span class="l">docker build -t my-app .</span><span class="w">
+</span><span class="ln">14</span><span class="w">
+</span><span class="ln">15</span><span class="w"></span><span class="nt">test</span><span class="p">:</span><span class="w">
+</span><span class="ln">16</span><span class="w">  </span><span class="nt">stage</span><span class="p">:</span><span class="w"> </span><span class="l">test</span><span class="w">
+</span><span class="ln">17</span><span class="w">  </span><span class="nt">script</span><span class="p">:</span><span class="w">
+</span><span class="ln">18</span><span class="w">    </span>- <span class="l">docker run my-app npm test</span><span class="w">
+</span></code></pre></div><p>In questo esempio, utilizziamo l&rsquo;immagine Docker ufficiale e il servizio <code>docker:dind</code> (Docker-in-Docker) per eseguire i comandi Docker all&rsquo;interno delle pipeline. Dividiamo la pipeline in due stage: <code>build</code> e <code>test</code>, ciascuno con il proprio set di comandi da eseguire.</p>
 <h2 id="best-practices">Best Practices</h2>
 <p>Per sfruttare al massimo Docker con GitLab CI, ecco alcune best practices da tenere a mente:</p>
 <ol>
