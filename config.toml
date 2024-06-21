@@ -12,6 +12,8 @@ pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 pygmentsCodefences = true
 
+enableRobotsTXT = true
+
 #googleAnalytics = "UA-178422206-1"
 disqusShortname = "hardcode-blog"
 
