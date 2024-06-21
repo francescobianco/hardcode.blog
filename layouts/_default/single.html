@@ -52,7 +52,7 @@
                     {{ if gt .Params.authors 0 }}
                         Written by:
                         {{ range $index, $author := .Params.authors }}
-                            <a href="{{ "/authors/" | relLangURL }}{{ $author | urlize }}/" target="_blank">{{ $author }}</a>{{ if lt (add $index 1) $.Params.authors }}, {{ end }}
+                            <a href="{{ "/authors/" | relLangURL }}{{ $author | urlize }}/" target="_blank" rel="nofollow">{{ $author }}</a>{{ if lt (add $index 1) $.Params.authors }}, {{ end }}
                         {{ end }}
                     {{ end }}
                 {{ end }}

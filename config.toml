@@ -1,4 +1,5 @@
 baseURL = "https://hardcode.blog/"
+prodBaseURL = "https://hardcode.blog/"
 languageCode = "en-en"
 title = "HARDCODE.BLOG"
 
