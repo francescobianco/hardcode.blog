@@ -9,7 +9,7 @@
     <copyright>© Francesco Bianco</copyright>
     <lastBuildDate>Fri, 21 Jun 2024 12:17:31 +0200</lastBuildDate><atom:link href="https://hardcode.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>PHP: Potenza e responsabilità, l&#39;uso di `call_user_func_array`</title>
+      <title>Potenza e responsabilità, l&#39;uso di `call_user_func_array` in php</title>
       <link>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</link>
       <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
       
