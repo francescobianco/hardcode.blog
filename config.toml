@@ -54,22 +54,22 @@ weight = 2
 
 [[menu.main]]
 name = "🐳 Docker"
-url = "/tags/docker"
+url = "/tags/docker/"
 weight = 4
 
 [[menu.main]]
 name = "🐯 Vtiger"
-url = "/tags/vtiger"
+url = "/tags/vtiger/"
 weight = 5
 
 [[menu.main]]
 name = "🏷️ Tags"
-url = "/tags"
+url = "/tags/"
 weight = 6
 
 [[menu.main]]
 name = "👷 About"
-url = "/about"
+url = "/about/"
 weight = 7
 
 [[params.social]]
