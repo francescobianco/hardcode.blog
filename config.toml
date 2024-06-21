@@ -1,5 +1,4 @@
 baseURL = "https://hardcode.blog/"
-prodBaseURL = "https://hardcode.blog/"
 languageCode = "en-en"
 title = "HARDCODE.BLOG"
 
@@ -19,6 +18,7 @@ enableRobotsTXT = true
 disqusShortname = "hardcode-blog"
 
 [params]
+canonicalBaseURL = "https://hardcode.blog"
 subtitle = "{☕} Coding, the superpower that nobody wants to have."
 
 # Optional 64x64 avatar image.

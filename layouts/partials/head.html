@@ -18,7 +18,7 @@
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
 
-    <link rel="canonical" href="{{ .Site.Params.ProdBaseURL }}{{ .RelPermalink }}" itemprop="url" />
+    <link rel="canonical" href="{{ .Site.Params.canonicalBaseURL }}{{ .RelPermalink }}" itemprop="url" />
 
 	{{- template "_internal/schema.html" . -}}
 	{{- template "_internal/opengraph.html" . -}}
