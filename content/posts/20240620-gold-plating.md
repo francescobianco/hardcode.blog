@@ -74,7 +74,7 @@ Nel mondo della gestione dei progetti e dello sviluppo software, il termine "gol
 - [The New York Times on Quibi](https://www.nytimes.com/2020/10/21/business/media/quibi-shutting-down.html)
 - [Variety Analysis](https://variety.com/2020/digital/news/quibi-failure-reasons-1234812645/)
 
-### Lezioni Apprese
+## Lezioni apprese
 
 Il gold plating può sembrare un modo per arricchire un prodotto, ma può anche portare a complicazioni inutili che minano l'esperienza dell'utente e la sostenibilità del progetto. Come dimostrano i casi di Windows Vista, Google Wave, Nokia N-Gage e Quibi, aggiungere funzionalità non richieste può trasformare un progetto ben intenzionato in un disastro. È essenziale bilanciare tra innovazione e usabilità, assicurandosi che ogni nuova funzionalità aggiunga un valore reale agli utenti e non complichi inutilmente il prodotto.
 
