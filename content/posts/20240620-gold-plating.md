@@ -1,5 +1,5 @@
 ---
-title: "Il pericolo del **gold plating**: quando troppe funzionalità portano al fallimento"
+title: "Il pericolo del **gold plating**: quando le troppe funzionalità portano al fallimento"
 description: "Nel mondo della gestione dei progetti e dello sviluppo software, il termine gold plating si riferisce all'aggiunta di funzionalità o caratteristiche non richieste ai prodotti."
 date: 2024-06-20T16:08:23.077Z
 tags: ["ingegneria del software", "agile"]
