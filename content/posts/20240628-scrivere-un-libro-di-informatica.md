@@ -32,6 +32,20 @@ Reedsy non è solo una piattaforma tecnologica, ma una vera e propria comunità.
 
 Nonostante l'efficacia di strumenti come quelli offerti da Reedsy, il mercato editoriale in Italia presenta delle sfide. Secondo l'Associazione Italiana Editori (AIE), nel 2023 solo il 41% degli italiani ha letto almeno un libro all'anno. Inoltre, solo il 14% della popolazione legge più di 12 libri all'anno, dati che sottolineano le difficoltà nel raggiungere un vasto pubblico.
 
+## La mia esperienza con Reedsy
+
+Anche io ho avuto il sogno di scrivere un libro, o meglio, tre libri. Il primo tentativo è stato un manuale su PHP, pensato per aiutare altri programmatori a padroneggiare questo linguaggio versatile. Nonostante le mie migliori intenzioni, il progetto è rimasto incompleto, sommerso dalle sfide quotidiane.
+
+Il secondo libro, un romanzo di fantascienza distopico, aveva come protagonista una società dominata da robot autonomi che costruivano e gestivano città blocco interconnesse, ostili agli esseri umani ma incapaci di minacciarne l'esistenza in maniera diretta. È stato un tentativo di riflettere sul futuro delle tecnologie e delle relazioni umane, ma anche questo è rimasto nella fase di bozza.
+
+Attualmente, sto lavorando su un terzo libro dedicato agli intricati Makefile nel contesto del mondo DevOps e DevEx. È una sfida affascinante, ma piena di ostacoli tecnici.
+
+Ho utilizzato Reedsy per alcuni di questi progetti, e devo dire che la piattaforma offre strumenti eccellenti. Tuttavia, il successo di un libro dipende non solo dalla tecnologia ma anche dalla perseveranza e dalla capacità di connettersi con il proprio pubblico. È un percorso che continua ad insegnarmi quanto sia difficile trasformare un'idea in una storia completa.
+
+Inoltre, c'è un quarto progetto segreto di cui per adesso non posso parlare, ma che spero di portare a termine con l'aiuto di Reedsy e delle sue risorse innovative.
+
+Nonostante le mie sfide personali, Reedsy rimane una risorsa preziosa per chiunque desideri avvicinarsi al mondo dell'autopubblicazione con professionalità e supporto di esperti del settore.
+
 ## Conclusione
 
 La paura di essere l'unico lettore del proprio libro è reale, ma piattaforme come Reedsy offrono agli autori indipendenti gli strumenti necessari per superare queste sfide. Grazie a una combinazione di tecnologie avanzate e una rete di professionisti qualificati, Reedsy rende il sogno di vedere il proprio libro pubblicato una realtà tangibile e alla portata di tutti. Nonostante le difficoltà del mercato editoriale italiano, con impegno e le giuste risorse, ogni autore può trovare il proprio pubblico e trasformare il sogno nel cassetto in un successo concreto.
