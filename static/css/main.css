@@ -676,3 +676,6 @@ h1.term-title {
     margin: 0;
 }
 
+div.post div.markdown {
+    margin-bottom: 20px;
+}
