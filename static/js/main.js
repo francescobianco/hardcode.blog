@@ -97,7 +97,23 @@ function addCopyButtons(clipboard) {
     });
 }
 
+function applyAdmonitions() {
+    document.querySelectorAll('.markdown blockquote').forEach(function (blockquote) {
+        const innerHtml = blockquote.innerHTML.trim();
+        const match = innerHtml.match(/^<p>!!! ([a-z]+) “(.*)”(.*)/s)
+        if (match) {
+            console.log('match', match);
+            const admonition = document.createElement('div');
+            admonition.className = 'admonition admonition-' + match[1];
+            admonition.innerHTML = '<p>' + match[3];
+            blockquote.parentNode.replaceChild(admonition, blockquote);
+        }
+    });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
+    applyAdmonitions();
+
     if (navigator && navigator.clipboard) {
         addCopyButtons(navigator.clipboard);
     } else {
