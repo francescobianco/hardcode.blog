@@ -98,14 +98,25 @@ function addCopyButtons(clipboard) {
 }
 
 function applyAdmonitions() {
+    const icons = { question: '🤔', note: '📝', caution: '🚨', tip: '💡', important: '📢', warning: '⚠️' };
+
     document.querySelectorAll('.markdown blockquote').forEach(function (blockquote) {
         const innerHtml = blockquote.innerHTML.trim();
         const match = innerHtml.match(/^<p>!!! ([a-z]+) “(.*)”(.*)/s)
+        const icon = icons[match[1]] || icons['info']
         if (match) {
             console.log('match', match);
             const admonition = document.createElement('div');
             admonition.className = 'admonition admonition-' + match[1];
-            admonition.innerHTML = '<p>' + match[3];
+            admonition.innerHTML = `
+                <div class="admonition-title">
+                    <div class="admonition-icon">${icon}</div>
+                    ${match[2]}
+                </div>
+                <div class="admonition-content">
+                    <p>${match[3]}
+                </div>
+            `;
             blockquote.parentNode.replaceChild(admonition, blockquote);
         }
     });

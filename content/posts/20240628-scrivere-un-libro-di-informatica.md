@@ -6,17 +6,22 @@ tags: ["book", "self-publish"]
 authors: ["Francesco Bianco"]
 ---
 
-<!---
-> !!! warning "Atten "cio" zione" 
-> 
-> ```
-> come stai
-> ```
 
+<!--
 
+> !!! caution "caution" caution
 
-> !!! warning "Atten "cio" zione" ciao
---->
+> !!! important "important" important
+
+> !!! note "note" note
+
+> !!! tip "tip" tip
+
+> !!! warning "warning" warning
+
+> !!! question "question" question
+
+-->
 
 Ogni informatico, nel profondo, coltiva il sogno di scrivere un libro. Questo desiderio potrebbe nascere dal vedere la propria idea prendere forma concreta, un parallelo con il successo delle proprie idee. Immaginare di tenere in mano un libro con il proprio nome sulla copertina rappresenta una sorta di traguardo inconscio, una rivincita dopo anni passati a leggere i libri degli altri. Ora, grazie a piattaforme come Reedsy, questo sogno è più accessibile che mai.
 
