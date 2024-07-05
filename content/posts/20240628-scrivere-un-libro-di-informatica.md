@@ -6,23 +6,6 @@ tags: ["book", "self-publish"]
 authors: ["Francesco Bianco"]
 ---
 
-
-<!--
-
-> !!! caution "caution" caution
-
-> !!! important "important" important
-
-> !!! note "note" note
-
-> !!! tip "tip" tip
-
-> !!! warning "warning" warning
-
-> !!! question "question" question
-
--->
-
 Ogni informatico, nel profondo, coltiva il sogno di scrivere un libro. 
 Questo desiderio potrebbe nascere dal vedere la propria idea prendere forma concreta, 
 un parallelo con il successo delle proprie idee. 

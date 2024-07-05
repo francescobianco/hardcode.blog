@@ -15,6 +15,7 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 0.2em;
+    margin-top: -4px;
     width: 30px;
     text-align: center;
     font-size: 24px;
@@ -24,7 +25,8 @@
     margin-bottom: 0;
 }
 
-.admonition-content p {
+.post .admonition-content p {
+    text-align: left;
     margin: 0 0 10px 0;
 }
 
