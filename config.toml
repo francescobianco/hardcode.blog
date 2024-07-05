@@ -114,7 +114,7 @@ tabWidth = 4
 
 [related]
 includeNewer = false
-threshold = 80
+threshold = 10
 toLower = false
 
 [[related.indices]]
@@ -139,6 +139,16 @@ weight = 10
 applyFilter = false
 cardinalityThreshold = 0
 name = 'tags'
+pattern = ''
+toLower = false
+type = 'basic'
+weight = 80
+
+
+[[related.indices]]
+applyFilter = false
+cardinalityThreshold = 0
+name = 'content'
 pattern = ''
 toLower = false
 type = 'basic'
