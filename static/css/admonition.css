@@ -24,6 +24,10 @@
     margin-bottom: 0;
 }
 
+.admonition-content p {
+    margin: 0 0 10px 0;
+}
+
 .admonition-warning {
     background-color: rgba(230, 126, 34, 0.15);
     border-left: 8px solid #e67e22;

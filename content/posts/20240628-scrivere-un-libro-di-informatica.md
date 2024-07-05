@@ -23,7 +23,14 @@ authors: ["Francesco Bianco"]
 
 -->
 
-Ogni informatico, nel profondo, coltiva il sogno di scrivere un libro. Questo desiderio potrebbe nascere dal vedere la propria idea prendere forma concreta, un parallelo con il successo delle proprie idee. Immaginare di tenere in mano un libro con il proprio nome sulla copertina rappresenta una sorta di traguardo inconscio, una rivincita dopo anni passati a leggere i libri degli altri. Ora, grazie a piattaforme come Reedsy, questo sogno è più accessibile che mai.
+Ogni informatico, nel profondo, coltiva il sogno di scrivere un libro. 
+Questo desiderio potrebbe nascere dal vedere la propria idea prendere forma concreta, 
+un parallelo con il successo delle proprie idee. 
+Immaginare di tenere in mano un libro con il proprio nome sulla copertina rappresenta una sorta di traguardo inconscio, 
+una rivincita dopo anni passati a leggere i libri degli altri.
+Ora, grazie a piattaforme come Reedsy, questo sogno è più accessibile che mai.
+
+{{< social_cta >}}
 
 ## Reedsy: la piattaforma perfetta per gli autori indipendenti
 
@@ -67,7 +74,4 @@ Nonostante le mie sfide personali, Reedsy rimane una risorsa preziosa per chiunq
 
 La paura di essere l'unico lettore del proprio libro è reale, ma piattaforme come Reedsy offrono agli autori indipendenti gli strumenti necessari per superare queste sfide. Grazie a una combinazione di tecnologie avanzate e una rete di professionisti qualificati, Reedsy rende il sogno di vedere il proprio libro pubblicato una realtà tangibile e alla portata di tutti. Nonostante le difficoltà del mercato editoriale italiano, con impegno e le giuste risorse, ogni autore può trovare il proprio pubblico e trasformare il sogno nel cassetto in un successo concreto.
 
-
-
-
-
+{{< newsletter_cta >}}

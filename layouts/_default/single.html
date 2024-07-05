@@ -65,6 +65,8 @@
                 {{ end }}
             </div>
 
+            {{- partial "related.html" . -}}
+
             {{- if .Site.DisqusShortname -}}
 			{{- $.Scratch.Set "isDisqus" true -}}
 
