@@ -66,34 +66,72 @@ That's the post...
 }
 
 
-function addCopyButtons(clipboard) {
+function addCodeButtons(clipboard) {
     console.log('addCopyButtons');
     document.querySelectorAll('.highlight').forEach(function (codeBlock) {
         console.log('codeBlock', codeBlock);
-        const button = document.createElement('button');
-        button.className = 'code-button';
-        button.type = 'button';
-        button.innerText = 'Copy';
+        const codeButtons = document.createElement('div');
+        const runButton = document.createElement('button');
+        const copyButton = document.createElement('button');
+        const output = document.createElement('pre');
 
-        button.addEventListener('click', function () {
+        codeButtons.className = 'code-buttons';
+
+        runButton.className = 'code-button';
+        runButton.type = 'button';
+        runButton.innerText = 'Run';
+
+        copyButton.className = 'code-button';
+        copyButton.type = 'button';
+        copyButton.innerText = 'Copy';
+
+        output.className = 'code-output';
+        output.style.display = 'none';
+
+        runButton.addEventListener('click', function () {
+            output.innerHTML = '<code>Loading...</code>'
+            output.style.display = 'block';
+            fetch('https://api.codapi.org/v1/exec', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    sandbox: "python",
+                    command: "run",
+                    files: {
+                        "": "print('hello world')"
+                    }
+                })
+            }).then(response => response.json()).then(data => {
+                console.log('Risposta JSON:', data);
+                runButton.blur();
+                output.innerHTML = '<code>' + data.stdout + '</code>';
+            })
+        });
+
+        copyButton.addEventListener('click', function () {
             const cloneBlock = codeBlock.cloneNode(true);
             cloneBlock.querySelectorAll('.ln').forEach(element => element.remove());
             cloneBlock.querySelectorAll('.lnt').forEach(element => element.remove());
             cloneBlock.querySelectorAll('.code-button').forEach(element => element.remove());
             clipboard.writeText(cloneBlock.innerText.trim()).then(function () {
-                button.blur();
-                button.classList.add('copied');
-                button.innerText = 'Copied!';
+                copyButton.blur();
+                copyButton.classList.add('copied');
+                copyButton.innerText = 'Copied!';
                 setTimeout(function () {
-                    button.innerText = 'Copy';
-                    button.classList.remove('copied');
+                    copyButton.innerText = 'Copy';
+                    copyButton.classList.remove('copied');
                 }, 1500);
             }, function (error) {
-                button.innerText = 'Error';
+                copyButton.innerText = 'Error';
             });
         });
 
-        codeBlock.append(button)
+        codeButtons.append(runButton)
+        codeButtons.append(copyButton)
+        codeBlock.append(codeButtons)
+        codeBlock.insertAdjacentElement('afterend', output);
     });
 }
 
@@ -126,14 +164,14 @@ document.addEventListener('DOMContentLoaded', function() {
     applyAdmonitions();
 
     if (navigator && navigator.clipboard) {
-        addCopyButtons(navigator.clipboard);
+        addCodeButtons(navigator.clipboard);
     } else {
         var script = document.createElement('script');
         script.src = 'https://cdnjs.cloudflare.com/ajax/libs/clipboard-polyfill/2.7.0/clipboard-polyfill.promise.js';
         script.integrity = 'sha256-waClS2re9NUbXRsryKoof+F9qc1gjjIhc2eT7ZbIv94=';
         script.crossOrigin = 'anonymous';
         script.onload = function() {
-            addCopyButtons(clipboard);
+            addCodeButtons(clipboard);
         };
 
         document.body.appendChild(script);

@@ -8,6 +8,8 @@ authors: ["Francesco Bianco"]
 
 Nel vasto mondo di PHP, la funzione `call_user_func_array` è una delle più potenti e versatili a disposizione degli sviluppatori. Permette di chiamare una funzione in modo dinamico, passando i parametri come array. Questo articolo esplora come utilizzare questa funzione, presenta esempi pratici e analizza le implicazioni filosofiche dell'uso di chiamate di funzione indiretta.
 
+{{< social_cta >}}
+
 ## Cos'è `call_user_func_array`?
 
 La funzione `call_user_func_array` in PHP consente di chiamare una funzione specificata con un array di parametri. Questa capacità di chiamare funzioni dinamicamente è particolarmente utile quando i parametri sono determinati a runtime.
@@ -131,3 +133,6 @@ La capacità di chiamare funzioni dinamicamente è una caratteristica comune a m
 Tuttavia, come in PHP, l'uso eccessivo o improprio di queste tecniche in JavaScript e Python può portare a codice difficile da mantenere e potenziali problemi di sicurezza. È importante usare questi strumenti con consapevolezza, bilanciando potenza e leggibilità del codice.
 
 In definitiva, che tu stia programmando in PHP, JavaScript, o Python, la chiave è sempre trovare il giusto equilibrio tra flessibilità e semplicità per creare applicazioni robuste e manutenibili.
+
+{{< newsletter_cta >}}
+

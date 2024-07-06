@@ -645,16 +645,19 @@ h1.term-title {
     width: 128px;
 }
 
+.code-buttons {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
 .code-button {
     color: #000000;
     background-color: #555555;
     border: 2px solid #000000;
-    display: block;
+    display: inline-block;
     padding: 2px 8px 2px 8px;
     font-size: 14px;
-    position: absolute;
-    right: 5px;
-    top: 5px;
     font-family: fixedsys, monospace, Monospaced
 }
 
@@ -674,6 +677,12 @@ h1.term-title {
 
 .code-button.copied {
     background-color: #AAAAAA;
+}
+
+pre.code-output {
+    background-color: #999999;
+    margin: 0 0 5px 0;
+    padding: 5px 15px 4px 15px;
 }
 
 .highlight pre {

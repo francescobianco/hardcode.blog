@@ -3,7 +3,7 @@
 <h3>Leggi anche</h3>
 <ul>
     {{ range . }}
-    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></li>
     {{ end }}
 </ul>
 {{ end }}

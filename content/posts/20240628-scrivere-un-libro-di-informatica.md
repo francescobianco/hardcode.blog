@@ -1,5 +1,5 @@
 ---
-title: "Tutti gli informatici hanno un sogno nel cassetto: scrivere un libro"
+title: "Tutti gli informatici hanno un sogno nel cassetto: _scrivere un libro!!1!_"
 description: "Sei un informatico che sogna di vedere le proprie idee prendere forma concreta in un libro? Clicca qui e scopri dei lucidi ragionamenti per capire se è meglio che il sogno rimanga nel cassetto!"
 date: 2024-06-28T12:54:35.898Z
 tags: ["book", "self-publish"]
