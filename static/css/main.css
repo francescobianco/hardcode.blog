@@ -697,6 +697,14 @@ pre.code-output code {
     font-size: 16px;
 }
 
+.highlight pre code {
+    font-size: 16px;
+}
+
+.highlight code {
+    font-size: 16px !important;
+}
+
 div.post div.markdown {
     margin-bottom: 20px;
 }
