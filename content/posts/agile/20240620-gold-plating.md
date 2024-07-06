@@ -8,6 +8,8 @@ authors: ["Francesco Bianco", "Alice Rossi"]
 
 Nel mondo della gestione dei progetti e dello sviluppo software, il termine "gold plating" si riferisce all'aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un'ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po' di zucchero può migliorare il sapore, ma troppo può renderla imbevibile. Allo stesso modo, il gold plating può trasformare un progetto ben intenzionato in un disastro. Ecco alcuni esempi di casi reali in cui il gold plating ha causato fallimenti o grandi scossoni.
 
+{{< social_cta >}}
+
 ### Windows Vista
 
 **Contesto**: Microsoft ha rilasciato Windows Vista nel 2007, con l'intento di introdurre numerose nuove funzionalità rispetto al suo predecessore, Windows XP.
@@ -80,3 +82,5 @@ Nel mondo della gestione dei progetti e dello sviluppo software, il termine "gol
 Il gold plating può sembrare un modo per arricchire un prodotto, ma può anche portare a complicazioni inutili che minano l'esperienza dell'utente e la sostenibilità del progetto. Come dimostrano i casi di Windows Vista, Google Wave, Nokia N-Gage e Quibi, aggiungere funzionalità non richieste può trasformare un progetto ben intenzionato in un disastro. È essenziale bilanciare tra innovazione e usabilità, assicurandosi che ogni nuova funzionalità aggiunga un valore reale agli utenti e non complichi inutilmente il prodotto.
 
 Evitare il gold plating significa concentrarsi sulle necessità reali degli utenti, testare e raccogliere feedback continuo, e mantenere un design semplice e intuitivo. Solo così è possibile creare prodotti di successo che soddisfano veramente le esigenze degli utenti.
+
+{{< newsletter_cta >}}

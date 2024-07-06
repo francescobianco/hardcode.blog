@@ -11,9 +11,7 @@
             Grazie mille per il tuo contributo!
         </p>
         <div>
-
-
-            <a href="https://www.linkedin.com/feed/?shareActive=true&text={{ urlquery $post }}" target="_blank" class="social-button" rel="nofollow">
+            <a href="https://www.linkedin.com/feed/?shareActive=true&text={{ urlquery .Page.Permalink }}" target="_blank" class="social-button" rel="nofollow">
                 <img src="https://img.shields.io/badge/-post%20su%20linkedin-blue?logo=linkedin&style=for-the-badge" alt="Share on LinkedIn">
             </a>
 
@@ -21,7 +19,7 @@
                 <img src="https://img.shields.io/badge/-black?logo=x&style=for-the-badge" alt="Share on LinkedIn">
             </a-->
 
-            <a href="https://www.linkedin.com/feed/?shareActive=true&text=" target="_blank" class="social-button" rel="nofollow">
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlquery .Page.Permalink }}" target="_blank" class="social-button" rel="nofollow">
                 <img src="https://img.shields.io/badge/-post%20su%20facebook-blue?logo=facebook&style=for-the-badge" alt="Share on LinkedIn">
             </a>
 
