@@ -74,12 +74,13 @@ function addCodeButtons(clipboard) {
         const runButton = document.createElement('button');
         const copyButton = document.createElement('button');
         const output = document.createElement('pre');
+        const language = codeBlock.querySelector('[data-lang]').getAttribute('data-lang')
 
         codeButtons.className = 'code-buttons';
 
         runButton.className = 'code-button';
         runButton.type = 'button';
-        runButton.innerText = 'Run';
+        runButton.innerText = '▶';
 
         copyButton.className = 'code-button';
         copyButton.type = 'button';
@@ -89,32 +90,44 @@ function addCodeButtons(clipboard) {
         output.style.display = 'none';
 
         runButton.addEventListener('click', function () {
+            const cloneBlock = codeBlock.cloneNode(true);
+            cloneBlock.querySelectorAll('.ln').forEach(element => element.remove());
+            cloneBlock.querySelectorAll('.lnt').forEach(element => element.remove());
+            cloneBlock.querySelectorAll('.code-buttons').forEach(element => element.remove());
+
+            runButton.disabled = true;
+
             output.innerHTML = '<code>Loading...</code>'
             output.style.display = 'block';
-            fetch('https://api.codapi.org/v1/exec', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    sandbox: "python",
-                    command: "run",
-                    files: {
-                        "": "print('hello world')"
-                    }
+            setTimeout(function () {
+                fetch('https://api.codapi.org/v1/exec', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        sandbox: language,
+                        command: "run",
+                        files: {
+                            "": cloneBlock.innerText.trim()
+                        }
+                    })
+                }).then(response => response.json()).then(data => {
+                    console.log('Risposta JSON:', data);
+                    output.innerHTML = '<code>' + data.stdout + data.stderr + '</code>';
+                    setTimeout(function () {
+                        runButton.blur();
+                        runButton.disabled = false;
+                    }, 2000)
                 })
-            }).then(response => response.json()).then(data => {
-                console.log('Risposta JSON:', data);
-                runButton.blur();
-                output.innerHTML = '<code>' + data.stdout + '</code>';
-            })
+            }, 1000)
         });
 
         copyButton.addEventListener('click', function () {
             const cloneBlock = codeBlock.cloneNode(true);
             cloneBlock.querySelectorAll('.ln').forEach(element => element.remove());
             cloneBlock.querySelectorAll('.lnt').forEach(element => element.remove());
-            cloneBlock.querySelectorAll('.code-button').forEach(element => element.remove());
+            cloneBlock.querySelectorAll('.code-buttons').forEach(element => element.remove());
             clipboard.writeText(cloneBlock.innerText.trim()).then(function () {
                 copyButton.blur();
                 copyButton.classList.add('copied');

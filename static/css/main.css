@@ -647,7 +647,7 @@ h1.term-title {
 
 .code-buttons {
     position: absolute;
-    right: 5px;
+    right: 1px;
     top: 5px;
 }
 
@@ -658,7 +658,8 @@ h1.term-title {
     display: inline-block;
     padding: 2px 8px 2px 8px;
     font-size: 14px;
-    font-family: fixedsys, monospace, Monospaced
+    font-family: fixedsys, monospace, Monospaced;
+    margin-right: 4px;
 }
 
 .code-button:hover {
@@ -683,11 +684,17 @@ pre.code-output {
     background-color: #999999;
     margin: 0 0 5px 0;
     padding: 5px 15px 4px 15px;
+    font-size: 16px;
+}
+
+pre.code-output code {
+    color: #1e0010;
 }
 
 .highlight pre {
     /* Avoid pushing up the copy buttons. */
     margin: 0;
+    font-size: 16px;
 }
 
 div.post div.markdown {
