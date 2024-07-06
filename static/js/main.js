@@ -141,10 +141,14 @@ function addCodeButtons(clipboard) {
             });
         });
 
-        codeButtons.append(runButton)
+        console.log("aa", codeBlock.classList)
+        if (codeBlock.classList.contains('is-runnable')) {
+            codeButtons.append(runButton)
+            codeBlock.insertAdjacentElement('afterend', output);
+        }
+
         codeButtons.append(copyButton)
         codeBlock.append(codeButtons)
-        codeBlock.insertAdjacentElement('afterend', output);
     });
 }
 
