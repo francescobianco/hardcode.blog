@@ -1,6 +1,6 @@
 ---
-title: "\"One Thing\"​: una soluzione innovativa per aumentare la produttività su macOS, Linux/Gnome"
-description: "La produttività è un aspetto fondamentale per qualsiasi professionista che voglia raggiungere successo e realizzare i propri obiettivi. Vediamo se One Thing ci può aiutare"
+title: "**One Thing​**: una soluzione innovativa per aumentare la produttività su macOS e Gnome"
+description: "La produttività è un aspetto fondamentale per qualsiasi professionista che voglia raggiungere successo e realizzare i propri obiettivi. Vediamo se **One Thing** ci può aiutare a farlo bene"
 date: 2024-07-09T10:33:00.902Z
 tags: ["macos", "ubuntu", "gnome", "linux", "productivity"]
 authors: ["Francesco Bianco"]
