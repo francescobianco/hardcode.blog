@@ -1,5 +1,5 @@
 ---
-title: "Esplorando la Developer Experience: fondamenti e implicazioni"
+title: "Esplorando la **Developer Experience**: fondamenti e implicazioni"
 description: "Nel vasto panorama dello sviluppo software, la Developer Experience (DevEx) emerge come un elemento cruciale ma spesso sottovalutato. Proviamo ad esplorarlo insieme"
 date: 2024-07-11T14:16:29.238Z
 tags: ["dx", "developer experience"]
