@@ -1,5 +1,5 @@
 ---
-title: "Chi è Kent Beck? Non solo XP, ma tanto altro e cosa ci insegna"
+title: "Chi è **Kent Beck**? Non solo **XP**, ma tanto altro e cosa ci insegna"
 description: "Kent Beck è una figura leggendaria nel mondo dello sviluppo software, celebre per aver introdotto concetti rivoluzionari come eXtreme Programming (XP) e Test-Driven Development (TDD)."
 date: 2024-07-12T12:55:22.047Z
 tags: ["people", "xp", "tdd"]
@@ -16,7 +16,7 @@ Ecco la traduzione completa della sua "Lettera di Missione":
 
 ---
 
-# La Mia Missione Personale
+## La Mia Missione Personale
 
 Venticinque anni nella mia carriera e finalmente ho capito la mia missione. Questo è avvenuto dopo i pattern, dopo xUnit, TDD, dopo l'Extreme Programming. Solo allora sono stato in grado di fare un passo indietro e dire: "Qual è il puzzle di cui questi sono i pezzi?"
 
@@ -24,19 +24,19 @@ Dato il mio nuovo status indipendente dopo sette anni a Facebook, ora sembra un 
 
 Ecco, quindi, l'esegesi della mia missione personale.
 
-## Aiutare
+# Aiutare
 
 Non posso far provare niente a nessuno. Il massimo che posso fare è offrire aiuto. Il primo livello di aiuto è vivere io stesso la mia verità. Solo quando la vivo posso scriverne o parlarne con integrità.
 
 Porre l'asticella sull'"aiutare" rende difficile monitorare i progressi e difficile rivendicare meriti. L'impatto effettivo spesso si scambia con l'impatto percepito. Pazienza. Mi concentrerò sull'impatto effettivo e conterò principalmente sugli altri per dividere la torta dei meriti.
 
-## Geek
+# Geek
 
 Non so leggere le situazioni sociali. Interagire in gruppi mi esaurisce. Non sono solo.
 
 Potrei cercare di accettare il mondo intero come focus della mia missione. Altri lo fanno e funziona per loro. Per me stesso, sono soddisfatto di restringere il mio pubblico principale a persone un po' come me nell'essere predisposte alla manipolazione dei simboli e non all'interazione sociale. Posso parlare e connettermi più facilmente con coloro che condividono alcune delle mie esperienze. Alcune delle cose che dico si estendono oltre.
 
-## Sentire
+# Sentire
 
 A volte quando mi sento a disagio o insicuro è perché sto effettivamente essendo goffo o mi trovo in una situazione non sicura. A volte, però, sono effettivamente al sicuro e mi sento solo insicuro. Voglio affrontare entrambe le situazioni.
 
@@ -44,13 +44,13 @@ Per affrontare il sentirmi a disagio perché sono effettivamente goffo, posso im
 
 Per affrontare il sentirmi insicuro nonostante sia al sicuro, posso imparare a ragionare meglio attraverso le situazioni sociali. Posso inserire la logica tra lo stimolo e la mia risposta. Posso anche allontanarmi dalle situazioni quando ho raggiunto i miei limiti. Spesso lo faccio dopo i discorsi. Dieci minuti da solo mi permettono di sgonfiarmi e riportare i miei livelli di energia alla normalità.
 
-## Sicuro
+# Sicuro
 
 Il mio obiettivo in questo progetto che dura tutta la carriera è la congruenza: sentirmi sicuro quando sono sicuro e sentirmi insicuro quando sono insicuro. Ciò che ho notato quando ho iniziato a sperimentare effettivamente le mie emozioni è che i miei sentimenti spesso non corrispondevano ai fatti. Entravo a una festa e mi sentivo immediatamente sopraffatto. Cercavo di prestare attenzione a tutti e a tutto. I miei figli hanno una collezione di foto di me svenuto su sedie d'angolo alle feste.
 
 Succedeva anche il contrario. Parlavo con un matto manipolatore e disonesto e mi sentivo bene, persino eccitato. Anche quei sentimenti non corrispondono ai fatti.
 
-## Nel Mondo
+# Nel Mondo
 
 Solo perché sono strano, sono comunque un membro della razza umana. Condivido la responsabilità per le sue follie. Sono completo solo quando sono socialmente connesso (fottuta roba da primati). Probabilmente potrei capire come essere un eremita abbastanza felice, ma mi perderei qualcosa.
 
@@ -58,7 +58,7 @@ Mi perderei un altro aspetto della mia missione: spiegare persone come me a pers
 
 La mia missione tratta con il mondo e le sue persone all'intersezione dei suoi bisogni e delle mie capacità.
 
-## Missione
+# Missione
 
 La mia missione: aiutare i geek a sentirsi sicuri nel mondo. Tutto ciò che ho fatto si adatta in qualche modo:
 
@@ -68,7 +68,7 @@ La mia missione: aiutare i geek a sentirsi sicuri nel mondo. Tutto ciò che ho f
 - Extreme Programming. Creare un ritmo e una struttura per un'interazione sociale sicura che risulti in problemi risolti (spesso coinvolgendo il codice).
 - 3X Esplora/Espandi/Estrai. Adattare la punizione al crimine. Non esagerare né sottovalutare il rigore, la creatività, la sicurezza, la pianificazione e la reazione.
 
-## La Tua Missione
+# La Tua Missione
 
 Ci sono modi in cui la mia missione è iniziata il giorno in cui sono uscito dal mio primo corso di CS all'università borbottando: "Cambierò il modo in cui le persone fanno questo." Tuttavia, il quadro completo è venuto a fuoco solo dopo decenni di lavoro dettagliato. Questo è ciò che ti consiglierei se stai iniziando la tua carriera (sai, il primo decennio o due). Invece di inventare parole altisonanti, scrivi più programmi.
 
