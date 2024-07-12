@@ -16,67 +16,63 @@ Ecco la traduzione completa della sua "Lettera di Missione":
 
 ---
 
-**La mia Missione Personale**
+# La Mia Missione Personale
 
-Venticinque anni nella mia carriera e finalmente ho capito la mia missione. Questo è successo dopo i pattern, dopo xUnit, TDD, dopo Extreme Programming. Solo allora sono stato in grado di tirarmi indietro e dire: "Qual è il puzzle di cui questi sono i pezzi?"
+Venticinque anni nella mia carriera e finalmente ho capito la mia missione. Questo è avvenuto dopo i pattern, dopo xUnit, TDD, dopo l'Extreme Programming. Solo allora sono stato in grado di fare un passo indietro e dire: "Qual è il puzzle di cui questi sono i pezzi?"
 
-Dato il mio attuale status indipendente dopo sette anni in Facebook, sembra essere un momento propizio per rivedere la mia missione. Sto per prendere decisioni rischiose e mi piacerebbe essere il più chiaro possibile riguardo la mappa su cui sto navigando.
+Dato il mio nuovo status indipendente dopo sette anni a Facebook, ora sembra un momento propizio per rivedere la mia missione. Sto per prendere alcune decisioni rischiose e vorrei essere il più chiaro possibile sulla mappa che sto navigando.
 
-Ecco, quindi, io esplicito la mia missione personale.
+Ecco, quindi, l'esegesi della mia missione personale.
 
-**Aiutare**
+## Aiutare
 
-Non posso far provare nulla a nessuno. Il massimo che posso fare è offrire aiuto. Il primo livello di aiuto è vivere la mia verità io stesso. Solo quando la sto vivendo posso scriverne o parlarne con integrità.
+Non posso far provare niente a nessuno. Il massimo che posso fare è offrire aiuto. Il primo livello di aiuto è vivere io stesso la mia verità. Solo quando la vivo posso scriverne o parlarne con integrità.
 
-Mettere il livello dell'aiuto rende difficile monitorare i progressi e difficile rivendicare il merito. L'impatto reale spesso si scontra con l'impatto percepito. Che peccato. Mi concentrerò sull'impatto reale e conto principalmente su altri per dividere la torta del merito.
+Porre l'asticella sull'"aiutare" rende difficile monitorare i progressi e difficile rivendicare meriti. L'impatto effettivo spesso si scambia con l'impatto percepito. Pazienza. Mi concentrerò sull'impatto effettivo e conterò principalmente sugli altri per dividere la torta dei meriti.
 
-**Geek**
+## Geek
 
-Non posso leggere situazioni sociali. Interagire in gruppo mi esaurisce. Non sono solo.
+Non so leggere le situazioni sociali. Interagire in gruppi mi esaurisce. Non sono solo.
 
-Potrei provare ad accettare tutto il mondo come obiettivo della mia missione. Altri lo fanno e funziona per loro. Per me, sono soddisfatto di limitare il mio pubblico principale alle persone in qualche modo simili a me nella manipolazione simbolica cablata e non nell'interazione sociale. Posso parlare più facilmente e connettere coloro che condividono alcune delle mie esperienze. Una parte di ciò che dico varca i confini.
+Potrei cercare di accettare il mondo intero come focus della mia missione. Altri lo fanno e funziona per loro. Per me stesso, sono soddisfatto di restringere il mio pubblico principale a persone un po' come me nell'essere predisposte alla manipolazione dei simboli e non all'interazione sociale. Posso parlare e connettermi più facilmente con coloro che condividono alcune delle mie esperienze. Alcune delle cose che dico si estendono oltre.
 
-**Sentire**
+## Sentire
 
-A volte quando mi sento impacciato o insicuro è perché sto comportandomi in modo impacciato o sono in una situazione insicura. A volte, però, sono effettivamente al sicuro e mi sento solo insicuro. Voglio affrontare entrambe le situazioni.
+A volte quando mi sento a disagio o insicuro è perché sto effettivamente essendo goffo o mi trovo in una situazione non sicura. A volte, però, sono effettivamente al sicuro e mi sento solo insicuro. Voglio affrontare entrambe le situazioni.
 
-Per affrontare l'impaccio perché sono effettivamente impacciato posso imparare le abilità sociali. Non sarò mai bravo come qualcuno che è meglio cablato per l'interazione sociale e/o le ha praticate più di me. Va bene. Non devo essere bravo a socializzare, devo solo succhiare meno.
+Per affrontare il sentirmi a disagio perché sono effettivamente goffo, posso imparare competenze sociali. Non sarò mai bravo come qualcuno che è meglio predisposto per l'interazione sociale e/o le ha praticate più di me. Va bene così. Non devo essere fantastico nel socializzare, ho solo bisogno di fare meno schifo.
 
-Per affrontare il sentirsi insicuro nonostante si sia al sicuro posso imparare a pensare meglio attraverso le situazioni sociali. Posso inserire la logica tra stimolo e la mia risposta. Posso anche allontanarmi dalle situazioni quando ho raggiunto i miei limiti. Spesso faccio questo dopo le conferenze. Dieci minuti da solo mi permettono di sgonfiarmi e riportare i miei livelli di energia alla normalità.
+Per affrontare il sentirmi insicuro nonostante sia al sicuro, posso imparare a ragionare meglio attraverso le situazioni sociali. Posso inserire la logica tra lo stimolo e la mia risposta. Posso anche allontanarmi dalle situazioni quando ho raggiunto i miei limiti. Spesso lo faccio dopo i discorsi. Dieci minuti da solo mi permettono di sgonfiarmi e riportare i miei livelli di energia alla normalità.
 
-**Sicurezza**
+## Sicuro
 
-Il mio obiettivo in questo progetto di lungo corso è la congruenza: sentirmi al sicuro quando sono al sicuro e sentirmi insicuro quando sono insicuro. Quello che ho notato quando ho iniziato a provare realmente le mie emozioni è che spesso i miei sentimenti non corrispondevano ai fatti. Entravo in una festa e mi sentivo subito sopraffatto. Cercai di prestare attenzione a tutti e a tutto. I miei figli hanno una collezione di foto di me svenuto in poltrone da angolo alle feste.
+Il mio obiettivo in questo progetto che dura tutta la carriera è la congruenza: sentirmi sicuro quando sono sicuro e sentirmi insicuro quando sono insicuro. Ciò che ho notato quando ho iniziato a sperimentare effettivamente le mie emozioni è che i miei sentimenti spesso non corrispondevano ai fatti. Entravo a una festa e mi sentivo immediatamente sopraffatto. Cercavo di prestare attenzione a tutti e a tutto. I miei figli hanno una collezione di foto di me svenuto su sedie d'angolo alle feste.
 
-Il contrario è successo anche. Stavo parlando con un matto manipolativo e disonesto e mi sentivo bene, eccitato persino. Anche quei sentimenti non corrispondono ai fatti.
+Succedeva anche il contrario. Parlavo con un matto manipolatore e disonesto e mi sentivo bene, persino eccitato. Anche quei sentimenti non corrispondono ai fatti.
 
-**Nel Mondo**
+## Nel Mondo
 
-Solo perché sono strano, sono comunque un membro della razza umana. Condivido la responsabilità per le sue follie. Sono intero solo quando sono socialmente connesso (roba di scimmia fottuta). Probabilmente potrei capire come essere un eremita abbastanza felice, ma mi perderei qualcosa.
+Solo perché sono strano, sono comunque un membro della razza umana. Condivido la responsabilità per le sue follie. Sono completo solo quando sono socialmente connesso (fottuta roba da primati). Probabilmente potrei capire come essere un eremita abbastanza felice, ma mi perderei qualcosa.
 
-Mi mancherebbe un altro aspetto della mia missione: spiegare persone come me a persone diverse da me. Siamo diversi, ma possiamo trovare un terreno comune.
+Mi perderei un altro aspetto della mia missione: spiegare persone come me a persone diverse da me. Siamo diversi, ma possiamo trovare un terreno comune.
 
 La mia missione tratta con il mondo e le sue persone all'intersezione dei suoi bisogni e delle mie capacità.
 
-**Missione**
+## Missione
 
-La mia missione: aiutare i geek a sentirsi al sicuro nel mondo. Tutto quello che ho fatto in qualche modo si adatta:
+La mia missione: aiutare i geek a sentirsi sicuri nel mondo. Tutto ciò che ho fatto si adatta in qualche modo:
 
-Patterns. Isolare le parti ripetitive dei problemi e delle soluzioni in modo che gli aspetti unici emergano più chiaramente.
+- Pattern. Isolare le parti ripetitive di problemi e soluzioni in modo che gli aspetti unici vengano in un focus più chiaro.
+- xUnit. Trasformare la preoccupazione in test che replicano la fiducia.
+- TDD. Suddividere problemi travolgenti in un flusso di test-codice-design-test-codice-design.
+- Extreme Programming. Creare un ritmo e una struttura per un'interazione sociale sicura che risulti in problemi risolti (spesso coinvolgendo il codice).
+- 3X Esplora/Espandi/Estrai. Adattare la punizione al crimine. Non esagerare né sottovalutare il rigore, la creatività, la sicurezza, la pianificazione e la reazione.
 
-xUnit. Trasmutare la preoccupazione in test che replicano la fiducia.
+## La Tua Missione
 
-TDD. Scomporre problemi travolgenti in un flusso di test-codice-design-test-codice-design.
+Ci sono modi in cui la mia missione è iniziata il giorno in cui sono uscito dal mio primo corso di CS all'università borbottando: "Cambierò il modo in cui le persone fanno questo." Tuttavia, il quadro completo è venuto a fuoco solo dopo decenni di lavoro dettagliato. Questo è ciò che ti consiglierei se stai iniziando la tua carriera (sai, il primo decennio o due). Invece di inventare parole altisonanti, scrivi più programmi.
 
-Extreme Programming. Creare un ritmo e una struttura per l'interazione sociale sicura che porta a problemi risolti (spesso coinvolgendo il codice).
-
-3X Esplora/ Espandi/ Estrai. Adattare la punizione al crimine. Né esagerare né sottovalutare la rigore, la creatività, la sicurezza, la pianificazione e la reazione.
-
-**La tua Missione**
-
-Ci sono modi in cui la mia missione è iniziata il giorno in cui sono uscito dal mio primo corso di informatica all'università borbottando: "Cambierò il modo in cui le persone fanno questo." Tuttavia, l'intera immagine è diventata chiara solo dopo decenni di lavoro dettagliato. Questo è ciò che ti raccomanderei se stai iniziando la tua carriera (sai, il primo decennio o due). Invece di venire con parole altezzose, scrivi più programmi.
-
-Una volta che hai abbastanza pezzi del puzzle, allora puoi disporli e ridisporli e vedere quale immagine emerge.
+Una volta che hai abbastanza pezzi del puzzle, allora puoi organizzarli e riorganizzarli e vedere quale immagine salta fuori.
 
 ---
 
