@@ -56,6 +56,8 @@
 {{ with resources.GetRemote "https://hardcode.blog/images/social-banner.png" }}
     {{ with . | images.Filter $filter }}
         <meta property="og:image" content="{{ .Permalink }}">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="{{ .Permalink }}">
     {{ end }}
 {{ end }}
 
