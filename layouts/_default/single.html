@@ -31,6 +31,48 @@
 				</div>
 			</div>
 
+
+            {{ $font := "" }}
+            {{ $path := "https://github.com/google/fonts/raw/main/ofl/lato/Lato-Regular.ttf" }}
+            {{ with resources.GetRemote $path }}
+                {{ with .Err }}
+                    {{ errorf "%s" . }}
+                {{ else }}
+                    {{ $font = . }}
+                {{ end }}
+            {{ else }}
+                {{ errorf "Unable to get resource %q" $path }}
+            {{ end }}
+
+            {{ $font }}
+
+            {{ $opts := dict
+                "color" "#fbfaf5"
+                "font" $font
+                "linespacing" 8
+                "size" 40
+                "x" 25
+                "y" 190
+            }}
+
+            {{ $opts }}
+
+
+            {{ $text := "Zion National Park" }}
+            {{ $filter := images.Text $text $opts }}
+
+            {{ $filter }}
+-----
+            {{ resources.Get "images/social-banner.png" }}
+------
+            {{ with resources.Get "images/social-banner.png" }}
+                ZZZ
+                {{ . }}
+                {{ with .Filter $filter }}
+                    AA <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+                {{ end }}
+            {{ end }}
+
 			<div class="markdown">
 				{{ .Content }}
 

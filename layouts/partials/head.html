@@ -6,7 +6,7 @@
 	{{- if .IsHome -}}
 		<title>{{ $siteTitle }} {{ if isset .Site.Params "subtitle" }}- {{ .Site.Params.Subtitle }}{{ end }} </title>
 	{{- else -}}
-		<title>{{ $title }} - {{ $siteTitle }}</title>
+		<title>{{ $title | markdownify | plainify }} - {{ $siteTitle }}</title>
 	{{- end -}}
 
 	{{- if isset .Site.Params "favicon" -}}
@@ -21,8 +21,9 @@
     <link rel="canonical" href="{{ .Site.Params.canonicalBaseURL }}{{ .RelPermalink }}" itemprop="url" />
 
 	{{- template "_internal/schema.html" . -}}
-	{{- template "_internal/opengraph.html" . -}}
-	{{- template "_internal/twitter_cards.html" . -}}
+
+    {{ partial "opengraph.html" . }}
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
