@@ -31,27 +31,6 @@
 				</div>
 			</div>
 
-            {{ $font := "" }}
-            {{ $path := "https://github.com/google/fonts/raw/main/ofl/lato/Lato-Regular.ttf" }}
-            {{ with resources.GetRemote $path }}
-                {{ with .Err }}
-                    {{ errorf "%s" . }}
-                {{ else }}
-                    {{ $font = . }}
-                {{ end }}
-            {{ else }}
-                {{ errorf "Unable to get resource %q" $path }}
-            {{ end }}
-
-            {{ $text := .Title | markdownify | plainify }}
-            {{ $opts := dict "color" "#fbfaf5" "font" $font "linespacing" 20 "size" 130 "x" 525 "y" 190 }}
-            {{ $filter := images.Text $text $opts }}
-            {{ with resources.GetRemote "https://hardcode.blog/images/social-banner-1200.png" }}
-                {{ with . | images.Filter $filter }}
-                    <img src="{{ .RelPermalink }}" alt="">
-                {{ end }}
-            {{ end }}
-
 			<div class="markdown">
 				{{ .Content }}
 

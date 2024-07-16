@@ -38,16 +38,26 @@
 {{- end }}
 
 
+{{ $font := "" }}
+    {{ $path := "https://github.com/google/fonts/raw/main/ofl/lato/Lato-Regular.ttf" }}
+    {{ with resources.GetRemote $path }}
+    {{ with .Err }}
+    {{ errorf "%s" . }}
+    {{ else }}
+    {{ $font = . }}
+    {{ end }}
+    {{ else }}
+    {{ errorf "Unable to get resource %q" $path }}
+{{ end }}
 
-
-
-{{/*
-    {{- with partial "_funcs/get-page-images" . }}
-    {{- range . | first 6 }}
-    <meta property="og:image" content="{{ .Permalink }}">
-    {{- end }}
-    {{- end }}
-*/}}
+{{ $text := .Title | markdownify | plainify }}
+{{ $opts := dict "color" "#fbfaf5" "font" $font "linespacing" 20 "size" 130 "x" 900 "y" 400 }}
+{{ $filter := images.Text $text $opts }}
+{{ with resources.GetRemote "https://hardcode.blog/images/social-banner.png" }}
+    {{ with . | images.Filter $filter }}
+        <meta property="og:image" content="{{ .Permalink }}">
+    {{ end }}
+{{ end }}
 
 {{- with .Params.audio }}
 {{- range . | first 6  }}
