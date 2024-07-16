@@ -31,7 +31,6 @@
 				</div>
 			</div>
 
-
             {{ $font := "" }}
             {{ $path := "https://github.com/google/fonts/raw/main/ofl/lato/Lato-Regular.ttf" }}
             {{ with resources.GetRemote $path }}
@@ -44,20 +43,12 @@
                 {{ errorf "Unable to get resource %q" $path }}
             {{ end }}
 
-
-            {{ $opts := dict "color" "#fbfaf5" "font" $font "linespacing" 8 "size" 40 "x" 25 "y" 190 }}
-
-
-            {{ $text := "Zion National Park" }}
+            {{ $text := .Title | markdownify | plainify }}
+            {{ $opts := dict "color" "#fbfaf5" "font" $font "linespacing" 20 "size" 130 "x" 525 "y" 190 }}
             {{ $filter := images.Text $text $opts }}
-
-            {{ $filter }}
------
-            {{ resources.GetRemote "https://hardcode.blog/images/social-banner.png" }}
-------
             {{ with resources.GetRemote "https://hardcode.blog/images/social-banner.png" }}
-                 {{ with . | images.Filter $filter }}
-                    <img src="{{ .RelPermalink }}"  alt="">
+                {{ with . | images.Filter $filter }}
+                    <img src="{{ .RelPermalink }}" alt="">
                 {{ end }}
             {{ end }}
 
