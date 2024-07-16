@@ -44,18 +44,8 @@
                 {{ errorf "Unable to get resource %q" $path }}
             {{ end }}
 
-            {{ $font }}
 
-            {{ $opts := dict
-                "color" "#fbfaf5"
-                "font" $font
-                "linespacing" 8
-                "size" 40
-                "x" 25
-                "y" 190
-            }}
-
-            {{ $opts }}
+            {{ $opts := dict "color" "#fbfaf5" "font" $font "linespacing" 8 "size" 40 "x" 25 "y" 190 }}
 
 
             {{ $text := "Zion National Park" }}
@@ -63,13 +53,11 @@
 
             {{ $filter }}
 -----
-            {{ resources.Get "images/social-banner.png" }}
+            {{ resources.GetRemote "https://hardcode.blog/images/social-banner.png" }}
 ------
-            {{ with resources.Get "images/social-banner.png" }}
-                ZZZ
-                {{ . }}
-                {{ with .Filter $filter }}
-                    AA <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+            {{ with resources.GetRemote "https://hardcode.blog/images/social-banner.png" }}
+                 {{ with . | images.Filter $filter }}
+                    <img src="{{ .RelPermalink }}"  alt="">
                 {{ end }}
             {{ end }}
 
