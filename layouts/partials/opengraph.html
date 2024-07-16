@@ -51,7 +51,7 @@
 {{ end }}
 
 {{ $text := .Title | markdownify | plainify }}
-{{ $opts := dict "color" "#fbfaf5" "font" $font "linespacing" 20 "size" 130 "x" 900 "y" 400 }}
+{{ $opts := dict "color" "#fbfaf5" "font" $font "linespacing" 20 "size" 50 "x" 300 "y" 150 }}
 {{ $filter := images.Text $text $opts }}
 {{ with resources.GetRemote "https://hardcode.blog/images/social-banner.png" }}
     {{ with . | images.Filter $filter }}
