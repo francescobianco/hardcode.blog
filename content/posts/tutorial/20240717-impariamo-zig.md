@@ -26,7 +26,6 @@ pub fn main() void {
 
 In Zig, le variabili possono essere dichiarate con `const` per costanti e `var` per variabili mutabili. Zig è tipizzato staticamente, quindi ogni variabile ha un tipo specifico.
 
-**Codice: Dichiarazione di Variabili**
 ```zig {.is-runnable}
 const std = @import("std");
 
