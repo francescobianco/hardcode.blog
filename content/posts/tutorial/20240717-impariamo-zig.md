@@ -87,7 +87,7 @@ pub fn main() void {
 }
 ```
 
-### Sezione 6: Punteri e Allocazione Dinamica
+### Lezione 6 - Punteri e allocazione dinamica
 
 La gestione dei puntatori e dell'allocazione dinamica è cruciale per applicazioni ad alte prestazioni.
 
@@ -102,7 +102,7 @@ pub fn main() void {
 }
 ```
 
-### Sezione 7: Gestione degli Errori
+### Lezione 7 - Gestione degli errori
 
 Zig offre un sistema di gestione degli errori molto robusto.
 
@@ -123,7 +123,7 @@ pub fn main() void {
 }
 ```
 
-### Sezione 8: Strutture
+### Lezione 8 - Strutture
 
 Le strutture in Zig sono simili a quelle di altri linguaggi, ma con alcune peculiarità.
 
@@ -142,7 +142,7 @@ pub fn main() void {
 }
 ```
 
-### Sezione 9: Generici
+### Lezione 9 - Generici
 
 I generici permettono di scrivere codice riutilizzabile e flessibile.
 
@@ -160,7 +160,7 @@ pub fn main() void {
 }
 ```
 
-### Sezione 10: Conclusione e Prossimi Passi
+### Lezione 10 - Conclusione e prossimi passi
 
 Hai completato il tutorial di base su Zig! Ora sei pronto per esplorare ulteriormente e applicare ciò che hai imparato in progetti reali. Continua a sperimentare e approfondire la tua conoscenza di Zig per sfruttarne al massimo le potenzialità.
 
