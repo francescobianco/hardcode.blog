@@ -32,6 +32,7 @@ const std = @import("std");
 pub fn main() void {
     const a: i32 = 10;
     var b: f32 = 3.14;
+    b = 3.1415;
     std.debug.print("a: {}, b: {}\n", .{a, b});
 }
 ```
@@ -81,8 +82,8 @@ Zig offre potenti strumenti per lavorare con array e slices.
 const std = @import("std");
 
 pub fn main() void {
-    var array = [5]i32{1, 2, 3, 4, 5};
-    var slice = array[1..4];
+    const array = [5]i32{1, 2, 3, 4, 5};
+    const slice = array[1..4];
     std.debug.print("Slice: {}/{}/{}\n", .{slice[0], slice[1], slice[2]});
 }
 ```
@@ -96,8 +97,8 @@ La gestione dei puntatori e dell'allocazione dinamica è cruciale per applicazio
 const std = @import("std");
 
 pub fn main() void {
-    var x: i32 = 10;
-    var ptr = &x;
+    const x: i32 = 10;
+    const ptr = &x;
     std.debug.print("Value of x: {}, Value at ptr: {}\n", .{x, ptr.*});
 }
 ```
