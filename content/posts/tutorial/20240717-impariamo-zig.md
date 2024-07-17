@@ -8,6 +8,8 @@ authors: ["Francesco Bianco"]
 
 Benvenuti al nostro tutorial su Zig, un linguaggio di programmazione moderno e performante che sta guadagnando sempre più popolarità tra gli sviluppatori. Zig è noto per la sua semplicità, efficienza e robustezza, rendendolo ideale per progetti di sistema e applicazioni ad alte prestazioni. In questo percorso in 10 sezioni, esploreremo i concetti fondamentali di Zig attraverso esempi pratici che potrai eseguire direttamente nell'articolo. Pronto a iniziare? Andiamo!
 
+{{< social_cta >}}
+
 ### Lezione 1 - Introduzione a Zig
 
 Zig è un linguaggio di programmazione progettato per essere veloce, sicuro e semplice. È ideale per lo sviluppo di sistemi e applicazioni dove la performance e la gestione della memoria sono critiche.
@@ -169,3 +171,5 @@ pub fn main() void {
 ```
 
 Zig è un linguaggio potente e flessibile, perfetto per chi cerca performance, sicurezza e controllo. Continua a esplorare e a costruire grandi cose con Zig!
+
+{{< newsletter_cta >}}
