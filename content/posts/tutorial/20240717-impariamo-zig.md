@@ -1,6 +1,6 @@
 ---
-title: "Scopriamo **Zig**: un tutorial completo in 10 lezioni"
-description: "Benvenuti al nostro tutorial su Zig, un linguaggio di programmazione moderno e performante che sta guadagnando sempre più popolarità tra gli sviluppatori."
+title: "Scopriamo **Zig**: un tutorial facile facile in 10 lezioni"
+description: "Hai già sentito parlare di Zig? Zig è un linguaggio di programmazione moderno e performante che sta guadagnando sempre più popolarità tra gli sviluppatori."
 date: 2024-07-17T18:00:49.373Z
 tags: ["zig", "tutorial", "programming language"]
 authors: ["Francesco Bianco"]
@@ -12,7 +12,8 @@ Benvenuti al nostro tutorial su Zig, un linguaggio di programmazione moderno e p
 
 Zig è un linguaggio di programmazione progettato per essere veloce, sicuro e semplice. È ideale per lo sviluppo di sistemi e applicazioni dove la performance e la gestione della memoria sono critiche.
 
-**Codice: Hello World**
+Per iniziare, ecco qui il classico Hello World!
+
 ```zig {.is-runnable}
 const std = @import("std");
 
@@ -31,8 +32,8 @@ const std = @import("std");
 
 pub fn main() void {
     const a: i32 = 10;
-    var b: f32 = 3.14;
-    b = 3.1415;
+    var b: f32 = 1;
+    b = b + 1;
     std.debug.print("a: {}, b: {}\n", .{a, b});
 }
 ```
@@ -41,7 +42,8 @@ pub fn main() void {
 
 Zig supporta le classiche strutture di controllo come `if`, `else`, e `while`.
 
-**Codice: Strutture di Controllo**
+Ecco alcuni esempi pratici
+
 ```zig {.is-runnable}
 const std = @import("std");
 
@@ -59,7 +61,6 @@ pub fn main() void {
 
 Le funzioni in Zig sono dichiarate con la parola chiave `fn`.
 
-**Codice: Dichiarazione di Funzioni**
 ```zig {.is-runnable}
 const std = @import("std");
 
@@ -77,7 +78,6 @@ pub fn main() void {
 
 Zig offre potenti strumenti per lavorare con array e slices.
 
-**Codice: Arrays e Slices**
 ```zig {.is-runnable}
 const std = @import("std");
 
@@ -92,7 +92,6 @@ pub fn main() void {
 
 La gestione dei puntatori e dell'allocazione dinamica è cruciale per applicazioni ad alte prestazioni.
 
-**Codice: Punteri**
 ```zig {.is-runnable}
 const std = @import("std");
 
@@ -107,7 +106,6 @@ pub fn main() void {
 
 Zig offre un sistema di gestione degli errori molto robusto.
 
-**Codice: Gestione degli Errori**
 ```zig {.is-runnable}
 const std = @import("std");
 
@@ -128,7 +126,6 @@ pub fn main() void {
 
 Le strutture in Zig sono simili a quelle di altri linguaggi, ma con alcune peculiarità.
 
-**Codice: Strutture**
 ```zig {.is-runnable}
 const std = @import("std");
 
@@ -147,7 +144,6 @@ pub fn main() void {
 
 I generici permettono di scrivere codice riutilizzabile e flessibile.
 
-**Codice: Funzioni Generiche**
 ```zig {.is-runnable}
 const std = @import("std");
 
@@ -165,7 +161,6 @@ pub fn main() void {
 
 Hai completato il tutorial di base su Zig! Ora sei pronto per esplorare ulteriormente e applicare ciò che hai imparato in progetti reali. Continua a sperimentare e approfondire la tua conoscenza di Zig per sfruttarne al massimo le potenzialità.
 
-**Codice: Fine**
 ```zig {.is-runnable}
 const std = @import("std");
 
