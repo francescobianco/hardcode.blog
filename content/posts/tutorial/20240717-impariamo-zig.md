@@ -1,5 +1,5 @@
 ---
-title: "Imparare Zig: Un tutorial completo in 10 lezioni"
+title: "Scopriamo **Zig**: un tutorial completo in 10 lezioni"
 description: "Benvenuti al nostro tutorial su Zig, un linguaggio di programmazione moderno e performante che sta guadagnando sempre più popolarità tra gli sviluppatori."
 date: 2024-07-17T18:00:49.373Z
 tags: ["zig", "tutorial", "programming language"]
@@ -8,7 +8,7 @@ authors: ["Francesco Bianco"]
 
 Benvenuti al nostro tutorial su Zig, un linguaggio di programmazione moderno e performante che sta guadagnando sempre più popolarità tra gli sviluppatori. Zig è noto per la sua semplicità, efficienza e robustezza, rendendolo ideale per progetti di sistema e applicazioni ad alte prestazioni. In questo percorso in 10 sezioni, esploreremo i concetti fondamentali di Zig attraverso esempi pratici che potrai eseguire direttamente nell'articolo. Pronto a iniziare? Andiamo!
 
-### Sezione 1: Introduzione a Zig
+### Lezione 1 - Introduzione a Zig
 
 Zig è un linguaggio di programmazione progettato per essere veloce, sicuro e semplice. È ideale per lo sviluppo di sistemi e applicazioni dove la performance e la gestione della memoria sono critiche.
 
@@ -21,7 +21,7 @@ pub fn main() void {
 }
 ```
 
-### Sezione 2: Variabili e Tipi di Dato
+### Lezione 2 - Variabili e tipi di dato
 
 In Zig, le variabili possono essere dichiarate con `const` per costanti e `var` per variabili mutabili. Zig è tipizzato staticamente, quindi ogni variabile ha un tipo specifico.
 
@@ -36,7 +36,7 @@ pub fn main() void {
 }
 ```
 
-### Sezione 3: Strutture di Controllo
+### Lezione 3 - Strutture di controllo
 
 Zig supporta le classiche strutture di controllo come `if`, `else`, e `while`.
 
@@ -54,7 +54,7 @@ pub fn main() void {
 }
 ```
 
-### Sezione 4: Funzioni
+### Lezione 4 - Funzioni
 
 Le funzioni in Zig sono dichiarate con la parola chiave `fn`.
 
@@ -72,7 +72,7 @@ pub fn main() void {
 }
 ```
 
-### Sezione 5: Arrays e Slices
+### Lezione 5 - Arrays e slices
 
 Zig offre potenti strumenti per lavorare con array e slices.
 
