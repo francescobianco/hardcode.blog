@@ -1,5 +1,5 @@
 ---
-title: "Anche se molto utile, odio le chiavi implicite"
+title: "Anche se molto utile, odio le property shorthand"
 description: "JavaScript supporta la possibilità di usare come chivare di un oggetto il nome di una variabile, ecco la mia opinione"
 date: 2021-10-11T02:13:32+02:00
 tags: [javascript]
