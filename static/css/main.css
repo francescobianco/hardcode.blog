@@ -199,7 +199,7 @@ ul {
 
 ul li::marker {
     font-family: fixedsys;
-    content: '==> ';
+    content: '> ';
 }
 
 .markdown h2::before,

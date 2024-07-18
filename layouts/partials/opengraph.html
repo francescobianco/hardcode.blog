@@ -1,10 +1,10 @@
 <meta property="og:url" content="{{ .Site.Params.canonicalBaseURL }}{{ .RelPermalink }}">
 
-{{- with or site.Title site.Params.title | markdownify | plainify}}
+{{- with or site.Title site.Params.title | markdownify | plainify | htmlUnescape }}
 <meta property="og:site_name" content="{{ . }}">
 {{- end }}
 
-{{- with or .Title site.Title site.Params.title | markdownify | plainify }}
+{{- with or .Title site.Title site.Params.title | markdownify | plainify | htmlUnescape | chomp }}
 <meta property="og:title" content="{{ . }}">
 {{- end }}
 
@@ -50,11 +50,12 @@
     {{ errorf "Unable to get resource %q" $path }}
 {{ end }}
 
-{{ $text := .Title | markdownify | plainify }}
+{{ $text := .Title | markdownify | plainify | htmlUnescape | chomp }}
 {{ $opts := dict "color" "#fbfaf5" "font" $font "linespacing" 20 "size" 70 "x" 320 "y" 170 }}
 {{ $filter := images.Text $text $opts }}
 {{ with resources.GetRemote "https://hardcode.blog/images/social-banner.png" }}
     {{ with . | images.Filter $filter }}
+        <!--img src="{{ .Permalink }}" /-->
         <meta property="og:image" content="{{ .Permalink }}">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:image" content="{{ .Permalink }}">
