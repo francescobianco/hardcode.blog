@@ -2,7 +2,7 @@
 title: "Docker: Un ambiente ideale per il CRM vtiger"
 description: "Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti, vediamo come applicarlo sul CRM vtiger"
 date: 2020-01-01T12:10:00+02:00
-tags: [docker, vtiger]
+tags: ["devops", "docker", "vtiger", "crm"]
 ---
 
 Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).

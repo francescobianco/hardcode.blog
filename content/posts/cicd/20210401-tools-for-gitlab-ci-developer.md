@@ -2,7 +2,7 @@
 title: "Docker: Il cuore di GitLab CI"
 description: "Docker ormai è dappertutto, vi racconto come la CI di GitLab sia una piattaforma che non ne può più fare a meno"
 date: 2020-01-01T12:10:00+02:00
-tags: [docker, cicd, gitlab]
+tags: ["devops", "docker", "cicd", "gitlab"]
 ---
 
 ## Introduzione

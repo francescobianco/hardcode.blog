@@ -2,7 +2,7 @@ baseURL = "https://hardcode.blog/"
 languageCode = "en-en"
 title = "HARDCODE.BLOG"
 
-paginate = 4
+paginate = 5
 
 copyright = "© Francesco Bianco"
 
@@ -54,12 +54,12 @@ weight = 2
 #weight = 3
 
 [[menu.main]]
-name = "🐳 Docker"
-url = "/tags/docker/"
+name = "🐳 DevOps"
+url = "/tags/devops/"
 weight = 4
 
 [[menu.main]]
-name = "🐯 Vtiger"
+name = "☁️ CRM"
 url = "/tags/vtiger/"
 weight = 5
 

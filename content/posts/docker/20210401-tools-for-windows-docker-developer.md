@@ -2,7 +2,7 @@
 title: "Docker: Not soo bad!"
 description: "Vi racconto come Docker ha cambiato la mia giornata lavorativa"
 date: 2020-01-01T12:10:00+02:00
-tags: [docker]
+tags: ["devops", "docker"]
 ---
 
 ## Docker
