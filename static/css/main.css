@@ -714,3 +714,26 @@ div.post div.markdown > p:first-child {
     text-indent: 64px;
 }
 */
+
+div.VanillaTerm.is-terminal {
+    background-color: #272822;
+    font-weight: normal;
+    font-family: fixedsys, monospace, Monospaced;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+div.VanillaTerm.is-terminal a,
+div.VanillaTerm.is-terminal .prompt,
+div.VanillaTerm.is-terminal output,
+div.VanillaTerm.is-terminal .container {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+div.VanillaTerm.is-terminal .container {
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}

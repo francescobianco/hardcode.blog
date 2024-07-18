@@ -65,10 +65,33 @@ That's the post...
     return false;
 }
 
+function addTerminals() {
+    console.log('addTerminals');
+    document.querySelectorAll('.highlight').forEach(function (termBlock, index) {
+        if (!termBlock.classList.contains('is-terminal')) {
+            return;
+        }
+        const termBlockId = 'term-' + index;
+        const language = termBlock.querySelector('[data-lang]').getAttribute('data-lang')
+        termBlock.id = termBlockId;
+        console.log('termBlock', termBlock);
+        const terminal = new VanillaTerminal({
+            welcome: language,
+            container: termBlockId,
+            prompt: 'you@hardcode.blog:~',
+            separator: '$ '
+        });
+        termBlock.querySelector('input').scrollIntoView = function() {};
+    });
+}
 
 function addCodeButtons(clipboard) {
     console.log('addCopyButtons');
     document.querySelectorAll('.highlight').forEach(function (codeBlock) {
+        if (codeBlock.classList.contains('is-terminal')) {
+            return;
+        }
+
         console.log('codeBlock', codeBlock);
         const codeButtons = document.createElement('div');
         const runButton = document.createElement('button');
@@ -141,7 +164,6 @@ function addCodeButtons(clipboard) {
             });
         });
 
-        console.log("aa", codeBlock.classList)
         if (codeBlock.classList.contains('is-runnable')) {
             codeButtons.append(runButton)
             codeBlock.insertAdjacentElement('afterend', output);
@@ -178,6 +200,7 @@ function applyAdmonitions() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    addTerminals();
     applyAdmonitions();
 
     if (navigator && navigator.clipboard) {
