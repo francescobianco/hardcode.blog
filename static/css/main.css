@@ -382,14 +382,14 @@ code, kbd, pre, samp {
     display: flex;
 }
 
-@media (min-width: 1000px) {
-    .posts-single .post-header .meta {
-        width: 80px;
-    }
+.posts-single .post-header  {
+    display: block;
+    text-align: center;
+}
 
-    .posts-single .post-header {
-        margin-left: -80px;
-    }
+.posts-single .post-header .meta {
+    width: 80px;
+    margin: 0 auto 30px;
 }
 
 @media (max-width: 600px) {
@@ -708,3 +708,9 @@ pre.code-output code {
 div.post div.markdown {
     margin-bottom: 20px;
 }
+
+/*
+div.post div.markdown > p:first-child {
+    text-indent: 64px;
+}
+*/
