@@ -7,7 +7,11 @@
 		{{ partial "header.html" . }}
 
 		{{ if isset .Data "Term" }}
-            <h1 class="term-title">{{ .Data.Singular | humanize }}: <span class="term">{{ .Data.Term }}</span></h1>
+            {{ if eq .Data.Singular "tag" }}
+                <h1 class="term-title tag"><span class="term">{{ .Data.Term }}</span></h1>
+            {{ else }}
+                <h1 class="term-title">{{ .Data.Singular | humanize }}: <span class="term">{{ .Data.Term }}</span></h1>
+            {{ end }}
 		{{ else }}
 		    <h1 class="page-title">{{ .Name }}</h1>
 		{{ end }}
@@ -26,11 +30,11 @@
 					</div>
 					<div class="matter">
 						<h4 class="title small">
-							<a href="{{ .RelPermalink }}">{{.Title}}{{ if .Draft }}<sup class="draft-label">DRAFT</sup>{{ end }}</a>
+							<a href="{{ .RelPermalink }}">{{ .Title | markdownify }}{{ if .Draft }}<sup class="draft-label">DRAFT</sup>{{ end }}</a>
 						</h4>
 						<span class="description">
 							{{ if isset .Params "description" }}
-								{{ .Description }}
+								{{ .Description | markdownify }}
 							{{ else if gt (len .RawContent) 120 }}
 								{{ slicestr .RawContent 0 120 }}...
 							{{ else }}

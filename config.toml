@@ -60,7 +60,7 @@ weight = 4
 
 [[menu.main]]
 name = "☁️ CRM"
-url = "/tags/vtiger/"
+url = "/tags/crm/"
 weight = 5
 
 [[menu.main]]

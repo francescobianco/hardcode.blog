@@ -501,6 +501,15 @@ h1.term-title {
     margin-bottom: 30px;
 }
 
+h1.term-title.tag {
+    text-align: center;
+    margin: 31px 0 52px 0;
+}
+
+h1.term-title.tag .term {
+    transform: scale(2);
+}
+
 .tag-cloud ul.flat li,
 .post .tags li {
     display: inline-block;
@@ -643,6 +652,10 @@ h1.term-title {
         float: left;
         margin: 6px 16px 10px 0;
     }
+}
+
+.markdown img[src*='#style='][src*='width:64px'] {
+    width: 64px;
 }
 
 .markdown img[src*='#style='][src*='width:128px'] {
