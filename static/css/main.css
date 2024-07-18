@@ -388,7 +388,7 @@ code, kbd, pre, samp {
 }
 
 .posts-single .post-header .meta {
-    width: 80px;
+    width: 66px;
     margin: 0 auto 30px;
 }
 
@@ -437,6 +437,10 @@ h1.page-title ,
     color: #999;
     margin-right: 10px;
     display: inline-block;
+}
+
+.post-header .social a:last-child {
+    margin-right: 0;
 }
 
 .post-header .social a:hover {

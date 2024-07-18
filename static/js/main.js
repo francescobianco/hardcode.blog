@@ -65,7 +65,7 @@ That's the post...
     return false;
 }
 
-function remoteExec(language, command, callback) {
+function remoteExec(language, command, code, callback) {
     fetch('https://api.codapi.org/v1/exec', {
         method: 'POST',
         headers: {
@@ -73,9 +73,9 @@ function remoteExec(language, command, callback) {
         },
         body: JSON.stringify({
             sandbox: language,
-            command: "run",
+            command: command,
             files: {
-                "": command
+                "": code
             }
         })
     }).then(response => response.json()).then(data => {
@@ -98,13 +98,13 @@ function addTerminals() {
         const commands = {};
         for (let command of supportedCommands) {
             commands[command] = function (terminal, args) {
-                remoteExec(language, command + ' ' + args.join(' '), function (data) {
+                remoteExec(language, 'run', command + ' ' + args.join(' '), function (data) {
                     terminal.output(data.stdout + data.stderr);
                 });
             };
         }
         const terminal = new VanillaTerminal({
-            welcome: language,
+            welcome: '',
             container: termBlockId,
             prompt: 'you@hardcode.blog:~',
             separator: '$ ',
