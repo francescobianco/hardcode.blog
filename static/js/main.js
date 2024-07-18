@@ -65,8 +65,28 @@ That's the post...
     return false;
 }
 
+function remoteExec(language, command, callback) {
+    fetch('https://api.codapi.org/v1/exec', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            sandbox: language,
+            command: "run",
+            files: {
+                "": command
+            }
+        })
+    }).then(response => response.json()).then(data => {
+        //console.log('Risposta JSON:', data);
+        callback(data);
+    })
+}
+
 function addTerminals() {
     console.log('addTerminals');
+    const supportedCommands = ['sh']
     document.querySelectorAll('.highlight').forEach(function (termBlock, index) {
         if (!termBlock.classList.contains('is-terminal')) {
             return;
@@ -75,12 +95,22 @@ function addTerminals() {
         const language = termBlock.querySelector('[data-lang]').getAttribute('data-lang')
         termBlock.id = termBlockId;
         console.log('termBlock', termBlock);
+        const commands = {};
+        for (let command of supportedCommands) {
+            commands[command] = function (terminal, args) {
+                remoteExec(language, command + ' ' + args.join(' '), function (data) {
+                    terminal.output(data.stdout + data.stderr);
+                });
+            };
+        }
         const terminal = new VanillaTerminal({
             welcome: language,
             container: termBlockId,
             prompt: 'you@hardcode.blog:~',
-            separator: '$ '
+            separator: '$ ',
+            commands: commands,
         });
+        termBlock.querySelector('input').focus = function() {};
         termBlock.querySelector('input').scrollIntoView = function() {};
     });
 }
