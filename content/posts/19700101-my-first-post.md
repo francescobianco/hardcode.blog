@@ -6,7 +6,7 @@ tags: [unix, humor]
 ---
 
 As first post, I want to move your focus to one the most important technological constant of our era. 
-I'm talking about the first _second_ of the _Unix time_, and the word joke inside.
+I'm talking about the _first_ __second__ of the __Unix time__, and the word joke inside.
 
-Ream more:
+Read more:
 - <https://en.wikipedia.org/wiki/Unix_time>
