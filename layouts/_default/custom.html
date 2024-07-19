@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+
+<body>
+<div class="container wrapper list">
+    {{ partial "header.html" . }}
+
+    {{ if isset .Data "Term" }}
+    {{ if eq .Data.Singular "tag" }}
+    <h1 class="term-title tag"><span class="term">{{ .Data.Term }}</span></h1>
+    {{ else }}
+    <h1 class="term-title">{{ .Data.Singular | humanize }}: <span class="term">{{ .Data.Term }}</span></h1>
+    {{ end }}
+    {{ else }}
+    <h1 class="page-title">{{ .Name }}</h1>
+    {{ end }}
+
+
+    {{ range (.Site.RegularPages.GroupByDate "January 2006")  }}
+    {{ if (where .Pages "Section" "posts") }}
+    <h2>{{ .Key }}</h2>
+    <ul class="list-group striped-list">
+        {{ range ((where .Pages "Section" "posts")) }}
+        <li class="list-group-item">
+            <a href="{{ .RelPermalink }}">
+                {{ .PublishDate.Format "Jan 02" }} : {{ .Title }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    {{ end }}
+
+    <ul class="posts flat">
+        {{- range .Data.Pages -}}
+        {{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
+        {{- else -}}
+        <li class="post">
+            <div class="post-header">
+                <div class="meta">
+                    <div class="date">
+                        <span class="day">{{ dateFormat "2" .Date }}</span>
+                        <span class="rest">{{ if $.Site.Data.month }}{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}{{ else }}{{ dateFormat "Jan 2006" .Date }}{{ end }}</span>
+                    </div>
+                </div>
+                <div class="matter">
+                    <h4 class="title small">
+                        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}{{ if .Draft }}<sup class="draft-label">DRAFT</sup>{{ end }}</a>
+                    </h4>
+                    <span class="description">
+							{{ if isset .Params "description" }}
+								{{ .Description | markdownify }}
+							{{ else if gt (len .RawContent) 120 }}
+								{{ slicestr .RawContent 0 120 }}...
+							{{ else }}
+								{{ .RawContent }}
+							{{ end }}
+						</span>
+                </div>
+            </div>
+        </li>
+        {{- end -}}
+        {{- end -}}
+    </ul>
+</div>
+
+{{ partial "footer.html" . }}
+</body>
+
+</html>

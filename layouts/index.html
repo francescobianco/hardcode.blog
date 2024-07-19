@@ -5,6 +5,8 @@
 	<div class="container wrapper">
 		{{ partial "header.html" . }}
 
+        {{ partial "views.html" . }}
+
 		<div class="recent-posts section">
 			<div class="posts">
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
