@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "custom"
+layout: "grouped"
 title: "Posts"
 description: "By Date"
 ---

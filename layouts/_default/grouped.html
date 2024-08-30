@@ -6,16 +6,7 @@
 <div class="container wrapper list">
     {{ partial "header.html" . }}
 
-    {{ if isset .Data "Term" }}
-    {{ if eq .Data.Singular "tag" }}
-    <h1 class="term-title tag"><span class="term">{{ .Data.Term }}</span></h1>
-    {{ else }}
-    <h1 class="term-title">{{ .Data.Singular | humanize }}: <span class="term">{{ .Data.Term }}</span></h1>
-    {{ end }}
-    {{ else }}
-    <h1 class="page-title">{{ .Name }}</h1>
-    {{ end }}
-
+    {{ partial "views.html" . }}
 
     {{ range (.Site.RegularPages.GroupByDate "January 2006")  }}
     {{ if (where .Pages "Section" "posts") }}
@@ -24,7 +15,7 @@
         {{ range ((where .Pages "Section" "posts")) }}
         <li class="list-group-item">
             <a href="{{ .RelPermalink }}">
-                {{ .PublishDate.Format "Jan 02" }} : {{ .Title }}
+                {{ .PublishDate.Format "Jan 02" }} : {{ .Title | markdownify }}
             </a>
         </li>
         {{ end }}

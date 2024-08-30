@@ -1,5 +1,16 @@
 
 <div class="view-selector font-fixedsys">
-    <a href="/">[ Recent posts ]</a>
-    <a href="/posts/by-month/">[ Grouped by month ]</a>
+
+    {{ if eq .RelPermalink "/" }}
+    <span>[Recent]</span>
+    {{ else }}
+    <a href="/">[Recent]</a>
+    {{ end }}
+
+    {{ if eq .RelPermalink "/views/grouped/" }}
+    <span>[Grouped]</span>
+    {{ else }}
+    <a href="/views/grouped/">[Grouped]</a>
+    {{ end }}
+
 </div>
