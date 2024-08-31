@@ -1,12 +1,12 @@
 ---
-title: "Le Blockchain sono morte! 🇮🇹"
+title: "Le **blockchain** sono morte!?"
 description: "Tutto quello che dovete sapere sulle Blockchain prima di partecipare al suo funerale."
-date: 2020-01-01T12:17:31+02:00
+date: 2024-08-05T18:31:08+02:00
 ---
 
 # La Svizzera e la Blockchain: Un Esempio di Innovazione o un Errore Costoso?
 
-Recentemente, si è diffusa la notizia che la Svizzera stesse adottando la blockchain per i pagamenti fiscali. Tuttavia, un'analisi più approfondita rivela una realtà più complessa e solleva dubbi sull'effettiva utilità e sostenibilità di questa tecnologia nel lungo termine.
+Da tempo, si era diffusa la notizia che la Svizzera stesse adottando la blockchain per i pagamenti fiscali. Tuttavia, un'analisi più approfondita rivela una realtà più complessa e solleva dubbi sull'effettiva utilità e sostenibilità di questa tecnologia nel lungo termine.
 
 ## La Realtà dei Fatti
 
