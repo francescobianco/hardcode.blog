@@ -1,6 +1,6 @@
 ---
 title: "Il Circuit Breaker: Il Pattern che ha Salvato Netflix"
-description: "A bit of post."
+description: "Nell'ingegneria del software, la resilienza dei sistemi è fondamentale, soprattutto quando si tratta di servizi ad alta disponibilità. Oggi esploreremo un pattern di progettazione che ha rivoluzionato la gestione del carico in sistemi distribuiti: il Circuit Breaker."
 date: 2024-09-17T15:03:43.330Z
 tags: ["design pattern", "microservices"]
 authors: ["Francesco Bianco"]
