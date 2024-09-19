@@ -18,7 +18,7 @@ Cosa fare? Ecco che entra in gioco il nostro eroe: il Circuit Breaker pattern.
 
 Il Circuit Breaker è un pattern intelligente che monitora le chiamate ai servizi e reagisce in modo proattivo quando rileva problemi. Ecco una rappresentazione visiva del suo funzionamento:
 
-```plantuml
+```plantuml {.is-plantuml}
 @startuml
 skinparam handwritten true
 skinparam backgroundColor #EEEBDC
