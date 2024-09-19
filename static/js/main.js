@@ -84,15 +84,15 @@ function remoteExec(language, command, code, callback) {
     })
 }
 
-function addGraphs() {
+function renderGraphs() {
     console.log('addGraphs');
     document.querySelectorAll('.highlight').forEach(function (graphBlock, index) {
         if (graphBlock.classList.contains('is-plantuml')) {
-            graphBlock.querySelector('pre').style.display = 'none';
+            const pre = graphBlock.querySelector('pre');
             const image = document.createElement('img');
-            image.src = '//www.plantuml.com/plantuml/png/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80'
+            pre.style.display = 'none';
+            image.src = '//www.plantuml.com/plantuml/dpng/' + plantumlEncoder.encode(pre.innerText + "");
             graphBlock.append(image)
-            return;
         }
     });
 }
@@ -245,7 +245,7 @@ function applyAdmonitions() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    addGraphs();
+    renderGraphs();
     addTerminals();
     applyAdmonitions();
 

@@ -20,9 +20,6 @@ Il Circuit Breaker è un pattern intelligente che monitora le chiamate ai serviz
 
 ```plantuml {.is-plantuml}
 @startuml
-skinparam handwritten true
-skinparam backgroundColor #EEEBDC
-
 state "Chiuso" as Closed
 state "Aperto" as Open
 state "Semi-Aperto" as HalfOpen
@@ -30,7 +27,7 @@ state "Semi-Aperto" as HalfOpen
 [*] -> Closed
 Closed -> Open : Troppi errori
 Open -> HalfOpen : Dopo timeout
-HalfOpen -> Closed : Chiamate riuscite
+HalfOpen --> Closed : Chiamate riuscite
 HalfOpen -> Open : Errori persistono
 
 @enduml
@@ -49,11 +46,8 @@ Tornando alla nostra storia, StreamFlix ha implementato il Circuit Breaker patte
 
 Ecco come potrebbe apparire una semplice implementazione del pattern:
 
-```plantuml
+```plantuml {.is-plantuml}
 @startuml
-skinparam handwritten true
-skinparam backgroundColor #EEEBDC
-
 participant Client
 participant "Circuit Breaker" as CB
 participant "Service" as Service
