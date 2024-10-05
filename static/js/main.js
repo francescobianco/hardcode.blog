@@ -256,14 +256,25 @@ function downloadCoverImage() {
 }
 
 function shareOnLinkedIn() {
-    //const meta = document.querySelector('meta[property="og:image"]')
+    const meta = document.querySelector('meta[property="og:image"]')
     const link = document.createElement('a');
-    const post = window.location.href;
+    copyToClipboard(meta.getAttribute("content") + "\n" + window.location.href)
+    const post = "paste-clipboard";
     link.href = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(post)
     link.setAttribute('target', '_blank');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+}
+
+function copyToClipboard(text) {
+    const tempElement = document.createElement('textarea');
+    tempElement.value = text;
+    document.body.appendChild(tempElement);
+    tempElement.select();
+    tempElement.setSelectionRange(0, 99999); // Per dispositivi mobili
+    document.execCommand('copy');
+    document.body.removeChild(tempElement);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
