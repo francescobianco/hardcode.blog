@@ -244,6 +244,29 @@ function applyAdmonitions() {
     });
 }
 
+function downloadCoverImage() {
+    const meta = document.querySelector('meta[property="og:image"]')
+    console.log()
+    const link = document.createElement('a');
+    link.href = meta.getAttribute('content');
+    link.download = 'cover.' + link.href.split('.').pop();
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+function shareOnLinkedIn() {
+    const meta = document.querySelector('meta[property="og:image"]')
+    console.log()
+    const link = document.createElement('a');
+    const post = meta.getAttribute('content') + "\n" + window.location.href;
+    link.href = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(post)
+    link.setAttribute('target', '_blank');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     renderGraphs();
     addTerminals();

@@ -21,7 +21,10 @@
                         <a href="{{ .Site.Params.repository }}/edit/main/content/{{ .File.Path }}" target="_blank">
                             <i data-feather="github"></i>
                         </a>
-                        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" target="_blank">
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
                             <i data-feather="linkedin"></i>
                         </a>
                         <a href="https://www.reddit.com/submit?url={{ .Permalink }}" target="_blank">
