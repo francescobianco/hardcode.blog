@@ -256,9 +256,9 @@ function downloadCoverImage() {
 }
 
 function shareOnLinkedIn() {
-    const meta = document.querySelector('meta[property="og:image"]')
+    //const meta = document.querySelector('meta[property="og:image"]')
     const link = document.createElement('a');
-    const post = meta.getAttribute('content') + "\n" + window.location.href;
+    const post = window.location.href;
     link.href = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(post)
     link.setAttribute('target', '_blank');
     document.body.appendChild(link);
