@@ -257,7 +257,7 @@ function downloadCoverImage() {
 
 function shareOnLinkedIn() {
     const link = document.createElement('a');
-    copyToClipboard("Mi crei un lancio per questo post: " + window.location.href + "metti il post in un blocco codice cosi potro copiarlo, non usare il markdown, metti le emoji")
+    copyToClipboard("Mi crei un lancio per questo post: " + window.location.href + " metti il post in un blocco codice cosi potro copiarlo, non usare il markdown, metti le emoji")
     const post = "paste-clipboard";
     link.href = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(post)
     link.setAttribute('target', '_blank');
