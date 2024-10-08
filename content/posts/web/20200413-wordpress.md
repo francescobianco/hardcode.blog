@@ -1,7 +1,7 @@
 ---
 title: "WordPress, come adoperarlo al meglio"
 description: "Parliamo di come adoperare al meglio WordPress e quali conoscenze bisogna avere per saper realmente utilizzare i suoi potenziali."
-date: 2020-04-12T13:31:31+02:00
+date: 2020-04-13T11:21:43+02:00
 tags: [web, wordpress]
 ---
 
