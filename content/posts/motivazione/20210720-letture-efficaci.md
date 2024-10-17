@@ -2,7 +2,7 @@
 title: "Recensione: L'arte della pazienza - Raffaele Gaito"
 description: "Sto cercando di ritornare a leggere. Ecco la mia recensione di 'L'arte della pazienza' di Raffaele Gaito."
 date: 2021-07-20T12:10:00+02:00
-tags: [libri, italian]
+tags: [books, review, personal-growth]
 ---
 
 Ho avuto il piacere di leggere *L'arte della pazienza* di Raffaele Gaito per la prima volta il 17 luglio 2021, e da quel giorno, questo libro è diventato un compagno costante nel mio percorso di crescita personale e professionale. La capacità di Gaito di trattare un tema così essenziale come la pazienza, con una prosa chiara e coinvolgente, è ciò che rende questa opera tanto preziosa.

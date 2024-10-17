@@ -2,7 +2,7 @@
 title: "Prima trovate un coach, poi trovate la motivazione"
 description: "La crescita professionale è un processo attivo, deve essere vissuto con umiltà e con gentilezza"
 date: 2022-09-08T02:13:32+02:00
-tags: [javascript]
+tags: [personal-growth]
 ---
 
 La motivazione è il primo passo verso il cambiamento. Spesso, però, ci troviamo bloccati, incapaci di intraprendere il percorso che desideriamo. Dopo una stimolante chiacchierata con un coach professionista, ho compreso l'importanza di avere una guida per affrontare le sfide e raggiungere i nostri obiettivi. È in questo contesto che ho deciso di stilare una lista di 10 argomenti che potrei approfondire per migliorare me stesso. Ho trovato una fonte preziosa in una serie di video del dottor Filippo Ongaro, che consiglio vivamente di ascoltare.
