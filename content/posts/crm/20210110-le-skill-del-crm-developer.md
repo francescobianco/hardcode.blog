@@ -2,7 +2,7 @@
 title: "La figura del CRM Developer: skill, opportunità e campo di azione"
 description: "Il ruolo del CRM Developer sta emergendo come una figura chiave nel panorama tecnologico. Ma chi è esattamente un CRM Developer, scopriamolo..."
 date: 2020-09-02T19:38:58+02:00
-tags: [didattica, università, carriera]
+tags: [crm]
 ---
 
 In un mondo sempre più orientato alla gestione efficiente delle relazioni con i clienti, il ruolo del CRM Developer sta emergendo come una figura chiave nel panorama tecnologico. Ma chi è esattamente un CRM Developer, quali competenze possiede e quali sono le sue opportunità di lavoro? Partendo da un recente annuncio che cerca sviluppatori specializzati in CRM, esploriamo questo affascinante ruolo.

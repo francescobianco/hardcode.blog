@@ -767,3 +767,61 @@ div.VanillaTerm.is-terminal .container {
     margin: -20px 0 20px 0;
     text-align: center;
 }
+
+@keyframes redAlert {
+    0%, 100% { background-color: #ff0000; }
+    33% { background-color: #ffff00; }
+    66% { background-color: #000000; }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+body.red-alert {
+    animation: redAlert 0.5s infinite;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.red-alert div.container {
+    display: none;
+}
+
+body.red-alert div.footer {
+    display: none;
+}
+
+body.red-alert::before {
+    content: "ALERT! ALERT! ALERT!";
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    animation: blink 1s infinite;
+    position: absolute;
+    top: 20%;
+}
+
+body.red-alert::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 20px dashed #ffff00;
+    pointer-events: none;
+}
+
+.red-alert .message {
+    font-size: 2rem;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 60%;
+}

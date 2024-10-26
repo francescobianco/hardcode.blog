@@ -1,6 +1,7 @@
 baseURL = "https://hardcode.blog/"
 languageCode = "en-en"
 title = "HARDCODE.BLOG"
+subtitle = "Ingegneria del software in azione"
 
 paginate = 5
 

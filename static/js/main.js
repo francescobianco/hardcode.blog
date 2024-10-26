@@ -116,6 +116,9 @@ function addTerminals() {
                 });
             };
         }
+        commands['rm'] = function (terminal, args) {
+            redAlert();
+        }
         const terminal = new VanillaTerminal({
             welcome: '',
             container: termBlockId,
@@ -274,6 +277,37 @@ function copyToClipboard(text) {
     tempElement.setSelectionRange(0, 99999); // Per dispositivi mobili
     document.execCommand('copy');
     document.body.removeChild(tempElement);
+}
+
+function redAlert() {
+    const body = document.body;
+    const messageElement = document.createElement('div');
+    messageElement.className = 'message';
+    body.append(messageElement);
+    const messages = [
+        "SYSTEM FAILURE",
+        "IMMINENT EXPLOSION",
+        "EVACUATE IMMEDIATELY",
+        "CRITICAL ERROR",
+        "DANGER LEVEL MAXIMUM"
+    ];
+    let interval;
+
+    function showRandomMessage() {
+        messageElement.textContent = messages[Math.floor(Math.random() * messages.length)];
+    }
+
+    function toggleAlert() {
+        body.classList.toggle('red-alert');
+        if (body.classList.contains('red-alert')) {
+            interval = setInterval(showRandomMessage, 2000);
+        } else {
+            clearInterval(interval);
+            messageElement.textContent = '';
+        }
+    }
+
+    toggleAlert()
 }
 
 document.addEventListener('DOMContentLoaded', function() {
