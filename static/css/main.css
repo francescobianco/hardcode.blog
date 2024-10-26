@@ -480,7 +480,8 @@ a.social-button img {
 
 .term-title .term,
 .tag-cloud a,
-.post .tags a {
+.post .tags a,
+ul.list-group span.badge {
     display: inline-block;
     border: 1px solid #3700ff;
     border-radius: 3px;
@@ -493,6 +494,10 @@ a.social-button img {
     text-decoration: none;
     margin: 0 6px 0 0;
     font-family: fixedsys;
+}
+
+ul.list-group span.badge {
+    font-size: 19px !important;
 }
 
 .post .authors {
