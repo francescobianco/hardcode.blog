@@ -49,6 +49,7 @@
 	{{ end }}
         <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
         <script src="{{ .Site.BaseURL }}js/terminal.js"></script>
+        <script src="{{ .Site.BaseURL }}js/nibbles.js"></script>
 		<script src="{{ .Site.BaseURL }}js/main.js"></script>
 	{{- if isset .Site.Params "customjs" -}}
 		{{- range .Site.Params.customJS }}<script src="{{ $.Site.BaseURL }}{{ . }}"></script>{{- end }}
