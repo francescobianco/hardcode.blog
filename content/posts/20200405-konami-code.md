@@ -2,7 +2,7 @@
 title: "La storia del Konami Code: una sequenza leggendaria"
 description: "Era il 1986 quando Kazuhisa Hashimoto, un programmatore della Konami ha avuto un idea geniale, vediamola."
 date: 2020-04-05T04:18:06+02:00 
-tags: [konami, gaming]
+tags: [konami, gaming, debug]
 ---
 
 Era il 1986 quando Kazuhisa Hashimoto, un programmatore della Konami, stava lavorando alla conversione per NES del gioco
