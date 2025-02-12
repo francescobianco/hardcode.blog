@@ -139,6 +139,8 @@ Altri comandi utili
 apt install --reinstall ubuntu-desktop gnome-shell
 ```
 
+IMPORTANTE! Seguire l'opzione #2 in questo link: https://kb.nomachine.com/AR04R01083
+
 ---
 
 #### **Conclusione**
