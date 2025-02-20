@@ -2,7 +2,7 @@
 title: "Come Parlano i Computer Quantistici: Il Linguaggio Dietro le Macchine del Futuro"
 description: "I computer quantistici, a differenza dei classici, non seguono il semplice schema binario di 0 e 1. Essi sfruttano le leggi della fisica quantistica per trattare informazioni in modi radicalmente diversi. "
 date: 2025-02-20T17:05:17.782Z
-tags: ["tag1", "tag2"]
+tags: ["quantum computing"]
 authors: ["Francesco Bianco"]
 ---
 
