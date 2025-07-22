@@ -2,8 +2,11 @@
 
 > Last update: Tue Jan  3 10:34:30 UTC 2023
 
+[![Deploy](https://github.com/francescobianco/hardcode.blog/actions/workflows/hugo.yml/badge.svg)](https://github.com/francescobianco/hardcode.blog/actions/workflows/hugo.yml)
+<!---
 [![Deploy](https://github.com/francescobianco/hardcode.blog/actions/workflows/deploy.yml/badge.svg)](https://github.com/francescobianco/hardcode.blog/actions/workflows/deploy.yml)
 [![Super Linter](https://github.com/francescobianco/hardcode.blog/actions/workflows/super-linter.yml/badge.svg)](https://github.com/francescobianco/hardcode.blog/actions/workflows/super-linter.yml)
+--->
 
 This is my personal blog, the place where I talk about programming stuff.
 
