@@ -1,8 +1,8 @@
 ---
-title: "🎛️ Questo post è un menu"
+title: "Questo post è un menu!!!"
 description: "Sto sperimentando alcune idee strampalate per rendere il blog un posto curioso da visitare..."
 date: 2025-05-27T01:06:14.995Z
-tags: ["tag1", "tag2"]
+tags: ["joke"]
 authors: ["Francesco Bianco"]
 ---
 
