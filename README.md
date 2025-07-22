@@ -13,7 +13,7 @@ This is my personal blog, the place where I talk about programming stuff.
 - [Docker](https://hardcode.blog/tags/docker/)
 - [Vtiger](https://hardcode.blog/tags/vtiger/)
 
-and [more](https://hardcode.blog/tags/)...
+and [more](https://hardcode.blog/tags/)
 
 ## Credits
 
