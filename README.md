@@ -9,8 +9,8 @@ This is my personal blog, the place where I talk about programming stuff.
 
 - [Docker](https://hardcode.blog/tags/docker/)
 - [Vtiger](https://hardcode.blog/tags/vtiger/)
-- Shell Programming (Coming Soon)
-- [Italiano](https://hardcode.blog/tags/italiano/)
+
+and [more](https://hardcode.blog/tags/)...
 
 ## Credits
 
