@@ -1,12 +1,13 @@
 ---
 title: "Kubernetes 2.0 uccide YAML? Una riflessione su strumenti, obsolescenza e modernizzazione"
-description: "Negli ultimi mesi, diversi articoli online hanno fatto circolare l'idea di un "Kubernetes 2.0" che eliminerebbe completamente YAML in favore di SDK Python/TypeScript, cerchiamo di capire meglio cosa succede"
+description: "Negli ultimi mesi, diversi articoli online hanno fatto circolare l'idea di un Kubernetes 2.0 che eliminerebbe completamente YAML in favore di SDK Python/TypeScript, cerchiamo di capire meglio cosa succede"
 date: 2025-08-08T10:16:22.139Z
-tags: ["tag1", "tag2"]
+tags: ["kubernetes", "yaml"]
 authors: ["Francesco Bianco"]
 ---
 
 ## TL;DR - La bottom line prima di tutto
+
 **Non esiste alcun Kubernetes 2.0 ufficiale che elimina YAML**, ma il dibattito è più che mai attuale. Con il 79% dei problemi di produzione di Kubernetes tracciabili a errori di configurazione YAML, la community sta attivamente esplorando alternative più robuste. La vera domanda non è se buttare via YAML, ma come evolverlo intelligentemente.
 
 ---
