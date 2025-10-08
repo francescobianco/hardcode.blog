@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Wed, 07 May 2025 23:17:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Aug 2025 16:46:37 +0000</lastBuildDate>
     <atom:link href="https://hardcode.blog/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker 2026: L&#39;Evoluzione che Ridefinirà il DevOps</title>
+      <link>https://hardcode.blog/posts/docker/20250805-docker-2026-nuova-era/</link>
+      <pubDate>Tue, 05 Aug 2025 16:46:37 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/docker/20250805-docker-2026-nuova-era/</guid>
+      <description>Analisi completa dei trend, previsioni e strategie per il futuro della containerizzazione&#xA;Executive Summary: Il Futuro è Già Qui Bottom Line Up Front: Docker nel 2026 non sarà più &amp;ldquo;solo&amp;rdquo; una tecnologia di containerizzazione, ma evolverà in una piattaforma integrata di sviluppo AI-driven, con focus su edge computing, serverless containers e automazione intelligente. Le organizzazioni che si preparano oggi a questa transizione avranno un vantaggio competitivo decisivo.&#xA;Mentre la containerizzazione si avvia al suo secondo decennio di vita, Docker si trova a un punto di flesso cruciale.</description>
+    </item>
     <item>
       <title>Docker: l’inizio della fine di un’icona?</title>
       <link>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</link>

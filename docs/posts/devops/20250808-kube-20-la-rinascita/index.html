@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Kubernetes 2.0 uccide YAML? Una riflessione su strumenti, obsolescenza e modernizzazione - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/devops/20250808-kube-20-la-rinascita/" itemprop="url" /><meta itemprop="name" content="Kubernetes 2.0 uccide YAML? Una riflessione su strumenti, obsolescenza e modernizzazione">
+<meta itemprop="description" content="Negli ultimi mesi, diversi articoli online hanno fatto circolare l&#39;idea di un Kubernetes 2.0 che eliminerebbe completamente YAML in favore di SDK Python/TypeScript, cerchiamo di capire meglio cosa succede"><meta itemprop="datePublished" content="2025-08-08T10:16:22+00:00" />
+<meta itemprop="dateModified" content="2025-08-08T10:16:22+00:00" />
+<meta itemprop="wordCount" content="1588">
+<meta itemprop="keywords" content="kubernetes,yaml," /><meta property="og:url" content="https://hardcode.blog/posts/devops/20250808-kube-20-la-rinascita/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="Kubernetes 2.0 uccide YAML? Una riflessione su strumenti, obsolescenza e modernizzazione">
+<meta property="og:description" content="Negli ultimi mesi, diversi articoli online hanno fatto circolare l&#39;idea di un Kubernetes 2.0 che eliminerebbe completamente YAML in favore di SDK Python/TypeScript, cerchiamo di capire meglio cosa succede">
+
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2025-08-08T10:16:22+00:00">
+<meta property="article:modified_time" content="2025-08-08T10:16:22+00:00">
+<meta property="article:tag" content="Kubernetes">
+<meta property="article:tag" content="Yaml">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_15005364121556365547.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_15005364121556365547.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
+
+    <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
+		<script src="https://hardcode.blog/js/main.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://hardcode.blog/">
+				<img src="/images/logo.png" alt="HARDCODE.BLOG" class="hide-on-dark-mode" />
+                <img src="/images/logo.png@dark" alt="HARDCODE.BLOG" class="show-on-dark-mode" />
+			</a>
+		</div>
+	
+    <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
+                    &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
+                    &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
+                    &#32;<li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li>
+                    &#32;</ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li class="font-fixedsys">
+				<a href="/">🏠 Home</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/devops/">🐳 DevOps</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/crm/">☁️ CRM</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/">🏷️ Tags</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/about/">👷 About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post posts-single">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">8</span>
+							<span class="rest">Aug 2025</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Kubernetes 2.0 uccide YAML? Una riflessione su strumenti, obsolescenza e modernizzazione</h1>
+                    <div class="social">
+                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/devops/20250808-kube-20-la-rinascita.md" target="_blank">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        
+                    </div>
+				</div>
+			</div>
+
+			<div class="markdown">
+				<h2 id="tldr---la-bottom-line-prima-di-tutto">TL;DR - La bottom line prima di tutto</h2>
+<p><strong>Non esiste alcun Kubernetes 2.0 ufficiale che elimina YAML</strong>, ma il dibattito è più che mai attuale. Con il 79% dei problemi di produzione di Kubernetes tracciabili a errori di configurazione YAML, la community sta attivamente esplorando alternative più robuste. La vera domanda non è se buttare via YAML, ma come evolverlo intelligentemente.</p>
+<hr>
+<h2 id="il-falso-annuncio-che-fa-scalpore">Il (falso) annuncio che fa scalpore</h2>
+<p>Negli ultimi mesi, diversi articoli online hanno fatto circolare l&rsquo;idea di un &ldquo;Kubernetes 2.0&rdquo; che eliminerebbe completamente YAML in favore di SDK Python/TypeScript, con funzionalità AI-native e &ldquo;Nanopods&rdquo; al posto dei sidecar. Alcuni di questi contenuti presentano anche screenshot e esempi di codice, alimentando speculazioni nella community DevOps.</p>
+<p><strong>La realtà è però diversa</strong>: dopo ricerche approfondite tra documentazione ufficiale, roadmap CNCF e annunci del progetto Kubernetes, <strong>non esiste alcuna conferma ufficiale</strong> di un &ldquo;Kubernetes 2.0&rdquo; che elimina YAML. La CNCF continua a investire nel progetto attuale, con AWS che ha rinnovato il supporto con 3 milioni di dollari in cloud credits per il 2026 e focus su evoluzione graduale piuttosto che rivoluzioni.</p>
+<h2 id="perché-questo-meme-ha-così-tanto-senso">Perché questo &ldquo;meme&rdquo; ha così tanto senso?</h2>
+<h3 id="1-la-yaml-fatigue-è-reale">1. La &ldquo;YAML Fatigue&rdquo; è reale</h3>
+<p>I problemi con YAML non sono teorici. Le configurazioni basate su YAML possono essere error-prone, portando a problemi come limiti di risorse incorretti, selettori di servizio impropri o permessi insufficienti che disturbano le operazioni.</p>
+<p>Mentre è vero che le configurazioni errate a volte risultano in violazioni di sicurezza o perdite di dati sensibili, è altrettanto comune che causino problemi di stabilità della produzione, come interruzioni e degradazioni delle performance.</p>
+<p><strong>Esempi reali di problemi YAML:</strong></p>
+<ul>
+<li><strong>Indentazione killer</strong>: Un singolo spazio mancante può cambiare completamente la struttura di una configurazione</li>
+<li><strong>Coercizione di tipo implicita</strong>: Valori come <code>NO</code>, <code>yes</code>, <code>1.0</code> vengono interpretati in modi inaspettati</li>
+<li><strong>Errori di sintassi banali</strong>: Un <code>:</code> mancante o <code>nginxx</code> invece di <code>nginx</code> possono far saltare un cluster intero</li>
+<li><strong>Scalabilità limitata</strong>: File YAML molto lunghi diventano difficili da gestire e debuggare</li>
+</ul>
+<h3 id="2-il-paradosso-della-configurabilità-infinita">2. Il paradosso della configurabilità infinita</h3>
+<p>Kubernetes è nato come &ldquo;la soluzione di orchestrazione container de-facto&rdquo;, ma per essere una soluzione che funziona per TUTTI ha dovuto supportare praticamente qualsiasi configurazione; causando uno spostamento monumentale nella complessità complessiva.</p>
+<h3 id="3-i-problemi-in-produzione-sono-tangibili">3. I problemi in produzione sono tangibili</h3>
+<p>Le aziende riportano incidenti reali causati da errori YAML:</p>
+<ul>
+<li><strong>Blue Matador</strong>: I pod fluentd-sumologic consumavano tutta la memoria dei nodi perché mancavano resource requests e limits</li>
+<li><strong>Datadog</strong>: Jobs che non partivano a causa di rate limiting dell&rsquo;image registry per configurazioni errate</li>
+<li><strong>Zalando</strong>: CronJob che spawnavano pod infiniti perché la concurrency policy era posizionata male nel manifest</li>
+</ul>
+<h2 id="le-alternative-esistono-già-e-funzionano-bene">Le alternative esistono già (e funzionano bene)</h2>
+<p>Contrariamente ai rumors su un fantomatico &ldquo;Kubernetes 2.0&rdquo;, esistono già oggi diverse soluzioni mature per ridurre la dipendenza da YAML:</p>
+<h3 id="sdk-e-linguaggi-di-programmazione">SDK e Linguaggi di Programmazione</h3>
+<p><strong>CDK8s (Cloud Development Kit for Kubernetes)</strong>
+CDK8s è un progetto open source CNCF che aiuta a rappresentare risorse e applicazioni Kubernetes come codice (non YAML!). Supporta Python, TypeScript, Java e Go.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Esempio CDK8s</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">cdk8s</span> <span class="kn">import</span> <span class="n">App</span><span class="p">,</span> <span class="n">Chart</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">cdk8s_plus_27</span> <span class="kn">import</span> <span class="n">Deployment</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">MyApp</span><span class="p">(</span><span class="n">Chart</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scope</span><span class="p">,</span> <span class="nb">id</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scope</span><span class="p">,</span> <span class="nb">id</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="n">Deployment</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&#34;nginx&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">image</span><span class="o">=</span><span class="s2">&#34;nginx:1.20&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">replicas</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">port</span><span class="o">=</span><span class="mi">80</span>
+</span></span><span class="line"><span class="cl">        <span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">app</span> <span class="o">=</span> <span class="n">App</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">MyApp</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="s2">&#34;my-app&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">app</span><span class="o">.</span><span class="n">synth</span><span class="p">()</span>
+</span></span></code></pre></div><p><strong>Pulumi</strong>
+Pulumi sta guadagnando rapida trazione come strumento di infrastruttura moderno che ti permette di usare linguaggi general-purpose come TypeScript, Python, Go e C# per provision infrastructure.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="cl"><span class="c1">// Esempio Pulumi per Kubernetes
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">import</span> <span class="o">*</span> <span class="kr">as</span> <span class="nx">k8s</span> <span class="kr">from</span> <span class="s2">&#34;@pulumi/kubernetes&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">deployment</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">k8s</span><span class="p">.</span><span class="nx">apps</span><span class="p">.</span><span class="nx">v1</span><span class="p">.</span><span class="nx">Deployment</span><span class="p">(</span><span class="s2">&#34;nginx&#34;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">spec</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">replicas</span>: <span class="kt">3</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">selector</span><span class="o">:</span> <span class="p">{</span> <span class="nx">matchLabels</span><span class="o">:</span> <span class="p">{</span> <span class="nx">app</span><span class="o">:</span> <span class="s2">&#34;nginx&#34;</span> <span class="p">}</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">template</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">metadata</span><span class="o">:</span> <span class="p">{</span> <span class="nx">labels</span><span class="o">:</span> <span class="p">{</span> <span class="nx">app</span><span class="o">:</span> <span class="s2">&#34;nginx&#34;</span> <span class="p">}</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">spec</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">containers</span><span class="o">:</span> <span class="p">[{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;nginx&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">image</span><span class="o">:</span> <span class="s2">&#34;nginx:1.20&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">ports</span><span class="o">:</span> <span class="p">[{</span> <span class="nx">containerPort</span>: <span class="kt">80</span> <span class="p">}]</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}]</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></div><h3 id="kyaml-unevoluzione-piuttosto-che-una-rivoluzione">KYAML: Un&rsquo;evoluzione piuttosto che una rivoluzione</h3>
+<p>La community di Kubernetes ha riconosciuto questi pain points e sta proponendo una soluzione elegante: KYAML, un sottoinsieme più sicuro e meno ambiguo di YAML che mantiene piena compatibilità con i tooling esistenti eliminando molti dei pitfall più comuni di YAML.</p>
+<p><strong>Caratteristiche di KYAML:</strong></p>
+<ul>
+<li><strong>Quotatura esplicita delle stringhe</strong>: Elimina l&rsquo;ambiguità di coercizione dei tipi</li>
+<li><strong>Sintassi flow style</strong>: Usa bracket esplicite, rendendolo insensibile ai whitespace</li>
+<li><strong>100% compatibile</strong> con parser e tool YAML esistenti</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># YAML tradizionale (problematico)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">spec</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">containers</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">app</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">nginx</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">sidecar</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">busybox</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># KYAML (whitespace-insensitive)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">spec</span><span class="p">:</span><span class="w"> </span>{<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">containers</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>{<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;app&#34;</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;nginx&#34;</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>}<span class="p">,</span><span class="w"> </span>{<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;sidecar&#34;</span><span class="p">,</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;busybox&#34;</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>}<span class="p">],</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="w">
+</span></span></span></code></pre></div><h3 id="terraform-e-hcl-per-kubernetes">Terraform e HCL per Kubernetes</h3>
+<p>HCL è già il formato per Terraform, quindi almeno dovremmo odiare un solo linguaggio di configurazione invece di due. È fortemente tipizzato con tipi espliciti. Ci sono già buoni meccanismi di validazione. È specificamente progettato per fare il lavoro che stiamo chiedendo a YAML di fare.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-hcl" data-lang="hcl"><span class="line"><span class="cl"><span class="c1"># Esempio HCL per Kubernetes
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">resource</span> <span class="s2">&#34;kubernetes_deployment&#34; &#34;nginx&#34;</span> {
+</span></span><span class="line"><span class="cl">  <span class="k">metadata</span> {
+</span></span><span class="line"><span class="cl"><span class="n">    name</span> <span class="o">=</span> <span class="s2">&#34;nginx-deployment&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">    labels</span> <span class="o">=</span> {
+</span></span><span class="line"><span class="cl"><span class="n">      app</span> <span class="o">=</span> <span class="s2">&#34;nginx&#34;</span>
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">spec</span> {
+</span></span><span class="line"><span class="cl"><span class="n">    replicas</span> <span class="o">=</span> <span class="k">var</span><span class="p">.</span><span class="k">replicas</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">selector</span> {
+</span></span><span class="line"><span class="cl"><span class="n">      match_labels</span> <span class="o">=</span> {
+</span></span><span class="line"><span class="cl"><span class="n">        app</span> <span class="o">=</span> <span class="s2">&#34;nginx&#34;</span>
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">template</span> {
+</span></span><span class="line"><span class="cl">      <span class="k">metadata</span> {
+</span></span><span class="line"><span class="cl"><span class="n">        labels</span> <span class="o">=</span> {
+</span></span><span class="line"><span class="cl"><span class="n">          app</span> <span class="o">=</span> <span class="s2">&#34;nginx&#34;</span>
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="k">spec</span> {
+</span></span><span class="line"><span class="cl">        <span class="k">container</span> {
+</span></span><span class="line"><span class="cl"><span class="n">          image</span> <span class="o">=</span> <span class="s2">&#34;nginx:${var.nginx_version}&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">          name</span>  <span class="o">=</span> <span class="s2">&#34;nginx&#34;</span>
+</span></span><span class="line"><span class="cl">          
+</span></span><span class="line"><span class="cl">          <span class="k">port</span> {
+</span></span><span class="line"><span class="cl"><span class="n">            container_port</span> <span class="o">=</span> <span class="m">80</span>
+</span></span><span class="line"><span class="cl">          }
+</span></span><span class="line"><span class="cl">          
+</span></span><span class="line"><span class="cl">          <span class="k">resources</span> {
+</span></span><span class="line"><span class="cl"><span class="n">            limits</span> <span class="o">=</span> {
+</span></span><span class="line"><span class="cl"><span class="n">              cpu</span>    <span class="o">=</span> <span class="k">var</span><span class="p">.</span><span class="k">cpu_limit</span>
+</span></span><span class="line"><span class="cl"><span class="n">              memory</span> <span class="o">=</span> <span class="k">var</span><span class="p">.</span><span class="k">memory_limit</span>
+</span></span><span class="line"><span class="cl">            }
+</span></span><span class="line"><span class="cl">          }
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><h2 id="il-futuro-reale-di-kubernetes-roadmap-2025-2026">Il futuro reale di Kubernetes (roadmap 2025-2026)</h2>
+<p>Invece di speculare su un &ldquo;Kubernetes 2.0&rdquo; immaginario, guardiamo ai trend reali che stanno guidando l&rsquo;evoluzione della piattaforma:</p>
+<h3 id="1-fokus-su-ai-e-machine-learning">1. Fokus su AI e Machine Learning</h3>
+<p>La community CNCF sta esplorando un programma di conformità centrato sui carichi di lavoro AI nello spazio Kubernetes, con l&rsquo;obiettivo di finalizzare una definizione all&rsquo;inizio dell&rsquo;autunno per annunciarla al KubeCon+CloudNativeCon NA 2025.</p>
+<h3 id="2-miglioramento-dellesperienza-developer">2. Miglioramento dell&rsquo;esperienza developer</h3>
+<p>Nel 2025, ci aspettiamo che l&rsquo;IaC e l&rsquo;ottimizzazione cloud (attualmente al 56%) crescano significativamente, così come failover e disaster recovery (attualmente 33%).</p>
+<h3 id="3-sicurezza-e-governance">3. Sicurezza e governance</h3>
+<p>Le organizzazioni devono implementare policy di rete, proteggere le immagini container e aggiornare regolarmente Kubernetes stesso e tutti gli add-on, API e altri componenti correlati.</p>
+<h3 id="4-automazione-e-testing">4. Automazione e testing</h3>
+<p>Tool come Chainsaw stanno semplificando il testing di integrazione delle risorse Kubernetes, permettendo agli ingegneri di testare deployment, servizi, configurazioni ingress e altro prima che i cambiamenti raggiungano la produzione.</p>
+<h2 id="una-roadmap-immaginaria-ma-realistica-per-levoluzione">Una roadmap immaginaria (ma realistica) per l&rsquo;evoluzione</h2>
+<p>Se dovessimo immaginare un percorso di evoluzione graduale per Kubernetes, potrebbe assomigliare a questo:</p>
+<h3 id="fase-1-coesistenza-e-miglioramento-2025">Fase 1: Coesistenza e miglioramento (2025)</h3>
+<ul>
+<li><strong>KYAML adoption</strong>: Promozione del formato KYAML più sicuro</li>
+<li><strong>SDK ufficiali</strong>: Sviluppo di SDK ufficiali Python/TypeScript/Go</li>
+<li><strong>Tool di migrazione</strong>: Convertitori automatici da YAML legacy</li>
+<li><strong>Validazione migliorata</strong>: Linter più intelligenti e controlli pre-deployment</li>
+</ul>
+<h3 id="fase-2-transizione-assistita-2026">Fase 2: Transizione assistita (2026)</h3>
+<ul>
+<li><strong>Dual-mode support</strong>: Supporto nativo per configurazioni sia YAML che programmatiche</li>
+<li><strong>Integrazione ecosystem</strong>: Miglioramento della compatibilità con Helm, ArgoCD, Kustomize</li>
+<li><strong>Education</strong>: Programmi di formazione per l&rsquo;adozione dei nuovi approcci</li>
+</ul>
+<h3 id="fase-3-modernizzazione-2027-2028">Fase 3: Modernizzazione (2027-2028)</h3>
+<ul>
+<li><strong>Deprecazione soft</strong>: YAML diventa legacy ma ancora supportato</li>
+<li><strong>Tooling evoluto</strong>: IDE plugins, auto-completion, type checking</li>
+<li><strong>Migration paths</strong>: Strumenti automatici per la migrazione di configurazioni esistenti</li>
+</ul>
+<h3 id="fase-4-legacy-support-2029">Fase 4: Legacy support (2029+)</h3>
+<ul>
+<li><strong>Retrocompatibilità garantita</strong>: Supporto a lungo termine per configurazioni YAML esistenti</li>
+<li><strong>Community packages</strong>: Mantenimento community-driven per tool legacy</li>
+</ul>
+<h2 id="best-practices-per-oggi-non-aspettare-il-futuro">Best practices per oggi: Non aspettare il futuro</h2>
+<p>Mentre sogniamo il futuro, ecco cosa puoi fare oggi per ridurre la &ldquo;YAML fatigue&rdquo;:</p>
+<h3 id="1-adotta-strumenti-di-validazione-robusti">1. Adotta strumenti di validazione robusti</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Usa kubeval per validare i manifest</span>
+</span></span><span class="line"><span class="cl">kubeval deployment.yaml
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Conftest per policy as code</span>
+</span></span><span class="line"><span class="cl">conftest verify --policy k8s-security.rego deployment.yaml
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Kustomize per composizione DRY</span>
+</span></span><span class="line"><span class="cl">kustomize build overlays/production/
+</span></span></code></pre></div><h3 id="2-implementa-testing-automatizzato">2. Implementa testing automatizzato</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Chainsaw per integration testing</span>
+</span></span><span class="line"><span class="cl">chainsaw <span class="nb">test</span> --test-dir ./tests/
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Dry-run sempre prima del deploy</span>
+</span></span><span class="line"><span class="cl">kubectl apply --dry-run<span class="o">=</span>client -f deployment.yaml
+</span></span></code></pre></div><h3 id="3-usa-template-engines-intelligenti">3. Usa template engines intelligenti</h3>
+<ul>
+<li><strong>Helm</strong>: Per packaging e parametrizzazione</li>
+<li><strong>Kustomize</strong>: Per overlay environment-specific</li>
+<li><strong>Jsonnet</strong>: Per configurazioni programmatiche avanzate</li>
+</ul>
+<h3 id="4-adotta-gitops-con-validazione">4. Adotta GitOps con validazione</h3>
+<ul>
+<li><strong>ArgoCD</strong> con pre-sync hooks</li>
+<li><strong>Flux</strong> con policy controllers</li>
+<li><strong>Tekton</strong> per pipeline di validazione</li>
+</ul>
+<h2 id="conclusione-evolution-not-revolution">Conclusione: Evolution, not revolution</h2>
+<p>Il messaggio finale – quello che amo del tuo paragone originale – è che <strong>non è giusto gettare via YAML</strong> perché ha qualche limite. È come buttare un&rsquo;automobile perché inquina: meglio aggiornarla a elettrica.</p>
+<p>La realtà è che Kubernetes non ha bisogno di un &ldquo;2.0&rdquo; rivoluzionario. Ha bisogno di <strong>evoluzione intelligente</strong>:</p>
+<ul>
+<li><strong>KYAML</strong> per risolvere i problemi di ambiguità</li>
+<li><strong>SDK programmatici</strong> per chi preferisce il codice</li>
+<li><strong>Tooling migliorato</strong> per validazione e testing</li>
+<li><strong>Migrazione graduale</strong> che rispetta l&rsquo;ecosistema esistente</li>
+</ul>
+<p>Dopo che Kubernetes ha compiuto 10 anni, si è saldamente stabilito come una pietra angolare del deployment cloud-native. Guardando al 2025, ci aspettiamo che Kubernetes e l&rsquo;ecosistema cloud-native continuino a crescere ed evolvere.</p>
+<p>Il futuro di Kubernetes non sarà una rivoluzione che butta tutto, ma un&rsquo;evoluzione che <strong>preserva l&rsquo;investimento esistente</strong> mentre apre nuove possibilità. E questo, forse, è ancora più eccitante di qualsiasi &ldquo;2.0&rdquo; immaginario.</p>
+<h2 id="una-malizia-di-cortile-disclaimer-complottismo-da-caffè-">Una malizia di cortile (disclaimer: complottismo da caffè ☕)</h2>
+<p>Ora, permettetemi una piccola malizia da bar dello sport. Non è che tutto questo &ldquo;boicottaggio&rdquo; di YAML sia una macchinazione orchestrata per spingere le persone verso soluzioni che casualmente si sposano perfettamente con l&rsquo;ecosistema AWS?</p>
+<p>Pensateci un attimo: CDK per AWS, Pulumi (che funziona benissimo con i servizi cloud), tutti questi SDK che &ldquo;guarda caso&rdquo; rendono più semplice scrivere infrastruttura che si integra naturalmente with cloud provider specifici. Non è che AWS &amp; co. abbiano interesse a farvi scrivere più codice invece di semplici file di configurazione? Codice che magari chiama le loro API in modo più diretto?</p>
+<p>Intendiamoci, YAML ha i suoi problemi reali, ma non è curioso che le alternative più pubblicizzate siano tutte orientate verso linguaggi di programmazione che rendono più &ldquo;naturale&rdquo; chiamare servizi cloud proprietari?</p>
+<p><em>Fine del complottismo da cortile. Tornate alle vostre configurazioni, non c&rsquo;è niente da vedere qui.</em> 😏</p>
+<hr>
+<p><em>Hai domande su come iniziare la migrazione dai YAML tradizionali? Vuoi approfondire CDK8s o Pulumi per i tuoi progetti? Lascia un commento e discutiamone insieme.</em></p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							    <li><a href="/tags/kubernetes/">kubernetes</a></li>
+							
+							    <li><a href="/tags/yaml/">yaml</a></li>
+							
+						</ul>
+					
+				
+			</div>
+
+            <div class="authors">
+                
+                    
+                        Written by:
+                        
+                            <a href="/authors/francesco-bianco/" target="_blank" rel="nofollow">Francesco Bianco</a>
+                        
+                    
+                
+            </div>
+
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/docker/20250805-docker-2026-nuova-era/">Docker 2026: L&rsquo;Evoluzione che Ridefinirà il DevOps</a></li>
+    
+    <li><a href="/posts/20250730-10-idee-per-migliorare-il-tuo-progetto/">Tutti i problemi sono (già) risolti: come creare prodotti strategici che la gente vuole davvero provare</a></li>
+    
+    <li><a href="/posts/php/20250722-php-9-license/">PHP cambia licenza: cosa significa davvero e perché è una buona notizia</a></li>
+    
+    <li><a href="/posts/20250715-sudo-exploit/">Sudo, exploit e privilegio: perché serve più Bash e meno binari</a></li>
+    
+    <li><a href="/posts/20250624-la-nuova-api-per-le-licenze-opensource/">La Nuova API OSI per le Licenze Open Source: Una Guida Completa per Sviluppatori</a></li>
+    
+</ul>
+
+
+
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+        <div>
+            2025  © Francesco Bianco | 
+            Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
+            theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            <span class="hide-on-mobile">
+                | Visit the <a href="https://github.com/francescobianco/hardcode.blog" title="HARDCODE.BLOG" target="_blank">repo</a> |
+                Write a new <a href="https://github.com/francescobianco/hardcode.blog" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
+            </span>
+        </div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+</body>
+</html>

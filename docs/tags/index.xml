@@ -7,13 +7,104 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Tue, 24 Jun 2025 08:49:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Oct 2025 10:25:30 +0000</lastBuildDate>
     <atom:link href="https://hardcode.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business</title>
+      <link>https://hardcode.blog/tags/business/</link>
+      <pubDate>Tue, 07 Oct 2025 10:25:30 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Freelance</title>
+      <link>https://hardcode.blog/tags/freelance/</link>
+      <pubDate>Tue, 07 Oct 2025 10:25:30 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/freelance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Startup</title>
+      <link>https://hardcode.blog/tags/startup/</link>
+      <pubDate>Tue, 07 Oct 2025 10:25:30 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/startup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dos</title>
+      <link>https://hardcode.blog/tags/dos/</link>
+      <pubDate>Tue, 23 Sep 2025 16:12:31 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/dos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nostalgia</title>
+      <link>https://hardcode.blog/tags/nostalgia/</link>
+      <pubDate>Tue, 23 Sep 2025 16:12:31 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/nostalgia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://hardcode.blog/tags/kubernetes/</link>
+      <pubDate>Fri, 08 Aug 2025 10:16:22 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yaml</title>
+      <link>https://hardcode.blog/tags/yaml/</link>
+      <pubDate>Fri, 08 Aug 2025 10:16:22 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/yaml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://hardcode.blog/tags/docker/</link>
+      <pubDate>Tue, 05 Aug 2025 16:46:37 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/docker/</guid>
+      <description></description>
+    </item>
     <item>
       <title>License</title>
       <link>https://hardcode.blog/tags/license/</link>
-      <pubDate>Tue, 24 Jun 2025 08:49:04 +0000</pubDate>
+      <pubDate>Tue, 22 Jul 2025 13:17:59 +0000</pubDate>
       <guid>https://hardcode.blog/tags/license/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Php</title>
+      <link>https://hardcode.blog/tags/php/</link>
+      <pubDate>Tue, 22 Jul 2025 13:17:59 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cve</title>
+      <link>https://hardcode.blog/tags/cve/</link>
+      <pubDate>Tue, 15 Jul 2025 08:31:09 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/cve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://hardcode.blog/tags/linux/</link>
+      <pubDate>Tue, 15 Jul 2025 08:31:09 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sudo</title>
+      <link>https://hardcode.blog/tags/sudo/</link>
+      <pubDate>Tue, 15 Jul 2025 08:31:09 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/sudo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unix</title>
+      <link>https://hardcode.blog/tags/unix/</link>
+      <pubDate>Tue, 15 Jul 2025 08:31:09 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/unix/</guid>
       <description></description>
     </item>
     <item>
@@ -31,17 +122,10 @@
       <description></description>
     </item>
     <item>
-      <title>Tag1</title>
-      <link>https://hardcode.blog/tags/tag1/</link>
+      <title>Joke</title>
+      <link>https://hardcode.blog/tags/joke/</link>
       <pubDate>Tue, 27 May 2025 01:06:14 +0000</pubDate>
-      <guid>https://hardcode.blog/tags/tag1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag2</title>
-      <link>https://hardcode.blog/tags/tag2/</link>
-      <pubDate>Tue, 27 May 2025 01:06:14 +0000</pubDate>
-      <guid>https://hardcode.blog/tags/tag2/</guid>
+      <guid>https://hardcode.blog/tags/joke/</guid>
       <description></description>
     </item>
     <item>
@@ -101,13 +185,6 @@
       <description></description>
     </item>
     <item>
-      <title>Docker</title>
-      <link>https://hardcode.blog/tags/docker/</link>
-      <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
-      <guid>https://hardcode.blog/tags/docker/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Mcp</title>
       <link>https://hardcode.blog/tags/mcp/</link>
       <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
@@ -150,17 +227,24 @@
       <description></description>
     </item>
     <item>
+      <title>Tag1</title>
+      <link>https://hardcode.blog/tags/tag1/</link>
+      <pubDate>Fri, 15 Nov 2024 10:50:20 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/tag1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag2</title>
+      <link>https://hardcode.blog/tags/tag2/</link>
+      <pubDate>Fri, 15 Nov 2024 10:50:20 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/tag2/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Music</title>
       <link>https://hardcode.blog/tags/music/</link>
       <pubDate>Tue, 12 Nov 2024 09:41:10 +0000</pubDate>
       <guid>https://hardcode.blog/tags/music/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nostalgia</title>
-      <link>https://hardcode.blog/tags/nostalgia/</link>
-      <pubDate>Tue, 12 Nov 2024 09:41:10 +0000</pubDate>
-      <guid>https://hardcode.blog/tags/nostalgia/</guid>
       <description></description>
     </item>
     <item>
@@ -304,13 +388,6 @@
       <description></description>
     </item>
     <item>
-      <title>Linux</title>
-      <link>https://hardcode.blog/tags/linux/</link>
-      <pubDate>Tue, 09 Jul 2024 10:33:00 +0000</pubDate>
-      <guid>https://hardcode.blog/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Macos</title>
       <link>https://hardcode.blog/tags/macos/</link>
       <pubDate>Tue, 09 Jul 2024 10:33:00 +0000</pubDate>
@@ -357,13 +434,6 @@
       <link>https://hardcode.blog/tags/didattica/</link>
       <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
       <guid>https://hardcode.blog/tags/didattica/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Php</title>
-      <link>https://hardcode.blog/tags/php/</link>
-      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
-      <guid>https://hardcode.blog/tags/php/</guid>
       <description></description>
     </item>
     <item>
@@ -728,13 +798,6 @@
       <link>https://hardcode.blog/tags/humor/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:01 +0000</pubDate>
       <guid>https://hardcode.blog/tags/humor/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Unix</title>
-      <link>https://hardcode.blog/tags/unix/</link>
-      <pubDate>Thu, 01 Jan 1970 00:00:01 +0000</pubDate>
-      <guid>https://hardcode.blog/tags/unix/</guid>
       <description></description>
     </item>
   </channel>

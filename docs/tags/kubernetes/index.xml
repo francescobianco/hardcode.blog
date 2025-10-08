@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Fri, 08 Aug 2025 10:16:22 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes 2.0 uccide YAML? Una riflessione su strumenti, obsolescenza e modernizzazione</title>
+      <link>https://hardcode.blog/posts/devops/20250808-kube-20-la-rinascita/</link>
+      <pubDate>Fri, 08 Aug 2025 10:16:22 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20250808-kube-20-la-rinascita/</guid>
+      <description>TL;DR - La bottom line prima di tutto Non esiste alcun Kubernetes 2.0 ufficiale che elimina YAML, ma il dibattito è più che mai attuale. Con il 79% dei problemi di produzione di Kubernetes tracciabili a errori di configurazione YAML, la community sta attivamente esplorando alternative più robuste. La vera domanda non è se buttare via YAML, ma come evolverlo intelligentemente.&#xA;Il (falso) annuncio che fa scalpore Negli ultimi mesi, diversi articoli online hanno fatto circolare l&amp;rsquo;idea di un &amp;ldquo;Kubernetes 2.</description>
+    </item>
+  </channel>
+</rss>

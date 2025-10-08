@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Tue, 24 Jun 2025 08:49:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jul 2025 13:17:59 +0000</lastBuildDate>
     <atom:link href="https://hardcode.blog/tags/license/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHP cambia licenza: cosa significa davvero e perché è una buona notizia</title>
+      <link>https://hardcode.blog/posts/php/20250722-php-9-license/</link>
+      <pubDate>Tue, 22 Jul 2025 13:17:59 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/php/20250722-php-9-license/</guid>
+      <description>Il progetto PHP sta per fare un passo storico: dire addio alla sua licenza attuale – la PHP License e la Zend Engine License – per abbracciare una delle licenze open-source più consolidate e compatibili: la Modified BSD License.&#xA;Il cambiamento, ancora in fase di RFC (Request for Comments), è previsto con PHP 9.0, e rappresenta una semplificazione tanto attesa per tutta la community.&#xA;Perché cambiare la licenza? Chi ha lavorato abbastanza con PHP sa che la PHP License, pur approvata dall&amp;rsquo;OSI (ma solo in via retroattiva), è sempre stata una creatura un po’ atipica.</description>
+    </item>
     <item>
       <title>La Nuova API OSI per le Licenze Open Source: Una Guida Completa per Sviluppatori</title>
       <link>https://hardcode.blog/posts/20250624-la-nuova-api-per-le-licenze-opensource/</link>

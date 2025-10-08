@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sudo on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/sudo/</link>
+    <description>Recent content in Sudo on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Tue, 15 Jul 2025 08:31:09 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/sudo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sudo, exploit e privilegio: perché serve più Bash e meno binari</title>
+      <link>https://hardcode.blog/posts/20250715-sudo-exploit/</link>
+      <pubDate>Tue, 15 Jul 2025 08:31:09 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250715-sudo-exploit/</guid>
+      <description>Due vulnerabilità gravi scoperte nel 2025 nel celebre tool sudo — CVE-2025-32462 e CVE-2025-32463 — ci obbligano a riflettere su un punto cruciale e spesso trascurato: serve davvero un binario setuid root per qualcosa che dovrebbe essere solo una scorciatoia da terminale?&#xA;Cos’è successo: due falle, root per tutti Nel giugno 2025, sudo è stato aggiornato alla versione 1.9.17p1 per correggere due bug:&#xA;CVE-2025-32462: bastava usare l’opzione -h in modo improprio per ingannare il controllo di policy e ottenere accesso root anche su host non autorizzati.</description>
+    </item>
+  </channel>
+</rss>

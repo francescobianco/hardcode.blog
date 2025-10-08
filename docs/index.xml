@@ -7,8 +7,57 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Tue, 24 Jun 2025 08:49:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Oct 2025 10:25:30 +0000</lastBuildDate>
     <atom:link href="https://hardcode.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La trappola dell&#39;autoimprenditorialità e come gli informatici ci cadono troppo facilmente</title>
+      <link>https://hardcode.blog/posts/20251007-imprenditore-di-se-stesso-ma-anche-no/</link>
+      <pubDate>Tue, 07 Oct 2025 10:25:30 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20251007-imprenditore-di-se-stesso-ma-anche-no/</guid>
+      <description>Premessa per chi ha tempo di pensare Questo non è un post da scrollare tra una notifica e l&amp;rsquo;altra.&#xA;È un testo lungo, denso, costruito per chi ha voglia di fermarsi e mettere in discussione alcune certezze che ci portiamo dietro sull&amp;rsquo;imprenditorialità. Non troverai motivazione da LinkedIn né liste di &amp;ldquo;5 step per scalare il tuo business&amp;rdquo;. Troverai invece una critica ragionata al modo in cui abbiamo trasformato la figura dell&amp;rsquo;imprenditore: da qualcuno che estrae valore dal lavoro altrui a una sorta di mago moderno che trasforma problemi in &amp;ldquo;macchine da soldi&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>WordArt, l&#39;informatica e l&#39;arte del riuso</title>
+      <link>https://hardcode.blog/posts/20250923-banner-mania/</link>
+      <pubDate>Tue, 23 Sep 2025 16:12:31 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250923-banner-mania/</guid>
+      <description>Introduzione Nel 1989, un piccolo programma per MS-DOS chiamato BannerMania fece la sua comparsa nel panorama informatico. Sviluppato da Presage Software Development per Pixellite Group e distribuito da Broderbund, questo software permetteva agli utenti di creare banner, poster, cartelli e loghi con una varietà di font ed effetti grafici. Era un&amp;rsquo;epoca in cui l&amp;rsquo;informatica non era solo uno strumento, ma un mezzo per esprimere la propria creatività.&#xA;Ricordo con affetto le ore trascorse davanti al mio 386, creando scritte colorate e stilizzate, salvando i miei progetti come se fossero opere d&amp;rsquo;arte digitali.</description>
+    </item>
+    <item>
+      <title>Kubernetes 2.0 uccide YAML? Una riflessione su strumenti, obsolescenza e modernizzazione</title>
+      <link>https://hardcode.blog/posts/devops/20250808-kube-20-la-rinascita/</link>
+      <pubDate>Fri, 08 Aug 2025 10:16:22 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20250808-kube-20-la-rinascita/</guid>
+      <description>TL;DR - La bottom line prima di tutto Non esiste alcun Kubernetes 2.0 ufficiale che elimina YAML, ma il dibattito è più che mai attuale. Con il 79% dei problemi di produzione di Kubernetes tracciabili a errori di configurazione YAML, la community sta attivamente esplorando alternative più robuste. La vera domanda non è se buttare via YAML, ma come evolverlo intelligentemente.&#xA;Il (falso) annuncio che fa scalpore Negli ultimi mesi, diversi articoli online hanno fatto circolare l&amp;rsquo;idea di un &amp;ldquo;Kubernetes 2.</description>
+    </item>
+    <item>
+      <title>Docker 2026: L&#39;Evoluzione che Ridefinirà il DevOps</title>
+      <link>https://hardcode.blog/posts/docker/20250805-docker-2026-nuova-era/</link>
+      <pubDate>Tue, 05 Aug 2025 16:46:37 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/docker/20250805-docker-2026-nuova-era/</guid>
+      <description>Analisi completa dei trend, previsioni e strategie per il futuro della containerizzazione&#xA;Executive Summary: Il Futuro è Già Qui Bottom Line Up Front: Docker nel 2026 non sarà più &amp;ldquo;solo&amp;rdquo; una tecnologia di containerizzazione, ma evolverà in una piattaforma integrata di sviluppo AI-driven, con focus su edge computing, serverless containers e automazione intelligente. Le organizzazioni che si preparano oggi a questa transizione avranno un vantaggio competitivo decisivo.&#xA;Mentre la containerizzazione si avvia al suo secondo decennio di vita, Docker si trova a un punto di flesso cruciale.</description>
+    </item>
+    <item>
+      <title>Tutti i problemi sono (già) risolti: come creare prodotti strategici che la gente vuole davvero provare</title>
+      <link>https://hardcode.blog/posts/20250730-10-idee-per-migliorare-il-tuo-progetto/</link>
+      <pubDate>Wed, 30 Jul 2025 09:07:10 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250730-10-idee-per-migliorare-il-tuo-progetto/</guid>
+      <description>Spesso, quando si parla di idee e progetti per startup, si sente ripetere un consiglio apparentemente semplice: “trova un problema da risolvere”. Ma questa è una frase ingenua.&#xA;Il mondo del business non è una collezione di problemi irrisolti in attesa del loro eroe. Tutti i settori — dalla logistica all’istruzione, dalla finanza all’e-commerce — esistono e funzionano perché i problemi sono già stati risolti, magari in modo imperfetto, magari con inefficienze.</description>
+    </item>
+    <item>
+      <title>PHP cambia licenza: cosa significa davvero e perché è una buona notizia</title>
+      <link>https://hardcode.blog/posts/php/20250722-php-9-license/</link>
+      <pubDate>Tue, 22 Jul 2025 13:17:59 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/php/20250722-php-9-license/</guid>
+      <description>Il progetto PHP sta per fare un passo storico: dire addio alla sua licenza attuale – la PHP License e la Zend Engine License – per abbracciare una delle licenze open-source più consolidate e compatibili: la Modified BSD License.&#xA;Il cambiamento, ancora in fase di RFC (Request for Comments), è previsto con PHP 9.0, e rappresenta una semplificazione tanto attesa per tutta la community.&#xA;Perché cambiare la licenza? Chi ha lavorato abbastanza con PHP sa che la PHP License, pur approvata dall&amp;rsquo;OSI (ma solo in via retroattiva), è sempre stata una creatura un po’ atipica.</description>
+    </item>
+    <item>
+      <title>Sudo, exploit e privilegio: perché serve più Bash e meno binari</title>
+      <link>https://hardcode.blog/posts/20250715-sudo-exploit/</link>
+      <pubDate>Tue, 15 Jul 2025 08:31:09 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250715-sudo-exploit/</guid>
+      <description>Due vulnerabilità gravi scoperte nel 2025 nel celebre tool sudo — CVE-2025-32462 e CVE-2025-32463 — ci obbligano a riflettere su un punto cruciale e spesso trascurato: serve davvero un binario setuid root per qualcosa che dovrebbe essere solo una scorciatoia da terminale?&#xA;Cos’è successo: due falle, root per tutti Nel giugno 2025, sudo è stato aggiornato alla versione 1.9.17p1 per correggere due bug:&#xA;CVE-2025-32462: bastava usare l’opzione -h in modo improprio per ingannare il controllo di policy e ottenere accesso root anche su host non autorizzati.</description>
+    </item>
     <item>
       <title>La Nuova API OSI per le Licenze Open Source: Una Guida Completa per Sviluppatori</title>
       <link>https://hardcode.blog/posts/20250624-la-nuova-api-per-le-licenze-opensource/</link>
@@ -17,7 +66,7 @@
       <description>L&amp;rsquo;Open Source Initiative (OSI) ha recentemente lanciato una nuova API che rivoluziona il modo in cui accediamo e gestiamo le informazioni sulle licenze open source approvate. Questa innovazione rappresenta un passo significativo verso la modernizzazione degli strumenti disponibili per la comunità di sviluppatori, team legali e aziende che lavorano quotidianamente con il software open source.&#xA;Cos&amp;rsquo;è la Nuova API OSI La nuova API fornisce accesso programmatico alla lista canonica delle OSI Approved Licenses®, offrendo un servizio completamente pubblico e gratuito che serve come fonte di verità ufficiale per i dati delle licenze OSI.</description>
     </item>
     <item>
-      <title>🎛️ Questo post è un menu</title>
+      <title>Questo post è un menu!!!</title>
       <link>https://hardcode.blog/posts/20250527-questo-post-e-un-menu/</link>
       <pubDate>Tue, 27 May 2025 01:06:14 +0000</pubDate>
       <guid>https://hardcode.blog/posts/20250527-questo-post-e-un-menu/</guid>
