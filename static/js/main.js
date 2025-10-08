@@ -228,9 +228,8 @@ function applyAdmonitions() {
     document.querySelectorAll('.markdown blockquote').forEach(function (blockquote) {
         const innerHtml = blockquote.innerHTML.trim();
         const match = innerHtml.match(/^<p>!!! ([a-z]+) “(.*)”(.*)/s)
-        const icon = icons[match[1]] || icons['info']
         if (match) {
-            console.log('match', match);
+            const icon = icons[match[1]] || icons['info']
             const admonition = document.createElement('div');
             admonition.className = 'admonition admonition-' + match[1];
             admonition.innerHTML = `
