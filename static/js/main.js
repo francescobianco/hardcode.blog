@@ -46,7 +46,7 @@ function lightscheme(toggle, container) {
 
 function writeNewPost(element) {
     const postDate = (new Date()).toISOString();
-    const postTitle = (prompt("Post title", "New post!")||"").replaceAll(/"/, '\\"') || "New post!";
+    const postTitle = (prompt("Post title", "New post!")||"").replace(/"/g, '\\"') || "New post!";
     const postSlug = postTitle.toLowerCase().replace(/[^\w\s]/g, '').trim().replace(/\s+/g, '-').trim();
     const postCategory = (prompt("Post category", "Misc")||"").toLowerCase().replace(/[^\w\s]/g, '').trim().replace(/\s+/g, '-').trim() || "misc";
     const template = `---
