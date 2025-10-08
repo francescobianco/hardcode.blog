@@ -46,19 +46,23 @@ function lightscheme(toggle, container) {
 
 function writeNewPost(element) {
     const postDate = (new Date()).toISOString();
+    const postTitle = (prompt("Post title", "New post!")||"").replaceAll(/"/, '\\"') || "New post!";
+    const postSlug = postTitle.toLowerCase().replace(/[^\w\s]/g, '').trim().replace(/\s+/g, '-').trim();
+    const postCategory = (prompt("Post category", "Misc")||"").toLowerCase().replace(/[^\w\s]/g, '').trim().replace(/\s+/g, '-').trim() || "misc";
     const template = `---
-title: "New post!"
+title: "${postTitle}"
 description: "A bit of post."
 date: ${postDate}
-tags: ["tag1", "tag2"]
+tags: ["${postCategory}", "tag1", "tag2"]
 authors: ["Francesco Bianco"]
+giscus: ""
 ---
 
 That's the post...
 `;
     const dateSlug = (new Date()).toISOString().replace(/-/g, '').split('T')[0];
     const dirUrl = '/new/main/content/posts';
-    const newPostUrl = element.href + dirUrl + '?filename=' + dateSlug + '-new-post.md&value=' + encodeURIComponent(template);
+    const newPostUrl = element.href + dirUrl + '?filename=' + postCategory + '/' + dateSlug + '-' + postSlug + '.md&value=' + encodeURIComponent(template);
 
     window.open(newPostUrl, '_blank');
 
