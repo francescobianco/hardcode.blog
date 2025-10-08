@@ -21,3 +21,10 @@ deploy:
 	echo 'hardcode.blog' > docs/CNAME
 	hugo -d docs
 	make -s push
+
+github-discussion-categories:
+	@curl \
+		-X POST https://api.github.com/graphql \
+		-H "Authorization: bearer $$GITHUB_TOKEN" \
+		-H "Content-Type: application/json" \
+		-d '{"query": "query { repository(owner: \"francescobianco\", name: \"hardcode.blog\") { discussionCategories(first: 20) { nodes { id name isAnswerable slug } } } }"}'
