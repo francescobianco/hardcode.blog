@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Perché Mush è sulla strada giusta: la risposta illuminante - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/20250512-mush-contro-rust/" itemprop="url" /><meta itemprop="name" content="Perché Mush è sulla strada giusta: la risposta illuminante">
+<meta itemprop="description" content="Qualche giorno fa ho avuto il piacere di scambiare due parole con uno sviluppatore open source molto attivo nella community di Rust. Avevo in mente un’idea ben precisa..."><meta itemprop="datePublished" content="2025-05-12T16:56:11+00:00" />
+<meta itemprop="dateModified" content="2025-05-12T16:56:11+00:00" />
+<meta itemprop="wordCount" content="571">
+<meta itemprop="keywords" content="mush,shell,devex,rust," /><meta property="og:url" content="https://hardcode.blog/posts/20250512-mush-contro-rust/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="Perché Mush è sulla strada giusta: la risposta illuminante">
+<meta property="og:description" content="Qualche giorno fa ho avuto il piacere di scambiare due parole con uno sviluppatore open source molto attivo nella community di Rust. Avevo in mente un’idea ben precisa...">
+
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2025-05-12T16:56:11+00:00">
+<meta property="article:modified_time" content="2025-05-12T16:56:11+00:00">
+<meta property="article:tag" content="Mush">
+<meta property="article:tag" content="Shell">
+<meta property="article:tag" content="Devex">
+<meta property="article:tag" content="Rust">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_5180809804497381455.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_5180809804497381455.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
+
+    <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
+		<script src="https://hardcode.blog/js/main.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://hardcode.blog/">
+				<img src="/images/logo.png" alt="HARDCODE.BLOG" class="hide-on-dark-mode" />
+                <img src="/images/logo.png@dark" alt="HARDCODE.BLOG" class="show-on-dark-mode" />
+			</a>
+		</div>
+	
+    <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
+                    &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
+                    &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
+                    &#32;<li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li>
+                    &#32;</ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li class="font-fixedsys">
+				<a href="/">🏠 Home</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/devops/">🐳 DevOps</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/crm/">☁️ CRM</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/">🏷️ Tags</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/about/">👷 About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post posts-single">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">12</span>
+							<span class="rest">May 2025</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Perché Mush è sulla strada giusta: la risposta illuminante</h1>
+                    <div class="social">
+                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/20250512-mush-contro-rust.md" target="_blank">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        
+                    </div>
+				</div>
+			</div>
+
+			<div class="markdown">
+				<p>Qualche giorno fa ho avuto il piacere di scambiare due parole con uno sviluppatore open source molto attivo nella community di Rust. Avevo in mente un’idea ben precisa: cercare conferme su alcuni principi che mi guidano nello sviluppo di <strong>Mush</strong>, lo strumento che vuole portare la <em>developer experience</em> di Rust nel mondo dei progetti shell.</p>
+<p>Gli ho fatto una domanda semplice, ma carica di aspettative:
+<strong>&ldquo;Dal tuo punto di vista, quali sono tre motivi per preferire Rust per il mio prossimo progetto? Si tratta di un&rsquo;applicazione CLI che deve interagire con API pubbliche e locali.&rdquo;</strong></p>
+<p>La sua risposta è stata tanto sintetica quanto densa di significato:</p>
+<blockquote>
+<p><em>&ldquo;Io uso Rust per le mie CLI per la gestione degli errori (la preferisco alle eccezioni), il type system espressivo, la developer experience (cargo + crates.io) e il binario statico (non ha bisogno di un runtime tipo Python o Java o npm).&rdquo;</em></p>
+</blockquote>
+<h3 id="decostruendo-la-risposta">Decostruendo la risposta</h3>
+<p>Ascoltandolo, mi si è accesa una lampadina. Il mio interlocutore ha descritto esattamente i <strong>valori fondanti di Mush</strong>, solo che li ha espressi nel linguaggio di Rust. Vediamoli nel dettaglio.</p>
+<hr>
+<h4 id="1-gestione-degli-errori-prevedibile-e-robusta">1. <strong>Gestione degli errori prevedibile e robusta</strong></h4>
+<p>Rust evita il meccanismo delle eccezioni, preferendo pattern espliciti e sicuri come <code>Result</code> e <code>Option</code>. Questo approccio si traduce in codice più leggibile, meno fragile, e soprattutto più <em>composable</em>.</p>
+<p>Con <strong>Mush</strong>, sto cercando di portare un’analoga chiarezza e controllo nella gestione degli errori nei progetti shell, usando strutture dati e costrutti che rendano gli errori visibili, gestibili e testabili, evitando la classica giungla di <code>exit codes</code> e <code>stderr</code>.</p>
+<hr>
+<h4 id="2-type-system-espressivo">2. <strong>Type system espressivo</strong></h4>
+<p>Il sistema di tipi di Rust è una delle sue armi più potenti: ti guida mentre scrivi codice, ti protegge da errori sottili e rende chiaro cosa può succedere a runtime.</p>
+<p>In Mush, il concetto è simile: anche se siamo in un contesto molto più dinamico, voglio dare agli sviluppatori <strong>strumenti che aiutino a modellare e validare i dati</strong> che passano tra i comandi — strutture semantiche, non solo stringhe da “pippare” da un comando all’altro.</p>
+<hr>
+<h4 id="3-developer-experience-cargo--cratesio">3. <strong>Developer Experience: cargo + crates.io</strong></h4>
+<p>Quando usi Rust, l’esperienza di sviluppo è fluida: <code>cargo</code> semplifica tutto, da <code>build</code> a <code>test</code>, a <code>publish</code>, e l’ecosistema <code>crates.io</code> rende facile riusare codice.</p>
+<p>Mush vuole fare lo stesso per gli script e le CLI basate su shell: avere <strong>un sistema di pacchettizzazione, condivisione e distribuzione modulare</strong>, unito a una UX pensata per sviluppatori, in cui <em>“scrivere uno script bash” non significhi sacrificare struttura, testabilità e composizione</em>.</p>
+<hr>
+<h4 id="4-binario-statico-zero-runtime">4. <strong>Binario statico, zero runtime</strong></h4>
+<p>Questa è una delle forze più pratiche di Rust: produce binari autonomi, facili da distribuire. Anche qui, Mush prende ispirazione diretta: il mio obiettivo è permettere <strong>l’uso di script e componenti Mush senza dipendenze invasive o ambienti runtime fragili</strong>. Scrivi, componi, pacchettizzi, e gira ovunque, subito.</p>
+<hr>
+<h3 id="conclusione-perché-questa-risposta-mi-ha-dato-fiducia">Conclusione: perché questa risposta mi ha dato fiducia</h3>
+<p>Sentire elencare questi punti mi ha confermato che <strong>Mush non è solo una buona idea — è un’idea che intercetta un bisogno reale</strong>, già risolto in un linguaggio moderno e amato come Rust. E ora è il momento di portare quegli stessi benefici dove, finora, hanno regnato bash e i suoi mille workaround.</p>
+<p>Mush non vuole sostituire la shell. Vuole <strong>evolvere la shell</strong> con gli stessi principi che hanno reso Rust un riferimento per chi costruisce strumenti solidi, sicuri e belli da usare.</p>
+<hr>
+<p>Vuoi vedere Mush in azione o contribuire?
+<a href="https://mush.javanile.org/">👉 Dai un’occhiata al repo</a> o scrivimi, mi piacerebbe sapere cosa ne pensi.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							    <li><a href="/tags/mush/">mush</a></li>
+							
+							    <li><a href="/tags/shell/">shell</a></li>
+							
+							    <li><a href="/tags/devex/">devex</a></li>
+							
+							    <li><a href="/tags/rust/">rust</a></li>
+							
+						</ul>
+					
+				
+			</div>
+
+            <div class="authors">
+                
+                    
+                        Written by:
+                        
+                            <a href="/authors/francesco-bianco/" target="_blank" rel="nofollow">Francesco Bianco</a>
+                        
+                    
+                
+            </div>
+
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/shell/20210401-tools-for-shell-developer/">Docker e Shell: Strumenti per Potenziare il Tuo Ambiente di Sviluppo</a></li>
+    
+    <li><a href="/posts/20200404-shell/">Questo blog post è una shell!</a></li>
+    
+    <li><a href="/posts/devops/20250507-la-fine-di-docker/">Docker: l’inizio della fine di un’icona?</a></li>
+    
+    <li><a href="/posts/20250220-come-parlano-i-computer-quantistici/">Come Parlano i Computer Quantistici: Il Linguaggio Dietro le Macchine del Futuro</a></li>
+    
+    <li><a href="/posts/20250212-key-promoter-x/">Key Promoter X: Il Plugin Che Ti Insegna le Shortcut (Volente o Nolente)</a></li>
+    
+</ul>
+
+
+
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+        <div>
+            2025  © Francesco Bianco | 
+            Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
+            theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            <span class="hide-on-mobile">
+                | Visit the <a href="https://github.com/francescobianco/hardcode.blog" title="HARDCODE.BLOG" target="_blank">repo</a> |
+                Write a new <a href="https://github.com/francescobianco/hardcode.blog" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
+            </span>
+        </div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+</body>
+</html>

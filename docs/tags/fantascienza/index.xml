@@ -1,57 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>fantascienza on HARDCODE.BLOG</title>
+    <title>Fantascienza on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/fantascienza/</link>
-    <description>Recent content in fantascienza on HARDCODE.BLOG</description>
+    <description>Recent content in Fantascienza on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Sat, 12 Sep 2020 13:19:26 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/fantascienza/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 May 2020 18:10:20 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/fantascienza/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A.I. cosa ci dobbiamo aspettare? &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200912-ai/</link>
-      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200912-ai/</guid>
-      <description>Frontiere A.I.</description>
-    </item>
-    
-    <item>
-      <title>Neuralink: dalla fantascienza l&#39;inspirazione per la medicina &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200512-neuralink/</link>
+      <title>Neuralink: dalla fantascienza l&#39;inspirazione per la medicina</title>
+      <link>https://hardcode.blog/posts/science/20200512-neuralink/</link>
       <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200512-neuralink/</guid>
-      <description>Puoi parlare della nuova invenzione neuroscientifica di elon musk</description>
+      <guid>https://hardcode.blog/posts/science/20200512-neuralink/</guid>
+      <description>Neuralink, l&amp;rsquo;ambizioso progetto neuroscientifico di Elon Musk, sembra uscito direttamente da un romanzo di fantascienza. Eppure, questa tecnologia non è frutto di fantasie futuristiche, ma un passo concreto verso una rivoluzione nel campo della medicina e delle neuroscienze. L&amp;rsquo;idea di poter interfacciare il cervello umano con un computer, potenzialmente restituendo mobilità e funzioni cognitive a persone affette da gravi patologie, è un&amp;rsquo;innovazione che ha il potenziale di cambiare il modo in cui concepiamo il rapporto tra mente, corpo e tecnologia.</description>
     </item>
-    
-    <item>
-      <title>Nanotecnologie, facciamo il punto &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200409-nanotecnologie/</link>
-      <pubDate>Thu, 09 Apr 2020 16:13:06 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200409-nanotecnologie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Marte, come riusciremo a sopravvivere? 🇮🇹&amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200404-marte/</link>
-      <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200404-marte/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Il ventennio telematico degli smartphone &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200202-smartphone-is-dead/</link>
-      <pubDate>Sun, 02 Feb 2020 18:44:36 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200202-smartphone-is-dead/</guid>
-      <description>Puoi parlare di cosa ci sarà dopo lo smartphone ? Gira voce che sia solo un ponte per una tecnologia sostitutiva</description>
-    </item>
-    
   </channel>
 </rss>

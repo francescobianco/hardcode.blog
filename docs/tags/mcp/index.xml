@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mcp on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/mcp/</link>
+    <description>Recent content in Mcp on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Wed, 07 May 2025 23:17:10 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/mcp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker: l’inizio della fine di un’icona?</title>
+      <link>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</link>
+      <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</guid>
+      <description>Docker è stato, senza mezzi termini, una rivoluzione. Un cambio di paradigma nel modo in cui pensiamo, costruiamo e distribuiamo software. Un layer trasparente tra sviluppatori e infrastruttura, capace di creare una nuova normalità: build leggere, ambienti replicabili, deployment semplificati. Docker è stato molto più di una tecnologia: è stato un movimento.&#xA;Ma i movimenti, come le mode, tendono a cristallizzarsi. E quando una tecnologia da &amp;ldquo;motore del cambiamento&amp;rdquo; diventa solo &amp;ldquo;un motore di esecuzione&amp;rdquo; – un runtime engine, per capirci – allora entra in un’arena diversa.</description>
+    </item>
+  </channel>
+</rss>

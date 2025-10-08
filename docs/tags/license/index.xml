@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>License on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/license/</link>
+    <description>Recent content in License on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Tue, 24 Jun 2025 08:49:04 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/license/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Nuova API OSI per le Licenze Open Source: Una Guida Completa per Sviluppatori</title>
+      <link>https://hardcode.blog/posts/20250624-la-nuova-api-per-le-licenze-opensource/</link>
+      <pubDate>Tue, 24 Jun 2025 08:49:04 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250624-la-nuova-api-per-le-licenze-opensource/</guid>
+      <description>L&amp;rsquo;Open Source Initiative (OSI) ha recentemente lanciato una nuova API che rivoluziona il modo in cui accediamo e gestiamo le informazioni sulle licenze open source approvate. Questa innovazione rappresenta un passo significativo verso la modernizzazione degli strumenti disponibili per la comunità di sviluppatori, team legali e aziende che lavorano quotidianamente con il software open source.&#xA;Cos&amp;rsquo;è la Nuova API OSI La nuova API fornisce accesso programmatico alla lista canonica delle OSI Approved Licenses®, offrendo un servizio completamente pubblico e gratuito che serve come fonte di verità ufficiale per i dati delle licenze OSI.</description>
+    </item>
+  </channel>
+</rss>

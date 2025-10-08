@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swe on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/swe/</link>
+    <description>Recent content in Swe on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Mon, 19 May 2025 14:03:38 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/swe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ROI nell’Ingegneria Informatica: Perché è Cruciale per Ogni Progetto Tecnologico</title>
+      <link>https://hardcode.blog/posts/20250519-roi-per-ingegneri/</link>
+      <pubDate>Mon, 19 May 2025 14:03:38 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250519-roi-per-ingegneri/</guid>
+      <description>Quando si parla di Return on Investment (ROI), molti pensano subito a numeri da bilancio, strategie di marketing o grandi investimenti aziendali. Ma il ROI è molto di più: è uno strumento essenziale anche per chi lavora nel campo dell’ingegneria informatica, sia in ambito aziendale che freelance.&#xA;In questo articolo vedremo cos&amp;rsquo;è il ROI, perché è fondamentale nell’IT e come possiamo utilizzarlo per migliorare i risultati dei nostri progetti tecnologici.</description>
+    </item>
+  </channel>
+</rss>

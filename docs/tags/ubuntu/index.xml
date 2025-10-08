@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ubuntu on HARDCODE.BLOG</title>
+    <title>Ubuntu on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/ubuntu/</link>
-    <description>Recent content in ubuntu on HARDCODE.BLOG</description>
+    <description>Recent content in Ubuntu on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Thu, 01 Feb 2024 02:13:32 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 10:33:00 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>**One Thing**: una soluzione per aumentare la produttività su macOS e Gnome</title>
+      <link>https://hardcode.blog/posts/tool/20240709-one-thing-per-la-produttivita/</link>
+      <pubDate>Tue, 09 Jul 2024 10:33:00 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/tool/20240709-one-thing-per-la-produttivita/</guid>
+      <description>One Thing è nato dalla mia ricerca di maggiore produttività e focus, con un approccio centrato sulla gestione delle attività attraverso la riga di comando. Questo strumento innovativo è costruito principalmente su shell script, offrendo un modo semplice e potente per gestire le tue attività quotidiane.&#xA;Perché &amp;ldquo;One Thing&amp;rdquo;? Sviluppato inizialmente per evitare il multitasking distruttivo, &amp;ldquo;One Thing&amp;rdquo; ti consente di concentrarti su una singola attività alla volta, migliorando la qualità del tuo lavoro.</description>
+    </item>
     <item>
       <title>I perfetto setup per ubuntu, riflessioni e segreti</title>
       <link>https://hardcode.blog/posts/20240201-il-perfetto-setup-ubuntu/</link>
       <pubDate>Thu, 01 Feb 2024 02:13:32 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/20240201-il-perfetto-setup-ubuntu/</guid>
-      <description>Oggi voglio condividere con voi un traguardo speciale: sono ormai un utente Ubuntu da 10 anni! In questo decennio, ho esplorato e sperimentato con innumerevoli configurazioni e strumenti per ottimizzare la mia esperienza con questo fantastico sistema operativo. Oggi voglio svelare alcune delle mie fonti preferite per trovare le migliori configurazioni e darvi qualche consiglio utile per un&amp;rsquo;esperienza Ubuntu senza intoppi.
-I migliori consigli per il setup di Ubuntu  Flameshot - Flameshot è uno strumento di cattura dello schermo potente e personalizzabile che ha semplificato enormemente il mio lavoro quotidiano.</description>
+      <description>Oggi voglio condividere con voi un traguardo speciale: sono ormai un utente Ubuntu da 10 anni! In questo decennio, ho esplorato e sperimentato con innumerevoli configurazioni e strumenti per ottimizzare la mia esperienza con questo fantastico sistema operativo. Oggi voglio svelare alcune delle mie fonti preferite per trovare le migliori configurazioni e darvi qualche consiglio utile per un&amp;rsquo;esperienza Ubuntu senza intoppi.&#xA;I migliori consigli per il setup di Ubuntu Flameshot - Flameshot è uno strumento di cattura dello schermo potente e personalizzabile che ha semplificato enormemente il mio lavoro quotidiano.</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,18 +6,38 @@
 	<link rel="canonical" href="https://hardcode.blog/about/" itemprop="url" /><meta itemprop="name" content="About">
 <meta itemprop="description" content="Hello World! 👋 My name is Francesco Bianco and I am an computer engineer living in a small town in Sicily. In my free time, I enjoy playing chess and mathematics, and I am also the president of the local chess club. In addition to these passions, I also have a strong interest in CI/CD technologies, and enjoy designing and building tools using the BASH language. Throughout my professional career, I have gained a wealth of experience working with open-source CRM systems.">
 
-<meta itemprop="wordCount" content="82">
-<meta itemprop="keywords" content="" /><meta property="og:title" content="About" />
-<meta property="og:description" content="Hello World! 👋 My name is Francesco Bianco and I am an computer engineer living in a small town in Sicily. In my free time, I enjoy playing chess and mathematics, and I am also the president of the local chess club. In addition to these passions, I also have a strong interest in CI/CD technologies, and enjoy designing and building tools using the BASH language. Throughout my professional career, I have gained a wealth of experience working with open-source CRM systems." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://hardcode.blog/about/" /><meta property="article:section" content="" />
+<meta itemprop="wordCount" content="188">
+<meta itemprop="keywords" content="" /><meta property="og:url" content="https://hardcode.blog/about/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="About">
+<meta property="og:description" content="Hello World! 👋 My name is Francesco Bianco and I am an computer engineer living in a small town in Sicily. In my free time, I enjoy playing chess and mathematics, and I am also the president of the local chess club. In addition to these passions, I also have a strong interest in CI/CD technologies, and enjoy designing and building tools using the BASH language. Throughout my professional career, I have gained a wealth of experience working with open-source CRM systems.">
+
+
+<meta property="og:type" content="article">
 
 
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="About"/>
-<meta name="twitter:description" content="Hello World! 👋 My name is Francesco Bianco and I am an computer engineer living in a small town in Sicily. In my free time, I enjoy playing chess and mathematics, and I am also the president of the local chess club. In addition to these passions, I also have a strong interest in CI/CD technologies, and enjoy designing and building tools using the BASH language. Throughout my professional career, I have gained a wealth of experience working with open-source CRM systems."/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_690276994178762643.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_690276994178762643.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
@@ -25,10 +45,14 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
 
     <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
 
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
 		<script src="https://hardcode.blog/js/main.js"></script>
 
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
@@ -46,7 +70,7 @@
 		</div>
 	
     <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
-	<div class="site-description font-fixedsys"><p>{☕} Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
 			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
                     &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
                     &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
@@ -62,11 +86,11 @@
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/docker/">🐳 Docker</a>
+				<a href="/tags/devops/">🐳 DevOps</a>
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/vtiger/">🐯 Vtiger</a>
+				<a href="/tags/crm/">☁️ CRM</a>
 			</li>
 			
 			<li class="font-fixedsys">
@@ -91,24 +115,31 @@
                         <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/about.md" target="_blank">
                             <i data-feather="github"></i>
                         </a>
-                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fhardcode.blog%2fabout%2f" target="_blank">
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
                             <i data-feather="linkedin"></i>
                         </a>
-                        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fhardcode.blog%2fabout%2f" target="_blank">
-                            <i data-feather="link-2"></i>
-                        </a>
+                        
                     </div>
 				</div>
 			</div>
 
 			<div class="markdown">
-				<p><img src="https://github.com/francescobianco.png#style=float:left;width:128px" alt="Francesco Bianco"></p>
-<h2 id="hello-world-">Hello World! 👋</h2>
-<p>My name is Francesco Bianco and I am an computer engineer living in a small town in <a href="https://en.wikipedia.org/wiki/Sicily">Sicily</a>.
+				<h2 id="hello-world">Hello World!</h2>
+<p><img src="https://github.com/francescobianco.png#style=float:left;width:64px" alt="Francesco Bianco"></p>
+<p>👋 My name is Francesco Bianco and I am an computer engineer living in a small town in <a href="https://en.wikipedia.org/wiki/Sicily">Sicily</a>.
 In my free time, I enjoy playing chess and mathematics, and I am also the president of the local chess club.
 In addition to these passions, I also have a strong interest in CI/CD technologies,
 and enjoy designing and building tools using the BASH language. Throughout my professional career,
 I have gained a wealth of experience working with open-source CRM systems.</p>
+<h3 id="what-is-hardcodeblog">What is HARDCODE.BLOG?</h3>
+<p>This blog was born as a side project aimed at building my personal brand and showcasing my expertise.
+Over time, it evolved into something more profound. I realized that a blog for IT professionals should offer more
+– it should be deeply connected to its subject matter, becoming a tool in itself, not just a trivial repository of articles.</p>
+<p>I hope that users of our blog understand this vision and appreciate the effort to create content that goes beyond mere reading,
+allowing interaction with new modalities. The motto is simple: this is not just a blog, but a software platform you are using.</p>
 
 			</div>
 
@@ -118,12 +149,14 @@ I have gained a wealth of experience working with open-source CRM systems.</p>
 
             <div class="authors">
                 
-            </div></div>
+            </div>
+
+</div>
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
         <div>
-            2024  © Francesco Bianco | 
+            2025  © Francesco Bianco | 
             Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
             theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
             <span class="hide-on-mobile">

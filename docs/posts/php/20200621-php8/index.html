@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>PHP8, Dalle prime impressioni alle riflessioni sul futuro - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/php/20200621-php8/" itemprop="url" /><meta itemprop="name" content="PHP8, Dalle prime impressioni alle riflessioni sul futuro">
+<meta itemprop="description" content="Sono già passati diversi anni dal lancio di **PHP 8**, eppure sembra ieri, soprattutto nei progetti legacy, guarda un po&#39;!"><meta itemprop="datePublished" content="2020-06-21T12:58:30+02:00" />
+<meta itemprop="dateModified" content="2020-06-21T12:58:30+02:00" />
+<meta itemprop="wordCount" content="690">
+<meta itemprop="keywords" content="php," /><meta property="og:url" content="https://hardcode.blog/posts/php/20200621-php8/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="PHP8, Dalle prime impressioni alle riflessioni sul futuro">
+<meta property="og:description" content="Sono già passati diversi anni dal lancio di **PHP 8**, eppure sembra ieri, soprattutto nei progetti legacy, guarda un po&#39;!">
+
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2020-06-21T12:58:30+02:00">
+<meta property="article:modified_time" content="2020-06-21T12:58:30+02:00">
+<meta property="article:tag" content="Php">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_12660243954337305997.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_12660243954337305997.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
+
+    <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
+		<script src="https://hardcode.blog/js/main.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://hardcode.blog/">
+				<img src="/images/logo.png" alt="HARDCODE.BLOG" class="hide-on-dark-mode" />
+                <img src="/images/logo.png@dark" alt="HARDCODE.BLOG" class="show-on-dark-mode" />
+			</a>
+		</div>
+	
+    <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
+                    &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
+                    &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
+                    &#32;<li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li>
+                    &#32;</ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li class="font-fixedsys">
+				<a href="/">🏠 Home</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/devops/">🐳 DevOps</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/crm/">☁️ CRM</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/">🏷️ Tags</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/about/">👷 About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post posts-single">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">21</span>
+							<span class="rest">Jun 2020</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">PHP8, Dalle prime impressioni alle riflessioni sul futuro</h1>
+                    <div class="social">
+                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/php/20200621-php8.md" target="_blank">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        
+                    </div>
+				</div>
+			</div>
+
+			<div class="markdown">
+				<p>Sono già passati diversi anni dal lancio di <strong>PHP 8</strong>, eppure sembra ieri che si discuteva delle sue nuove feature come <strong>JIT (Just-in-Time Compiler)</strong> e le <strong>union types</strong>. Con il passare del tempo, PHP ha dimostrato di essere un linguaggio che sa come evolversi senza spezzare il legame con il passato. Ogni nuova versione porta miglioramenti significativi, ma sempre con l’obiettivo di garantire che le applicazioni esistenti possano continuare a funzionare senza intoppi.</p>
+<h3 id="il-cambiamento-graduale-evoluzione-non-rivoluzione">Il cambiamento graduale: evoluzione, non rivoluzione</h3>
+<p>Uno degli aspetti più sorprendenti di PHP è la sua capacità di adattarsi alle esigenze moderne senza rinnegare le sue radici. PHP 7 ha introdotto miglioramenti straordinari in termini di performance, segnando una delle evoluzioni più rilevanti nella storia del linguaggio, ma non ha mai &ldquo;rotto&rdquo; con il passato. Con PHP 8, questo approccio si è mantenuto: nuove funzionalità potenti, come l&rsquo;introduzione delle <strong>attributi</strong> (annotations), ma mantenendo la retrocompatibilità in modo che chiunque usi versioni precedenti possa aggiornarsi gradualmente.</p>
+<p>PHP è stato accusato, nel corso della sua storia, di essere un linguaggio &ldquo;vecchio&rdquo; o &ldquo;disorganizzato&rdquo;, ma la sua popolarità, sopravvivenza e capacità di rinnovarsi continuamente dimostrano il contrario. Soprattutto nel contesto di applicazioni web e di scripting, PHP continua a essere una scelta solida e affidabile.</p>
+<h3 id="php-nel-mondo-reale-un-linguaggio-potente">PHP nel mondo reale: un linguaggio potente</h3>
+<p>Nonostante il passare del tempo e l&rsquo;emergere di nuovi linguaggi e framework, <strong>PHP</strong> continua a essere il cuore pulsante di una grande fetta del web. CMS come <strong>WordPress</strong>, che alimenta oltre il 40% dei siti web del mondo, sono basati su PHP, così come molti e-commerce (pensa a <strong>Magento</strong>), social network, e piattaforme di gestione dei contenuti aziendali. Ogni volta che navighiamo su uno di questi siti, stiamo probabilmente interagendo con del codice PHP.</p>
+<p>Ad esempio, aziende come <strong>Facebook</strong> hanno utilizzato PHP come base per il loro back-end per molti anni, tanto da sviluppare un proprio &ldquo;dialetto&rdquo; di PHP chiamato <strong>Hack</strong> per migliorare ulteriormente la scalabilità. Questo dimostra che, nonostante i pregiudizi, PHP può reggere il peso di grandi piattaforme e progetti complessi.</p>
+<p>E cosa dire di framework moderni come <strong>Laravel</strong>? Laravel ha trasformato il modo in cui gli sviluppatori costruiscono applicazioni PHP, fornendo una sintassi elegante e moderna. Con le sue capacità avanzate, Laravel mostra quanto possa essere potente e raffinato PHP, soprattutto nelle mani di uno sviluppatore esperto.</p>
+<h3 id="uno-sguardo-al-futuro-php-10-e-lintelligenza-artificiale">Uno sguardo al futuro: PHP 10 e l&rsquo;intelligenza artificiale</h3>
+<p>Ora, con PHP 8 che continua a maturare, la comunità inizia a guardare al futuro. E allora ci chiediamo: <strong>cosa potrà portare PHP 10?</strong> Se consideriamo la velocità con cui l’intelligenza artificiale sta influenzando il panorama tecnologico, è facile ipotizzare che uno dei prossimi grandi cambiamenti potrebbe essere l&rsquo;integrazione nativa di strumenti basati su <strong>AI</strong>.</p>
+<p>In un mondo in cui sempre più linguaggi di programmazione stanno adottando funzionalità di <strong>machine learning</strong> e <strong>AI</strong>, è plausibile immaginare che PHP 10 possa integrare librerie o API capaci di supportare nativamente lo sviluppo di applicazioni AI-driven. Ad esempio, un supporto migliorato per gestire il flusso di dati proveniente da modelli di machine learning o la capacità di integrarsi senza soluzione di continuità con le più moderne piattaforme AI come <strong>TensorFlow</strong> o <strong>OpenAI</strong>.</p>
+<p>L’AI potrebbe anche facilitare lo sviluppo stesso. Immaginiamo un futuro in cui PHP sia in grado di &ldquo;apprendere&rdquo; dallo stile di codifica di uno sviluppatore e di suggerire ottimizzazioni in tempo reale, o di diagnosticare errori complessi in modo più efficiente. Non sarebbe sorprendente vedere un <strong>IDE</strong> con strumenti di AI avanzata, in grado di aiutare gli sviluppatori a scrivere codice PHP più rapidamente e con meno errori.</p>
+<h3 id="la-continuità-di-php-in-un-mondo-che-cambia">La continuità di PHP in un mondo che cambia</h3>
+<p>Nonostante tutte queste possibili innovazioni, c&rsquo;è una certezza: <strong>PHP non abbandonerà le sue radici.</strong> Questo linguaggio ha sempre trovato il modo di bilanciare l&rsquo;innovazione con la stabilità, di offrire nuove funzionalità senza mai rendere obsoleti i vecchi sistemi. E questa è una delle sue più grandi forze.</p>
+<p>In un futuro dominato dall&rsquo;AI e da tecnologie emergenti, possiamo aspettarci che PHP continui a fare ciò che sa fare meglio: evolvere gradualmente, rimanere affidabile e scalabile, e dimostrare, ancora una volta, che è un linguaggio potente e attuale, pronto a raccogliere le sfide del futuro.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							    <li><a href="/tags/php/">php</a></li>
+							
+						</ul>
+					
+				
+			</div>
+
+            <div class="authors">
+                
+                    
+                
+            </div>
+
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/science/20200512-neuralink/">Neuralink: dalla fantascienza l&rsquo;inspirazione per la medicina</a></li>
+    
+    <li><a href="/posts/web/20200413-wordpress/">WordPress, come adoperarlo al meglio</a></li>
+    
+    <li><a href="/posts/rant/20200412-remote-working-spaghetti/">Remote Working Spaghetti</a></li>
+    
+    <li><a href="/posts/science/20200409-nanotecnologie/">Nanotecnologie, facciamo il punto</a></li>
+    
+    <li><a href="/posts/gaming/20200405-konami-code/">La storia del Konami Code: una sequenza leggendaria</a></li>
+    
+</ul>
+
+
+
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+        <div>
+            2025  © Francesco Bianco | 
+            Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
+            theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            <span class="hide-on-mobile">
+                | Visit the <a href="https://github.com/francescobianco/hardcode.blog" title="HARDCODE.BLOG" target="_blank">repo</a> |
+                Write a new <a href="https://github.com/francescobianco/hardcode.blog" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
+            </span>
+        </div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+</body>
+</html>

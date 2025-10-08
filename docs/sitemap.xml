@@ -3,7 +3,229 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://hardcode.blog/authors/</loc>
-    <lastmod>2024-06-21T12:17:31+02:00</lastmod>
+    <lastmod>2025-06-24T08:49:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/authors/francesco-bianco/</loc>
+    <lastmod>2025-06-24T08:49:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/</loc>
+    <lastmod>2025-06-24T08:49:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20250624-la-nuova-api-per-le-licenze-opensource/</loc>
+    <lastmod>2025-06-24T08:49:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/license/</loc>
+    <lastmod>2025-06-24T08:49:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/opensource/</loc>
+    <lastmod>2025-06-24T08:49:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/osi/</loc>
+    <lastmod>2025-06-24T08:49:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/</loc>
+    <lastmod>2025-06-24T08:49:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/</loc>
+    <lastmod>2025-06-24T08:49:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/tag1/</loc>
+    <lastmod>2025-05-27T01:06:14+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/tag2/</loc>
+    <lastmod>2025-05-27T01:06:14+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20250527-questo-post-e-un-menu/</loc>
+    <lastmod>2025-05-27T01:06:14+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/roi/</loc>
+    <lastmod>2025-05-19T14:03:38+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20250519-roi-per-ingegneri/</loc>
+    <lastmod>2025-05-19T14:03:38+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/swe/</loc>
+    <lastmod>2025-05-19T14:03:38+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/devex/</loc>
+    <lastmod>2025-05-12T16:56:11+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/mush/</loc>
+    <lastmod>2025-05-12T16:56:11+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20250512-mush-contro-rust/</loc>
+    <lastmod>2025-05-12T16:56:11+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/rust/</loc>
+    <lastmod>2025-05-12T16:56:11+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/shell/</loc>
+    <lastmod>2025-05-12T16:56:11+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/ai/</loc>
+    <lastmod>2025-05-07T23:17:10+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/devops/</loc>
+    <lastmod>2025-05-07T23:17:10+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/docker/</loc>
+    <lastmod>2025-05-07T23:17:10+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</loc>
+    <lastmod>2025-05-07T23:17:10+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/mcp/</loc>
+    <lastmod>2025-05-07T23:17:10+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20250220-come-parlano-i-computer-quantistici/</loc>
+    <lastmod>2025-02-20T17:05:17+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/quantum-computing/</loc>
+    <lastmod>2025-02-20T17:05:17+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/ide/</loc>
+    <lastmod>2025-02-12T17:59:53+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20250212-key-promoter-x/</loc>
+    <lastmod>2025-02-12T17:59:53+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/phpstorm/</loc>
+    <lastmod>2025-02-12T17:59:53+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/pycharm/</loc>
+    <lastmod>2025-02-12T17:59:53+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/webstorm/</loc>
+    <lastmod>2025-02-12T17:59:53+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20241115-nomachine-ubuntu-headless/</loc>
+    <lastmod>2024-11-15T10:50:20+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20241112-windows-98-nostalgia/</loc>
+    <lastmod>2024-11-12T09:41:10+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/music/</loc>
+    <lastmod>2024-11-12T09:41:10+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/nostalgia/</loc>
+    <lastmod>2024-11-12T09:41:10+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/windows/</loc>
+    <lastmod>2024-11-12T09:41:10+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/devops/20241005-dora-metrics/</loc>
+    <lastmod>2024-10-05T08:13:47+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/metrics/</loc>
+    <lastmod>2024-10-05T08:13:47+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/design-pattern/</loc>
+    <lastmod>2024-09-17T15:03:43+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/pattern/20240917-circuit-breaker/</loc>
+    <lastmod>2024-09-17T15:03:43+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/microservices/</loc>
+    <lastmod>2024-09-17T15:03:43+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/cloud-computing/</loc>
+    <lastmod>2024-09-11T15:55:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20240911-dal-monolitico-ai-microservizi-e-oltre/</loc>
+    <lastmod>2024-09-11T15:55:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/software-architecture/</loc>
+    <lastmod>2024-09-11T15:55:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/software-engineering/</loc>
+    <lastmod>2024-09-11T15:55:04+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/consultancy/</loc>
+    <lastmod>2024-09-08T13:43:41+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/mindset/</loc>
+    <lastmod>2024-09-08T13:43:41+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20240908-mindset-consulente-due-punto-zero/</loc>
+    <lastmod>2024-09-08T13:43:41+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</loc>
+    <lastmod>2024-08-30T12:45:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</loc>
+    <lastmod>2024-08-16T16:50:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/rant/20200101-blockchain-is-dead/</loc>
+    <lastmod>2024-08-05T18:31:08+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/programming-language/</loc>
+    <lastmod>2024-07-17T18:00:49+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/tutorial/20240717-impariamo-zig/</loc>
+    <lastmod>2024-07-17T18:00:49+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/tutorial/</loc>
+    <lastmod>2024-07-17T18:00:49+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/zig/</loc>
+    <lastmod>2024-07-17T18:00:49+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20240713-substack/</loc>
+    <lastmod>2024-07-13T05:53:30+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/opinion-leader/</loc>
+    <lastmod>2024-07-13T05:53:30+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/substack/</loc>
+    <lastmod>2024-07-13T05:53:30+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/people/20240712-chi-e-kent-beck/</loc>
+    <lastmod>2024-07-12T12:55:22+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/people/</loc>
+    <lastmod>2024-07-12T12:55:22+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/tdd/</loc>
+    <lastmod>2024-07-12T12:55:22+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/xp/</loc>
+    <lastmod>2024-07-12T12:55:22+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/developer-experience/</loc>
+    <lastmod>2024-07-11T14:16:29+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/dx/</loc>
+    <lastmod>2024-07-11T14:16:29+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/dx/20240711-developer-experience-fondamenti-e-implicazioni/</loc>
+    <lastmod>2024-07-11T14:16:29+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/tool/20240709-one-thing-per-la-produttivita/</loc>
+    <lastmod>2024-07-09T10:33:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/gnome/</loc>
+    <lastmod>2024-07-09T10:33:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/linux/</loc>
+    <lastmod>2024-07-09T10:33:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/macos/</loc>
+    <lastmod>2024-07-09T10:33:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/productivity/</loc>
+    <lastmod>2024-07-09T10:33:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/ubuntu/</loc>
+    <lastmod>2024-07-09T10:33:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/book/</loc>
+    <lastmod>2024-06-28T12:54:35+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/self-publish/</loc>
+    <lastmod>2024-06-28T12:54:35+00:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20240628-scrivere-un-libro-di-informatica/</loc>
+    <lastmod>2024-06-28T12:54:35+00:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/coding/</loc>
     <lastmod>2024-06-21T12:17:31+02:00</lastmod>
@@ -11,22 +233,10 @@
     <loc>https://hardcode.blog/tags/didattica/</loc>
     <lastmod>2024-06-21T12:17:31+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/authors/francesco-bianco/</loc>
-    <lastmod>2024-06-21T12:17:31+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/</loc>
-    <lastmod>2024-06-21T12:17:31+02:00</lastmod>
-  </url><url>
     <loc>https://hardcode.blog/tags/php/</loc>
     <lastmod>2024-06-21T12:17:31+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/</loc>
-    <lastmod>2024-06-21T12:17:31+02:00</lastmod>
-  </url><url>
     <loc>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</loc>
-    <lastmod>2024-06-21T12:17:31+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/tags/</loc>
     <lastmod>2024-06-21T12:17:31+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/agile/</loc>
@@ -35,14 +245,11 @@
     <loc>https://hardcode.blog/authors/alice-rossi/</loc>
     <lastmod>2024-06-20T16:08:23+00:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20240620-gold-plating/</loc>
+    <loc>https://hardcode.blog/posts/agile/20240620-gold-plating/</loc>
     <lastmod>2024-06-20T16:08:23+00:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/ingegneria-del-software/</loc>
     <lastmod>2024-06-20T16:08:23+00:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/tags/ai/</loc>
-    <lastmod>2024-06-13T16:37:36+00:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/llm/</loc>
     <lastmod>2024-06-13T16:37:36+00:00</lastmod>
@@ -62,37 +269,37 @@
     <loc>https://hardcode.blog/posts/20240201-il-perfetto-setup-ubuntu/</loc>
     <lastmod>2024-02-01T02:13:32+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/tags/linux/</loc>
-    <lastmod>2024-02-01T02:13:32+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/tags/ubuntu/</loc>
-    <lastmod>2024-02-01T02:13:32+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/tags/javascript/</loc>
+    <loc>https://hardcode.blog/tags/personal-growth/</loc>
     <lastmod>2022-09-08T02:13:32+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/posts/motivazione/20220908-il-primo-passo/</loc>
     <lastmod>2022-09-08T02:13:32+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</loc>
+    <loc>https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/</loc>
     <lastmod>2021-10-11T02:13:32+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/tags/italian/</loc>
+    <loc>https://hardcode.blog/tags/javascript/</loc>
+    <lastmod>2021-10-11T02:13:32+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/property-shorthand/</loc>
+    <lastmod>2021-10-11T02:13:32+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/rant/</loc>
+    <lastmod>2021-10-11T02:13:32+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/books/</loc>
     <lastmod>2021-07-20T12:10:00+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20210720-letture-efficaci/</loc>
+    <loc>https://hardcode.blog/posts/motivazione/20210720-letture-efficaci/</loc>
     <lastmod>2021-07-20T12:10:00+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/tags/libri/</loc>
+    <loc>https://hardcode.blog/tags/review/</loc>
     <lastmod>2021-07-20T12:10:00+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/posts/20200928-agile-is-dead/</loc>
-    <lastmod>2021-04-05T13:19:26+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/tags/english/</loc>
-    <lastmod>2021-04-05T13:19:26+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/geek-culture/</loc>
+    <lastmod>2021-04-05T13:19:26+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/agile/20200928-agile-is-dead/</loc>
     <lastmod>2021-04-05T13:19:26+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/project-management/</loc>
@@ -110,40 +317,46 @@
     <loc>https://hardcode.blog/tags/vtiger/</loc>
     <lastmod>2020-09-18T12:13:35+05:30</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20200912-ai/</loc>
+    <loc>https://hardcode.blog/posts/ai/20200912-ai/</loc>
     <lastmod>2020-09-12T13:19:26+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/tags/fantascienza/</loc>
+    <loc>https://hardcode.blog/tags/future/</loc>
     <lastmod>2020-09-12T13:19:26+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/tags/futuro/</loc>
+    <loc>https://hardcode.blog/tags/sci-fi/</loc>
+    <lastmod>2020-09-12T13:19:26+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/society/</loc>
     <lastmod>2020-09-12T13:19:26+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/carriera/</loc>
     <lastmod>2020-09-02T19:38:58+02:00</lastmod>
   </url><url>
+    <loc>https://hardcode.blog/posts/crm/20210210-crm-developer/</loc>
+    <lastmod>2020-09-02T19:38:58+02:00</lastmod>
+  </url><url>
     <loc>https://hardcode.blog/posts/20200902-universita-serve-ancora/</loc>
     <lastmod>2020-09-02T19:38:58+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20210210-crm-developer/</loc>
-    <lastmod>2020-09-02T19:38:58+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</loc>
+    <loc>https://hardcode.blog/posts/crm/20210110-le-skill-del-crm-developer/</loc>
     <lastmod>2020-09-02T19:38:58+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/universit%C3%A0/</loc>
     <lastmod>2020-09-02T19:38:58+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/tags/devops/</loc>
-    <lastmod>2020-08-01T08:16:42+02:00</lastmod>
-  </url><url>
     <loc>https://hardcode.blog/posts/devops/20200801-cosa-e-un-devops/</loc>
     <lastmod>2020-08-01T08:16:42+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20200801-flutter/</loc>
+    <loc>https://hardcode.blog/tags/flutter/</loc>
     <lastmod>2020-08-01T08:16:42+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/tags/programmazione/</loc>
+    <loc>https://hardcode.blog/posts/trends/20200801-flutter/</loc>
+    <lastmod>2020-08-01T08:16:42+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/front-end/</loc>
+    <lastmod>2020-08-01T08:16:42+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/trends/</loc>
     <lastmod>2020-08-01T08:16:42+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/digitalizzazione/</loc>
@@ -155,37 +368,100 @@
     <loc>https://hardcode.blog/tags/politica/</loc>
     <lastmod>2020-07-22T21:12:40+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20200701-features/</loc>
+    <loc>https://hardcode.blog/tags/feature/</loc>
     <lastmod>2020-07-01T12:43:36+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20200621-php8/</loc>
+    <loc>https://hardcode.blog/tags/git/</loc>
+    <lastmod>2020-07-01T12:43:36+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/software-design/20200701-features/</loc>
+    <lastmod>2020-07-01T12:43:36+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/software-design/</loc>
+    <lastmod>2020-07-01T12:43:36+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/user-story/</loc>
+    <lastmod>2020-07-01T12:43:36+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/php/20200621-php8/</loc>
     <lastmod>2020-06-21T12:58:30+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/fantascienza/</loc>
+    <lastmod>2020-05-12T18:10:20+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/futuro/</loc>
+    <lastmod>2020-05-12T18:10:20+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/medicina/</loc>
     <lastmod>2020-05-12T18:10:20+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20200512-neuralink/</loc>
+    <loc>https://hardcode.blog/posts/science/20200512-neuralink/</loc>
     <lastmod>2020-05-12T18:10:20+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/web/</loc>
+    <lastmod>2020-04-13T11:21:43+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/wordpress/</loc>
+    <lastmod>2020-04-13T11:21:43+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/web/20200413-wordpress/</loc>
+    <lastmod>2020-04-13T11:21:43+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/rant/20200412-remote-working-spaghetti/</loc>
+    <lastmod>2020-04-12T13:31:31+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/remote-working/</loc>
     <lastmod>2020-04-12T13:31:31+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</loc>
-    <lastmod>2020-04-12T13:31:31+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/posts/20200409-nanotecnologie/</loc>
+    <loc>https://hardcode.blog/tags/nanotechnology/</loc>
     <lastmod>2020-04-09T16:13:06+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/tags/italiano/</loc>
+    <loc>https://hardcode.blog/posts/science/20200409-nanotecnologie/</loc>
+    <lastmod>2020-04-09T16:13:06+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/science/</loc>
+    <lastmod>2020-04-09T16:13:06+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/debug/</loc>
+    <lastmod>2020-04-05T04:18:06+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/gaming/</loc>
+    <lastmod>2020-04-05T04:18:06+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/konami/</loc>
+    <lastmod>2020-04-05T04:18:06+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/gaming/20200405-konami-code/</loc>
+    <lastmod>2020-04-05T04:18:06+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/bash/</loc>
     <lastmod>2020-04-04T04:18:06+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20200404-marte/</loc>
+    <loc>https://hardcode.blog/tags/mars/</loc>
     <lastmod>2020-04-04T04:18:06+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20200305-fullstack/</loc>
+    <loc>https://hardcode.blog/posts/science/20200404-marte/</loc>
+    <lastmod>2020-04-04T04:18:06+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/20200404-shell/</loc>
+    <lastmod>2020-04-04T04:18:06+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/sh/</loc>
+    <lastmod>2020-04-04T04:18:06+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/space/</loc>
+    <lastmod>2020-04-04T04:18:06+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/full-stack/</loc>
     <lastmod>2020-03-05T10:51:18+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/fun/20200305-the-lifter/</loc>
+    <loc>https://hardcode.blog/posts/rant/20200305-fullstack/</loc>
+    <lastmod>2020-03-05T10:51:18+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/posts/science/20200305-the-lifter/</loc>
+    <lastmod>2020-03-05T10:51:18+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/lifter/</loc>
     <lastmod>2020-03-05T10:51:18+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/posts/20200202-smartphone-is-dead/</loc>
@@ -194,25 +470,19 @@
     <loc>https://hardcode.blog/tags/smartphone/</loc>
     <lastmod>2020-02-02T18:44:36+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20200201-coding-spaghetti/</loc>
+    <loc>https://hardcode.blog/posts/stem/20200201-coding-spaghetti/</loc>
     <lastmod>2020-02-01T02:13:32+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/posts/20200101-blockchain-is-dead/</loc>
-    <lastmod>2020-01-01T12:17:31+02:00</lastmod>
+    <loc>https://hardcode.blog/tags/stem/</loc>
+    <lastmod>2020-02-01T02:13:32+02:00</lastmod>
+  </url><url>
+    <loc>https://hardcode.blog/tags/teaching/</loc>
+    <lastmod>2020-02-01T02:13:32+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/tags/cicd/</loc>
     <lastmod>2020-01-01T12:10:00+02:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/tags/docker/</loc>
-    <lastmod>2020-01-01T12:10:00+02:00</lastmod>
-  </url><url>
     <loc>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</loc>
-    <lastmod>2020-01-01T12:10:00+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</loc>
-    <lastmod>2020-01-01T12:10:00+02:00</lastmod>
-  </url><url>
-    <loc>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</loc>
     <lastmod>2020-01-01T12:10:00+02:00</lastmod>
   </url><url>
     <loc>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</loc>
@@ -230,9 +500,12 @@
     <loc>https://hardcode.blog/tags/unix/</loc>
     <lastmod>1970-01-01T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://hardcode.blog/policy/</loc>
-    <priority>0</priority>
-  </url><url>
     <loc>https://hardcode.blog/about/</loc>
+  </url><url>
+    <loc>https://hardcode.blog/policy/</loc>
+  </url><url>
+    <loc>https://hardcode.blog/views/grouped/</loc>
+  </url><url>
+    <loc>https://hardcode.blog/views/</loc>
   </url>
 </urlset>

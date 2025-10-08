@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Come Usare NoMachine su una Macchina Ubuntu in Modalità Headless - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/20241115-nomachine-ubuntu-headless/" itemprop="url" /><meta itemprop="name" content="Come Usare NoMachine su una Macchina Ubuntu in Modalità Headless">
+<meta itemprop="description" content="NoMachine è uno strumento potente per accedere in remoto a un desktop Linux. In modalità **headless** (senza monitor fisico collegato)"><meta itemprop="datePublished" content="2024-11-15T10:50:20+00:00" />
+<meta itemprop="dateModified" content="2024-11-15T10:50:20+00:00" />
+<meta itemprop="wordCount" content="504">
+<meta itemprop="keywords" content="tag1,tag2," /><meta property="og:url" content="https://hardcode.blog/posts/20241115-nomachine-ubuntu-headless/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="Come Usare NoMachine su una Macchina Ubuntu in Modalità Headless">
+<meta property="og:description" content="NoMachine è uno strumento potente per accedere in remoto a un desktop Linux. In modalità **headless** (senza monitor fisico collegato)">
+
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2024-11-15T10:50:20+00:00">
+<meta property="article:modified_time" content="2024-11-15T10:50:20+00:00">
+<meta property="article:tag" content="Tag1">
+<meta property="article:tag" content="Tag2">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_8386477454018301513.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_8386477454018301513.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
+
+    <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
+		<script src="https://hardcode.blog/js/main.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://hardcode.blog/">
+				<img src="/images/logo.png" alt="HARDCODE.BLOG" class="hide-on-dark-mode" />
+                <img src="/images/logo.png@dark" alt="HARDCODE.BLOG" class="show-on-dark-mode" />
+			</a>
+		</div>
+	
+    <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
+                    &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
+                    &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
+                    &#32;<li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li>
+                    &#32;</ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li class="font-fixedsys">
+				<a href="/">🏠 Home</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/devops/">🐳 DevOps</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/crm/">☁️ CRM</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/">🏷️ Tags</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/about/">👷 About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post posts-single">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">15</span>
+							<span class="rest">Nov 2024</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Come Usare NoMachine su una Macchina Ubuntu in Modalità Headless</h1>
+                    <div class="social">
+                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/20241115-nomachine-ubuntu-headless.md" target="_blank">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        
+                    </div>
+				</div>
+			</div>
+
+			<div class="markdown">
+				<p>NoMachine è uno strumento potente per accedere in remoto a un desktop Linux. In modalità <strong>headless</strong> (senza monitor fisico collegato), potrebbe essere necessario configurare alcune opzioni per garantire che NoMachine funzioni correttamente e mostri un desktop remoto utilizzabile. In questa guida, vedremo come configurare NoMachine su una macchina Ubuntu senza monitor fisico collegato.</p>
+<hr>
+<h4 id="1-installare-nomachine-su-ubuntu"><strong>1. Installare NoMachine su Ubuntu</strong></h4>
+<ol>
+<li>Scarica NoMachine dal <a href="https://www.nomachine.com">sito ufficiale</a>.
+<ul>
+<li>Scegli la versione per Linux (deb package per distribuzioni basate su Debian come Ubuntu).</li>
+</ul>
+</li>
+<li>Installa il pacchetto scaricato:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dpkg -i nomachine_*.deb
+</span></span></code></pre></div></li>
+<li>Risolvi eventuali dipendenze mancanti:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt-get install -f
+</span></span></code></pre></div></li>
+</ol>
+<hr>
+<h4 id="2-configurare-un-display-virtuale-x-server-virtuale"><strong>2. Configurare un Display Virtuale (X Server Virtuale)</strong></h4>
+<p>Quando una macchina è in modalità headless, spesso non viene avviato un server grafico (X server) perché non ci sono monitor fisici collegati. Per risolvere questo problema, utilizzeremo un driver virtuale come <strong><code>xserver-xorg-video-dummy</code></strong>.</p>
+<ol>
+<li>
+<p><strong>Installa i pacchetti necessari:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt-get install xserver-xorg-core xserver-xorg-video-dummy
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Configura il file <code>xorg.conf</code>:</strong>
+Crea o modifica il file di configurazione per il driver dummy:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nano /etc/X11/xorg.conf
+</span></span></code></pre></div><p>Inserisci il seguente contenuto:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">Section &#34;Device&#34;
+</span></span><span class="line"><span class="cl">    Identifier  &#34;Configured Video Device&#34;
+</span></span><span class="line"><span class="cl">    Driver      &#34;dummy&#34;
+</span></span><span class="line"><span class="cl">EndSection
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Section &#34;Monitor&#34;
+</span></span><span class="line"><span class="cl">    Identifier  &#34;Configured Monitor&#34;
+</span></span><span class="line"><span class="cl">    HorizSync   28-80
+</span></span><span class="line"><span class="cl">    VertRefresh 48-75
+</span></span><span class="line"><span class="cl">EndSection
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Section &#34;Screen&#34;
+</span></span><span class="line"><span class="cl">    Identifier &#34;Default Screen&#34;
+</span></span><span class="line"><span class="cl">    Monitor    &#34;Configured Monitor&#34;
+</span></span><span class="line"><span class="cl">    Device     &#34;Configured Video Device&#34;
+</span></span><span class="line"><span class="cl">    DefaultDepth 24
+</span></span><span class="line"><span class="cl">    SubSection &#34;Display&#34;
+</span></span><span class="line"><span class="cl">        Depth 24
+</span></span><span class="line"><span class="cl">        Modes &#34;1920x1080&#34;
+</span></span><span class="line"><span class="cl">    EndSubSection
+</span></span><span class="line"><span class="cl">EndSection
+</span></span></code></pre></div><p>Questo configura un display virtuale con risoluzione <strong>1920x1080</strong>. Puoi modificarlo in base alle tue esigenze.</p>
+</li>
+<li>
+<p><strong>Riavvia il server grafico:</strong>
+Se il sistema non ha un display manager (come GDM o LightDM), avvia manualmente il server X:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">startx
+</span></span></code></pre></div></li>
+</ol>
+<hr>
+<h4 id="3-configurare-nomachine"><strong>3. Configurare NoMachine</strong></h4>
+<ol>
+<li>
+<p>Accedi al pannello di amministrazione di NoMachine. Di solito è disponibile tramite il client NoMachine o accedendo localmente al file di configurazione.</p>
+</li>
+<li>
+<p><strong>Controlla il servizio:</strong>
+Assicurati che il servizio di NoMachine sia attivo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl status nxserver
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Modifica il file di configurazione:</strong>
+Se necessario, puoi personalizzare il comportamento di NoMachine modificando il file:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nano /usr/NX/etc/server.cfg
+</span></span></code></pre></div><p>Cerca le opzioni legate all&rsquo;uso del desktop virtuale e assicurati che siano abilitate:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">EnableDisplayServer 1
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Riavvia il servizio NoMachine:</strong>
+Dopo le modifiche, riavvia NoMachine:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl restart nxserver
+</span></span></code></pre></div></li>
+</ol>
+<hr>
+<h4 id="4-collegarsi-alla-macchina-headless"><strong>4. Collegarsi alla Macchina Headless</strong></h4>
+<ol>
+<li>Avvia il client NoMachine sul tuo computer.</li>
+<li>Inserisci l&rsquo;indirizzo IP o il nome host della macchina Ubuntu.</li>
+<li>Accedi con le credenziali dell&rsquo;utente configurato.</li>
+</ol>
+<p>Dovresti vedere il desktop virtuale configurato con il driver <code>dummy</code>.</p>
+<hr>
+<h4 id="5-risolvere-problemi-comuni"><strong>5. Risolvere Problemi Comuni</strong></h4>
+<ul>
+<li>
+<p><strong>Schermo Nero o Desktop Non Disponibile:</strong></p>
+<ul>
+<li>Verifica che il server grafico sia attivo:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ps aux <span class="p">|</span> grep X
+</span></span></code></pre></div></li>
+<li>Assicurati che il file <code>xorg.conf</code> sia configurato correttamente.</li>
+</ul>
+</li>
+<li>
+<p><strong>Risoluzione Errata:</strong></p>
+<ul>
+<li>Modifica la sezione <code>Modes</code> in <code>/etc/X11/xorg.conf</code> per specificare la risoluzione desiderata.</li>
+</ul>
+</li>
+<li>
+<p><strong>Firewall:</strong></p>
+<ul>
+<li>Verifica che le porte di NoMachine (generalmente la porta <strong>4000</strong>) siano aperte:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo ufw allow 4000/tcp
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ul>
+<p>Altri comandi utili</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Re-installare gnome se risultasse corrotto
+</span></span><span class="line"><span class="cl">apt install --reinstall ubuntu-desktop gnome-shell
+</span></span></code></pre></div><p>IMPORTANTE! Seguire l&rsquo;opzione #2 in questo link: <a href="https://kb.nomachine.com/AR04R01083">https://kb.nomachine.com/AR04R01083</a></p>
+<hr>
+<h4 id="conclusione"><strong>Conclusione</strong></h4>
+<p>Configurare NoMachine in modalità headless su Ubuntu richiede solo qualche passo aggiuntivo rispetto a una configurazione standard. Utilizzando un driver grafico virtuale, puoi garantire che il desktop remoto sia sempre disponibile e funzionale, anche senza un monitor fisico collegato. Questo setup è ideale per server domestici o macchine dedicate a specifici task remoti.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							    <li><a href="/tags/tag1/">tag1</a></li>
+							
+							    <li><a href="/tags/tag2/">tag2</a></li>
+							
+						</ul>
+					
+				
+			</div>
+
+            <div class="authors">
+                
+                    
+                        Written by:
+                        
+                            <a href="/authors/francesco-bianco/" target="_blank" rel="nofollow">Francesco Bianco</a>
+                        
+                    
+                
+            </div>
+
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/20241112-windows-98-nostalgia/">Good Times: La Canzone di Edie Brickell che Ha Fatto la Storia di Windows 98</a></li>
+    
+    <li><a href="/posts/devops/20241005-dora-metrics/">Le metriche DORA: La chiave per misurare e migliorare le prestazioni DevOps</a></li>
+    
+    <li><a href="/posts/pattern/20240917-circuit-breaker/">Il Circuit Breaker: Il Pattern che ha Salvato Netflix</a></li>
+    
+    <li><a href="/posts/20240911-dal-monolitico-ai-microservizi-e-oltre/">L&rsquo;Evoluzione dell&rsquo;Architettura Software: Dal Monolitico ai Microservizi e Oltre</a></li>
+    
+    <li><a href="/posts/20240908-mindset-consulente-due-punto-zero/">Mindset Consulente 2.0: La Teoria Triangolare della Consulenza Moderna</a></li>
+    
+</ul>
+
+
+
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+        <div>
+            2025  © Francesco Bianco | 
+            Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
+            theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            <span class="hide-on-mobile">
+                | Visit the <a href="https://github.com/francescobianco/hardcode.blog" title="HARDCODE.BLOG" target="_blank">repo</a> |
+                Write a new <a href="https://github.com/francescobianco/hardcode.blog" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
+            </span>
+        </div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+</body>
+</html>

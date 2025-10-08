@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Architecture on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/software-architecture/</link>
+    <description>Recent content in Software Architecture on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Wed, 11 Sep 2024 15:55:04 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/software-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L&#39;Evoluzione dell&#39;Architettura Software: Dal Monolitico ai Microservizi e Oltre</title>
+      <link>https://hardcode.blog/posts/20240911-dal-monolitico-ai-microservizi-e-oltre/</link>
+      <pubDate>Wed, 11 Sep 2024 15:55:04 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20240911-dal-monolitico-ai-microservizi-e-oltre/</guid>
+      <description>Prefazione Caro lettore,&#xA;Benvenuto in questo viaggio attraverso l&amp;rsquo;evoluzione dell&amp;rsquo;architettura software. Questo post è strutturato per soddisfare le esigenze sia dei neofiti che degli esperti nel campo dell&amp;rsquo;ingegneria del software.&#xA;Se hai già familiarità e padronanza con i microservizi, ti suggeriamo di saltare direttamente alla Parte II, che inizia dalla sezione &amp;ldquo;Architetture Serverless&amp;rdquo;. Qui troverai approfondimenti sulle tendenze più recenti, best practices avanzate e riflessioni sul futuro dell&amp;rsquo;architettura software.&#xA;Se invece sei nuovo in questo campo o desideri rinfrescare le tue conoscenze sulle basi, ti invitiamo a iniziare dalla Parte I.</description>
+    </item>
+  </channel>
+</rss>

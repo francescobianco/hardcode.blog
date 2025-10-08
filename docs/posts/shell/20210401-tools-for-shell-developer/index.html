@@ -2,22 +2,47 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Docker: Not soo bad! - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="canonical" href="https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/" itemprop="url" /><meta itemprop="name" content="Docker: Not soo bad!">
-<meta itemprop="description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa"><meta itemprop="datePublished" content="2020-01-01T12:10:00+02:00" />
-<meta itemprop="dateModified" content="2020-01-01T12:10:00+02:00" />
-<meta itemprop="wordCount" content="13">
-<meta itemprop="keywords" content="docker," /><meta property="og:title" content="Docker: Not soo bad!" />
-<meta property="og:description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-01-01T12:10:00+02:00" />
-<meta property="article:modified_time" content="2020-01-01T12:10:00+02:00" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Docker e Shell: Strumenti per Potenziare il Tuo Ambiente di Sviluppo - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/" itemprop="url" /><meta itemprop="name" content="Docker e Shell: Strumenti per Potenziare il Tuo Ambiente di Sviluppo">
+<meta itemprop="description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa"><meta itemprop="datePublished" content="2024-08-16T16:50:00+02:00" />
+<meta itemprop="dateModified" content="2024-08-16T16:50:00+02:00" />
+<meta itemprop="wordCount" content="550">
+<meta itemprop="keywords" content="shell,docker," /><meta property="og:url" content="https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="Docker e Shell: Strumenti per Potenziare il Tuo Ambiente di Sviluppo">
+<meta property="og:description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Docker: Not soo bad!"/>
-<meta name="twitter:description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2024-08-16T16:50:00+02:00">
+<meta property="article:modified_time" content="2024-08-16T16:50:00+02:00">
+<meta property="article:tag" content="Shell">
+<meta property="article:tag" content="Docker">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_7705839022812275358.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_7705839022812275358.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
@@ -25,10 +50,14 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
 
     <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
 
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
 		<script src="https://hardcode.blog/js/main.js"></script>
 
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
@@ -46,7 +75,7 @@
 		</div>
 	
     <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
-	<div class="site-description font-fixedsys"><p>{☕} Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
 			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
                     &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
                     &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
@@ -62,11 +91,11 @@
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/docker/">🐳 Docker</a>
+				<a href="/tags/devops/">🐳 DevOps</a>
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/vtiger/">🐯 Vtiger</a>
+				<a href="/tags/crm/">☁️ CRM</a>
 			</li>
 			
 			<li class="font-fixedsys">
@@ -87,33 +116,115 @@
 				
 					<div class="meta">
 						<div class="date">
-							<span class="day">1</span>
-							<span class="rest">Jan 2020</span>
+							<span class="day">16</span>
+							<span class="rest">Aug 2024</span>
 						</div>
 					</div>
 				
 				<div class="matter">
-					<h1 class="title">Docker: Not soo bad!</h1>
+					<h1 class="title">Docker e Shell: Strumenti per Potenziare il Tuo Ambiente di Sviluppo</h1>
                     <div class="social">
                         <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/shell/20210401-tools-for-shell-developer.md" target="_blank">
                             <i data-feather="github"></i>
                         </a>
-                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fhardcode.blog%2fposts%2fshell%2f20210401-tools-for-shell-developer%2f" target="_blank">
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
                             <i data-feather="linkedin"></i>
                         </a>
-                        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fhardcode.blog%2fposts%2fshell%2f20210401-tools-for-shell-developer%2f" target="_blank">
-                            <i data-feather="link-2"></i>
-                        </a>
+                        
                     </div>
 				</div>
 			</div>
 
 			<div class="markdown">
-				<h2 id="docker">Docker</h2>
-<p>Si tratta di una storia molto lunga per adesso beccatevi questo:</p>
+				<p>Nel mondo dello sviluppo software moderno, Docker e i container hanno rivoluzionato il modo in cui creiamo, distribuiamo e gestiamo le applicazioni. Ma il loro impatto non si limita solo alle applicazioni: anche l&rsquo;ambiente di sviluppo stesso può beneficiare enormemente dall&rsquo;uso dei container. In questo post, esploreremo alcuni strumenti shell che sfruttano la potenza di Docker e dei container per migliorare il flusso di lavoro degli sviluppatori.</p>
+<div class="admonition admonition-important">
+    <div class="admonition-title">
+        <div class="admonition-icon">🌐</div>
+        Ti piacciono questi temi?
+    </div>
+    <div class="admonition-content">
+        <p>
+            Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo,
+            condividilo con i tuoi amici e colleghi sui social.
+            La tua condivisione ci aiuta a crescere e a portare contenuti di qualità a un pubblico sempre più ampio.
+            Grazie mille per il tuo contributo!
+        </p>
+        <div>
+            <a href="https://www.linkedin.com/feed/?shareActive=true&text=https%3A%2F%2Fhardcode.blog%2Fposts%2Fshell%2F20210401-tools-for-shell-developer%2F" target="_blank" class="social-button" rel="nofollow">
+                <img src="https://img.shields.io/badge/-condividi%20su%20linkedin-blue?logo=linkedin&style=for-the-badge" alt="Share on LinkedIn">
+            </a>
+
+            
+
+            
+        </div>
+    </div>
+</div>
+
+<h2 id="1-distrobox">1. Distrobox</h2>
+<p>Distrobox è uno strumento versatile che permette di utilizzare qualsiasi distribuzione Linux all&rsquo;interno del proprio terminale. Basato su Docker o Podman, Distrobox crea container che si integrano perfettamente con il sistema host, consentendo di eseguire applicazioni come se fossero native.</p>
+<p>Vantaggi principali:</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=XVJ5EkiqLkk">https://www.youtube.com/watch?v=XVJ5EkiqLkk</a></li>
+<li>Accesso a diverse distribuzioni Linux senza dover fare dual boot o usare macchine virtuali</li>
+<li>Isolamento dell&rsquo;ambiente di sviluppo senza compromettere l&rsquo;integrazione con il sistema host</li>
+<li>Facile condivisione di file e risorse tra il container e il sistema host</li>
 </ul>
+<h2 id="2-devcontainer">2. DevContainer</h2>
+<p>DevContainer è un&rsquo;estensione per Visual Studio Code che permette di utilizzare un container Docker come ambiente di sviluppo completo. È particolarmente utile per garantire coerenza tra gli ambienti di sviluppo di diversi membri del team.</p>
+<p>Caratteristiche:</p>
+<ul>
+<li>Definizione dell&rsquo;ambiente di sviluppo come codice</li>
+<li>Integrazione diretta con VS Code per un&rsquo;esperienza di sviluppo fluida</li>
+<li>Possibilità di preconfigurare estensioni e impostazioni per progetti specifici</li>
+</ul>
+<h2 id="3-dockstarter">3. DockSTARTer</h2>
+<p>DockSTARTer è uno strumento che semplifica l&rsquo;installazione e la configurazione di varie applicazioni Docker su sistemi Linux. È particolarmente utile per chi vuole gestire un server domestico o un homelab.</p>
+<p>Punti di forza:</p>
+<ul>
+<li>Configurazione guidata per numerose applicazioni Docker popolari</li>
+<li>Gestione semplificata degli aggiornamenti e dei backup</li>
+<li>Comunità attiva per supporto e condivisione di configurazioni</li>
+</ul>
+<h2 id="4-portainer">4. Portainer</h2>
+<p>Portainer è un&rsquo;interfaccia grafica web per la gestione di ambienti Docker. Sebbene non sia specificamente uno strumento da riga di comando, si integra bene con il flusso di lavoro basato su shell.</p>
+<p>Caratteristiche chiave:</p>
+<ul>
+<li>Gestione visuale di container, immagini, volumi e reti</li>
+<li>Supporto per Docker Swarm e Kubernetes</li>
+<li>Funzionalità di monitoraggio e logging integrate</li>
+</ul>
+<h2 id="5-lazydocker">5. lazydocker</h2>
+<p>lazydocker è un&rsquo;interfaccia terminale per Docker che offre una visualizzazione interattiva dei container, immagini e volumi. È perfetto per chi preferisce lavorare esclusivamente da terminale ma desidera una visione d&rsquo;insieme più chiara rispetto ai comandi Docker standard.</p>
+<p>Vantaggi:</p>
+<ul>
+<li>Interfaccia TUI (Text User Interface) intuitiva</li>
+<li>Rapido accesso a log, statistiche e gestione dei container</li>
+<li>Personalizzabile e leggero</li>
+</ul>
+<h2 id="conclusione">Conclusione</h2>
+<p>L&rsquo;ecosistema Docker ha portato non solo a una rivoluzione nel deployment delle applicazioni, ma anche a un miglioramento significativo degli strumenti di sviluppo. Strumenti come Distrobox, DevContainer, DockSTARTer, Portainer e lazydocker dimostrano come i container possano essere sfruttati per creare ambienti di sviluppo più flessibili, coerenti e potenti.</p>
+<p>Che siate sviluppatori, amministratori di sistema o semplicemente appassionati di tecnologia, l&rsquo;integrazione di questi strumenti nel vostro flusso di lavoro può portare a un notevole aumento di produttività e a una gestione più efficace dei vostri progetti.</p>
+<div class="admonition admonition-note">
+    <div class="admonition-title">
+        <div class="admonition-icon">📨</div>
+        Abbiamo una newsletter!!!
+    </div>
+    <div class="admonition-content">
+        <p>
+            Se ti appassiona l’ingegneria del software, non perdere l'occasione di rimanere aggiornato!<br/> Iscriviti alla nostra newsletter,
+            <strong>SWE Spotlight</strong>, per ricevere contenuti esclusivi e tech news.
+        </p>
+        <div>
+            <a href="https://spotlight.yafb.net" target="_blank" class="social-button" rel="nofollow">
+                <img src="https://img.shields.io/badge/SWE%20Spotlight-iscrivi%20adesso-silver?logo=linkedin&style=for-the-badge" alt="Iscriviti alla nostra newsletter">
+            </a>
+        </div>
+    </div>
+</div>
+
 
 			</div>
 
@@ -121,6 +232,8 @@
 				
 					
 						<ul class="flat">
+							
+							    <li><a href="/tags/shell/">shell</a></li>
 							
 							    <li><a href="/tags/docker/">docker</a></li>
 							
@@ -133,28 +246,31 @@
                 
                     
                 
-            </div><div id="disqus_thread"></div>
-<script type="text/javascript">
-	(function () {
-		
-		
-		if (window.location.hostname == "localhost")
-			return;
+            </div>
 
-		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		var disqus_shortname = 'hardcode-blog';
-		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	})();
-</script>
-<noscript>Please enable JavaScript to view the </a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/20200404-shell/">Questo blog post è una shell!</a></li>
+    
+    <li><a href="/posts/cicd/20210401-tools-for-gitlab-ci-developer/">Docker: Il cuore di GitLab CI</a></li>
+    
+    <li><a href="/posts/vtiger/20210401-tools-for-vtiger-developer/">Docker: Un ambiente ideale per il CRM vtiger</a></li>
+    
+    <li><a href="/posts/rant/20200101-blockchain-is-dead/">Le <strong>blockchain</strong> sono morte!?</a></li>
+    
+    <li><a href="/posts/tutorial/20240717-impariamo-zig/">Scopriamo <strong>Zig</strong>: un tutorial facile facile in 10 lezioni</a></li>
+    
+</ul>
+
+
+
 </div>
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
         <div>
-            2024  © Francesco Bianco | 
+            2025  © Francesco Bianco | 
             Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
             theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
             <span class="hide-on-mobile">

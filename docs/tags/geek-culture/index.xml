@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>geek-culture on HARDCODE.BLOG</title>
+    <title>Geek-Culture on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/geek-culture/</link>
-    <description>Recent content in geek-culture on HARDCODE.BLOG</description>
+    <description>Recent content in Geek-Culture on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Mon, 05 Apr 2021 13:19:26 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/geek-culture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Apr 2021 13:19:26 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/geek-culture/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Agile is dead!</title>
-      <link>https://hardcode.blog/posts/20200928-agile-is-dead/</link>
+      <title>L&#39;Agile è Morto!!!</title>
+      <link>https://hardcode.blog/posts/agile/20200928-agile-is-dead/</link>
       <pubDate>Mon, 05 Apr 2021 13:19:26 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200928-agile-is-dead/</guid>
-      <description>Intro The premise is perhaps too dramatic and maybe a little click-catcher, but I think there is juice. Today when we talk about Agile everyone wants to have their say, everyone wants to apply their method with their thousand variations derived from their own experience. This leads me to ask myself some fundamental questions:
-What I miss  Can a methodology determine success or failure, or only responsible for wasted resources?</description>
+      <guid>https://hardcode.blog/posts/agile/20200928-agile-is-dead/</guid>
+      <description>Intro Il titolo potrebbe sembrare eccessivamente drammatico—forse addirittura un po&amp;rsquo; clickbait—ma c&amp;rsquo;è sostanza dietro di esso. Oggi, quando parliamo di Agile, tutti vogliono dire la loro, ansiosi di applicare i propri metodi, ognuno con innumerevoli variazioni tratte dall’esperienza personale. Questo mi porta a porre alcune domande fondamentali:&#xA;Cosa Mi Manca Può una metodologia determinare il successo o il fallimento, o è semplicemente responsabile di risorse sprecate? Perché i concetti fondamentali di Agile non sono riconosciuti come schemi che possono essere incorporati in altre metodologie?</description>
     </item>
-    
   </channel>
 </rss>

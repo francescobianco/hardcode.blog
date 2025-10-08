@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xp on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/xp/</link>
+    <description>Recent content in Xp on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Fri, 12 Jul 2024 12:55:22 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/xp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chi è **Kent Beck**? Non solo **XP**, ma tanto altro e cosa ci insegna</title>
+      <link>https://hardcode.blog/posts/people/20240712-chi-e-kent-beck/</link>
+      <pubDate>Fri, 12 Jul 2024 12:55:22 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/people/20240712-chi-e-kent-beck/</guid>
+      <description>Kent Beck è una figura leggendaria nel mondo dello sviluppo software, celebre per aver introdotto concetti rivoluzionari come eXtreme Programming (XP) e Test-Driven Development (TDD). La sua carriera non si limita però a questi successi; è un esempio di come l&amp;rsquo;innovazione tecnica possa fondersi con una profonda riflessione sulla vita e sull&amp;rsquo;umanità.&#xA;Iniziando dalla sua influenza nel campo dell&amp;rsquo;ingegneria del software, Beck è stato il pioniere nell&amp;rsquo;isolare i pattern ripetitivi nei problemi e nelle soluzioni, permettendo di concentrare l&amp;rsquo;attenzione sugli aspetti unici di ogni sfida.</description>
+    </item>
+  </channel>
+</rss>

@@ -7,17 +7,44 @@
 <meta itemprop="description" content="Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti, vediamo come applicarlo sul CRM vtiger"><meta itemprop="datePublished" content="2020-01-01T12:10:00+02:00" />
 <meta itemprop="dateModified" content="2020-01-01T12:10:00+02:00" />
 <meta itemprop="wordCount" content="444">
-<meta itemprop="keywords" content="docker,vtiger," /><meta property="og:title" content="Docker: Un ambiente ideale per il CRM vtiger" />
-<meta property="og:description" content="Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti, vediamo come applicarlo sul CRM vtiger" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-01-01T12:10:00+02:00" />
-<meta property="article:modified_time" content="2020-01-01T12:10:00+02:00" />
+<meta itemprop="keywords" content="devops,docker,vtiger,crm," /><meta property="og:url" content="https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="Docker: Un ambiente ideale per il CRM vtiger">
+<meta property="og:description" content="Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti, vediamo come applicarlo sul CRM vtiger">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Docker: Un ambiente ideale per il CRM vtiger"/>
-<meta name="twitter:description" content="Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti, vediamo come applicarlo sul CRM vtiger"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2020-01-01T12:10:00+02:00">
+<meta property="article:modified_time" content="2020-01-01T12:10:00+02:00">
+<meta property="article:tag" content="Devops">
+<meta property="article:tag" content="Docker">
+<meta property="article:tag" content="Vtiger">
+<meta property="article:tag" content="Crm">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_1312225829849977912.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_1312225829849977912.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
@@ -25,10 +52,14 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
 
     <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
 
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
 		<script src="https://hardcode.blog/js/main.js"></script>
 
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
@@ -46,7 +77,7 @@
 		</div>
 	
     <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
-	<div class="site-description font-fixedsys"><p>{☕} Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
 			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
                     &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
                     &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
@@ -62,11 +93,11 @@
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/docker/">🐳 Docker</a>
+				<a href="/tags/devops/">🐳 DevOps</a>
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/vtiger/">🐯 Vtiger</a>
+				<a href="/tags/crm/">☁️ CRM</a>
 			</li>
 			
 			<li class="font-fixedsys">
@@ -98,12 +129,13 @@
                         <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/vtiger/20210401-tools-for-vtiger-developer.md" target="_blank">
                             <i data-feather="github"></i>
                         </a>
-                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fhardcode.blog%2fposts%2fvtiger%2f20210401-tools-for-vtiger-developer%2f" target="_blank">
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
                             <i data-feather="linkedin"></i>
                         </a>
-                        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fhardcode.blog%2fposts%2fvtiger%2f20210401-tools-for-vtiger-developer%2f" target="_blank">
-                            <i data-feather="link-2"></i>
-                        </a>
+                        
                     </div>
 				</div>
 			</div>
@@ -133,14 +165,14 @@
 <li><a href="https://github.com/javanile/vtiger-dev">vtiger-dev</a>: Utilizzato per impostare l&rsquo;ambiente di sviluppo, offre script e configurazioni Docker per facilitare il processo di sviluppo.</li>
 <li><a href="https://github.com/javanile/vtiger-demo">vtiger-demo</a>: Un&rsquo;istanza dimostrativa di vtiger CRM, utile per vedere come l&rsquo;applicazione dovrebbe funzionare una volta configurata correttamente.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git clone https://github.com/javanile/vtiger.git
-git clone https://github.com/javanile/vtiger-dev.git
-git clone https://github.com/javanile/vtiger-demo.git
-</code></pre></div><h3 id="passo-2-configurare-lambiente-docker">Passo 2: Configurare l&rsquo;ambiente Docker</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/javanile/vtiger.git
+</span></span><span class="line"><span class="cl">git clone https://github.com/javanile/vtiger-dev.git
+</span></span><span class="line"><span class="cl">git clone https://github.com/javanile/vtiger-demo.git
+</span></span></code></pre></div><h3 id="passo-2-configurare-lambiente-docker">Passo 2: Configurare l&rsquo;ambiente Docker</h3>
 <p>Una volta clonati i repositori, naviga nella directory <code>vtiger-dev</code> e configura l&rsquo;ambiente Docker:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> vtiger-dev
-docker-compose up -d
-</code></pre></div><p>Questo comando avvierà i container necessari per eseguire vtiger CRM in un ambiente Docker. <code>docker-compose</code> è uno strumento che permette di definire e gestire applicazioni multi-container.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> vtiger-dev
+</span></span><span class="line"><span class="cl">docker-compose up -d
+</span></span></code></pre></div><p>Questo comando avvierà i container necessari per eseguire vtiger CRM in un ambiente Docker. <code>docker-compose</code> è uno strumento che permette di definire e gestire applicazioni multi-container.</p>
 <h3 id="passo-3-accedere-allapplicazione">Passo 3: Accedere all&rsquo;applicazione</h3>
 <p>Dopo che i container sono stati avviati, puoi accedere a vtiger CRM attraverso il tuo browser, utilizzando l&rsquo;indirizzo e la porta configurati (ad esempio, <code>http://localhost:8080</code>).</p>
 <h2 id="approfondisci-con-i-repositori-di-github">Approfondisci con i repositori di GitHub</h2>
@@ -160,9 +192,13 @@ docker-compose up -d
 					
 						<ul class="flat">
 							
+							    <li><a href="/tags/devops/">devops</a></li>
+							
 							    <li><a href="/tags/docker/">docker</a></li>
 							
 							    <li><a href="/tags/vtiger/">vtiger</a></li>
+							
+							    <li><a href="/tags/crm/">crm</a></li>
 							
 						</ul>
 					
@@ -173,28 +209,23 @@ docker-compose up -d
                 
                     
                 
-            </div><div id="disqus_thread"></div>
-<script type="text/javascript">
-	(function () {
-		
-		
-		if (window.location.hostname == "localhost")
-			return;
+            </div>
 
-		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		var disqus_shortname = 'hardcode-blog';
-		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	})();
-</script>
-<noscript>Please enable JavaScript to view the </a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/cicd/20210401-tools-for-gitlab-ci-developer/">Docker: Il cuore di GitLab CI</a></li>
+    
+</ul>
+
+
+
 </div>
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
         <div>
-            2024  © Francesco Bianco | 
+            2025  © Francesco Bianco | 
             Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
             theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
             <span class="hide-on-mobile">

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trends on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/trends/</link>
+    <description>Recent content in Trends on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Sat, 01 Aug 2020 08:16:42 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/trends/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter! Sei pronto?</title>
+      <link>https://hardcode.blog/posts/trends/20200801-flutter/</link>
+      <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/trends/20200801-flutter/</guid>
+      <description>Negli ultimi anni, il panorama dello sviluppo frontend ha subito enormi cambiamenti, passando dal desktop al web e ora dirigendosi verso orizzonti ancora inesplorati. Framework come Angular, React e Vue hanno definito l&amp;rsquo;era moderna dello sviluppo frontend web, ma ora, con il rapido avvento di nuove tecnologie e piattaforme, si comincia a intravedere l&amp;rsquo;alba di una nuova generazione. Potrebbe Flutter essere il dominatore del mondo frontend nella prossima era post-2030?</description>
+    </item>
+  </channel>
+</rss>

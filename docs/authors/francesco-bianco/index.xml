@@ -7,25 +7,161 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Fri, 21 Jun 2024 12:17:31 +0200</lastBuildDate><atom:link href="https://hardcode.blog/authors/francesco-bianco/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jun 2025 08:49:04 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/authors/francesco-bianco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Nuova API OSI per le Licenze Open Source: Una Guida Completa per Sviluppatori</title>
+      <link>https://hardcode.blog/posts/20250624-la-nuova-api-per-le-licenze-opensource/</link>
+      <pubDate>Tue, 24 Jun 2025 08:49:04 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250624-la-nuova-api-per-le-licenze-opensource/</guid>
+      <description>L&amp;rsquo;Open Source Initiative (OSI) ha recentemente lanciato una nuova API che rivoluziona il modo in cui accediamo e gestiamo le informazioni sulle licenze open source approvate. Questa innovazione rappresenta un passo significativo verso la modernizzazione degli strumenti disponibili per la comunità di sviluppatori, team legali e aziende che lavorano quotidianamente con il software open source.&#xA;Cos&amp;rsquo;è la Nuova API OSI La nuova API fornisce accesso programmatico alla lista canonica delle OSI Approved Licenses®, offrendo un servizio completamente pubblico e gratuito che serve come fonte di verità ufficiale per i dati delle licenze OSI.</description>
+    </item>
+    <item>
+      <title>🎛️ Questo post è un menu</title>
+      <link>https://hardcode.blog/posts/20250527-questo-post-e-un-menu/</link>
+      <pubDate>Tue, 27 May 2025 01:06:14 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250527-questo-post-e-un-menu/</guid>
+      <description>Benvenuto nel post che&amp;hellip; non è un post. È una console di comando, una sala di controllo, un hub centrale.&#xA;Qui sotto trovi una checklist di esperienze interattive: ogni link ti porta a un post che non si legge soltanto — si vive, si tocca, si hackera.&#xA;Spunta quelli che hai già esplorato. Scopri quelli che ti mancano. Condividili con chi ama imparare giocando.&#xA;✅ La checklist degli esperimenti interattivi 🕹️ Questo post è un Game Boy Gioca direttamente nel post a un mini-videogioco stile retro.</description>
+    </item>
+    <item>
+      <title>ROI nell’Ingegneria Informatica: Perché è Cruciale per Ogni Progetto Tecnologico</title>
+      <link>https://hardcode.blog/posts/20250519-roi-per-ingegneri/</link>
+      <pubDate>Mon, 19 May 2025 14:03:38 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250519-roi-per-ingegneri/</guid>
+      <description>Quando si parla di Return on Investment (ROI), molti pensano subito a numeri da bilancio, strategie di marketing o grandi investimenti aziendali. Ma il ROI è molto di più: è uno strumento essenziale anche per chi lavora nel campo dell’ingegneria informatica, sia in ambito aziendale che freelance.&#xA;In questo articolo vedremo cos&amp;rsquo;è il ROI, perché è fondamentale nell’IT e come possiamo utilizzarlo per migliorare i risultati dei nostri progetti tecnologici.</description>
+    </item>
+    <item>
+      <title>Perché Mush è sulla strada giusta: la risposta illuminante</title>
+      <link>https://hardcode.blog/posts/20250512-mush-contro-rust/</link>
+      <pubDate>Mon, 12 May 2025 16:56:11 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250512-mush-contro-rust/</guid>
+      <description>Qualche giorno fa ho avuto il piacere di scambiare due parole con uno sviluppatore open source molto attivo nella community di Rust. Avevo in mente un’idea ben precisa: cercare conferme su alcuni principi che mi guidano nello sviluppo di Mush, lo strumento che vuole portare la developer experience di Rust nel mondo dei progetti shell.&#xA;Gli ho fatto una domanda semplice, ma carica di aspettative: &amp;ldquo;Dal tuo punto di vista, quali sono tre motivi per preferire Rust per il mio prossimo progetto?</description>
+    </item>
+    <item>
+      <title>Docker: l’inizio della fine di un’icona?</title>
+      <link>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</link>
+      <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</guid>
+      <description>Docker è stato, senza mezzi termini, una rivoluzione. Un cambio di paradigma nel modo in cui pensiamo, costruiamo e distribuiamo software. Un layer trasparente tra sviluppatori e infrastruttura, capace di creare una nuova normalità: build leggere, ambienti replicabili, deployment semplificati. Docker è stato molto più di una tecnologia: è stato un movimento.&#xA;Ma i movimenti, come le mode, tendono a cristallizzarsi. E quando una tecnologia da &amp;ldquo;motore del cambiamento&amp;rdquo; diventa solo &amp;ldquo;un motore di esecuzione&amp;rdquo; – un runtime engine, per capirci – allora entra in un’arena diversa.</description>
+    </item>
+    <item>
+      <title>Come Parlano i Computer Quantistici: Il Linguaggio Dietro le Macchine del Futuro</title>
+      <link>https://hardcode.blog/posts/20250220-come-parlano-i-computer-quantistici/</link>
+      <pubDate>Thu, 20 Feb 2025 17:05:17 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250220-come-parlano-i-computer-quantistici/</guid>
+      <description>I computer quantistici, a differenza dei classici, non seguono il semplice schema binario di 0 e 1. Essi sfruttano le leggi della fisica quantistica per trattare informazioni in modi radicalmente diversi. Ma come parlano, questi computer? Qual è il linguaggio che usano per eseguire calcoli e per &amp;ldquo;capire&amp;rdquo; le istruzioni che gli vengono date? In questo post, esploreremo il linguaggio dei computer quantistici, il suo potenziale, e come potrebbe evolversi per diventare più intuitivo e vicino alla logica che usiamo ogni giorno.</description>
+    </item>
+    <item>
+      <title>Key Promoter X: Il Plugin Che Ti Insegna le Shortcut (Volente o Nolente)</title>
+      <link>https://hardcode.blog/posts/20250212-key-promoter-x/</link>
+      <pubDate>Wed, 12 Feb 2025 17:59:53 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250212-key-promoter-x/</guid>
+      <description>Oggi voglio parlare di un piccolo gioiello nascosto tra i plugin di WebStorm: Key Promoter X. Se non lo conosci, preparati a ricevere una valanga di notifiche mentre lavori. Questo plugin ha una missione molto chiara: insegnarti a usare le scorciatoie da tastiera. Ogni volta che clicchi con il mouse su un’azione per la quale esiste una scorciatoia, Key Promoter X te lo fa notare con un bel pop-up, quasi a dirti: &amp;ldquo;Ehi, lo sai che stai perdendo tempo?</description>
+    </item>
+    <item>
+      <title>Come Usare NoMachine su una Macchina Ubuntu in Modalità Headless</title>
+      <link>https://hardcode.blog/posts/20241115-nomachine-ubuntu-headless/</link>
+      <pubDate>Fri, 15 Nov 2024 10:50:20 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20241115-nomachine-ubuntu-headless/</guid>
+      <description>NoMachine è uno strumento potente per accedere in remoto a un desktop Linux. In modalità headless (senza monitor fisico collegato), potrebbe essere necessario configurare alcune opzioni per garantire che NoMachine funzioni correttamente e mostri un desktop remoto utilizzabile. In questa guida, vedremo come configurare NoMachine su una macchina Ubuntu senza monitor fisico collegato.&#xA;1. Installare NoMachine su Ubuntu Scarica NoMachine dal sito ufficiale. Scegli la versione per Linux (deb package per distribuzioni basate su Debian come Ubuntu).</description>
+    </item>
+    <item>
+      <title>Good Times: La Canzone di Edie Brickell che Ha Fatto la Storia di Windows 98</title>
+      <link>https://hardcode.blog/posts/20241112-windows-98-nostalgia/</link>
+      <pubDate>Tue, 12 Nov 2024 09:41:10 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20241112-windows-98-nostalgia/</guid>
+      <description>Quando pensiamo a Windows 98, ci vengono in mente immagini nostalgiche: schermi CRT, icone semplici, il suono inconfondibile dell’avvio. Ma tra i ricordi più curiosi c’è una piccola gemma musicale: Good Times di Edie Brickell, una traccia che molti utenti scoprirono per caso tra i file di sistema, e che ha finito per diventare la colonna sonora di un’epoca.&#xA;La Storia di una Canzone in un Sistema Operativo Negli anni ’90, Microsoft era più che un’azienda tecnologica; era una porta d’accesso per milioni di persone alla nuova era digitale.</description>
+    </item>
+    <item>
+      <title>Le metriche DORA: La chiave per misurare e migliorare le prestazioni DevOps</title>
+      <link>https://hardcode.blog/posts/devops/20241005-dora-metrics/</link>
+      <pubDate>Sat, 05 Oct 2024 08:13:47 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20241005-dora-metrics/</guid>
+      <description>Nell&amp;rsquo;ambito dell&amp;rsquo;ingegneria del software e del DevOps, la misurazione delle prestazioni è fondamentale per il miglioramento continuo. Le metriche DORA (DevOps Research and Assessment) sono emerse come uno standard de facto per valutare l&amp;rsquo;efficacia delle pratiche DevOps. In questo articolo, esploreremo cosa sono le metriche DORA, perché sono importanti e come possono essere utilizzate per ottimizzare i processi di sviluppo software.&#xA;Cosa sono le metriche DORA? Le metriche DORA sono un insieme di quattro indicatori chiave di prestazione (KPI) sviluppati dal team di ricerca DevOps di Google.</description>
+    </item>
+    <item>
+      <title>Il Circuit Breaker: Il Pattern che ha Salvato Netflix</title>
+      <link>https://hardcode.blog/posts/pattern/20240917-circuit-breaker/</link>
+      <pubDate>Tue, 17 Sep 2024 15:03:43 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/pattern/20240917-circuit-breaker/</guid>
+      <description>Nell&amp;rsquo;ingegneria del software, la resilienza dei sistemi è fondamentale, soprattutto quando si tratta di servizi ad alta disponibilità. Oggi esploreremo un pattern di progettazione che ha rivoluzionato la gestione del carico in sistemi distribuiti: il Circuit Breaker.&#xA;La Storia di un Quasi Disastro Immaginate la scena: un importante servizio di streaming (che chiameremo &amp;ldquo;StreamFlix&amp;rdquo;) si prepara al lancio di una nuova serie TV attesissima. L&amp;rsquo;hype è alle stelle, i fan sono pronti a premere play&amp;hellip; ma c&amp;rsquo;è un problema.</description>
+    </item>
+    <item>
+      <title>L&#39;Evoluzione dell&#39;Architettura Software: Dal Monolitico ai Microservizi e Oltre</title>
+      <link>https://hardcode.blog/posts/20240911-dal-monolitico-ai-microservizi-e-oltre/</link>
+      <pubDate>Wed, 11 Sep 2024 15:55:04 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20240911-dal-monolitico-ai-microservizi-e-oltre/</guid>
+      <description>Prefazione Caro lettore,&#xA;Benvenuto in questo viaggio attraverso l&amp;rsquo;evoluzione dell&amp;rsquo;architettura software. Questo post è strutturato per soddisfare le esigenze sia dei neofiti che degli esperti nel campo dell&amp;rsquo;ingegneria del software.&#xA;Se hai già familiarità e padronanza con i microservizi, ti suggeriamo di saltare direttamente alla Parte II, che inizia dalla sezione &amp;ldquo;Architetture Serverless&amp;rdquo;. Qui troverai approfondimenti sulle tendenze più recenti, best practices avanzate e riflessioni sul futuro dell&amp;rsquo;architettura software.&#xA;Se invece sei nuovo in questo campo o desideri rinfrescare le tue conoscenze sulle basi, ti invitiamo a iniziare dalla Parte I.</description>
+    </item>
+    <item>
+      <title>Mindset Consulente 2.0: La Teoria Triangolare della Consulenza Moderna</title>
+      <link>https://hardcode.blog/posts/20240908-mindset-consulente-due-punto-zero/</link>
+      <pubDate>Sun, 08 Sep 2024 13:43:41 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20240908-mindset-consulente-due-punto-zero/</guid>
+      <description>Nell&amp;rsquo;era dell&amp;rsquo;informazione, il ruolo del consulente ha subito una trasformazione radicale. Non si tratta più solo di fornire soluzioni standardizzate ai problemi dei clienti, ma di operare in un contesto dinamico, flessibile e in continua evoluzione. È in questo scenario che nasce il Mindset Consulente 2.0, una teoria che poggia su tre pilastri fondamentali: Creatività, Flessibilità e Trasparenza.&#xA;Questa visione non è limitata ai professionisti del settore IT o del digitale, ma può essere applicata in settori apparentemente distanti come l&amp;rsquo;architettura, il diritto, la consulenza aziendale e molte altre professioni.</description>
+    </item>
+    <item>
+      <title>Scopriamo **Zig**: un tutorial facile facile in 10 lezioni</title>
+      <link>https://hardcode.blog/posts/tutorial/20240717-impariamo-zig/</link>
+      <pubDate>Wed, 17 Jul 2024 18:00:49 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/tutorial/20240717-impariamo-zig/</guid>
+      <description>Benvenuti al nostro tutorial su Zig, un linguaggio di programmazione moderno e performante che sta guadagnando sempre più popolarità tra gli sviluppatori. Zig è noto per la sua semplicità, efficienza e robustezza, rendendolo ideale per progetti di sistema e applicazioni ad alte prestazioni. In questo percorso in 10 sezioni, esploreremo i concetti fondamentali di Zig attraverso esempi pratici che potrai eseguire direttamente nell&amp;rsquo;articolo. Pronto a iniziare? Andiamo!&#xA;🌐 Ti piacciono questi temi?</description>
+    </item>
+    <item>
+      <title>**Substack**: lo strumento per diventare l&#39;esperto che parla agli esperti</title>
+      <link>https://hardcode.blog/posts/20240713-substack/</link>
+      <pubDate>Sat, 13 Jul 2024 05:53:30 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20240713-substack/</guid>
+      <description>Sei un consulente o un professionista che desidera costruire la propria popolarità e raggiungere un pubblico di esperti nel tuo settore? Substack potrebbe essere lo strumento che fa per te.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social. La tua condivisione ci aiuta a crescere e a portare contenuti di qualità a un pubblico sempre più ampio.</description>
+    </item>
+    <item>
+      <title>Chi è **Kent Beck**? Non solo **XP**, ma tanto altro e cosa ci insegna</title>
+      <link>https://hardcode.blog/posts/people/20240712-chi-e-kent-beck/</link>
+      <pubDate>Fri, 12 Jul 2024 12:55:22 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/people/20240712-chi-e-kent-beck/</guid>
+      <description>Kent Beck è una figura leggendaria nel mondo dello sviluppo software, celebre per aver introdotto concetti rivoluzionari come eXtreme Programming (XP) e Test-Driven Development (TDD). La sua carriera non si limita però a questi successi; è un esempio di come l&amp;rsquo;innovazione tecnica possa fondersi con una profonda riflessione sulla vita e sull&amp;rsquo;umanità.&#xA;Iniziando dalla sua influenza nel campo dell&amp;rsquo;ingegneria del software, Beck è stato il pioniere nell&amp;rsquo;isolare i pattern ripetitivi nei problemi e nelle soluzioni, permettendo di concentrare l&amp;rsquo;attenzione sugli aspetti unici di ogni sfida.</description>
+    </item>
+    <item>
+      <title>Esplorando la **Developer Experience**: fondamenti e implicazioni</title>
+      <link>https://hardcode.blog/posts/dx/20240711-developer-experience-fondamenti-e-implicazioni/</link>
+      <pubDate>Thu, 11 Jul 2024 14:16:29 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/dx/20240711-developer-experience-fondamenti-e-implicazioni/</guid>
+      <description>Nel vasto panorama dello sviluppo software, la Developer Experience (DevEx) emerge come un elemento cruciale ma spesso sottovalutato. Essenzialmente, si tratta dell&amp;rsquo;insieme di percezioni e interazioni che gli sviluppatori vivono durante il processo di creazione e manutenzione del software. Va oltre l&amp;rsquo;interfaccia utente o l&amp;rsquo;efficienza degli strumenti; riflette anche la qualità dell&amp;rsquo;ambiente di lavoro, la facilità di utilizzo delle tecnologie, e la fluidità dei flussi di lavoro.&#xA;🌐 Ti piacciono questi temi?</description>
+    </item>
+    <item>
+      <title>**One Thing**: una soluzione per aumentare la produttività su macOS e Gnome</title>
+      <link>https://hardcode.blog/posts/tool/20240709-one-thing-per-la-produttivita/</link>
+      <pubDate>Tue, 09 Jul 2024 10:33:00 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/tool/20240709-one-thing-per-la-produttivita/</guid>
+      <description>One Thing è nato dalla mia ricerca di maggiore produttività e focus, con un approccio centrato sulla gestione delle attività attraverso la riga di comando. Questo strumento innovativo è costruito principalmente su shell script, offrendo un modo semplice e potente per gestire le tue attività quotidiane.&#xA;Perché &amp;ldquo;One Thing&amp;rdquo;? Sviluppato inizialmente per evitare il multitasking distruttivo, &amp;ldquo;One Thing&amp;rdquo; ti consente di concentrarti su una singola attività alla volta, migliorando la qualità del tuo lavoro.</description>
+    </item>
+    <item>
+      <title>Tutti gli informatici hanno un sogno nel cassetto: _scrivere un libro!!1!_</title>
+      <link>https://hardcode.blog/posts/20240628-scrivere-un-libro-di-informatica/</link>
+      <pubDate>Fri, 28 Jun 2024 12:54:35 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20240628-scrivere-un-libro-di-informatica/</guid>
+      <description>Ogni informatico, nel profondo, coltiva il sogno di scrivere un libro. Questo desiderio potrebbe nascere dal vedere la propria idea prendere forma concreta, un parallelo con il successo delle proprie idee. Immaginare di tenere in mano un libro con il proprio nome sulla copertina rappresenta una sorta di traguardo inconscio, una rivincita dopo anni passati a leggere i libri degli altri. Ora, grazie a piattaforme come Reedsy, questo sogno è più accessibile che mai.</description>
+    </item>
     <item>
       <title>Potenza e responsabilità, l&#39;uso di `call_user_func_array` in php</title>
       <link>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</link>
       <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</guid>
-      <description>Nel vasto mondo di PHP, la funzione call_user_func_array è una delle più potenti e versatili a disposizione degli sviluppatori. Permette di chiamare una funzione in modo dinamico, passando i parametri come array. Questo articolo esplora come utilizzare questa funzione, presenta esempi pratici e analizza le implicazioni filosofiche dell&amp;rsquo;uso di chiamate di funzione indiretta.
-Cos&amp;rsquo;è call_user_func_array? La funzione call_user_func_array in PHP consente di chiamare una funzione specificata con un array di parametri.</description>
+      <description>Nel vasto mondo di PHP, la funzione call_user_func_array è una delle più potenti e versatili a disposizione degli sviluppatori. Permette di chiamare una funzione in modo dinamico, passando i parametri come array. Questo articolo esplora come utilizzare questa funzione, presenta esempi pratici e analizza le implicazioni filosofiche dell&amp;rsquo;uso di chiamate di funzione indiretta.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social.</description>
     </item>
-    
     <item>
       <title>Il pericolo del **gold plating**: quando le troppe funzionalità portano al fallimento</title>
-      <link>https://hardcode.blog/posts/20240620-gold-plating/</link>
+      <link>https://hardcode.blog/posts/agile/20240620-gold-plating/</link>
       <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20240620-gold-plating/</guid>
-      <description>Nel mondo della gestione dei progetti e dello sviluppo software, il termine &amp;ldquo;gold plating&amp;rdquo; si riferisce all&amp;rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un&amp;rsquo;ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po&#39; di zucchero può migliorare il sapore, ma troppo può renderla imbevibile.</description>
+      <guid>https://hardcode.blog/posts/agile/20240620-gold-plating/</guid>
+      <description>Nel mondo della gestione dei progetti e dello sviluppo software, il termine &amp;ldquo;gold plating&amp;rdquo; si riferisce all&amp;rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un&amp;rsquo;ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po&amp;rsquo; di zucchero può migliorare il sapore, ma troppo può renderla imbevibile.</description>
     </item>
-    
+    <item>
+      <title>Anche se molto utile, odio le property shorthand</title>
+      <link>https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/</link>
+      <pubDate>Mon, 11 Oct 2021 02:13:32 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/</guid>
+      <description>La Property Shorthand in JavaScript è spesso acclamata per la sua sintassi concisa e intuitiva nella definizione degli oggetti. Tuttavia, dietro questa apparente comodità si nascondono alcune criticità che potrebbero compromettere la chiarezza e la manutenibilità del codice.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social. La tua condivisione ci aiuta a crescere e a portare contenuti di qualità a un pubblico sempre più ampio.</description>
+    </item>
   </channel>
 </rss>

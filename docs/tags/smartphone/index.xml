@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>smartphone on HARDCODE.BLOG</title>
+    <title>Smartphone on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/smartphone/</link>
-    <description>Recent content in smartphone on HARDCODE.BLOG</description>
+    <description>Recent content in Smartphone on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Sun, 02 Feb 2020 18:44:36 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/smartphone/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Feb 2020 18:44:36 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/smartphone/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Il ventennio telematico degli smartphone &amp;#x1f1ee;&amp;#x1f1f9;</title>
+      <title>Il ventennio telematico degli smartphone</title>
       <link>https://hardcode.blog/posts/20200202-smartphone-is-dead/</link>
       <pubDate>Sun, 02 Feb 2020 18:44:36 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/20200202-smartphone-is-dead/</guid>
-      <description>Puoi parlare di cosa ci sarà dopo lo smartphone ? Gira voce che sia solo un ponte per una tecnologia sostitutiva</description>
+      <description>Gli smartphone hanno dominato il panorama tecnologico per oltre due decenni, trasformandosi da semplici dispositivi di comunicazione a strumenti indispensabili per la nostra vita quotidiana. Tuttavia, ci sono sempre più voci che affermano che gli smartphone non siano il punto di arrivo, ma piuttosto un ponte verso una tecnologia sostitutiva. Se consideriamo l’evoluzione rapida della tecnologia, è lecito chiedersi: cosa ci sarà dopo gli smartphone?&#xA;L&amp;rsquo;era post-smartphone: la miniaturizzazione del computing Una delle principali tendenze che potrebbe caratterizzare il futuro è la miniaturizzazione e l&amp;rsquo;integrazione della tecnologia.</description>
     </item>
-    
   </channel>
 </rss>

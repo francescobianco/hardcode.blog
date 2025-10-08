@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantum Computing on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/quantum-computing/</link>
+    <description>Recent content in Quantum Computing on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Thu, 20 Feb 2025 17:05:17 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/quantum-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come Parlano i Computer Quantistici: Il Linguaggio Dietro le Macchine del Futuro</title>
+      <link>https://hardcode.blog/posts/20250220-come-parlano-i-computer-quantistici/</link>
+      <pubDate>Thu, 20 Feb 2025 17:05:17 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250220-come-parlano-i-computer-quantistici/</guid>
+      <description>I computer quantistici, a differenza dei classici, non seguono il semplice schema binario di 0 e 1. Essi sfruttano le leggi della fisica quantistica per trattare informazioni in modi radicalmente diversi. Ma come parlano, questi computer? Qual è il linguaggio che usano per eseguire calcoli e per &amp;ldquo;capire&amp;rdquo; le istruzioni che gli vengono date? In questo post, esploreremo il linguaggio dei computer quantistici, il suo potenziale, e come potrebbe evolversi per diventare più intuitivo e vicino alla logica che usiamo ogni giorno.</description>
+    </item>
+  </channel>
+</rss>

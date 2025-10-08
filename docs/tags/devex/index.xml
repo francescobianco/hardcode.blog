@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devex on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/devex/</link>
+    <description>Recent content in Devex on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Mon, 12 May 2025 16:56:11 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/devex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perché Mush è sulla strada giusta: la risposta illuminante</title>
+      <link>https://hardcode.blog/posts/20250512-mush-contro-rust/</link>
+      <pubDate>Mon, 12 May 2025 16:56:11 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250512-mush-contro-rust/</guid>
+      <description>Qualche giorno fa ho avuto il piacere di scambiare due parole con uno sviluppatore open source molto attivo nella community di Rust. Avevo in mente un’idea ben precisa: cercare conferme su alcuni principi che mi guidano nello sviluppo di Mush, lo strumento che vuole portare la developer experience di Rust nel mondo dei progetti shell.&#xA;Gli ho fatto una domanda semplice, ma carica di aspettative: &amp;ldquo;Dal tuo punto di vista, quali sono tre motivi per preferire Rust per il mio prossimo progetto?</description>
+    </item>
+  </channel>
+</rss>

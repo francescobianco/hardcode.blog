@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/teaching/</link>
+    <description>Recent content in Teaching on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Sat, 01 Feb 2020 02:13:32 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I figli del coding, la nuova generazione di baby-automi</title>
+      <link>https://hardcode.blog/posts/stem/20200201-coding-spaghetti/</link>
+      <pubDate>Sat, 01 Feb 2020 02:13:32 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/stem/20200201-coding-spaghetti/</guid>
+      <description>Nel panorama educativo contemporaneo, lo STEM (Scienza, Tecnologia, Ingegneria e Matematica) è diventato un mantra, una panacea per preparare i giovani al futuro. Tuttavia, dietro questa facciata di progresso tecnologico si cela un rischio insidioso: la possibilità di trasformare i nostri bambini in meri automi, piuttosto che in pensatori critici e creativi.&#xA;Il miraggio del coding L&amp;rsquo;introduzione del coding nelle scuole è stata salutata come una rivoluzione educativa. Si promette ai genitori che i loro figli diventeranno i prossimi Steve Jobs o Mark Zuckerberg.</description>
+    </item>
+  </channel>
+</rss>

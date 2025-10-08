@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Full-Stack on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/full-stack/</link>
+    <description>Recent content in Full-Stack on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Thu, 05 Mar 2020 10:51:18 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/full-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Full-stack, esistono davvero?</title>
+      <link>https://hardcode.blog/posts/rant/20200305-fullstack/</link>
+      <pubDate>Thu, 05 Mar 2020 10:51:18 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/rant/20200305-fullstack/</guid>
+      <description>Ah, il full-stack developer. Questa figura ormai onnipresente negli annunci di lavoro, celebrata come l&amp;rsquo;unicorno del mondo tecnologico: colui che, da solo, riesce a dominare il frontend, il backend, i database, le reti, la sicurezza e, perché no, pure il design. Un essere mitologico che sarebbe capace di risolvere qualsiasi problema tecnico da solo, dallo sviluppo di un&amp;rsquo;intera piattaforma web alla sua messa in produzione.&#xA;Ma fermiamoci un attimo e riflettiamo.</description>
+    </item>
+  </channel>
+</rss>

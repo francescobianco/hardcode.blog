@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nostalgia on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/nostalgia/</link>
+    <description>Recent content in Nostalgia on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Tue, 12 Nov 2024 09:41:10 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/nostalgia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Good Times: La Canzone di Edie Brickell che Ha Fatto la Storia di Windows 98</title>
+      <link>https://hardcode.blog/posts/20241112-windows-98-nostalgia/</link>
+      <pubDate>Tue, 12 Nov 2024 09:41:10 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20241112-windows-98-nostalgia/</guid>
+      <description>Quando pensiamo a Windows 98, ci vengono in mente immagini nostalgiche: schermi CRT, icone semplici, il suono inconfondibile dell’avvio. Ma tra i ricordi più curiosi c’è una piccola gemma musicale: Good Times di Edie Brickell, una traccia che molti utenti scoprirono per caso tra i file di sistema, e che ha finito per diventare la colonna sonora di un’epoca.&#xA;La Storia di una Canzone in un Sistema Operativo Negli anni ’90, Microsoft era più che un’azienda tecnologica; era una porta d’accesso per milioni di persone alla nuova era digitale.</description>
+    </item>
+  </channel>
+</rss>

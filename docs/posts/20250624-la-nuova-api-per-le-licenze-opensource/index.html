@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>La Nuova API OSI per le Licenze Open Source: Una Guida Completa per Sviluppatori - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/20250624-la-nuova-api-per-le-licenze-opensource/" itemprop="url" /><meta itemprop="name" content="La Nuova API OSI per le Licenze Open Source: Una Guida Completa per Sviluppatori">
+<meta itemprop="description" content="L&#39;Open Source Initiative (OSI) ha recentemente lanciato una nuova API che rivoluziona il modo in cui accediamo e gestiamo le informazioni sulle licenze open source approvate. Scopriamo come funziona"><meta itemprop="datePublished" content="2025-06-24T08:49:04+00:00" />
+<meta itemprop="dateModified" content="2025-06-24T08:49:04+00:00" />
+<meta itemprop="wordCount" content="774">
+<meta itemprop="keywords" content="osi,opensource,license," /><meta property="og:url" content="https://hardcode.blog/posts/20250624-la-nuova-api-per-le-licenze-opensource/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="La Nuova API OSI per le Licenze Open Source: Una Guida Completa per Sviluppatori">
+<meta property="og:description" content="L&#39;Open Source Initiative (OSI) ha recentemente lanciato una nuova API che rivoluziona il modo in cui accediamo e gestiamo le informazioni sulle licenze open source approvate. Scopriamo come funziona">
+
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2025-06-24T08:49:04+00:00">
+<meta property="article:modified_time" content="2025-06-24T08:49:04+00:00">
+<meta property="article:tag" content="Osi">
+<meta property="article:tag" content="Opensource">
+<meta property="article:tag" content="License">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_9872766831196063313.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_9872766831196063313.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
+
+    <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
+		<script src="https://hardcode.blog/js/main.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://hardcode.blog/">
+				<img src="/images/logo.png" alt="HARDCODE.BLOG" class="hide-on-dark-mode" />
+                <img src="/images/logo.png@dark" alt="HARDCODE.BLOG" class="show-on-dark-mode" />
+			</a>
+		</div>
+	
+    <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
+                    &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
+                    &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
+                    &#32;<li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li>
+                    &#32;</ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li class="font-fixedsys">
+				<a href="/">🏠 Home</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/devops/">🐳 DevOps</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/crm/">☁️ CRM</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/">🏷️ Tags</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/about/">👷 About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post posts-single">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">24</span>
+							<span class="rest">Jun 2025</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">La Nuova API OSI per le Licenze Open Source: Una Guida Completa per Sviluppatori</h1>
+                    <div class="social">
+                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/20250624-la-nuova-api-per-le-licenze-opensource.md" target="_blank">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        
+                    </div>
+				</div>
+			</div>
+
+			<div class="markdown">
+				<p>L&rsquo;Open Source Initiative (OSI) ha recentemente lanciato una nuova API che rivoluziona il modo in cui accediamo e gestiamo le informazioni sulle licenze open source approvate. Questa innovazione rappresenta un passo significativo verso la modernizzazione degli strumenti disponibili per la comunità di sviluppatori, team legali e aziende che lavorano quotidianamente con il software open source.</p>
+<h2 id="cosè-la-nuova-api-osi">Cos&rsquo;è la Nuova API OSI</h2>
+<p>La nuova API fornisce accesso programmatico alla lista canonica delle <strong>OSI Approved Licenses®</strong>, offrendo un servizio completamente pubblico e gratuito che serve come fonte di verità ufficiale per i dati delle licenze OSI. Il servizio è accessibile direttamente dal sito web dell&rsquo;organizzazione e sostituisce il precedente sistema legacy con un&rsquo;architettura moderna e più funzionale.</p>
+<h3 id="endpoint-principale">Endpoint Principale</h3>
+<p>L&rsquo;API è accessibile tramite l&rsquo;endpoint base:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">https://opensource.org/api/license
+</span></span></code></pre></div><h2 id="funzionalità-e-metadati-disponibili">Funzionalità e Metadati Disponibili</h2>
+<p>La nuova API offre accesso a metadati dettagliati per ogni licenza, includendo:</p>
+<ul>
+<li><strong>Nome e versione della licenza</strong></li>
+<li><strong>Identificatore SPDX</strong> (Software Package Data Exchange)</li>
+<li><strong>Date di approvazione e sottomissione</strong></li>
+<li><strong>Responsabile della licenza e mittente</strong></li>
+<li><strong>Status di ritiro o deprecazione</strong></li>
+<li><strong>Collegamenti ai verbali delle riunioni del consiglio</strong></li>
+<li><strong>Prove di approvazione ufficiale</strong></li>
+</ul>
+<h3 id="esempio-pratico-gpl-30">Esempio Pratico: GPL-3.0</h3>
+<p>Per illustrare le capacità dell&rsquo;API, consideriamo l&rsquo;accesso ai dati della GNU General Public License versione 3:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">GET https://opensource.org/api/license/gpl-3-0
+</span></span></code></pre></div><p>La risposta include informazioni strutturate come l&rsquo;ID della licenza, le date di sottomissione e approvazione, i responsabili della stewardship e collegamenti utili per ulteriori approfondimenti.</p>
+<h2 id="casi-duso-per-diversi-profili-utente">Casi d&rsquo;Uso per Diversi Profili Utente</h2>
+<h3 id="per-sviluppatori-software">Per Sviluppatori Software</h3>
+<p><strong>Automazione della Compliance</strong>
+Gli sviluppatori possono integrare l&rsquo;API nei loro workflow CI/CD per verificare automaticamente la conformità delle licenze utilizzate nei progetti. Questo è particolarmente utile per:</p>
+<ul>
+<li>Validazione automatica delle dipendenze</li>
+<li>Generazione di report di compliance</li>
+<li>Integrazione con strumenti di dependency scanning</li>
+</ul>
+<p><strong>Esempio di implementazione:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// Verifica la validità di una licenza
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">async</span> <span class="kd">function</span> <span class="nx">checkLicenseValidity</span><span class="p">(</span><span class="nx">spdxId</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="sb">`https://opensource.org/api/license/</span><span class="si">${</span><span class="nx">spdxId</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">ok</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="s1">&#39;Licenza non riconosciuta o errore API&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="per-team-legali-e-compliance-officer">Per Team Legali e Compliance Officer</h3>
+<p><strong>Due Diligence e Audit</strong>
+I team legali possono utilizzare l&rsquo;API per condurre audit sistematici delle licenze utilizzate in portfolio software complessi, facilitando:</p>
+<ul>
+<li>Identificazione rapida di licenze problematiche</li>
+<li>Tracciamento delle modifiche nel tempo</li>
+<li>Generazione di report per stakeholder esecutivi</li>
+</ul>
+<p><strong>Ricerca e Filtering</strong>
+L&rsquo;API supporta la ricerca per nome, permettendo query come:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">https://opensource.org/api/license?name=gpl
+</span></span></code></pre></div><h3 id="per-aziende-e-product-manager">Per Aziende e Product Manager</h3>
+<p><strong>Strategia di Licensing</strong>
+Le aziende possono utilizzare l&rsquo;API per sviluppare strumenti interni che aiutino nella selezione delle licenze più appropriate per i loro prodotti, considerando:</p>
+<ul>
+<li>Compatibilità tra licenze diverse</li>
+<li>Implicazioni commerciali specifiche</li>
+<li>Requisiti di distribuzione</li>
+</ul>
+<h3 id="per-tool-providers-e-integratori">Per Tool Providers e Integratori</h3>
+<p><strong>Sviluppo di Strumenti Specializzati</strong>
+Provider di strumenti per la gestione delle dipendenze possono integrare l&rsquo;API per offrire funzionalità avanzate ai propri utenti:</p>
+<ul>
+<li>Dashboard di compliance in tempo reale</li>
+<li>Alerting automatico per cambiamenti nelle licenze</li>
+<li>Integrazione con sistemi di gestione progetti</li>
+</ul>
+<h2 id="migrazione-dal-sistema-legacy">Migrazione dal Sistema Legacy</h2>
+<p><strong>Importante:</strong> La nuova API non è retrocompatibile con il servizio legacy. Gli utenti che attualmente utilizzano <code>api.opensource.org</code> devono pianificare la migrazione verso il nuovo endpoint. Il servizio legacy sarà deprecato nei prossimi mesi, rendendo essenziale una transizione tempestiva.</p>
+<h3 id="checklist-per-la-migrazione">Checklist per la Migrazione</h3>
+<ol>
+<li><strong>Audit degli endpoint attuali</strong> utilizzati nelle applicazioni</li>
+<li><strong>Mappatura delle nuove strutture dati</strong> rispetto a quelle legacy</li>
+<li><strong>Testing approfondito</strong> delle nuove integrazioni</li>
+<li><strong>Aggiornamento della documentazione</strong> interna</li>
+<li><strong>Training del team</strong> sulle nuove funzionalità</li>
+</ol>
+<h2 id="considerazioni-tecniche-per-limplementazione">Considerazioni Tecniche per l&rsquo;Implementazione</h2>
+<h3 id="rate-limiting-e-best-practices">Rate Limiting e Best Practices</h3>
+<p>Sebbene l&rsquo;API sia pubblica e gratuita, è consigliabile implementare pattern di utilizzo responsabile:</p>
+<ul>
+<li>Caching locale dei dati raramente modificati</li>
+<li>Implementazione di retry logic con backoff esponenziale</li>
+<li>Monitoraggio delle performance delle query</li>
+</ul>
+<h3 id="integrazione-con-sistemi-esistenti">Integrazione con Sistemi Esistenti</h3>
+<p>L&rsquo;API RESTful utilizza standard web consolidati, facilitando l&rsquo;integrazione con:</p>
+<ul>
+<li>Sistemi di continuous integration</li>
+<li>Database di gestione asset software</li>
+<li>Piattaforme di project management</li>
+<li>Strumenti di security scanning</li>
+</ul>
+<h2 id="opportunità-future-e-roadmap">Opportunità Future e Roadmap</h2>
+<p>L&rsquo;OSI ha indicato che l&rsquo;API è ancora in fase di raffinamento, con piani per espandere le sue capacità. La community è incoraggiata a fornire feedback e suggerimenti per casi d&rsquo;uso specifici. Questo approccio collaborativo promette di rendere l&rsquo;API sempre più utile per le diverse esigenze della comunità open source.</p>
+<h2 id="conclusioni">Conclusioni</h2>
+<p>La nuova API OSI rappresenta un significativo passo avanti nella democratizzazione dell&rsquo;accesso alle informazioni sulle licenze open source. Per professionisti dell&rsquo;ingegneria del software, questo strumento offre opportunità concrete per migliorare i processi di compliance, automazione e governance del software.</p>
+<p>L&rsquo;adozione tempestiva di questa API non solo garantirà continuità operativa dopo la deprecazione del sistema legacy, ma aprirà anche nuove possibilità per innovazioni nel campo della gestione delle licenze software. La natura pubblica e gratuita del servizio lo rende accessibile a organizzazioni di ogni dimensione, dal singolo sviluppatore alle grandi enterprise.</p>
+<p>L&rsquo;investimento nell&rsquo;integrazione di questa API nei propri workflow rappresenta un passo strategico verso una gestione più professionale e automatizzata del software open source, elemento sempre più critico nel panorama tecnologico contemporaneo.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							    <li><a href="/tags/osi/">osi</a></li>
+							
+							    <li><a href="/tags/opensource/">opensource</a></li>
+							
+							    <li><a href="/tags/license/">license</a></li>
+							
+						</ul>
+					
+				
+			</div>
+
+            <div class="authors">
+                
+                    
+                        Written by:
+                        
+                            <a href="/authors/francesco-bianco/" target="_blank" rel="nofollow">Francesco Bianco</a>
+                        
+                    
+                
+            </div>
+
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/20250527-questo-post-e-un-menu/">🎛️ Questo post è un menu</a></li>
+    
+    <li><a href="/posts/20250519-roi-per-ingegneri/">ROI nell’Ingegneria Informatica: Perché è Cruciale per Ogni Progetto Tecnologico</a></li>
+    
+    <li><a href="/posts/20250512-mush-contro-rust/">Perché Mush è sulla strada giusta: la risposta illuminante</a></li>
+    
+    <li><a href="/posts/devops/20250507-la-fine-di-docker/">Docker: l’inizio della fine di un’icona?</a></li>
+    
+    <li><a href="/posts/20250220-come-parlano-i-computer-quantistici/">Come Parlano i Computer Quantistici: Il Linguaggio Dietro le Macchine del Futuro</a></li>
+    
+</ul>
+
+
+
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+        <div>
+            2025  © Francesco Bianco | 
+            Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
+            theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            <span class="hide-on-mobile">
+                | Visit the <a href="https://github.com/francescobianco/hardcode.blog" title="HARDCODE.BLOG" target="_blank">repo</a> |
+                Write a new <a href="https://github.com/francescobianco/hardcode.blog" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
+            </span>
+        </div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+</body>
+</html>

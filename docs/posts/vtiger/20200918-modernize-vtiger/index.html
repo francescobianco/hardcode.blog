@@ -2,22 +2,47 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Modernize Vtiger - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="canonical" href="https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/" itemprop="url" /><meta itemprop="name" content="Modernize Vtiger">
-<meta itemprop="description" content="When a project stands up to difficulties, it is said to have aged well. Surely Vtiger deserves its second life with all the requirements of a modern software it has helped many businesses to progress. Now it&#39;s up to us to help him enter the CI/CD era."><meta itemprop="datePublished" content="2020-09-18T12:13:35+05:30" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Modernizzare Vtiger: Un Appello all’Evoluzione nei Progetti Open Source Legacy - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/" itemprop="url" /><meta itemprop="name" content="Modernizzare Vtiger: Un Appello all&#39;Evoluzione nei Progetti Open Source Legacy">
+<meta itemprop="description" content="Quando un progetto resiste alle difficoltà, si dice che ha &#34;invecchiato bene&#34;. Vtiger merita sicuramente una seconda vita, arricchita di tutte le caratteristiche di un software moderno, dato che ha aiutato molte aziende a crescere. Ora tocca a noi accompagnarlo nell&#39;era del CI/CD."><meta itemprop="datePublished" content="2020-09-18T12:13:35+05:30" />
 <meta itemprop="dateModified" content="2020-09-18T12:13:35+05:30" />
-<meta itemprop="wordCount" content="49">
-<meta itemprop="keywords" content="vtiger,crm," /><meta property="og:title" content="Modernize Vtiger" />
-<meta property="og:description" content="When a project stands up to difficulties, it is said to have aged well. Surely Vtiger deserves its second life with all the requirements of a modern software it has helped many businesses to progress. Now it&#39;s up to us to help him enter the CI/CD era." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-09-18T12:13:35+05:30" />
-<meta property="article:modified_time" content="2020-09-18T12:13:35+05:30" />
+<meta itemprop="wordCount" content="696">
+<meta itemprop="keywords" content="vtiger,crm," /><meta property="og:url" content="https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="Modernizzare Vtiger: Un Appello all’Evoluzione nei Progetti Open Source Legacy">
+<meta property="og:description" content="Quando un progetto resiste alle difficoltà, si dice che ha &#34;invecchiato bene&#34;. Vtiger merita sicuramente una seconda vita, arricchita di tutte le caratteristiche di un software moderno, dato che ha aiutato molte aziende a crescere. Ora tocca a noi accompagnarlo nell&#39;era del CI/CD.">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Modernize Vtiger"/>
-<meta name="twitter:description" content="When a project stands up to difficulties, it is said to have aged well. Surely Vtiger deserves its second life with all the requirements of a modern software it has helped many businesses to progress. Now it&#39;s up to us to help him enter the CI/CD era."/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2020-09-18T12:13:35+05:30">
+<meta property="article:modified_time" content="2020-09-18T12:13:35+05:30">
+<meta property="article:tag" content="Vtiger">
+<meta property="article:tag" content="Crm">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_16659007839819197467.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_16659007839819197467.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
@@ -25,10 +50,14 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
 
     <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
 
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
 		<script src="https://hardcode.blog/js/main.js"></script>
 
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
@@ -46,7 +75,7 @@
 		</div>
 	
     <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
-	<div class="site-description font-fixedsys"><p>{☕} Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
 			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
                     &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
                     &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
@@ -62,11 +91,11 @@
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/docker/">🐳 Docker</a>
+				<a href="/tags/devops/">🐳 DevOps</a>
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/vtiger/">🐯 Vtiger</a>
+				<a href="/tags/crm/">☁️ CRM</a>
 			</li>
 			
 			<li class="font-fixedsys">
@@ -93,25 +122,37 @@
 					</div>
 				
 				<div class="matter">
-					<h1 class="title">Modernize Vtiger</h1>
+					<h1 class="title">Modernizzare Vtiger: Un Appello all&rsquo;Evoluzione nei Progetti Open Source Legacy</h1>
                     <div class="social">
                         <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/vtiger/20200918-modernize-vtiger.md" target="_blank">
                             <i data-feather="github"></i>
                         </a>
-                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fhardcode.blog%2fposts%2fvtiger%2f20200918-modernize-vtiger%2f" target="_blank">
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
                             <i data-feather="linkedin"></i>
                         </a>
-                        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fhardcode.blog%2fposts%2fvtiger%2f20200918-modernize-vtiger%2f" target="_blank">
-                            <i data-feather="link-2"></i>
-                        </a>
+                        
                     </div>
 				</div>
 			</div>
 
 			<div class="markdown">
-				<p>When a project stands up to difficulties, it is said to have aged well. Surely Vtiger deserves its second life with all the requirements of a modern software it has helped many businesses to progress. Now it&rsquo;s up to us to help him enter the CI/CD era.</p>
-<p><a href="https://discussions.vtiger.com/search?Search=styleci">https://discussions.vtiger.com/search?Search=styleci</a></p>
-<p><a href="https://discussions.vtiger.com/search?Search=docker">https://discussions.vtiger.com/search?Search=docker</a></p>
+				<p>Quando un software continua a offrire valore nonostante il passare degli anni, si dice che &ldquo;invecchi bene&rdquo;. Vtiger, una piattaforma CRM di lunga data, è uno di questi esempi. Le sue funzionalità robuste e la vasta adozione hanno aiutato innumerevoli aziende a organizzarsi e crescere. Tuttavia, in un&rsquo;era in cui automazione, agilità e miglioramento continuo sono il cuore pulsante dello sviluppo moderno, anche software come Vtiger devono evolversi per rimanere rilevanti.</p>
+<p>Noi sviluppatori ci troviamo in un momento cruciale. Vtiger ha guadagnato il suo posto nel mondo del business, ma ora spetta a noi guidarlo nella prossima fase: l&rsquo;era della Continuous Integration e Continuous Delivery (CI/CD). Tuttavia, modernizzare i progetti open source legacy non è mai semplice, soprattutto quando c&rsquo;è resistenza da parte della comunità o dei maintainer, spesso legati allo stato attuale del software.</p>
+<h3 id="la-lotta-per-la-modernizzazione">La Lotta per la Modernizzazione</h3>
+<p>Una delle sfide più grandi nel portare Vtiger nell&rsquo;era del CI/CD è convincere i maintainer ad adottare pratiche moderne di sviluppo software. Nonostante i vantaggi evidenti—cicli di rilascio più rapidi, miglioramento della qualità del codice e riduzione del debito tecnico—molti maintainer di progetti più datati resistono al cambiamento. Questa resistenza spesso deriva dalla convinzione che “se non è rotto, non aggiustarlo”, ma nel mondo del software, questa mentalità può diventare un ostacolo.</p>
+<p>Mentre tecnologie come Docker e strumenti per la qualità del codice come StyleCI diventano componenti essenziali di uno stack software moderno, molti maintainer di progetti legacy esitano a introdurre queste innovazioni. L&rsquo;introduzione dei container con Docker, ad esempio, potrebbe semplificare gli ambienti di sviluppo e garantire coerenza tra le diverse macchine. Allo stesso modo, integrare strumenti di linting e formattazione automatizzata del codice come StyleCI migliorerebbe la qualità delle contribuzioni e renderebbe il progetto più accessibile a nuovi sviluppatori.</p>
+<p>Eppure, la resistenza da parte dei maintainer può essere significativa, come si può notare nelle discussioni della comunità sui forum di <a href="https://discussions.vtiger.com/search?Search=styleci">Vtiger</a> su argomenti come <a href="https://discussions.vtiger.com/search?Search=docker">StyleCI e Docker</a>. Le preoccupazioni vanno dallo sforzo richiesto per rifattorizzare i vecchi codici alla paura di destabilizzare un progetto su cui molte aziende fanno affidamento ogni giorno.</p>
+<h3 id="perché-la-modernizzazione-è-importante">Perché la Modernizzazione è Importante</h3>
+<p>I maintainer devono comprendere che modernizzare il proprio software non significa semplicemente seguire le mode: è una questione di sostenibilità a lungo termine. Senza un miglioramento continuo, anche il software più affidabile rischia di diventare obsoleto, difficile da mantenere e poco attraente per i nuovi contributori. In un mondo in cui l&rsquo;agilità e l&rsquo;adattabilità sono cruciali, l&rsquo;adozione delle pratiche CI/CD assicura che Vtiger, e progetti simili, possano continuare a prosperare in un contesto che richiede rilasci più veloci e affidabili.</p>
+<p>Adottando pratiche come i test automatizzati, ambienti di sviluppo containerizzati e strumenti di linting del codice, Vtiger può mantenere la sua integrità, velocizzando al contempo il ciclo di rilascio e migliorando la qualità complessiva. Questo non solo ridurrà il carico sui maintainer, ma renderà anche il progetto più attraente per una nuova generazione di sviluppatori, desiderosi di contribuire a un progetto open source che abbraccia le migliori pratiche.</p>
+<h3 id="il-cammino-da-seguire">Il Cammino da Seguire</h3>
+<p>Modernizzare Vtiger richiede uno sforzo collettivo sia da parte dei maintainer che dei contributori. Si inizia con piccoli miglioramenti incrementali, come l&rsquo;adozione di Docker per semplificare lo sviluppo e il deployment. Da lì, l&rsquo;integrazione di strumenti come StyleCI innalzerà la qualità del codice, portando Vtiger in linea con gli standard di sviluppo moderni. Sebbene la resistenza al cambiamento sia naturale, i benefici a lungo termine superano di gran lunga il disagio iniziale.</p>
+<p>È tempo di dare a Vtiger la seconda vita che merita. Applicando pratiche di sviluppo moderne e abbracciando il miglioramento continuo, possiamo assicurarci che rimanga uno strumento prezioso per le aziende negli anni a venire. Il futuro di Vtiger è nelle mani di chi ha il coraggio di spingerlo verso il progresso—nell&rsquo;era del CI/CD e oltre.</p>
+<hr>
+<p>Con la resistenza al cambiamento come sfondo, la modernizzazione dei progetti open source legacy come Vtiger rappresenta sia una sfida che un&rsquo;opportunità. La reticenza dei maintainer nell&rsquo;adottare nuove pratiche va affrontata con comprensione, ma anche con determinazione. Dopotutto, l&rsquo;obiettivo non è cambiare per il gusto di farlo, ma evolvere in modi che manterranno il progetto vivo, efficiente e accessibile per le future generazioni di sviluppatori e aziende.</p>
 
 			</div>
 
@@ -133,28 +174,31 @@
                 
                     
                 
-            </div><div id="disqus_thread"></div>
-<script type="text/javascript">
-	(function () {
-		
-		
-		if (window.location.hostname == "localhost")
-			return;
+            </div>
 
-		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		var disqus_shortname = 'hardcode-blog';
-		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	})();
-</script>
-<noscript>Please enable JavaScript to view the </a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/vtiger/20221212-cose-vtiger/">Che cos&rsquo;è Vtiger?</a></li>
+    
+    <li><a href="/posts/vtiger/20210401-tools-for-vtiger-developer/">Docker: Un ambiente ideale per il CRM vtiger</a></li>
+    
+    <li><a href="/posts/crm/20210210-crm-developer/">Cosa fanno gli sviluppatori CRM?</a></li>
+    
+    <li><a href="/posts/crm/20210110-le-skill-del-crm-developer/">La figura del CRM Developer: skill, opportunità e campo di azione</a></li>
+    
+    <li><a href="/posts/ai/20200912-ai/">A.I. cosa ci dobbiamo aspettare? Le frontiere dell&rsquo;AI</a></li>
+    
+</ul>
+
+
+
 </div>
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
         <div>
-            2024  © Francesco Bianco | 
+            2025  © Francesco Bianco | 
             Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
             theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
             <span class="hide-on-mobile">

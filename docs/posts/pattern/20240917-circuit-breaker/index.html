@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Il Circuit Breaker: Il Pattern che ha Salvato Netflix - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/pattern/20240917-circuit-breaker/" itemprop="url" /><meta itemprop="name" content="Il Circuit Breaker: Il Pattern che ha Salvato Netflix">
+<meta itemprop="description" content="Nell&#39;ingegneria del software, la resilienza dei sistemi è fondamentale, soprattutto quando si tratta di servizi ad alta disponibilità. Oggi esploreremo un pattern di progettazione che ha rivoluzionato la gestione del carico in sistemi distribuiti: il Circuit Breaker."><meta itemprop="datePublished" content="2024-09-17T15:03:43+00:00" />
+<meta itemprop="dateModified" content="2024-09-17T15:03:43+00:00" />
+<meta itemprop="wordCount" content="570">
+<meta itemprop="keywords" content="design pattern,microservices," /><meta property="og:url" content="https://hardcode.blog/posts/pattern/20240917-circuit-breaker/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="Il Circuit Breaker: Il Pattern che ha Salvato Netflix">
+<meta property="og:description" content="Nell&#39;ingegneria del software, la resilienza dei sistemi è fondamentale, soprattutto quando si tratta di servizi ad alta disponibilità. Oggi esploreremo un pattern di progettazione che ha rivoluzionato la gestione del carico in sistemi distribuiti: il Circuit Breaker.">
+
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2024-09-17T15:03:43+00:00">
+<meta property="article:modified_time" content="2024-09-17T15:03:43+00:00">
+<meta property="article:tag" content="Design Pattern">
+<meta property="article:tag" content="Microservices">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_13427805378598612824.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_13427805378598612824.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
+
+    <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
+		<script src="https://hardcode.blog/js/main.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://hardcode.blog/">
+				<img src="/images/logo.png" alt="HARDCODE.BLOG" class="hide-on-dark-mode" />
+                <img src="/images/logo.png@dark" alt="HARDCODE.BLOG" class="show-on-dark-mode" />
+			</a>
+		</div>
+	
+    <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
+                    &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
+                    &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
+                    &#32;<li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li>
+                    &#32;</ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li class="font-fixedsys">
+				<a href="/">🏠 Home</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/devops/">🐳 DevOps</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/crm/">☁️ CRM</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/">🏷️ Tags</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/about/">👷 About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post posts-single">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">17</span>
+							<span class="rest">Sep 2024</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Il Circuit Breaker: Il Pattern che ha Salvato Netflix</h1>
+                    <div class="social">
+                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/pattern/20240917-circuit-breaker.md" target="_blank">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        
+                    </div>
+				</div>
+			</div>
+
+			<div class="markdown">
+				<p>Nell&rsquo;ingegneria del software, la resilienza dei sistemi è fondamentale, soprattutto quando si tratta di servizi ad alta disponibilità. Oggi esploreremo un pattern di progettazione che ha rivoluzionato la gestione del carico in sistemi distribuiti: il Circuit Breaker.</p>
+<h2 id="la-storia-di-un-quasi-disastro">La Storia di un Quasi Disastro</h2>
+<p>Immaginate la scena: un importante servizio di streaming (che chiameremo &ldquo;StreamFlix&rdquo;) si prepara al lancio di una nuova serie TV attesissima. L&rsquo;hype è alle stelle, i fan sono pronti a premere play&hellip; ma c&rsquo;è un problema. Il traffico imprevisto rischia di mandare in tilt i server.</p>
+<p>Cosa fare? Ecco che entra in gioco il nostro eroe: il Circuit Breaker pattern.</p>
+<h2 id="come-funziona-il-circuit-breaker">Come Funziona il Circuit Breaker</h2>
+<p>Il Circuit Breaker è un pattern intelligente che monitora le chiamate ai servizi e reagisce in modo proattivo quando rileva problemi. Ecco una rappresentazione visiva del suo funzionamento:</p>
+<div class="highlight is-plantuml"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@startuml
+</span></span><span class="line"><span class="cl">state &#34;Chiuso&#34; as Closed
+</span></span><span class="line"><span class="cl">state &#34;Aperto&#34; as Open
+</span></span><span class="line"><span class="cl">state &#34;Semi-Aperto&#34; as HalfOpen
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[*] -&gt; Closed
+</span></span><span class="line"><span class="cl">Closed -&gt; Open : Troppi errori
+</span></span><span class="line"><span class="cl">Open -&gt; HalfOpen : Dopo timeout
+</span></span><span class="line"><span class="cl">HalfOpen --&gt; Closed : Chiamate riuscite
+</span></span><span class="line"><span class="cl">HalfOpen -&gt; Open : Errori persistono
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">@enduml
+</span></span></code></pre></div><ol>
+<li><strong>Stato Chiuso</strong>: In condizioni normali, il circuit breaker lascia passare tutte le richieste.</li>
+<li><strong>Monitoraggio</strong>: Tiene traccia del numero di errori o timeout.</li>
+<li><strong>Apertura del Circuito</strong>: Se il numero di errori supera una soglia, il circuito si &ldquo;apre&rdquo;.</li>
+<li><strong>Gestione del Traffico</strong>: Le richieste vengono reindirizzate o gestite con risposte di fallback.</li>
+<li><strong>Recupero</strong>: Dopo un periodo prestabilito, il circuito passa in uno stato &ldquo;semi-aperto&rdquo; per testare il servizio.</li>
+<li><strong>Ritorno alla Normalità</strong>: Se le chiamate di test hanno successo, il circuito si chiude nuovamente.</li>
+</ol>
+<h2 id="limplementazione-che-ha-salvato-streamflix">L&rsquo;Implementazione che ha Salvato StreamFlix</h2>
+<p>Tornando alla nostra storia, StreamFlix ha implementato il Circuit Breaker pattern nei suoi sistemi critici. Il risultato? Un&rsquo;infrastruttura capace di gestire picchi di traffico del 300% senza downtime. La premiere della serie TV è stata un successo strepitoso, senza interruzioni di servizio.</p>
+<p>Ecco come potrebbe apparire una semplice implementazione del pattern:</p>
+<div class="highlight is-plantuml"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@startuml
+</span></span><span class="line"><span class="cl">participant Client
+</span></span><span class="line"><span class="cl">participant &#34;Circuit Breaker&#34; as CB
+</span></span><span class="line"><span class="cl">participant &#34;Service&#34; as Service
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Client -&gt; CB: Request
+</span></span><span class="line"><span class="cl">alt Circuit Closed
+</span></span><span class="line"><span class="cl">    CB -&gt; Service: Forward Request
+</span></span><span class="line"><span class="cl">    Service --&gt; CB: Response
+</span></span><span class="line"><span class="cl">    CB --&gt; Client: Return Response
+</span></span><span class="line"><span class="cl">else Circuit Open
+</span></span><span class="line"><span class="cl">    CB --&gt; Client: Return Fallback Response
+</span></span><span class="line"><span class="cl">end
+</span></span><span class="line"><span class="cl">@enduml
+</span></span></code></pre></div><h2 id="implementazione-pratica">Implementazione Pratica</h2>
+<p>Per gli sviluppatori che vogliono implementare questo pattern, esistono librerie che semplificano notevolmente il processo. Una delle più note è Hystrix, sviluppata proprio da Netflix. Ecco un esempio semplificato di come potrebbe apparire l&rsquo;uso di Hystrix:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ServiceCommand</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">HystrixCommand</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">ServiceCommand</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">HystrixCommandGroupKey</span><span class="p">.</span><span class="na">Factory</span><span class="p">.</span><span class="na">asKey</span><span class="p">(</span><span class="s">&#34;ExampleGroup&#34;</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@Override</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">run</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">// Chiamata al servizio che potrebbe fallire</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="s">&#34;Hello &#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">name</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&#34;!&#34;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@Override</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">getFallback</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="s">&#34;Hello Guest!&#34;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Uso</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">String</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ServiceCommand</span><span class="p">(</span><span class="s">&#34;World&#34;</span><span class="p">).</span><span class="na">execute</span><span class="p">();</span><span class="w">
+</span></span></span></code></pre></div><h2 id="conclusioni-e-riflessioni">Conclusioni e Riflessioni</h2>
+<p>Il Circuit Breaker pattern è un esempio brillante di come l&rsquo;ingegneria del software possa risolvere problemi complessi con eleganza. Non solo previene il collasso dei sistemi sotto carico, ma migliora anche l&rsquo;esperienza utente fornendo risposte di fallback invece di errori.</p>
+<p>Ma come ogni soluzione, porta con sé nuove sfide. La configurazione dei parametri del circuit breaker (soglie di errore, tempi di timeout) richiede una profonda comprensione del sistema e del suo comportamento sotto stress.</p>
+<p><strong>Domanda per i lettori</strong>: Avete mai implementato il Circuit Breaker nei vostri progetti? Quali sfide avete incontrato e come le avete superate?</p>
+<p>Restate sintonizzati! La prossima settimana esploreremo un altro pattern che potrebbe rivoluzionare il vostro prossimo progetto software. Non perdetevelo!</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							    <li><a href="/tags/design-pattern/">design pattern</a></li>
+							
+							    <li><a href="/tags/microservices/">microservices</a></li>
+							
+						</ul>
+					
+				
+			</div>
+
+            <div class="authors">
+                
+                    
+                        Written by:
+                        
+                            <a href="/authors/francesco-bianco/" target="_blank" rel="nofollow">Francesco Bianco</a>
+                        
+                    
+                
+            </div>
+
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/20240911-dal-monolitico-ai-microservizi-e-oltre/">L&rsquo;Evoluzione dell&rsquo;Architettura Software: Dal Monolitico ai Microservizi e Oltre</a></li>
+    
+    <li><a href="/posts/20240908-mindset-consulente-due-punto-zero/">Mindset Consulente 2.0: La Teoria Triangolare della Consulenza Moderna</a></li>
+    
+    <li><a href="/posts/docker/20210401-tools-for-windows-docker-developer/"><strong>Docker</strong> su Windows: Un errore colossale</a></li>
+    
+    <li><a href="/posts/shell/20210401-tools-for-shell-developer/">Docker e Shell: Strumenti per Potenziare il Tuo Ambiente di Sviluppo</a></li>
+    
+    <li><a href="/posts/rant/20200101-blockchain-is-dead/">Le <strong>blockchain</strong> sono morte!?</a></li>
+    
+</ul>
+
+
+
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+        <div>
+            2025  © Francesco Bianco | 
+            Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
+            theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            <span class="hide-on-mobile">
+                | Visit the <a href="https://github.com/francescobianco/hardcode.blog" title="HARDCODE.BLOG" target="_blank">repo</a> |
+                Write a new <a href="https://github.com/francescobianco/hardcode.blog" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
+            </span>
+        </div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+</body>
+</html>

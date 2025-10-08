@@ -2,22 +2,48 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Docker: Not soo bad! - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="canonical" href="https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/" itemprop="url" /><meta itemprop="name" content="Docker: Not soo bad!">
-<meta itemprop="description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa"><meta itemprop="datePublished" content="2020-01-01T12:10:00+02:00" />
-<meta itemprop="dateModified" content="2020-01-01T12:10:00+02:00" />
-<meta itemprop="wordCount" content="17">
-<meta itemprop="keywords" content="docker," /><meta property="og:title" content="Docker: Not soo bad!" />
-<meta property="og:description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-01-01T12:10:00+02:00" />
-<meta property="article:modified_time" content="2020-01-01T12:10:00+02:00" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Docker su Windows: Un errore colossale - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/" itemprop="url" /><meta itemprop="name" content="**Docker** su Windows: Un errore colossale">
+<meta itemprop="description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa, nel caso di Windows in peggio."><meta itemprop="datePublished" content="2024-08-30T12:45:00+02:00" />
+<meta itemprop="dateModified" content="2024-08-30T12:45:00+02:00" />
+<meta itemprop="wordCount" content="876">
+<meta itemprop="keywords" content="devops,docker,windows," /><meta property="og:url" content="https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="Docker su Windows: Un errore colossale">
+<meta property="og:description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa, nel caso di Windows in peggio.">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Docker: Not soo bad!"/>
-<meta name="twitter:description" content="Vi racconto come Docker ha cambiato la mia giornata lavorativa"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2024-08-30T12:45:00+02:00">
+<meta property="article:modified_time" content="2024-08-30T12:45:00+02:00">
+<meta property="article:tag" content="Devops">
+<meta property="article:tag" content="Docker">
+<meta property="article:tag" content="Windows">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_6217799484360133382.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_6217799484360133382.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
@@ -25,10 +51,14 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
 
     <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
 
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
 		<script src="https://hardcode.blog/js/main.js"></script>
 
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
@@ -46,7 +76,7 @@
 		</div>
 	
     <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
-	<div class="site-description font-fixedsys"><p>{☕} Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
 			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
                     &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
                     &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
@@ -62,11 +92,11 @@
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/docker/">🐳 Docker</a>
+				<a href="/tags/devops/">🐳 DevOps</a>
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/vtiger/">🐯 Vtiger</a>
+				<a href="/tags/crm/">☁️ CRM</a>
 			</li>
 			
 			<li class="font-fixedsys">
@@ -87,38 +117,111 @@
 				
 					<div class="meta">
 						<div class="date">
-							<span class="day">1</span>
-							<span class="rest">Jan 2020</span>
+							<span class="day">30</span>
+							<span class="rest">Aug 2024</span>
 						</div>
 					</div>
 				
 				<div class="matter">
-					<h1 class="title">Docker: Not soo bad!</h1>
+					<h1 class="title"><strong>Docker</strong> su Windows: Un errore colossale</h1>
                     <div class="social">
                         <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/docker/20210401-tools-for-windows-docker-developer.md" target="_blank">
                             <i data-feather="github"></i>
                         </a>
-                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fhardcode.blog%2fposts%2fdocker%2f20210401-tools-for-windows-docker-developer%2f" target="_blank">
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
                             <i data-feather="linkedin"></i>
                         </a>
-                        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fhardcode.blog%2fposts%2fdocker%2f20210401-tools-for-windows-docker-developer%2f" target="_blank">
-                            <i data-feather="link-2"></i>
-                        </a>
+                        
                     </div>
 				</div>
 			</div>
 
 			<div class="markdown">
-				<h2 id="docker">Docker</h2>
-<p>Si tratta di una storia molto lunga per adesso beccatevi questo:</p>
-<ul>
+				<p>In un&rsquo;era in cui l&rsquo;efficienza e la velocità sono cruciali nello sviluppo software, Docker si è affermato come uno strumento indispensabile. Tuttavia, quando si tratta di Docker Desktop e Docker per Windows, ci troviamo di fronte a quello che posso solo definire un errore colossale. Lasciate che vi spieghi perché.</p>
+<div class="admonition admonition-important">
+    <div class="admonition-title">
+        <div class="admonition-icon">🌐</div>
+        Ti piacciono questi temi?
+    </div>
+    <div class="admonition-content">
+        <p>
+            Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo,
+            condividilo con i tuoi amici e colleghi sui social.
+            La tua condivisione ci aiuta a crescere e a portare contenuti di qualità a un pubblico sempre più ampio.
+            Grazie mille per il tuo contributo!
+        </p>
+        <div>
+            <a href="https://www.linkedin.com/feed/?shareActive=true&text=https%3A%2F%2Fhardcode.blog%2Fposts%2Fdocker%2F20210401-tools-for-windows-docker-developer%2F" target="_blank" class="social-button" rel="nofollow">
+                <img src="https://img.shields.io/badge/-condividi%20su%20linkedin-blue?logo=linkedin&style=for-the-badge" alt="Share on LinkedIn">
+            </a>
+
+            
+
+            
+        </div>
+    </div>
+</div>
+
+<h2 id="la-promessa-infranta">La Promessa Infranta</h2>
+<p>Docker promette un&rsquo;esperienza di sviluppo fluida e coerente su tutte le piattaforme. Ma su Windows, questa promessa si infrange miseramente. Docker Desktop, in particolare, si rivela essere più un ostacolo che un aiuto.</p>
+<h2 id="lentezza-esasperante">Lentezza Esasperante</h2>
+<p>Il primo e più evidente problema è la lentezza. Su sistemi Windows, Docker Desktop si trascina come una lumaca. Avviare un container può richiedere minuti invece di secondi. Questo rallentamento non solo frustra gli sviluppatori ma impatta significativamente sulla produttività.</p>
+<p>Esempio: Ho recentemente lavorato su un progetto che richiedeva l&rsquo;avvio di 5 container interconnessi. Su Linux, l&rsquo;operazione richiedeva circa 30 secondi. Su Windows? Più di 5 minuti. Una differenza inaccettabile.</p>
+<h2 id="problemi-di-compatibilità">Problemi di Compatibilità</h2>
+<p>La compatibilità è un altro tallone d&rsquo;Achille. Molte immagini Docker ottimizzate per ambienti Linux semplicemente non funzionano su Windows, o richiedono modifiche sostanziali.</p>
+<p>Caso reale: Un collega ha perso un&rsquo;intera giornata cercando di far funzionare un&rsquo;immagine PostgreSQL con estensioni specifiche su Docker per Windows. La stessa operazione su macOS è stata completata in 10 minuti.</p>
+<h2 id="utilizzo-delle-risorse">Utilizzo delle Risorse</h2>
+<p>Docker Desktop su Windows è un vero e proprio divoratore di risorse. Anche quando non in uso attivo, continua a consumare una quantità sproporzionata di RAM e CPU. Questo impatta negativamente sulle prestazioni generali del sistema, soprattutto su macchine meno potenti.</p>
+<h2 id="problemi-di-networking">Problemi di Networking</h2>
+<p>Il networking in Docker per Windows è un incubo. La configurazione delle reti bridge, la comunicazione tra container e host, e l&rsquo;esposizione delle porte sono tutte operazioni che su Windows diventano inutilmente complesse.</p>
+<p>Esempio personale: Ho dovuto abbandonare l&rsquo;uso di Docker per un progetto che richiedeva una configurazione di rete complessa. La soluzione? Una macchina virtuale Linux dedicata.</p>
+<h2 id="docker-cloud-la-toppa-peggiore-del-buco">Docker Cloud: La Toppa Peggiore del Buco</h2>
+<p>In risposta alle critiche e ai problemi evidenti di Docker su Windows, l&rsquo;azienda ha introdotto Docker Cloud. Questa soluzione, tuttavia, sembra essere più un tentativo di mettere una toppa che risolvere i problemi alla radice. Ed è una toppa che, a mio parere, è peggiore del buco stesso.</p>
+<p>Docker Cloud si presenta come una soluzione per spostare il carico di lavoro dal sistema locale a un ambiente cloud. In teoria, questo dovrebbe alleviare i problemi di prestazioni e compatibilità che affliggono Docker su Windows. In pratica, però, crea una serie di nuovi problemi:</p>
+<ol>
 <li>
-<p><a href="https://www.youtube.com/watch?v=XVJ5EkiqLkk">https://www.youtube.com/watch?v=XVJ5EkiqLkk</a></p>
+<p><strong>Dipendenza dalla connessione internet</strong>: Docker dovrebbe essere uno strumento che migliora la produttività locale. Con Docker Cloud, si diventa dipendenti da una connessione internet stabile e veloce.</p>
 </li>
 <li>
-<p>&ldquo;Quanto spreco di byte&rdquo;</p>
+<p><strong>Costi aggiuntivi</strong>: Mentre Docker Desktop è gratuito per uso personale, Docker Cloud introduce costi operativi che possono scalare rapidamente, soprattutto per team più grandi o progetti più complessi.</p>
 </li>
-</ul>
+<li>
+<p><strong>Latenza</strong>: Spostare i container su cloud introduce inevitabilmente una latenza che può impattare negativamente sui tempi di sviluppo e test.</p>
+</li>
+<li>
+<p><strong>Complessità aggiunta</strong>: Invece di semplificare il flusso di lavoro, Docker Cloud aggiunge un ulteriore livello di complessità nella gestione degli ambienti di sviluppo.</p>
+</li>
+<li>
+<p><strong>Integrazione non ottimale</strong>: Docker Cloud non si integra perfettamente con tutti gli strumenti di sviluppo locali, creando potenziali discrepanze tra l&rsquo;ambiente di sviluppo e quello di produzione.</p>
+</li>
+</ol>
+<p>L&rsquo;introduzione di Docker Cloud sembra essere un&rsquo;ammissione implicita dei problemi fondamentali di Docker su Windows. Invece di affrontare questi problemi alla radice, ottimizzando il prodotto per l&rsquo;ambiente Windows, si è optato per una soluzione che essenzialmente aggira il problema, creandone di nuovi.</p>
+<p>Ciò che Docker dovrebbe essere è uno standard per lavorare con i container, uno strumento che elevi la Developer Experience (DevX) a nuovi livelli. Invece, con soluzioni come Docker Cloud, stiamo assistendo a un compromesso che sacrifica la semplicità e l&rsquo;efficienza che erano alla base del successo iniziale di Docker.</p>
+<h2 id="conclusione">Conclusione</h2>
+<p>Docker è uno strumento potente, ma la sua implementazione su Windows è un fallimento su quasi tutti i fronti. Lentezza, problemi di compatibilità, consumo eccessivo di risorse e complessità inutili rendono Docker Desktop e Docker per Windows più un ostacolo che un aiuto per gli sviluppatori. L&rsquo;introduzione di Docker Cloud, lungi dal risolvere questi problemi, sembra solo aggiungere ulteriori livelli di complessità e costi.</p>
+<p>Il mio consiglio? Se sei uno sviluppatore Windows e hai bisogno di utilizzare Docker, considera seriamente di passare a Linux o macOS. Altrimenti, preparati a una frustrazione costante, a una produttività ridotta e potenzialmente a costi aggiuntivi non necessari.</p>
+<p>Docker su Windows non è solo un passo falso, è un vero e proprio errore colossale che sta ostacolando invece che facilitare lo sviluppo software. È tempo che Docker si concentri sul miglioramento della sua offerta su Windows, invece di proporre soluzioni alternative che non fanno che complicare ulteriormente un ecosistema già problematico.</p>
+<div class="admonition admonition-note">
+    <div class="admonition-title">
+        <div class="admonition-icon">📨</div>
+        Abbiamo una newsletter!!!
+    </div>
+    <div class="admonition-content">
+        <p>
+            Se ti appassiona l’ingegneria del software, non perdere l'occasione di rimanere aggiornato!<br/> Iscriviti alla nostra newsletter,
+            <strong>SWE Spotlight</strong>, per ricevere contenuti esclusivi e tech news.
+        </p>
+        <div>
+            <a href="https://spotlight.yafb.net" target="_blank" class="social-button" rel="nofollow">
+                <img src="https://img.shields.io/badge/SWE%20Spotlight-iscrivi%20adesso-silver?logo=linkedin&style=for-the-badge" alt="Iscriviti alla nostra newsletter">
+            </a>
+        </div>
+    </div>
+</div>
+
 
 			</div>
 
@@ -127,7 +230,11 @@
 					
 						<ul class="flat">
 							
+							    <li><a href="/tags/devops/">devops</a></li>
+							
 							    <li><a href="/tags/docker/">docker</a></li>
+							
+							    <li><a href="/tags/windows/">windows</a></li>
 							
 						</ul>
 					
@@ -138,28 +245,31 @@
                 
                     
                 
-            </div><div id="disqus_thread"></div>
-<script type="text/javascript">
-	(function () {
-		
-		
-		if (window.location.hostname == "localhost")
-			return;
+            </div>
 
-		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		var disqus_shortname = 'hardcode-blog';
-		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	})();
-</script>
-<noscript>Please enable JavaScript to view the </a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/cicd/20210401-tools-for-gitlab-ci-developer/">Docker: Il cuore di GitLab CI</a></li>
+    
+    <li><a href="/posts/vtiger/20210401-tools-for-vtiger-developer/">Docker: Un ambiente ideale per il CRM vtiger</a></li>
+    
+    <li><a href="/posts/shell/20210401-tools-for-shell-developer/">Docker e Shell: Strumenti per Potenziare il Tuo Ambiente di Sviluppo</a></li>
+    
+    <li><a href="/posts/devops/20200801-cosa-e-un-devops/">DevOps, il mistero dietro le sue skill</a></li>
+    
+    <li><a href="/posts/rant/20200101-blockchain-is-dead/">Le <strong>blockchain</strong> sono morte!?</a></li>
+    
+</ul>
+
+
+
 </div>
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
         <div>
-            2024  © Francesco Bianco | 
+            2025  © Francesco Bianco | 
             Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
             theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
             <span class="hide-on-mobile">

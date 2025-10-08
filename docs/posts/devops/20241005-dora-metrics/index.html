@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Le metriche DORA: La chiave per misurare e migliorare le prestazioni DevOps - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/devops/20241005-dora-metrics/" itemprop="url" /><meta itemprop="name" content="Le metriche DORA: La chiave per misurare e migliorare le prestazioni DevOps">
+<meta itemprop="description" content="Nell&#39;ambito dell&#39;ingegneria del software e del DevOps, la misurazione delle prestazioni è fondamentale per il miglioramento continuo. Le metriche DORA sono emerse come uno standard de facto, scopriamole assieme"><meta itemprop="datePublished" content="2024-10-05T08:13:47+00:00" />
+<meta itemprop="dateModified" content="2024-10-05T08:13:47+00:00" />
+<meta itemprop="wordCount" content="1126">
+<meta itemprop="keywords" content="devops,metrics," /><meta property="og:url" content="https://hardcode.blog/posts/devops/20241005-dora-metrics/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="Le metriche DORA: La chiave per misurare e migliorare le prestazioni DevOps">
+<meta property="og:description" content="Nell&#39;ambito dell&#39;ingegneria del software e del DevOps, la misurazione delle prestazioni è fondamentale per il miglioramento continuo. Le metriche DORA sono emerse come uno standard de facto, scopriamole assieme">
+
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2024-10-05T08:13:47+00:00">
+<meta property="article:modified_time" content="2024-10-05T08:13:47+00:00">
+<meta property="article:tag" content="Devops">
+<meta property="article:tag" content="Metrics">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_2457382814950661310.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_2457382814950661310.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
+
+    <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
+		<script src="https://hardcode.blog/js/main.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://hardcode.blog/">
+				<img src="/images/logo.png" alt="HARDCODE.BLOG" class="hide-on-dark-mode" />
+                <img src="/images/logo.png@dark" alt="HARDCODE.BLOG" class="show-on-dark-mode" />
+			</a>
+		</div>
+	
+    <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
+                    &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
+                    &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
+                    &#32;<li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li>
+                    &#32;</ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li class="font-fixedsys">
+				<a href="/">🏠 Home</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/devops/">🐳 DevOps</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/crm/">☁️ CRM</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/">🏷️ Tags</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/about/">👷 About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post posts-single">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">5</span>
+							<span class="rest">Oct 2024</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Le metriche DORA: La chiave per misurare e migliorare le prestazioni DevOps</h1>
+                    <div class="social">
+                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/devops/20241005-dora-metrics.md" target="_blank">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        
+                    </div>
+				</div>
+			</div>
+
+			<div class="markdown">
+				<p>Nell&rsquo;ambito dell&rsquo;ingegneria del software e del DevOps, la misurazione delle prestazioni è fondamentale per il miglioramento continuo. Le metriche DORA (DevOps Research and Assessment) sono emerse come uno standard de facto per valutare l&rsquo;efficacia delle pratiche DevOps. In questo articolo, esploreremo cosa sono le metriche DORA, perché sono importanti e come possono essere utilizzate per ottimizzare i processi di sviluppo software.</p>
+<h2 id="cosa-sono-le-metriche-dora">Cosa sono le metriche DORA?</h2>
+<p>Le metriche DORA sono un insieme di quattro indicatori chiave di prestazione (KPI) sviluppati dal team di ricerca DevOps di Google. Queste metriche forniscono una visione olistica delle prestazioni di un&rsquo;organizzazione in termini di velocità e stabilità del delivery software:</p>
+<ol>
+<li>Frequenza di distribuzione (Deployment Frequency)</li>
+<li>Tempo di lead per le modifiche (Lead Time for Changes)</li>
+<li>Tempo medio di ripristino (Mean Time to Recover - MTTR)</li>
+<li>Tasso di fallimento delle modifiche (Change Failure Rate)</li>
+</ol>
+<h2 id="perché-le-metriche-dora-sono-importanti">Perché le metriche DORA sono importanti?</h2>
+<p>Le metriche DORA offrono diversi vantaggi:</p>
+<ul>
+<li><strong>Benchmarking</strong>: Permettono alle organizzazioni di confrontare le proprie prestazioni con quelle del settore.</li>
+<li><strong>Identificazione delle aree di miglioramento</strong>: Evidenziano i punti deboli nel processo di delivery.</li>
+<li><strong>Monitoraggio dei progressi</strong>: Consentono di tracciare i miglioramenti nel tempo.</li>
+<li><strong>Allineamento degli obiettivi</strong>: Forniscono un linguaggio comune per discutere le prestazioni tra team diversi.</li>
+</ul>
+<h2 id="le-quattro-metriche-dora-in-dettaglio-con-esempi-pratici">Le quattro metriche DORA in dettaglio (con esempi pratici)</h2>
+<h3 id="1-frequenza-di-distribuzione">1. Frequenza di distribuzione</h3>
+<p>Misura quanto spesso un&rsquo;organizzazione distribuisce il codice in produzione. Una frequenza più alta indica una maggiore agilità e capacità di rispondere rapidamente alle esigenze del mercato.</p>
+<p><strong>Esempio pratico con GitLab:</strong>
+Per calcolare questa metrica, possiamo contare il numero di deployment riusciti in un determinato periodo di tempo. In GitLab, possiamo utilizzare l&rsquo;API per ottenere questi dati.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Impostare le variabili</span>
+</span></span><span class="line"><span class="cl"><span class="nv">GITLAB_TOKEN</span><span class="o">=</span><span class="s2">&#34;your_gitlab_token&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">PROJECT_ID</span><span class="o">=</span><span class="s2">&#34;your_project_id&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">START_DATE</span><span class="o">=</span><span class="s2">&#34;2024-01-01&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">END_DATE</span><span class="o">=</span><span class="s2">&#34;2024-03-31&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Chiamata API per ottenere i deployment</span>
+</span></span><span class="line"><span class="cl"><span class="nv">DEPLOYMENTS</span><span class="o">=</span><span class="k">$(</span>curl --header <span class="s2">&#34;PRIVATE-TOKEN: </span><span class="nv">$GITLAB_TOKEN</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s2">&#34;https://gitlab.com/api/v4/projects/</span><span class="nv">$PROJECT_ID</span><span class="s2">/deployments?status=success&amp;created_after=</span><span class="nv">$START_DATE</span><span class="s2">&amp;created_before=</span><span class="nv">$END_DATE</span><span class="s2">&#34;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Contare i deployment</span>
+</span></span><span class="line"><span class="cl"><span class="nv">DEPLOYMENT_COUNT</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$DEPLOYMENTS</span> <span class="p">|</span> jq length<span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Calcolare la frequenza (assumendo un periodo di 90 giorni)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">FREQUENCY</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="s2">&#34;scale=2; </span><span class="nv">$DEPLOYMENT_COUNT</span><span class="s2"> / 90&#34;</span> <span class="p">|</span> bc<span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Frequenza di distribuzione: </span><span class="nv">$FREQUENCY</span><span class="s2"> deployments al giorno&#34;</span>
+</span></span></code></pre></div><h3 id="2-tempo-di-lead-per-le-modifiche">2. Tempo di lead per le modifiche</h3>
+<p>Rappresenta il tempo che intercorre tra il commit del codice e la sua distribuzione in produzione. Un tempo di lead più breve indica una pipeline di delivery più efficiente.</p>
+<p><strong>Esempio pratico con GitLab:</strong>
+Per questa metrica, dobbiamo misurare il tempo tra l&rsquo;ultimo commit e il deployment riuscito.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Impostare le variabili</span>
+</span></span><span class="line"><span class="cl"><span class="nv">GITLAB_TOKEN</span><span class="o">=</span><span class="s2">&#34;your_gitlab_token&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">PROJECT_ID</span><span class="o">=</span><span class="s2">&#34;your_project_id&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Ottenere l&#39;ultimo deployment riuscito</span>
+</span></span><span class="line"><span class="cl"><span class="nv">LAST_DEPLOYMENT</span><span class="o">=</span><span class="k">$(</span>curl --header <span class="s2">&#34;PRIVATE-TOKEN: </span><span class="nv">$GITLAB_TOKEN</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s2">&#34;https://gitlab.com/api/v4/projects/</span><span class="nv">$PROJECT_ID</span><span class="s2">/deployments?status=success&amp;order_by=created_at&amp;sort=desc&amp;per_page=1&#34;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">DEPLOYMENT_ID</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$LAST_DEPLOYMENT</span> <span class="p">|</span> jq <span class="s1">&#39;.[0].id&#39;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">DEPLOYMENT_TIME</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$LAST_DEPLOYMENT</span> <span class="p">|</span> jq -r <span class="s1">&#39;.[0].created_at&#39;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Ottenere l&#39;ultimo commit prima del deployment</span>
+</span></span><span class="line"><span class="cl"><span class="nv">LAST_COMMIT</span><span class="o">=</span><span class="k">$(</span>curl --header <span class="s2">&#34;PRIVATE-TOKEN: </span><span class="nv">$GITLAB_TOKEN</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s2">&#34;https://gitlab.com/api/v4/projects/</span><span class="nv">$PROJECT_ID</span><span class="s2">/repository/commits?until=</span><span class="nv">$DEPLOYMENT_TIME</span><span class="s2">&amp;per_page=1&#34;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">COMMIT_TIME</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$LAST_COMMIT</span> <span class="p">|</span> jq -r <span class="s1">&#39;.[0].created_at&#39;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Calcolare la differenza in minuti</span>
+</span></span><span class="line"><span class="cl"><span class="nv">LEAD_TIME</span><span class="o">=</span><span class="k">$((</span> <span class="o">(</span><span class="k">$(</span>date -d <span class="s2">&#34;</span><span class="nv">$DEPLOYMENT_TIME</span><span class="s2">&#34;</span> +%s<span class="k">)</span> <span class="o">-</span> <span class="k">$(</span>date -d <span class="s2">&#34;</span><span class="nv">$COMMIT_TIME</span><span class="s2">&#34;</span> +%s<span class="k">)</span><span class="o">)</span> <span class="o">/</span> <span class="m">60</span> <span class="k">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Tempo di lead per le modifiche: </span><span class="nv">$LEAD_TIME</span><span class="s2"> minuti&#34;</span>
+</span></span></code></pre></div><h3 id="3-tempo-medio-di-ripristino-mttr">3. Tempo medio di ripristino (MTTR)</h3>
+<p>Misura quanto tempo ci vuole per ripristinare il servizio dopo un&rsquo;interruzione o un incidente. Un MTTR più basso indica una maggiore resilienza e capacità di gestione delle crisi.</p>
+<p><strong>Esempio pratico:</strong>
+Per questa metrica, assumiamo di avere un sistema di monitoraggio che registra gli incidenti e i tempi di risoluzione.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Impostare le variabili</span>
+</span></span><span class="line"><span class="cl"><span class="nv">MONITORING_API</span><span class="o">=</span><span class="s2">&#34;your_monitoring_api_endpoint&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">API_TOKEN</span><span class="o">=</span><span class="s2">&#34;your_api_token&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">START_DATE</span><span class="o">=</span><span class="s2">&#34;2024-01-01&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">END_DATE</span><span class="o">=</span><span class="s2">&#34;2024-03-31&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Ottenere gli incidenti e i tempi di risoluzione</span>
+</span></span><span class="line"><span class="cl"><span class="nv">INCIDENTS</span><span class="o">=</span><span class="k">$(</span>curl --header <span class="s2">&#34;Authorization: Bearer </span><span class="nv">$API_TOKEN</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s2">&#34;</span><span class="nv">$MONITORING_API</span><span class="s2">/incidents?start=</span><span class="nv">$START_DATE</span><span class="s2">&amp;end=</span><span class="nv">$END_DATE</span><span class="s2">&#34;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Calcolare il MTTR (assumendo che l&#39;API restituisca un array di tempi di risoluzione in minuti)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">TOTAL_TIME</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$INCIDENTS</span> <span class="p">|</span> jq <span class="s1">&#39;[.[] | .resolution_time] | add&#39;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">INCIDENT_COUNT</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$INCIDENTS</span> <span class="p">|</span> jq length<span class="k">)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">MTTR</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="s2">&#34;scale=2; </span><span class="nv">$TOTAL_TIME</span><span class="s2"> / </span><span class="nv">$INCIDENT_COUNT</span><span class="s2">&#34;</span> <span class="p">|</span> bc<span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Tempo medio di ripristino (MTTR): </span><span class="nv">$MTTR</span><span class="s2"> minuti&#34;</span>
+</span></span></code></pre></div><h3 id="4-tasso-di-fallimento-delle-modifiche">4. Tasso di fallimento delle modifiche</h3>
+<p>Rappresenta la percentuale di modifiche che portano a un degrado del servizio o richiedono una correzione immediata. Un tasso più basso indica una maggiore stabilità e qualità del codice.</p>
+<p><strong>Esempio pratico con GitLab:</strong>
+Per questa metrica, conteremo i deployment falliti rispetto al totale dei deployment.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Impostare le variabili</span>
+</span></span><span class="line"><span class="cl"><span class="nv">GITLAB_TOKEN</span><span class="o">=</span><span class="s2">&#34;your_gitlab_token&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">PROJECT_ID</span><span class="o">=</span><span class="s2">&#34;your_project_id&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">START_DATE</span><span class="o">=</span><span class="s2">&#34;2024-01-01&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">END_DATE</span><span class="o">=</span><span class="s2">&#34;2024-03-31&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Ottenere tutti i deployment</span>
+</span></span><span class="line"><span class="cl"><span class="nv">ALL_DEPLOYMENTS</span><span class="o">=</span><span class="k">$(</span>curl --header <span class="s2">&#34;PRIVATE-TOKEN: </span><span class="nv">$GITLAB_TOKEN</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s2">&#34;https://gitlab.com/api/v4/projects/</span><span class="nv">$PROJECT_ID</span><span class="s2">/deployments?created_after=</span><span class="nv">$START_DATE</span><span class="s2">&amp;created_before=</span><span class="nv">$END_DATE</span><span class="s2">&#34;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">TOTAL_DEPLOYMENTS</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$ALL_DEPLOYMENTS</span> <span class="p">|</span> jq length<span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Ottenere i deployment falliti</span>
+</span></span><span class="line"><span class="cl"><span class="nv">FAILED_DEPLOYMENTS</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$ALL_DEPLOYMENTS</span> <span class="p">|</span> jq <span class="s1">&#39;[.[] | select(.status==&#34;failed&#34;)] | length&#39;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Calcolare il tasso di fallimento</span>
+</span></span><span class="line"><span class="cl"><span class="nv">FAILURE_RATE</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="s2">&#34;scale=2; (</span><span class="nv">$FAILED_DEPLOYMENTS</span><span class="s2"> / </span><span class="nv">$TOTAL_DEPLOYMENTS</span><span class="s2">) * 100&#34;</span> <span class="p">|</span> bc<span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Tasso di fallimento delle modifiche: </span><span class="nv">$FAILURE_RATE</span><span class="s2">%&#34;</span>
+</span></span></code></pre></div><h2 id="come-implementare-le-metriche-dora">Come implementare le metriche DORA</h2>
+<p>Per implementare efficacemente le metriche DORA:</p>
+<ol>
+<li>
+<p><strong>Automatizzare la raccolta dei dati</strong>: Utilizzare strumenti di CI/CD e monitoraggio per raccogliere automaticamente i dati necessari. Gli script forniti sopra possono essere un buon punto di partenza.</p>
+</li>
+<li>
+<p><strong>Stabilire una baseline</strong>: Misurare le prestazioni attuali come punto di partenza. Eseguite gli script per un periodo di tempo significativo (ad esempio, un mese) per ottenere una baseline affidabile.</p>
+</li>
+<li>
+<p><strong>Fissare obiettivi</strong>: Definire target realistici per ciascuna metrica. Ad esempio, potreste mirare a ridurre il tempo di lead del 20% nei prossimi tre mesi.</p>
+</li>
+<li>
+<p><strong>Revisione regolare</strong>: Analizzare periodicamente i dati e adattare le strategie di conseguenza. Considerate di creare un dashboard per visualizzare le metriche nel tempo.</p>
+</li>
+<li>
+<p><strong>Cultura del miglioramento continuo</strong>: Incoraggiare i team a utilizzare questi dati per guidare il miglioramento. Celebrate i successi e affrontate le sfide come opportunità di apprendimento.</p>
+</li>
+</ol>
+<h2 id="integrazione-con-gitlab-cicd">Integrazione con GitLab CI/CD</h2>
+<p>Per integrare questi script nel vostro pipeline GitLab CI/CD, potete creare un job specifico per il calcolo delle metriche DORA. Ecco un esempio di come potrebbe apparire nel vostro file <code>.gitlab-ci.yml</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">calculate_dora_metrics</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">stage</span><span class="p">:</span><span class="w"> </span><span class="l">metrics</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">script</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">chmod +x ./calculate_deployment_frequency.sh</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">chmod +x ./calculate_lead_time.sh</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">chmod +x ./calculate_mttr.sh</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">chmod +x ./calculate_change_failure_rate.sh</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">./calculate_deployment_frequency.sh</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">./calculate_lead_time.sh</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">./calculate_mttr.sh</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">./calculate_change_failure_rate.sh</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">artifacts</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">reports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">metrics</span><span class="p">:</span><span class="w"> </span><span class="l">metrics.txt</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">only</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">schedules</span><span class="w">
+</span></span></span></code></pre></div><p>Questo job eseguirà gli script per calcolare le metriche DORA e salverà i risultati come artefatti del pipeline. Potete programmarlo per essere eseguito periodicamente (ad esempio, settimanalmente o mensilmente) utilizzando le pipeline schedulate di GitLab.</p>
+<h2 id="conclusione">Conclusione</h2>
+<p>Le metriche DORA offrono un framework potente per misurare e migliorare le prestazioni DevOps. Implementandole correttamente, le organizzazioni possono accelerare il loro percorso verso l&rsquo;eccellenza operativa, migliorando sia la velocità che la stabilità del loro processo di delivery software.</p>
+<p>Gli esempi pratici e gli script forniti in questo articolo vi danno un punto di partenza concreto per iniziare a tracciare queste metriche nel vostro ambiente GitLab. Tuttavia, ricordate che l&rsquo;obiettivo non è solo migliorare i numeri, ma utilizzare questi dati per guidare un miglioramento reale e tangibile nella vostra capacità di fornire valore ai clienti attraverso il software.</p>
+<p>Mentre implementate queste metriche, mantenete sempre una visione olistica del vostro processo di sviluppo. Le metriche DORA sono potenti, ma sono solo una parte del quadro complessivo. Combinate queste metriche con altri indicatori rilevanti per il vostro business e, soprattutto, ascoltate il feedback del vostro team e dei vostri clienti.</p>
+<p>Con il tempo e la dedizione, l&rsquo;uso delle metriche DORA può portare a un significativo miglioramento delle prestazioni DevOps, risultando in rilasci più frequenti, tempi di sviluppo più brevi, sistemi più stabili e, in definitiva, clienti più soddisfatti.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							    <li><a href="/tags/devops/">devops</a></li>
+							
+							    <li><a href="/tags/metrics/">metrics</a></li>
+							
+						</ul>
+					
+				
+			</div>
+
+            <div class="authors">
+                
+                    
+                        Written by:
+                        
+                            <a href="/authors/francesco-bianco/" target="_blank" rel="nofollow">Francesco Bianco</a>
+                        
+                    
+                
+            </div>
+
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/docker/20210401-tools-for-windows-docker-developer/"><strong>Docker</strong> su Windows: Un errore colossale</a></li>
+    
+    <li><a href="/posts/devops/20200801-cosa-e-un-devops/">DevOps, il mistero dietro le sue skill</a></li>
+    
+    <li><a href="/posts/cicd/20210401-tools-for-gitlab-ci-developer/">Docker: Il cuore di GitLab CI</a></li>
+    
+    <li><a href="/posts/vtiger/20210401-tools-for-vtiger-developer/">Docker: Un ambiente ideale per il CRM vtiger</a></li>
+    
+    <li><a href="/posts/pattern/20240917-circuit-breaker/">Il Circuit Breaker: Il Pattern che ha Salvato Netflix</a></li>
+    
+</ul>
+
+
+
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+        <div>
+            2025  © Francesco Bianco | 
+            Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
+            theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            <span class="hide-on-mobile">
+                | Visit the <a href="https://github.com/francescobianco/hardcode.blog" title="HARDCODE.BLOG" target="_blank">repo</a> |
+                Write a new <a href="https://github.com/francescobianco/hardcode.blog" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
+            </span>
+        </div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+</body>
+</html>

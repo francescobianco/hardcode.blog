@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pycharm on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/pycharm/</link>
+    <description>Recent content in Pycharm on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Wed, 12 Feb 2025 17:59:53 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/pycharm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Key Promoter X: Il Plugin Che Ti Insegna le Shortcut (Volente o Nolente)</title>
+      <link>https://hardcode.blog/posts/20250212-key-promoter-x/</link>
+      <pubDate>Wed, 12 Feb 2025 17:59:53 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250212-key-promoter-x/</guid>
+      <description>Oggi voglio parlare di un piccolo gioiello nascosto tra i plugin di WebStorm: Key Promoter X. Se non lo conosci, preparati a ricevere una valanga di notifiche mentre lavori. Questo plugin ha una missione molto chiara: insegnarti a usare le scorciatoie da tastiera. Ogni volta che clicchi con il mouse su un’azione per la quale esiste una scorciatoia, Key Promoter X te lo fa notare con un bel pop-up, quasi a dirti: &amp;ldquo;Ehi, lo sai che stai perdendo tempo?</description>
+    </item>
+  </channel>
+</rss>

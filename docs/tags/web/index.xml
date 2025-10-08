@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/web/</link>
+    <description>Recent content in Web on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Mon, 13 Apr 2020 11:21:43 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress, come adoperarlo al meglio</title>
+      <link>https://hardcode.blog/posts/web/20200413-wordpress/</link>
+      <pubDate>Mon, 13 Apr 2020 11:21:43 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/web/20200413-wordpress/</guid>
+      <description>WordPress è una delle piattaforme più popolari per la creazione di siti web, grazie alla sua flessibilità, facilità d&amp;rsquo;uso e l&amp;rsquo;enorme ecosistema di plugin e temi. Tuttavia, utilizzarlo al meglio richiede una comprensione più profonda delle sue funzionalità, dei suoi limiti e delle conoscenze tecniche necessarie. In questo articolo, esamineremo come sfruttare il potenziale di WordPress rimanendo sempre consapevoli che è una piattaforma con specifiche limitazioni.&#xA;1. Conoscenza di Base di WordPress Prima di tutto, per usare WordPress in modo efficace, è necessario avere una buona padronanza delle sue funzioni di base.</description>
+    </item>
+  </channel>
+</rss>

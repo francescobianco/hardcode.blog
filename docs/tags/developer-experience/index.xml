@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developer Experience on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/developer-experience/</link>
+    <description>Recent content in Developer Experience on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Thu, 11 Jul 2024 14:16:29 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/developer-experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Esplorando la **Developer Experience**: fondamenti e implicazioni</title>
+      <link>https://hardcode.blog/posts/dx/20240711-developer-experience-fondamenti-e-implicazioni/</link>
+      <pubDate>Thu, 11 Jul 2024 14:16:29 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/dx/20240711-developer-experience-fondamenti-e-implicazioni/</guid>
+      <description>Nel vasto panorama dello sviluppo software, la Developer Experience (DevEx) emerge come un elemento cruciale ma spesso sottovalutato. Essenzialmente, si tratta dell&amp;rsquo;insieme di percezioni e interazioni che gli sviluppatori vivono durante il processo di creazione e manutenzione del software. Va oltre l&amp;rsquo;interfaccia utente o l&amp;rsquo;efficienza degli strumenti; riflette anche la qualità dell&amp;rsquo;ambiente di lavoro, la facilità di utilizzo delle tecnologie, e la fluidità dei flussi di lavoro.&#xA;🌐 Ti piacciono questi temi?</description>
+    </item>
+  </channel>
+</rss>

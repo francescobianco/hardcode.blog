@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Le Features, queste sconosciute - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/software-design/20200701-features/" itemprop="url" /><meta itemprop="name" content="Le Features, queste sconosciute">
+<meta itemprop="description" content="Nel mondo dello sviluppo software, si sente parlare spesso di **feature**. Ma cosa si intende esattamente con questo termine, scopriamolo nel dettaglio."><meta itemprop="datePublished" content="2020-07-01T12:43:36+02:00" />
+<meta itemprop="dateModified" content="2020-07-01T12:43:36+02:00" />
+<meta itemprop="wordCount" content="771">
+<meta itemprop="keywords" content="feature,agile,git,user-story,software-design," /><meta property="og:url" content="https://hardcode.blog/posts/software-design/20200701-features/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="Le Features, queste sconosciute">
+<meta property="og:description" content="Nel mondo dello sviluppo software, si sente parlare spesso di **feature**. Ma cosa si intende esattamente con questo termine, scopriamolo nel dettaglio.">
+
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2020-07-01T12:43:36+02:00">
+<meta property="article:modified_time" content="2020-07-01T12:43:36+02:00">
+<meta property="article:tag" content="Feature">
+<meta property="article:tag" content="Agile">
+<meta property="article:tag" content="Git">
+<meta property="article:tag" content="User-Story">
+<meta property="article:tag" content="Software-Design">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_11778652908664077827.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_11778652908664077827.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
+
+    <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
+		<script src="https://hardcode.blog/js/main.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://hardcode.blog/">
+				<img src="/images/logo.png" alt="HARDCODE.BLOG" class="hide-on-dark-mode" />
+                <img src="/images/logo.png@dark" alt="HARDCODE.BLOG" class="show-on-dark-mode" />
+			</a>
+		</div>
+	
+    <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
+                    &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
+                    &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
+                    &#32;<li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li>
+                    &#32;</ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li class="font-fixedsys">
+				<a href="/">🏠 Home</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/devops/">🐳 DevOps</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/crm/">☁️ CRM</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/">🏷️ Tags</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/about/">👷 About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post posts-single">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">1</span>
+							<span class="rest">Jul 2020</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Le Features, queste sconosciute</h1>
+                    <div class="social">
+                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/software-design/20200701-features.md" target="_blank">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        
+                    </div>
+				</div>
+			</div>
+
+			<div class="markdown">
+				<p>Nel mondo dello sviluppo software, si sente parlare spesso di &ldquo;feature&rdquo;. Ma cosa si intende esattamente con questo termine, e perché è così centrale in ogni progetto moderno? In questo articolo cercheremo di esplorare il concetto di <em>feature</em>, la sua importanza nel ciclo di sviluppo software e come si integra con pratiche come le <em>user story</em> nell&rsquo;Agile e i flussi di lavoro su Git, come il <em>feature branch flow</em>.</p>
+<h3 id="cosè-una-feature">Cos&rsquo;è una Feature?</h3>
+<p>In parole semplici, una <em>feature</em> è una funzionalità o un insieme di funzionalità che aggiungono valore all’utente finale. Può trattarsi di qualcosa di tangibile come un nuovo pulsante o una nuova sezione di un&rsquo;app, o di qualcosa di meno visibile come un miglioramento della performance del sistema. In sostanza, una <em>feature</em> è una parte del prodotto che risponde a un bisogno o risolve un problema per l&rsquo;utente.</p>
+<p>Definire chiaramente una <em>feature</em> è fondamentale perché consente ai team di sviluppo di lavorare in modo mirato. Ogni <em>feature</em> dovrebbe essere sviluppata, testata e rilasciata come un&rsquo;entità autonoma, contribuendo al miglioramento continuo del prodotto.</p>
+<h3 id="lavorare-per-feature-un-cambiamento-di-mentalità">Lavorare per Feature: un Cambiamento di Mentalità</h3>
+<p>In passato, lo sviluppo software era spesso gestito come un progetto monolitico: si pianificava, si sviluppava e si consegnava tutto in una volta. Questo approccio, però, comportava tempi di consegna lunghi e un alto rischio di ritrovarsi con un prodotto finale non allineato alle reali esigenze degli utenti.</p>
+<p>Oggi, lavorare per <em>feature</em> consente di suddividere lo sviluppo in piccoli pezzi autonomi, ognuno dei quali può essere progettato, sviluppato e rilasciato in modo incrementale. Questo approccio non solo accelera i tempi di rilascio, ma permette anche di adattarsi rapidamente ai feedback degli utenti e ai cambiamenti del mercato. Lavorare per <em>feature</em> significa mantenere un focus costante sul valore aggiunto che ogni singolo rilascio porta all&rsquo;utente finale.</p>
+<h3 id="feature-e-agile-tra-user-story-ed-epic">Feature e Agile: tra User Story ed Epic</h3>
+<p>In un contesto Agile, il concetto di <em>feature</em> si intreccia con quello delle <em>user story</em>. Una <em>user story</em> è una descrizione breve e semplice di una funzionalità dal punto di vista dell&rsquo;utente. Solitamente segue il formato: <em>Come [utente], voglio [funzionalità], in modo da [beneficio]</em>. Ogni <em>user story</em> rappresenta una piccola unità di lavoro che può essere sviluppata e consegnata in tempi brevi.</p>
+<p>Quando più <em>user story</em> sono correlate e descrivono un obiettivo funzionale più ampio, si può parlare di <em>epic</em>, ovvero un insieme di <em>user story</em> che, nel loro insieme, definiscono una <em>feature</em> più complessa.</p>
+<p>Ad esempio, se stai sviluppando una nuova sezione di un sito di e-commerce, una <em>user story</em> potrebbe essere: &ldquo;Come utente, voglio vedere le recensioni di altri utenti su un prodotto, in modo da prendere una decisione d&rsquo;acquisto informata&rdquo;. Se però l’obiettivo finale è creare una sezione completa di feedback per il cliente, potresti avere più <em>user story</em> che costituiscono una <em>epic</em> legata al &ldquo;Sistema di recensioni dei clienti&rdquo;, che rappresenta una <em>feature</em> importante per il sito.</p>
+<h3 id="il-feature-branch-flow-un-approccio-strutturato-allo-sviluppo">Il Feature Branch Flow: Un Approccio Strutturato allo Sviluppo</h3>
+<p>Insieme alla necessità di lavorare per <em>feature</em> nasce il bisogno di gestire lo sviluppo in modo ordinato e sicuro. Questo è dove entra in gioco il <em>feature branch flow</em> in Git.</p>
+<p>Il <em>feature branch flow</em> è una strategia di branching che permette di mantenere separati i lavori in corso su diverse funzionalità, semplificando la collaborazione tra sviluppatori e riducendo il rischio di conflitti di codice. In pratica, per ogni nuova <em>feature</em>, si crea un branch separato dal branch principale (<em>main</em> o <em>develop</em>) in cui tutto il lavoro relativo a quella funzionalità viene sviluppato e testato. Solo una volta completata e verificata, la <em>feature</em> viene integrata nel codice principale tramite una merge request (o pull request), garantendo che il branch principale rimanga stabile e funzionante.</p>
+<p>Questo approccio ha diversi vantaggi:</p>
+<ul>
+<li><strong>Isolamento</strong>: ogni <em>feature</em> è sviluppata in modo indipendente, riducendo il rischio di rompere funzionalità esistenti.</li>
+<li><strong>Collaboration</strong>: più sviluppatori possono lavorare in parallelo su diverse <em>feature</em> senza interferire con il lavoro degli altri.</li>
+<li><strong>Review</strong>: grazie al processo di pull request, ogni <em>feature</em> può essere revisionata e testata prima di essere integrata, aumentando la qualità del codice.</li>
+</ul>
+<h3 id="conclusioni">Conclusioni</h3>
+<p>Il concetto di <em>feature</em> rappresenta uno dei pilastri dello sviluppo moderno. Lavorare per <em>feature</em> significa avere una visione chiara delle funzionalità che stiamo costruendo e del valore che queste porteranno all&rsquo;utente. Integrando il concetto di <em>feature</em> con pratiche Agile come le <em>user story</em> e con strategie di branching come il <em>feature branch flow</em>, i team possono affrontare lo sviluppo in modo più flessibile, iterativo e collaborativo.</p>
+<p>Che si tratti di una piccola ottimizzazione o di una grande innovazione, ogni <em>feature</em> è un passo verso un prodotto migliore. Ora che abbiamo esplorato l’argomento, cosa aspetti a definire la prossima <em>feature</em> per il tuo progetto?</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							    <li><a href="/tags/feature/">feature</a></li>
+							
+							    <li><a href="/tags/agile/">agile</a></li>
+							
+							    <li><a href="/tags/git/">git</a></li>
+							
+							    <li><a href="/tags/user-story/">user-story</a></li>
+							
+							    <li><a href="/tags/software-design/">software-design</a></li>
+							
+						</ul>
+					
+				
+			</div>
+
+            <div class="authors">
+                
+                    
+                
+            </div>
+
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/php/20200621-php8/">PHP8, Dalle prime impressioni alle riflessioni sul futuro</a></li>
+    
+    <li><a href="/posts/science/20200512-neuralink/">Neuralink: dalla fantascienza l&rsquo;inspirazione per la medicina</a></li>
+    
+    <li><a href="/posts/web/20200413-wordpress/">WordPress, come adoperarlo al meglio</a></li>
+    
+    <li><a href="/posts/rant/20200412-remote-working-spaghetti/">Remote Working Spaghetti</a></li>
+    
+    <li><a href="/posts/science/20200409-nanotecnologie/">Nanotecnologie, facciamo il punto</a></li>
+    
+</ul>
+
+
+
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+        <div>
+            2025  © Francesco Bianco | 
+            Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
+            theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            <span class="hide-on-mobile">
+                | Visit the <a href="https://github.com/francescobianco/hardcode.blog" title="HARDCODE.BLOG" target="_blank">repo</a> |
+                Write a new <a href="https://github.com/francescobianco/hardcode.blog" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
+            </span>
+        </div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+</body>
+</html>

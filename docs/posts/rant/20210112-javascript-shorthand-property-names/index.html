@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Anche se molto utile, odio le property shorthand - HARDCODE.BLOG</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/" itemprop="url" /><meta itemprop="name" content="Anche se molto utile, odio le property shorthand">
+<meta itemprop="description" content="JavaScript supporta la possibilità di usare come chivare di un oggetto il nome di una variabile, ecco la mia opinione"><meta itemprop="datePublished" content="2021-10-11T02:13:32+02:00" />
+<meta itemprop="dateModified" content="2021-10-11T02:13:32+02:00" />
+<meta itemprop="wordCount" content="373">
+<meta itemprop="keywords" content="javascript,property shorthand,rant," /><meta property="og:url" content="https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="Anche se molto utile, odio le property shorthand">
+<meta property="og:description" content="JavaScript supporta la possibilità di usare come chivare di un oggetto il nome di una variabile, ecco la mia opinione">
+
+
+<meta property="og:type" content="article">
+<meta property="article:section" content="posts">
+<meta property="article:published_time" content="2021-10-11T02:13:32+02:00">
+<meta property="article:modified_time" content="2021-10-11T02:13:32+02:00">
+<meta property="article:tag" content="Javascript">
+<meta property="article:tag" content="Property Shorthand">
+<meta property="article:tag" content="Rant">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_721592355047932617.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_721592355047932617.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
+
+    <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
+		<script src="https://hardcode.blog/js/main.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://hardcode.blog/">
+				<img src="/images/logo.png" alt="HARDCODE.BLOG" class="hide-on-dark-mode" />
+                <img src="/images/logo.png@dark" alt="HARDCODE.BLOG" class="show-on-dark-mode" />
+			</a>
+		</div>
+	
+    <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
+                    &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
+                    &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
+                    &#32;<li><a href="/index.xml" title="RSS" target="_blank"><i data-feather="rss"></i></a></li>
+                    &#32;</ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li class="font-fixedsys">
+				<a href="/">🏠 Home</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/devops/">🐳 DevOps</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/crm/">☁️ CRM</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/tags/">🏷️ Tags</a>
+			</li>
+			
+			<li class="font-fixedsys">
+				<a href="/about/">👷 About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post posts-single">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">11</span>
+							<span class="rest">Oct 2021</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Anche se molto utile, odio le property shorthand</h1>
+                    <div class="social">
+                        <a href="https://github.com/francescobianco/hardcode.blog/edit/main/content/posts/rant/20210112-javascript-shorthand-property-names.md" target="_blank">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="downloadCoverImage()">
+                            <i data-feather="image"></i>
+                        </a>
+                        <a href="javascript:void(0);" onclick="shareOnLinkedIn()">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        
+                    </div>
+				</div>
+			</div>
+
+			<div class="markdown">
+				<p>La Property Shorthand in JavaScript è spesso acclamata per la sua sintassi concisa e intuitiva nella definizione degli oggetti. Tuttavia, dietro questa apparente comodità si nascondono alcune criticità che potrebbero compromettere la chiarezza e la manutenibilità del codice.</p>
+<div class="admonition admonition-important">
+    <div class="admonition-title">
+        <div class="admonition-icon">🌐</div>
+        Ti piacciono questi temi?
+    </div>
+    <div class="admonition-content">
+        <p>
+            Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo,
+            condividilo con i tuoi amici e colleghi sui social.
+            La tua condivisione ci aiuta a crescere e a portare contenuti di qualità a un pubblico sempre più ampio.
+            Grazie mille per il tuo contributo!
+        </p>
+        <div>
+            <a href="https://www.linkedin.com/feed/?shareActive=true&text=https%3A%2F%2Fhardcode.blog%2Fposts%2Frant%2F20210112-javascript-shorthand-property-names%2F" target="_blank" class="social-button" rel="nofollow">
+                <img src="https://img.shields.io/badge/-condividi%20su%20linkedin-blue?logo=linkedin&style=for-the-badge" alt="Share on LinkedIn">
+            </a>
+
+            
+
+            
+        </div>
+    </div>
+</div>
+
+<h2 id="esposizione-accidentale-delle-variabili">Esposizione accidentale delle variabili</h2>
+<p>Uno dei principali punti critici della Property Shorthand è la sua propensione a esporre accidentalmente le variabili nel contesto in cui gli oggetti vengono definiti. Questo fenomeno deriva dal fatto che la sintassi <code>{ name }</code> presume l&rsquo;esistenza di una variabile con lo stesso nome all&rsquo;interno dello stesso ambito. Ad esempio, se un oggetto ha un attributo <code>name</code>, potrebbe suggerire implicitamente che esiste anche una variabile con lo stesso nome nel codice sorgente.</p>
+<p>Questo può portare a situazioni confuse e potenzialmente a errori difficili da individuare, soprattutto in progetti complessi o collaborativi in cui più sviluppatori potrebbero lavorare simultaneamente sullo stesso codice.</p>
+<h2 id="ambiguità-e-manutenibilità">Ambiguità e manutenibilità</h2>
+<p>Oltre alla potenziale confusione nelle variabili, l&rsquo;uso intensivo della Property Shorthand può compromettere la chiarezza del codice e la sua manutenibilità nel tempo. Gli sviluppatori che leggono il codice potrebbero non essere immediatamente consapevoli delle variabili implicite dall&rsquo;utilizzo della Property Shorthand, rendendo più difficile comprendere rapidamente il significato e il comportamento del codice.</p>
+<h2 id="approfondimenti-e-discussione">Approfondimenti e discussione</h2>
+<p>Per esplorare ulteriormente questa tematica e capire come gestire al meglio la Property Shorthand in JavaScript, ti invito a leggere il tweet di Francesco Bianco sulla questione <a href="https://twitter.com/francescobianco/status/1317772038845681664">qui</a> e a esaminare l&rsquo;esempio pratico su JSFiddle disponibile <a href="https://jsfiddle.net/francescobianco/4sue8ym9/27/">qui</a>.</p>
+<p>È importante considerare queste criticità nella progettazione e nell&rsquo;implementazione del codice JavaScript, cercando sempre di mantenere la chiarezza e la robustezza del codice per migliorare l&rsquo;esperienza di sviluppo e la qualità del prodotto finale.</p>
+<p>Continua a esplorare e discutere per approfondire il tuo apprendimento e migliorare le tue competenze nello sviluppo JavaScript!</p>
+<div class="admonition admonition-note">
+    <div class="admonition-title">
+        <div class="admonition-icon">📨</div>
+        Abbiamo una newsletter!!!
+    </div>
+    <div class="admonition-content">
+        <p>
+            Se ti appassiona l’ingegneria del software, non perdere l'occasione di rimanere aggiornato!<br/> Iscriviti alla nostra newsletter,
+            <strong>SWE Spotlight</strong>, per ricevere contenuti esclusivi e tech news.
+        </p>
+        <div>
+            <a href="https://spotlight.yafb.net" target="_blank" class="social-button" rel="nofollow">
+                <img src="https://img.shields.io/badge/SWE%20Spotlight-iscrivi%20adesso-silver?logo=linkedin&style=for-the-badge" alt="Iscriviti alla nostra newsletter">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							    <li><a href="/tags/javascript/">javascript</a></li>
+							
+							    <li><a href="/tags/property-shorthand/">property shorthand</a></li>
+							
+							    <li><a href="/tags/rant/">rant</a></li>
+							
+						</ul>
+					
+				
+			</div>
+
+            <div class="authors">
+                
+                    
+                        Written by:
+                        
+                            <a href="/authors/francesco-bianco/" target="_blank" rel="nofollow">Francesco Bianco</a>
+                        
+                    
+                
+            </div>
+
+<h3>Leggi anche</h3>
+<ul>
+    
+    <li><a href="/posts/rant/20200412-remote-working-spaghetti/">Remote Working Spaghetti</a></li>
+    
+    <li><a href="/posts/rant/20200305-fullstack/">Full-stack, esistono davvero?</a></li>
+    
+    <li><a href="/posts/motivazione/20210720-letture-efficaci/">Recensione: L&rsquo;arte della pazienza - Raffaele Gaito</a></li>
+    
+    <li><a href="/posts/agile/20200928-agile-is-dead/">L&rsquo;Agile è Morto!!!</a></li>
+    
+</ul>
+
+
+
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+        <div>
+            2025  © Francesco Bianco | 
+            Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
+            theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
+            <span class="hide-on-mobile">
+                | Visit the <a href="https://github.com/francescobianco/hardcode.blog" title="HARDCODE.BLOG" target="_blank">repo</a> |
+                Write a new <a href="https://github.com/francescobianco/hardcode.blog" onclick="return writeNewPost(this)" title="Write a new post" target="_blank">post</a>
+            </span>
+        </div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+</body>
+</html>

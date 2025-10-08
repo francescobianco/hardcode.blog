@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ai on HARDCODE.BLOG</title>
+    <title>Ai on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/ai/</link>
-    <description>Recent content in ai on HARDCODE.BLOG</description>
+    <description>Recent content in Ai on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Thu, 13 Jun 2024 16:37:36 +0000</lastBuildDate><atom:link href="https://hardcode.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 May 2025 23:17:10 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker: l’inizio della fine di un’icona?</title>
+      <link>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</link>
+      <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</guid>
+      <description>Docker è stato, senza mezzi termini, una rivoluzione. Un cambio di paradigma nel modo in cui pensiamo, costruiamo e distribuiamo software. Un layer trasparente tra sviluppatori e infrastruttura, capace di creare una nuova normalità: build leggere, ambienti replicabili, deployment semplificati. Docker è stato molto più di una tecnologia: è stato un movimento.&#xA;Ma i movimenti, come le mode, tendono a cristallizzarsi. E quando una tecnologia da &amp;ldquo;motore del cambiamento&amp;rdquo; diventa solo &amp;ldquo;un motore di esecuzione&amp;rdquo; – un runtime engine, per capirci – allora entra in un’arena diversa.</description>
+    </item>
     <item>
       <title>Riflessione sul futuro del software: Lezioni dalla storia dei media</title>
       <link>https://hardcode.blog/posts/20240613-riflessione-sul-futuro-del-software/</link>
       <pubDate>Thu, 13 Jun 2024 16:37:36 +0000</pubDate>
-      
       <guid>https://hardcode.blog/posts/20240613-riflessione-sul-futuro-del-software/</guid>
-      <description>Attenzione: Le riflessioni che seguono sono tratte dal lavoro di Chris Paik
- Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione.
-La rivoluzione dei media Prima dell&amp;rsquo;avvento di Internet, il settore dei media era molto diverso. Creare contenuti era un&amp;rsquo;impresa costosa: si doveva pagare persone per produrre, modificare e distribuire materiale.</description>
+      <description>Attenzione: Le riflessioni che seguono sono tratte dal lavoro di Chris Paik&#xA;Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione.&#xA;La rivoluzione dei media Prima dell&amp;rsquo;avvento di Internet, il settore dei media era molto diverso. Creare contenuti era un&amp;rsquo;impresa costosa: si doveva pagare persone per produrre, modificare e distribuire materiale.</description>
     </item>
-    
     <item>
-      <title>A.I. cosa ci dobbiamo aspettare? &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200912-ai/</link>
+      <title>A.I. cosa ci dobbiamo aspettare? Le frontiere dell&#39;AI</title>
+      <link>https://hardcode.blog/posts/ai/20200912-ai/</link>
       <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200912-ai/</guid>
-      <description>Frontiere A.I.</description>
+      <guid>https://hardcode.blog/posts/ai/20200912-ai/</guid>
+      <description>L&amp;rsquo;intelligenza artificiale (AI) è uno dei più grandi cambiamenti tecnologici della nostra era, ma oltre alle applicazioni pratiche che vediamo già oggi, il suo impatto sulla società sarà profondo e duraturo. Guardare al futuro ci permette di immaginare come l&amp;rsquo;AI possa influenzare la nostra vita quotidiana, il lavoro, l&amp;rsquo;economia e la struttura stessa delle società nei decenni a venire. In questo articolo, esploriamo una tabella di marcia decennale, proiettandoci verso il 2100.</description>
     </item>
-    
   </channel>
 </rss>

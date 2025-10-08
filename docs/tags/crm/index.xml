@@ -1,32 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>crm on HARDCODE.BLOG</title>
+    <title>Crm on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/crm/</link>
-    <description>Recent content in crm on HARDCODE.BLOG</description>
+    <description>Recent content in Crm on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Fri, 18 Sep 2020 12:13:35 +0530</lastBuildDate><atom:link href="https://hardcode.blog/tags/crm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Sep 2020 12:13:35 +0530</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/crm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Che cos&#39;è Vtiger?</title>
       <link>https://hardcode.blog/posts/vtiger/20221212-cose-vtiger/</link>
       <pubDate>Fri, 18 Sep 2020 12:13:35 +0530</pubDate>
-      
       <guid>https://hardcode.blog/posts/vtiger/20221212-cose-vtiger/</guid>
       <description>Vtiger è un software di gestione dei clienti (CRM) progettato per aiutare le aziende a gestire le interazioni con i clienti, a gestire le opportunità di vendita e a sviluppare relazioni con i clienti. Molti utenti lo trovano utile per la sua capacità di integrazione con altre soluzioni aziendali, come le piattaforme di email e di marketing, e per la sua facile personalizzazione. Tuttavia, come qualsiasi altro software, Vtiger può avere alcune limitazioni o problemi che potrebbero non essere adatti a tutte le aziende.</description>
     </item>
-    
     <item>
-      <title>Modernize Vtiger</title>
+      <title>Modernizzare Vtiger: Un Appello all&#39;Evoluzione nei Progetti Open Source Legacy</title>
       <link>https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/</link>
       <pubDate>Fri, 18 Sep 2020 12:13:35 +0530</pubDate>
-      
       <guid>https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/</guid>
-      <description>When a project stands up to difficulties, it is said to have aged well. Surely Vtiger deserves its second life with all the requirements of a modern software it has helped many businesses to progress. Now it&amp;rsquo;s up to us to help him enter the CI/CD era.
-https://discussions.vtiger.com/search?Search=styleci
-https://discussions.vtiger.com/search?Search=docker</description>
+      <description>Quando un software continua a offrire valore nonostante il passare degli anni, si dice che &amp;ldquo;invecchi bene&amp;rdquo;. Vtiger, una piattaforma CRM di lunga data, è uno di questi esempi. Le sue funzionalità robuste e la vasta adozione hanno aiutato innumerevoli aziende a organizzarsi e crescere. Tuttavia, in un&amp;rsquo;era in cui automazione, agilità e miglioramento continuo sono il cuore pulsante dello sviluppo moderno, anche software come Vtiger devono evolversi per rimanere rilevanti.</description>
     </item>
-    
+    <item>
+      <title>Cosa fanno gli sviluppatori CRM?</title>
+      <link>https://hardcode.blog/posts/crm/20210210-crm-developer/</link>
+      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/crm/20210210-crm-developer/</guid>
+      <description>Cosa fanno gli sviluppatori CRM? CRM è l&amp;rsquo;acronimo di Customer Relationship Management, un termine usato per descrivere qualsiasi sistema utilizzato da un&amp;rsquo;azienda per gestire le sue interazioni relative ai clienti. I sistemi CRM hanno comunemente legami con diverse funzioni aziendali interne, comprese le vendite, il marketing, le comunicazioni e il servizio clienti.&#xA;In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie convenzionali di posta, telefono e mass media. Sebbene i call center facciano ancora parte delle moderne strategie di CRM, la maggior parte di questi altri componenti tradizionali è stata sostituita con soluzioni basate su software.</description>
+    </item>
+    <item>
+      <title>La figura del CRM Developer: skill, opportunità e campo di azione</title>
+      <link>https://hardcode.blog/posts/crm/20210110-le-skill-del-crm-developer/</link>
+      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/crm/20210110-le-skill-del-crm-developer/</guid>
+      <description>In un mondo sempre più orientato alla gestione efficiente delle relazioni con i clienti, il ruolo del CRM Developer sta emergendo come una figura chiave nel panorama tecnologico. Ma chi è esattamente un CRM Developer, quali competenze possiede e quali sono le sue opportunità di lavoro? Partendo da un recente annuncio che cerca sviluppatori specializzati in CRM, esploriamo questo affascinante ruolo.&#xA;Chi è il CRM Developer? Il CRM Developer è uno sviluppatore software specializzato nella progettazione, implementazione e manutenzione di sistemi di Customer Relationship Management (CRM).</description>
+    </item>
+    <item>
+      <title>Docker: Un ambiente ideale per il CRM vtiger</title>
+      <link>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</guid>
+      <description>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).&#xA;Perché scegliere Docker per vtiger? Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
+    </item>
   </channel>
 </rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag2 on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/tag2/</link>
+    <description>Recent content in Tag2 on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Tue, 27 May 2025 01:06:14 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🎛️ Questo post è un menu</title>
+      <link>https://hardcode.blog/posts/20250527-questo-post-e-un-menu/</link>
+      <pubDate>Tue, 27 May 2025 01:06:14 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250527-questo-post-e-un-menu/</guid>
+      <description>Benvenuto nel post che&amp;hellip; non è un post. È una console di comando, una sala di controllo, un hub centrale.&#xA;Qui sotto trovi una checklist di esperienze interattive: ogni link ti porta a un post che non si legge soltanto — si vive, si tocca, si hackera.&#xA;Spunta quelli che hai già esplorato. Scopri quelli che ti mancano. Condividili con chi ama imparare giocando.&#xA;✅ La checklist degli esperimenti interattivi 🕹️ Questo post è un Game Boy Gioca direttamente nel post a un mini-videogioco stile retro.</description>
+    </item>
+    <item>
+      <title>Come Usare NoMachine su una Macchina Ubuntu in Modalità Headless</title>
+      <link>https://hardcode.blog/posts/20241115-nomachine-ubuntu-headless/</link>
+      <pubDate>Fri, 15 Nov 2024 10:50:20 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20241115-nomachine-ubuntu-headless/</guid>
+      <description>NoMachine è uno strumento potente per accedere in remoto a un desktop Linux. In modalità headless (senza monitor fisico collegato), potrebbe essere necessario configurare alcune opzioni per garantire che NoMachine funzioni correttamente e mostri un desktop remoto utilizzabile. In questa guida, vedremo come configurare NoMachine su una macchina Ubuntu senza monitor fisico collegato.&#xA;1. Installare NoMachine su Ubuntu Scarica NoMachine dal sito ufficiale. Scegli la versione per Linux (deb package per distribuzioni basate su Debian come Ubuntu).</description>
+    </item>
+  </channel>
+</rss>

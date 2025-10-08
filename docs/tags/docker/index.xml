@@ -1,54 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>docker on HARDCODE.BLOG</title>
+    <title>Docker on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/docker/</link>
-    <description>Recent content in docker on HARDCODE.BLOG</description>
+    <description>Recent content in Docker on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 12:10:00 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 May 2025 23:17:10 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker: l’inizio della fine di un’icona?</title>
+      <link>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</link>
+      <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</guid>
+      <description>Docker è stato, senza mezzi termini, una rivoluzione. Un cambio di paradigma nel modo in cui pensiamo, costruiamo e distribuiamo software. Un layer trasparente tra sviluppatori e infrastruttura, capace di creare una nuova normalità: build leggere, ambienti replicabili, deployment semplificati. Docker è stato molto più di una tecnologia: è stato un movimento.&#xA;Ma i movimenti, come le mode, tendono a cristallizzarsi. E quando una tecnologia da &amp;ldquo;motore del cambiamento&amp;rdquo; diventa solo &amp;ldquo;un motore di esecuzione&amp;rdquo; – un runtime engine, per capirci – allora entra in un’arena diversa.</description>
+    </item>
+    <item>
+      <title>**Docker** su Windows: Un errore colossale</title>
+      <link>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</link>
+      <pubDate>Fri, 30 Aug 2024 12:45:00 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</guid>
+      <description>In un&amp;rsquo;era in cui l&amp;rsquo;efficienza e la velocità sono cruciali nello sviluppo software, Docker si è affermato come uno strumento indispensabile. Tuttavia, quando si tratta di Docker Desktop e Docker per Windows, ci troviamo di fronte a quello che posso solo definire un errore colossale. Lasciate che vi spieghi perché.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social.</description>
+    </item>
+    <item>
+      <title>Docker e Shell: Strumenti per Potenziare il Tuo Ambiente di Sviluppo</title>
+      <link>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</link>
+      <pubDate>Fri, 16 Aug 2024 16:50:00 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</guid>
+      <description>Nel mondo dello sviluppo software moderno, Docker e i container hanno rivoluzionato il modo in cui creiamo, distribuiamo e gestiamo le applicazioni. Ma il loro impatto non si limita solo alle applicazioni: anche l&amp;rsquo;ambiente di sviluppo stesso può beneficiare enormemente dall&amp;rsquo;uso dei container. In questo post, esploreremo alcuni strumenti shell che sfruttano la potenza di Docker e dei container per migliorare il flusso di lavoro degli sviluppatori.&#xA;🌐 Ti piacciono questi temi?</description>
+    </item>
     <item>
       <title>Docker: Il cuore di GitLab CI</title>
       <link>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</link>
       <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</guid>
-      <description>Introduzione Docker è ormai dappertutto. In pochi anni, è diventato uno strumento imprescindibile nel panorama DevOps, rivoluzionando il modo in cui sviluppatori e ingegneri gestiscono il ciclo di vita delle applicazioni. Oggi, voglio condividere con voi come Docker sia diventato il cuore pulsante della Continuous Integration (CI) di GitLab e come questa integrazione renda le pipeline di sviluppo incredibilmente potenti ed efficienti.
-Docker e GitLab CI: Una combinazione vincente GitLab CI è una piattaforma di Continuous Integration e Continuous Delivery (CI/CD) che permette ai team di sviluppo di automatizzare la costruzione, il testing e il deployment delle applicazioni.</description>
+      <description>Introduzione Docker è ormai dappertutto. In pochi anni, è diventato uno strumento imprescindibile nel panorama DevOps, rivoluzionando il modo in cui sviluppatori e ingegneri gestiscono il ciclo di vita delle applicazioni. Oggi, voglio condividere con voi come Docker sia diventato il cuore pulsante della Continuous Integration (CI) di GitLab e come questa integrazione renda le pipeline di sviluppo incredibilmente potenti ed efficienti.&#xA;Docker e GitLab CI: Una combinazione vincente GitLab CI è una piattaforma di Continuous Integration e Continuous Delivery (CI/CD) che permette ai team di sviluppo di automatizzare la costruzione, il testing e il deployment delle applicazioni.</description>
     </item>
-    
-    <item>
-      <title>Docker: Not soo bad!</title>
-      <link>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</link>
-      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</guid>
-      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
-  https://www.youtube.com/watch?v=XVJ5EkiqLkk
-  &amp;ldquo;Quanto spreco di byte&amp;rdquo;
-  </description>
-    </item>
-    
-    <item>
-      <title>Docker: Not soo bad!</title>
-      <link>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</link>
-      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</guid>
-      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
- https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
-    </item>
-    
     <item>
       <title>Docker: Un ambiente ideale per il CRM vtiger</title>
       <link>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</link>
       <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</guid>
-      <description>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).
-Perché scegliere Docker per vtiger?   Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
+      <description>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).&#xA;Perché scegliere Docker per vtiger? Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
     </item>
-    
   </channel>
 </rss>

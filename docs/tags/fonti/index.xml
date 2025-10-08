@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>fonti on HARDCODE.BLOG</title>
+    <title>Fonti on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/fonti/</link>
-    <description>Recent content in fonti on HARDCODE.BLOG</description>
+    <description>Recent content in Fonti on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Thu, 06 Jun 2024 17:02:03 +0000</lastBuildDate><atom:link href="https://hardcode.blog/tags/fonti/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jun 2024 17:02:03 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/fonti/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ingegneria del Software, la storia del portale InfoQ</title>
       <link>https://hardcode.blog/posts/20240606-la-storia-di-infoq/</link>
       <pubDate>Thu, 06 Jun 2024 17:02:03 +0000</pubDate>
-      
       <guid>https://hardcode.blog/posts/20240606-la-storia-di-infoq/</guid>
-      <description>Se sei un professionista dell&amp;rsquo;informatica o un appassionato di tecnologia, probabilmente hai già sentito parlare di InfoQ.com. Ma cosa rende questo portale così speciale? Scopri la sua storia, gli scoop più rilevanti che lo hanno portato alla ribalta e perché dovresti considerarlo un punto di riferimento per la cultura dell&amp;rsquo;ingegneria del software.
-La storia di InfoQ.com InfoQ è stato lanciato nel 2006 con l&amp;rsquo;obiettivo di fornire contenuti di alta qualità su sviluppo software, architettura, metodologia e tecnologie emergenti.</description>
+      <description>Se sei un professionista dell&amp;rsquo;informatica o un appassionato di tecnologia, probabilmente hai già sentito parlare di InfoQ.com. Ma cosa rende questo portale così speciale? Scopri la sua storia, gli scoop più rilevanti che lo hanno portato alla ribalta e perché dovresti considerarlo un punto di riferimento per la cultura dell&amp;rsquo;ingegneria del software.&#xA;La storia di InfoQ.com InfoQ è stato lanciato nel 2006 con l&amp;rsquo;obiettivo di fornire contenuti di alta qualità su sviluppo software, architettura, metodologia e tecnologie emergenti.</description>
     </item>
-    
   </channel>
 </rss>

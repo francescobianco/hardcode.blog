@@ -7,340 +7,399 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Fri, 21 Jun 2024 12:17:31 +0200</lastBuildDate><atom:link href="https://hardcode.blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jun 2025 08:49:04 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Nuova API OSI per le Licenze Open Source: Una Guida Completa per Sviluppatori</title>
+      <link>https://hardcode.blog/posts/20250624-la-nuova-api-per-le-licenze-opensource/</link>
+      <pubDate>Tue, 24 Jun 2025 08:49:04 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250624-la-nuova-api-per-le-licenze-opensource/</guid>
+      <description>L&amp;rsquo;Open Source Initiative (OSI) ha recentemente lanciato una nuova API che rivoluziona il modo in cui accediamo e gestiamo le informazioni sulle licenze open source approvate. Questa innovazione rappresenta un passo significativo verso la modernizzazione degli strumenti disponibili per la comunità di sviluppatori, team legali e aziende che lavorano quotidianamente con il software open source.&#xA;Cos&amp;rsquo;è la Nuova API OSI La nuova API fornisce accesso programmatico alla lista canonica delle OSI Approved Licenses®, offrendo un servizio completamente pubblico e gratuito che serve come fonte di verità ufficiale per i dati delle licenze OSI.</description>
+    </item>
+    <item>
+      <title>🎛️ Questo post è un menu</title>
+      <link>https://hardcode.blog/posts/20250527-questo-post-e-un-menu/</link>
+      <pubDate>Tue, 27 May 2025 01:06:14 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250527-questo-post-e-un-menu/</guid>
+      <description>Benvenuto nel post che&amp;hellip; non è un post. È una console di comando, una sala di controllo, un hub centrale.&#xA;Qui sotto trovi una checklist di esperienze interattive: ogni link ti porta a un post che non si legge soltanto — si vive, si tocca, si hackera.&#xA;Spunta quelli che hai già esplorato. Scopri quelli che ti mancano. Condividili con chi ama imparare giocando.&#xA;✅ La checklist degli esperimenti interattivi 🕹️ Questo post è un Game Boy Gioca direttamente nel post a un mini-videogioco stile retro.</description>
+    </item>
+    <item>
+      <title>ROI nell’Ingegneria Informatica: Perché è Cruciale per Ogni Progetto Tecnologico</title>
+      <link>https://hardcode.blog/posts/20250519-roi-per-ingegneri/</link>
+      <pubDate>Mon, 19 May 2025 14:03:38 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250519-roi-per-ingegneri/</guid>
+      <description>Quando si parla di Return on Investment (ROI), molti pensano subito a numeri da bilancio, strategie di marketing o grandi investimenti aziendali. Ma il ROI è molto di più: è uno strumento essenziale anche per chi lavora nel campo dell’ingegneria informatica, sia in ambito aziendale che freelance.&#xA;In questo articolo vedremo cos&amp;rsquo;è il ROI, perché è fondamentale nell’IT e come possiamo utilizzarlo per migliorare i risultati dei nostri progetti tecnologici.</description>
+    </item>
+    <item>
+      <title>Perché Mush è sulla strada giusta: la risposta illuminante</title>
+      <link>https://hardcode.blog/posts/20250512-mush-contro-rust/</link>
+      <pubDate>Mon, 12 May 2025 16:56:11 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250512-mush-contro-rust/</guid>
+      <description>Qualche giorno fa ho avuto il piacere di scambiare due parole con uno sviluppatore open source molto attivo nella community di Rust. Avevo in mente un’idea ben precisa: cercare conferme su alcuni principi che mi guidano nello sviluppo di Mush, lo strumento che vuole portare la developer experience di Rust nel mondo dei progetti shell.&#xA;Gli ho fatto una domanda semplice, ma carica di aspettative: &amp;ldquo;Dal tuo punto di vista, quali sono tre motivi per preferire Rust per il mio prossimo progetto?</description>
+    </item>
+    <item>
+      <title>Docker: l’inizio della fine di un’icona?</title>
+      <link>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</link>
+      <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</guid>
+      <description>Docker è stato, senza mezzi termini, una rivoluzione. Un cambio di paradigma nel modo in cui pensiamo, costruiamo e distribuiamo software. Un layer trasparente tra sviluppatori e infrastruttura, capace di creare una nuova normalità: build leggere, ambienti replicabili, deployment semplificati. Docker è stato molto più di una tecnologia: è stato un movimento.&#xA;Ma i movimenti, come le mode, tendono a cristallizzarsi. E quando una tecnologia da &amp;ldquo;motore del cambiamento&amp;rdquo; diventa solo &amp;ldquo;un motore di esecuzione&amp;rdquo; – un runtime engine, per capirci – allora entra in un’arena diversa.</description>
+    </item>
+    <item>
+      <title>Come Parlano i Computer Quantistici: Il Linguaggio Dietro le Macchine del Futuro</title>
+      <link>https://hardcode.blog/posts/20250220-come-parlano-i-computer-quantistici/</link>
+      <pubDate>Thu, 20 Feb 2025 17:05:17 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250220-come-parlano-i-computer-quantistici/</guid>
+      <description>I computer quantistici, a differenza dei classici, non seguono il semplice schema binario di 0 e 1. Essi sfruttano le leggi della fisica quantistica per trattare informazioni in modi radicalmente diversi. Ma come parlano, questi computer? Qual è il linguaggio che usano per eseguire calcoli e per &amp;ldquo;capire&amp;rdquo; le istruzioni che gli vengono date? In questo post, esploreremo il linguaggio dei computer quantistici, il suo potenziale, e come potrebbe evolversi per diventare più intuitivo e vicino alla logica che usiamo ogni giorno.</description>
+    </item>
+    <item>
+      <title>Key Promoter X: Il Plugin Che Ti Insegna le Shortcut (Volente o Nolente)</title>
+      <link>https://hardcode.blog/posts/20250212-key-promoter-x/</link>
+      <pubDate>Wed, 12 Feb 2025 17:59:53 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20250212-key-promoter-x/</guid>
+      <description>Oggi voglio parlare di un piccolo gioiello nascosto tra i plugin di WebStorm: Key Promoter X. Se non lo conosci, preparati a ricevere una valanga di notifiche mentre lavori. Questo plugin ha una missione molto chiara: insegnarti a usare le scorciatoie da tastiera. Ogni volta che clicchi con il mouse su un’azione per la quale esiste una scorciatoia, Key Promoter X te lo fa notare con un bel pop-up, quasi a dirti: &amp;ldquo;Ehi, lo sai che stai perdendo tempo?</description>
+    </item>
+    <item>
+      <title>Come Usare NoMachine su una Macchina Ubuntu in Modalità Headless</title>
+      <link>https://hardcode.blog/posts/20241115-nomachine-ubuntu-headless/</link>
+      <pubDate>Fri, 15 Nov 2024 10:50:20 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20241115-nomachine-ubuntu-headless/</guid>
+      <description>NoMachine è uno strumento potente per accedere in remoto a un desktop Linux. In modalità headless (senza monitor fisico collegato), potrebbe essere necessario configurare alcune opzioni per garantire che NoMachine funzioni correttamente e mostri un desktop remoto utilizzabile. In questa guida, vedremo come configurare NoMachine su una macchina Ubuntu senza monitor fisico collegato.&#xA;1. Installare NoMachine su Ubuntu Scarica NoMachine dal sito ufficiale. Scegli la versione per Linux (deb package per distribuzioni basate su Debian come Ubuntu).</description>
+    </item>
+    <item>
+      <title>Good Times: La Canzone di Edie Brickell che Ha Fatto la Storia di Windows 98</title>
+      <link>https://hardcode.blog/posts/20241112-windows-98-nostalgia/</link>
+      <pubDate>Tue, 12 Nov 2024 09:41:10 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20241112-windows-98-nostalgia/</guid>
+      <description>Quando pensiamo a Windows 98, ci vengono in mente immagini nostalgiche: schermi CRT, icone semplici, il suono inconfondibile dell’avvio. Ma tra i ricordi più curiosi c’è una piccola gemma musicale: Good Times di Edie Brickell, una traccia che molti utenti scoprirono per caso tra i file di sistema, e che ha finito per diventare la colonna sonora di un’epoca.&#xA;La Storia di una Canzone in un Sistema Operativo Negli anni ’90, Microsoft era più che un’azienda tecnologica; era una porta d’accesso per milioni di persone alla nuova era digitale.</description>
+    </item>
+    <item>
+      <title>Le metriche DORA: La chiave per misurare e migliorare le prestazioni DevOps</title>
+      <link>https://hardcode.blog/posts/devops/20241005-dora-metrics/</link>
+      <pubDate>Sat, 05 Oct 2024 08:13:47 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20241005-dora-metrics/</guid>
+      <description>Nell&amp;rsquo;ambito dell&amp;rsquo;ingegneria del software e del DevOps, la misurazione delle prestazioni è fondamentale per il miglioramento continuo. Le metriche DORA (DevOps Research and Assessment) sono emerse come uno standard de facto per valutare l&amp;rsquo;efficacia delle pratiche DevOps. In questo articolo, esploreremo cosa sono le metriche DORA, perché sono importanti e come possono essere utilizzate per ottimizzare i processi di sviluppo software.&#xA;Cosa sono le metriche DORA? Le metriche DORA sono un insieme di quattro indicatori chiave di prestazione (KPI) sviluppati dal team di ricerca DevOps di Google.</description>
+    </item>
+    <item>
+      <title>Il Circuit Breaker: Il Pattern che ha Salvato Netflix</title>
+      <link>https://hardcode.blog/posts/pattern/20240917-circuit-breaker/</link>
+      <pubDate>Tue, 17 Sep 2024 15:03:43 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/pattern/20240917-circuit-breaker/</guid>
+      <description>Nell&amp;rsquo;ingegneria del software, la resilienza dei sistemi è fondamentale, soprattutto quando si tratta di servizi ad alta disponibilità. Oggi esploreremo un pattern di progettazione che ha rivoluzionato la gestione del carico in sistemi distribuiti: il Circuit Breaker.&#xA;La Storia di un Quasi Disastro Immaginate la scena: un importante servizio di streaming (che chiameremo &amp;ldquo;StreamFlix&amp;rdquo;) si prepara al lancio di una nuova serie TV attesissima. L&amp;rsquo;hype è alle stelle, i fan sono pronti a premere play&amp;hellip; ma c&amp;rsquo;è un problema.</description>
+    </item>
+    <item>
+      <title>L&#39;Evoluzione dell&#39;Architettura Software: Dal Monolitico ai Microservizi e Oltre</title>
+      <link>https://hardcode.blog/posts/20240911-dal-monolitico-ai-microservizi-e-oltre/</link>
+      <pubDate>Wed, 11 Sep 2024 15:55:04 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20240911-dal-monolitico-ai-microservizi-e-oltre/</guid>
+      <description>Prefazione Caro lettore,&#xA;Benvenuto in questo viaggio attraverso l&amp;rsquo;evoluzione dell&amp;rsquo;architettura software. Questo post è strutturato per soddisfare le esigenze sia dei neofiti che degli esperti nel campo dell&amp;rsquo;ingegneria del software.&#xA;Se hai già familiarità e padronanza con i microservizi, ti suggeriamo di saltare direttamente alla Parte II, che inizia dalla sezione &amp;ldquo;Architetture Serverless&amp;rdquo;. Qui troverai approfondimenti sulle tendenze più recenti, best practices avanzate e riflessioni sul futuro dell&amp;rsquo;architettura software.&#xA;Se invece sei nuovo in questo campo o desideri rinfrescare le tue conoscenze sulle basi, ti invitiamo a iniziare dalla Parte I.</description>
+    </item>
+    <item>
+      <title>Mindset Consulente 2.0: La Teoria Triangolare della Consulenza Moderna</title>
+      <link>https://hardcode.blog/posts/20240908-mindset-consulente-due-punto-zero/</link>
+      <pubDate>Sun, 08 Sep 2024 13:43:41 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20240908-mindset-consulente-due-punto-zero/</guid>
+      <description>Nell&amp;rsquo;era dell&amp;rsquo;informazione, il ruolo del consulente ha subito una trasformazione radicale. Non si tratta più solo di fornire soluzioni standardizzate ai problemi dei clienti, ma di operare in un contesto dinamico, flessibile e in continua evoluzione. È in questo scenario che nasce il Mindset Consulente 2.0, una teoria che poggia su tre pilastri fondamentali: Creatività, Flessibilità e Trasparenza.&#xA;Questa visione non è limitata ai professionisti del settore IT o del digitale, ma può essere applicata in settori apparentemente distanti come l&amp;rsquo;architettura, il diritto, la consulenza aziendale e molte altre professioni.</description>
+    </item>
+    <item>
+      <title>**Docker** su Windows: Un errore colossale</title>
+      <link>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</link>
+      <pubDate>Fri, 30 Aug 2024 12:45:00 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</guid>
+      <description>In un&amp;rsquo;era in cui l&amp;rsquo;efficienza e la velocità sono cruciali nello sviluppo software, Docker si è affermato come uno strumento indispensabile. Tuttavia, quando si tratta di Docker Desktop e Docker per Windows, ci troviamo di fronte a quello che posso solo definire un errore colossale. Lasciate che vi spieghi perché.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social.</description>
+    </item>
+    <item>
+      <title>Docker e Shell: Strumenti per Potenziare il Tuo Ambiente di Sviluppo</title>
+      <link>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</link>
+      <pubDate>Fri, 16 Aug 2024 16:50:00 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</guid>
+      <description>Nel mondo dello sviluppo software moderno, Docker e i container hanno rivoluzionato il modo in cui creiamo, distribuiamo e gestiamo le applicazioni. Ma il loro impatto non si limita solo alle applicazioni: anche l&amp;rsquo;ambiente di sviluppo stesso può beneficiare enormemente dall&amp;rsquo;uso dei container. In questo post, esploreremo alcuni strumenti shell che sfruttano la potenza di Docker e dei container per migliorare il flusso di lavoro degli sviluppatori.&#xA;🌐 Ti piacciono questi temi?</description>
+    </item>
+    <item>
+      <title>Le **blockchain** sono morte!?</title>
+      <link>https://hardcode.blog/posts/rant/20200101-blockchain-is-dead/</link>
+      <pubDate>Mon, 05 Aug 2024 18:31:08 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/rant/20200101-blockchain-is-dead/</guid>
+      <description>La Svizzera e la Blockchain: Un Esempio di Innovazione o un Errore Costoso? Da tempo, si era diffusa la notizia che la Svizzera stesse adottando la blockchain per i pagamenti fiscali. Tuttavia, un&amp;rsquo;analisi più approfondita rivela una realtà più complessa e solleva dubbi sull&amp;rsquo;effettiva utilità e sostenibilità di questa tecnologia nel lungo termine.&#xA;La Realtà dei Fatti Contrariamente a quanto inizialmente riportato, la Svizzera non ha implementato un sistema blockchain a livello nazionale per i pagamenti fiscali.</description>
+    </item>
+    <item>
+      <title>Scopriamo **Zig**: un tutorial facile facile in 10 lezioni</title>
+      <link>https://hardcode.blog/posts/tutorial/20240717-impariamo-zig/</link>
+      <pubDate>Wed, 17 Jul 2024 18:00:49 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/tutorial/20240717-impariamo-zig/</guid>
+      <description>Benvenuti al nostro tutorial su Zig, un linguaggio di programmazione moderno e performante che sta guadagnando sempre più popolarità tra gli sviluppatori. Zig è noto per la sua semplicità, efficienza e robustezza, rendendolo ideale per progetti di sistema e applicazioni ad alte prestazioni. In questo percorso in 10 sezioni, esploreremo i concetti fondamentali di Zig attraverso esempi pratici che potrai eseguire direttamente nell&amp;rsquo;articolo. Pronto a iniziare? Andiamo!&#xA;🌐 Ti piacciono questi temi?</description>
+    </item>
+    <item>
+      <title>**Substack**: lo strumento per diventare l&#39;esperto che parla agli esperti</title>
+      <link>https://hardcode.blog/posts/20240713-substack/</link>
+      <pubDate>Sat, 13 Jul 2024 05:53:30 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20240713-substack/</guid>
+      <description>Sei un consulente o un professionista che desidera costruire la propria popolarità e raggiungere un pubblico di esperti nel tuo settore? Substack potrebbe essere lo strumento che fa per te.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social. La tua condivisione ci aiuta a crescere e a portare contenuti di qualità a un pubblico sempre più ampio.</description>
+    </item>
+    <item>
+      <title>Chi è **Kent Beck**? Non solo **XP**, ma tanto altro e cosa ci insegna</title>
+      <link>https://hardcode.blog/posts/people/20240712-chi-e-kent-beck/</link>
+      <pubDate>Fri, 12 Jul 2024 12:55:22 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/people/20240712-chi-e-kent-beck/</guid>
+      <description>Kent Beck è una figura leggendaria nel mondo dello sviluppo software, celebre per aver introdotto concetti rivoluzionari come eXtreme Programming (XP) e Test-Driven Development (TDD). La sua carriera non si limita però a questi successi; è un esempio di come l&amp;rsquo;innovazione tecnica possa fondersi con una profonda riflessione sulla vita e sull&amp;rsquo;umanità.&#xA;Iniziando dalla sua influenza nel campo dell&amp;rsquo;ingegneria del software, Beck è stato il pioniere nell&amp;rsquo;isolare i pattern ripetitivi nei problemi e nelle soluzioni, permettendo di concentrare l&amp;rsquo;attenzione sugli aspetti unici di ogni sfida.</description>
+    </item>
+    <item>
+      <title>Esplorando la **Developer Experience**: fondamenti e implicazioni</title>
+      <link>https://hardcode.blog/posts/dx/20240711-developer-experience-fondamenti-e-implicazioni/</link>
+      <pubDate>Thu, 11 Jul 2024 14:16:29 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/dx/20240711-developer-experience-fondamenti-e-implicazioni/</guid>
+      <description>Nel vasto panorama dello sviluppo software, la Developer Experience (DevEx) emerge come un elemento cruciale ma spesso sottovalutato. Essenzialmente, si tratta dell&amp;rsquo;insieme di percezioni e interazioni che gli sviluppatori vivono durante il processo di creazione e manutenzione del software. Va oltre l&amp;rsquo;interfaccia utente o l&amp;rsquo;efficienza degli strumenti; riflette anche la qualità dell&amp;rsquo;ambiente di lavoro, la facilità di utilizzo delle tecnologie, e la fluidità dei flussi di lavoro.&#xA;🌐 Ti piacciono questi temi?</description>
+    </item>
+    <item>
+      <title>**One Thing**: una soluzione per aumentare la produttività su macOS e Gnome</title>
+      <link>https://hardcode.blog/posts/tool/20240709-one-thing-per-la-produttivita/</link>
+      <pubDate>Tue, 09 Jul 2024 10:33:00 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/tool/20240709-one-thing-per-la-produttivita/</guid>
+      <description>One Thing è nato dalla mia ricerca di maggiore produttività e focus, con un approccio centrato sulla gestione delle attività attraverso la riga di comando. Questo strumento innovativo è costruito principalmente su shell script, offrendo un modo semplice e potente per gestire le tue attività quotidiane.&#xA;Perché &amp;ldquo;One Thing&amp;rdquo;? Sviluppato inizialmente per evitare il multitasking distruttivo, &amp;ldquo;One Thing&amp;rdquo; ti consente di concentrarti su una singola attività alla volta, migliorando la qualità del tuo lavoro.</description>
+    </item>
+    <item>
+      <title>Tutti gli informatici hanno un sogno nel cassetto: _scrivere un libro!!1!_</title>
+      <link>https://hardcode.blog/posts/20240628-scrivere-un-libro-di-informatica/</link>
+      <pubDate>Fri, 28 Jun 2024 12:54:35 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20240628-scrivere-un-libro-di-informatica/</guid>
+      <description>Ogni informatico, nel profondo, coltiva il sogno di scrivere un libro. Questo desiderio potrebbe nascere dal vedere la propria idea prendere forma concreta, un parallelo con il successo delle proprie idee. Immaginare di tenere in mano un libro con il proprio nome sulla copertina rappresenta una sorta di traguardo inconscio, una rivincita dopo anni passati a leggere i libri degli altri. Ora, grazie a piattaforme come Reedsy, questo sogno è più accessibile che mai.</description>
+    </item>
     <item>
       <title>Potenza e responsabilità, l&#39;uso di `call_user_func_array` in php</title>
       <link>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</link>
       <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</guid>
-      <description>Nel vasto mondo di PHP, la funzione call_user_func_array è una delle più potenti e versatili a disposizione degli sviluppatori. Permette di chiamare una funzione in modo dinamico, passando i parametri come array. Questo articolo esplora come utilizzare questa funzione, presenta esempi pratici e analizza le implicazioni filosofiche dell&amp;rsquo;uso di chiamate di funzione indiretta.
-Cos&amp;rsquo;è call_user_func_array? La funzione call_user_func_array in PHP consente di chiamare una funzione specificata con un array di parametri.</description>
+      <description>Nel vasto mondo di PHP, la funzione call_user_func_array è una delle più potenti e versatili a disposizione degli sviluppatori. Permette di chiamare una funzione in modo dinamico, passando i parametri come array. Questo articolo esplora come utilizzare questa funzione, presenta esempi pratici e analizza le implicazioni filosofiche dell&amp;rsquo;uso di chiamate di funzione indiretta.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social.</description>
     </item>
-    
     <item>
       <title>Il pericolo del **gold plating**: quando le troppe funzionalità portano al fallimento</title>
-      <link>https://hardcode.blog/posts/20240620-gold-plating/</link>
+      <link>https://hardcode.blog/posts/agile/20240620-gold-plating/</link>
       <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20240620-gold-plating/</guid>
-      <description>Nel mondo della gestione dei progetti e dello sviluppo software, il termine &amp;ldquo;gold plating&amp;rdquo; si riferisce all&amp;rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un&amp;rsquo;ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po&#39; di zucchero può migliorare il sapore, ma troppo può renderla imbevibile.</description>
+      <guid>https://hardcode.blog/posts/agile/20240620-gold-plating/</guid>
+      <description>Nel mondo della gestione dei progetti e dello sviluppo software, il termine &amp;ldquo;gold plating&amp;rdquo; si riferisce all&amp;rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un&amp;rsquo;ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po&amp;rsquo; di zucchero può migliorare il sapore, ma troppo può renderla imbevibile.</description>
     </item>
-    
     <item>
       <title>Riflessione sul futuro del software: Lezioni dalla storia dei media</title>
       <link>https://hardcode.blog/posts/20240613-riflessione-sul-futuro-del-software/</link>
       <pubDate>Thu, 13 Jun 2024 16:37:36 +0000</pubDate>
-      
       <guid>https://hardcode.blog/posts/20240613-riflessione-sul-futuro-del-software/</guid>
-      <description>Attenzione: Le riflessioni che seguono sono tratte dal lavoro di Chris Paik
- Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione.
-La rivoluzione dei media Prima dell&amp;rsquo;avvento di Internet, il settore dei media era molto diverso. Creare contenuti era un&amp;rsquo;impresa costosa: si doveva pagare persone per produrre, modificare e distribuire materiale.</description>
+      <description>Attenzione: Le riflessioni che seguono sono tratte dal lavoro di Chris Paik&#xA;Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione.&#xA;La rivoluzione dei media Prima dell&amp;rsquo;avvento di Internet, il settore dei media era molto diverso. Creare contenuti era un&amp;rsquo;impresa costosa: si doveva pagare persone per produrre, modificare e distribuire materiale.</description>
     </item>
-    
     <item>
       <title>Ingegneria del Software, la storia del portale InfoQ</title>
       <link>https://hardcode.blog/posts/20240606-la-storia-di-infoq/</link>
       <pubDate>Thu, 06 Jun 2024 17:02:03 +0000</pubDate>
-      
       <guid>https://hardcode.blog/posts/20240606-la-storia-di-infoq/</guid>
-      <description>Se sei un professionista dell&amp;rsquo;informatica o un appassionato di tecnologia, probabilmente hai già sentito parlare di InfoQ.com. Ma cosa rende questo portale così speciale? Scopri la sua storia, gli scoop più rilevanti che lo hanno portato alla ribalta e perché dovresti considerarlo un punto di riferimento per la cultura dell&amp;rsquo;ingegneria del software.
-La storia di InfoQ.com InfoQ è stato lanciato nel 2006 con l&amp;rsquo;obiettivo di fornire contenuti di alta qualità su sviluppo software, architettura, metodologia e tecnologie emergenti.</description>
+      <description>Se sei un professionista dell&amp;rsquo;informatica o un appassionato di tecnologia, probabilmente hai già sentito parlare di InfoQ.com. Ma cosa rende questo portale così speciale? Scopri la sua storia, gli scoop più rilevanti che lo hanno portato alla ribalta e perché dovresti considerarlo un punto di riferimento per la cultura dell&amp;rsquo;ingegneria del software.&#xA;La storia di InfoQ.com InfoQ è stato lanciato nel 2006 con l&amp;rsquo;obiettivo di fornire contenuti di alta qualità su sviluppo software, architettura, metodologia e tecnologie emergenti.</description>
     </item>
-    
     <item>
       <title>I perfetto setup per ubuntu, riflessioni e segreti</title>
       <link>https://hardcode.blog/posts/20240201-il-perfetto-setup-ubuntu/</link>
       <pubDate>Thu, 01 Feb 2024 02:13:32 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/20240201-il-perfetto-setup-ubuntu/</guid>
-      <description>Oggi voglio condividere con voi un traguardo speciale: sono ormai un utente Ubuntu da 10 anni! In questo decennio, ho esplorato e sperimentato con innumerevoli configurazioni e strumenti per ottimizzare la mia esperienza con questo fantastico sistema operativo. Oggi voglio svelare alcune delle mie fonti preferite per trovare le migliori configurazioni e darvi qualche consiglio utile per un&amp;rsquo;esperienza Ubuntu senza intoppi.
-I migliori consigli per il setup di Ubuntu  Flameshot - Flameshot è uno strumento di cattura dello schermo potente e personalizzabile che ha semplificato enormemente il mio lavoro quotidiano.</description>
+      <description>Oggi voglio condividere con voi un traguardo speciale: sono ormai un utente Ubuntu da 10 anni! In questo decennio, ho esplorato e sperimentato con innumerevoli configurazioni e strumenti per ottimizzare la mia esperienza con questo fantastico sistema operativo. Oggi voglio svelare alcune delle mie fonti preferite per trovare le migliori configurazioni e darvi qualche consiglio utile per un&amp;rsquo;esperienza Ubuntu senza intoppi.&#xA;I migliori consigli per il setup di Ubuntu Flameshot - Flameshot è uno strumento di cattura dello schermo potente e personalizzabile che ha semplificato enormemente il mio lavoro quotidiano.</description>
     </item>
-    
     <item>
       <title>Prima trovate un coach, poi trovate la motivazione</title>
       <link>https://hardcode.blog/posts/motivazione/20220908-il-primo-passo/</link>
       <pubDate>Thu, 08 Sep 2022 02:13:32 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/motivazione/20220908-il-primo-passo/</guid>
-      <description>🚧 WORK IN PROGRESS 🚧
- Motivazione - Il promo passo Dopo una bellissima chiacchierata con un coach professionista, mi è stato chiesto di stilare una lista di 10 argomenti che potrei approfondire per migliorare me stesso. Ho colto l&amp;rsquo;occasione e ho raccolto 10 video del dottor Filippo Ongaro da ascoltare fino allo sfinimento:
- Come adottare delle buone abitudini per affrontare un cambiamento - https://www.youtube.com/watch?v=JsV5EwC1Fec Impara a chiedere aiuto e vai oltre il tuo orgoglio personale - https://www.</description>
+      <description>La motivazione è il primo passo verso il cambiamento. Spesso, però, ci troviamo bloccati, incapaci di intraprendere il percorso che desideriamo. Dopo una stimolante chiacchierata con un coach professionista, ho compreso l&amp;rsquo;importanza di avere una guida per affrontare le sfide e raggiungere i nostri obiettivi. È in questo contesto che ho deciso di stilare una lista di 10 argomenti che potrei approfondire per migliorare me stesso. Ho trovato una fonte preziosa in una serie di video del dottor Filippo Ongaro, che consiglio vivamente di ascoltare.</description>
     </item>
-    
     <item>
-      <title>Anche se molto utile, odio le chiavi implicite</title>
-      <link>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</link>
+      <title>Anche se molto utile, odio le property shorthand</title>
+      <link>https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/</link>
       <pubDate>Mon, 11 Oct 2021 02:13:32 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</guid>
-      <description>🚧 WORK IN PROGRESS 🚧
- La mia ipotesi si basa sul fatto che l&amp;rsquo;approccio abbrebiato espone il codice a dimostrare l&amp;rsquo;esistenza di una variabile con quel nome
-Quindi se esiste l&amp;rsquo;attributo &amp;lsquo;name&amp;rsquo; in un oggetto potrebbe esistere una variable nel sorgente con lo stesso nome &amp;lsquo;name&amp;rsquo;
-https://twitter.com/francescobianco/status/1317772038845681664
-https://jsfiddle.net/francescobianco/4sue8ym9/27/</description>
+      <guid>https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/</guid>
+      <description>La Property Shorthand in JavaScript è spesso acclamata per la sua sintassi concisa e intuitiva nella definizione degli oggetti. Tuttavia, dietro questa apparente comodità si nascondono alcune criticità che potrebbero compromettere la chiarezza e la manutenibilità del codice.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social. La tua condivisione ci aiuta a crescere e a portare contenuti di qualità a un pubblico sempre più ampio.</description>
     </item>
-    
     <item>
-      <title>Letture Efficaci </title>
-      <link>https://hardcode.blog/posts/20210720-letture-efficaci/</link>
+      <title>Recensione: L&#39;arte della pazienza - Raffaele Gaito</title>
+      <link>https://hardcode.blog/posts/motivazione/20210720-letture-efficaci/</link>
       <pubDate>Tue, 20 Jul 2021 12:10:00 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20210720-letture-efficaci/</guid>
-      <description>Letture Efficaci 2021  L&amp;rsquo;arte della pazienza - Raffaele Gaito (Letto il 17/07/2021)  </description>
+      <guid>https://hardcode.blog/posts/motivazione/20210720-letture-efficaci/</guid>
+      <description>Ho avuto il piacere di leggere L&amp;rsquo;arte della pazienza di Raffaele Gaito per la prima volta il 17 luglio 2021, e da quel giorno, questo libro è diventato un compagno costante nel mio percorso di crescita personale e professionale. La capacità di Gaito di trattare un tema così essenziale come la pazienza, con una prosa chiara e coinvolgente, è ciò che rende questa opera tanto preziosa.&#xA;In un&amp;rsquo;epoca in cui il tempo sembra scorrere più velocemente e le nostre vite sono dominate dalla fretta, L&amp;rsquo;arte della pazienza ci invita a riflettere sull&amp;rsquo;importanza di rallentare e di affrontare le sfide con calma e lucidità.</description>
     </item>
-    
     <item>
-      <title>Agile is dead!</title>
-      <link>https://hardcode.blog/posts/20200928-agile-is-dead/</link>
+      <title>L&#39;Agile è Morto!!!</title>
+      <link>https://hardcode.blog/posts/agile/20200928-agile-is-dead/</link>
       <pubDate>Mon, 05 Apr 2021 13:19:26 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200928-agile-is-dead/</guid>
-      <description>Intro The premise is perhaps too dramatic and maybe a little click-catcher, but I think there is juice. Today when we talk about Agile everyone wants to have their say, everyone wants to apply their method with their thousand variations derived from their own experience. This leads me to ask myself some fundamental questions:
-What I miss  Can a methodology determine success or failure, or only responsible for wasted resources?</description>
+      <guid>https://hardcode.blog/posts/agile/20200928-agile-is-dead/</guid>
+      <description>Intro Il titolo potrebbe sembrare eccessivamente drammatico—forse addirittura un po&amp;rsquo; clickbait—ma c&amp;rsquo;è sostanza dietro di esso. Oggi, quando parliamo di Agile, tutti vogliono dire la loro, ansiosi di applicare i propri metodi, ognuno con innumerevoli variazioni tratte dall’esperienza personale. Questo mi porta a porre alcune domande fondamentali:&#xA;Cosa Mi Manca Può una metodologia determinare il successo o il fallimento, o è semplicemente responsabile di risorse sprecate? Perché i concetti fondamentali di Agile non sono riconosciuti come schemi che possono essere incorporati in altre metodologie?</description>
     </item>
-    
     <item>
       <title>Che cos&#39;è Vtiger?</title>
       <link>https://hardcode.blog/posts/vtiger/20221212-cose-vtiger/</link>
       <pubDate>Fri, 18 Sep 2020 12:13:35 +0530</pubDate>
-      
       <guid>https://hardcode.blog/posts/vtiger/20221212-cose-vtiger/</guid>
       <description>Vtiger è un software di gestione dei clienti (CRM) progettato per aiutare le aziende a gestire le interazioni con i clienti, a gestire le opportunità di vendita e a sviluppare relazioni con i clienti. Molti utenti lo trovano utile per la sua capacità di integrazione con altre soluzioni aziendali, come le piattaforme di email e di marketing, e per la sua facile personalizzazione. Tuttavia, come qualsiasi altro software, Vtiger può avere alcune limitazioni o problemi che potrebbero non essere adatti a tutte le aziende.</description>
     </item>
-    
     <item>
-      <title>Modernize Vtiger</title>
+      <title>Modernizzare Vtiger: Un Appello all&#39;Evoluzione nei Progetti Open Source Legacy</title>
       <link>https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/</link>
       <pubDate>Fri, 18 Sep 2020 12:13:35 +0530</pubDate>
-      
       <guid>https://hardcode.blog/posts/vtiger/20200918-modernize-vtiger/</guid>
-      <description>When a project stands up to difficulties, it is said to have aged well. Surely Vtiger deserves its second life with all the requirements of a modern software it has helped many businesses to progress. Now it&amp;rsquo;s up to us to help him enter the CI/CD era.
-https://discussions.vtiger.com/search?Search=styleci
-https://discussions.vtiger.com/search?Search=docker</description>
+      <description>Quando un software continua a offrire valore nonostante il passare degli anni, si dice che &amp;ldquo;invecchi bene&amp;rdquo;. Vtiger, una piattaforma CRM di lunga data, è uno di questi esempi. Le sue funzionalità robuste e la vasta adozione hanno aiutato innumerevoli aziende a organizzarsi e crescere. Tuttavia, in un&amp;rsquo;era in cui automazione, agilità e miglioramento continuo sono il cuore pulsante dello sviluppo moderno, anche software come Vtiger devono evolversi per rimanere rilevanti.</description>
     </item>
-    
     <item>
-      <title>A.I. cosa ci dobbiamo aspettare? &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200912-ai/</link>
+      <title>A.I. cosa ci dobbiamo aspettare? Le frontiere dell&#39;AI</title>
+      <link>https://hardcode.blog/posts/ai/20200912-ai/</link>
       <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200912-ai/</guid>
-      <description>Frontiere A.I.</description>
+      <guid>https://hardcode.blog/posts/ai/20200912-ai/</guid>
+      <description>L&amp;rsquo;intelligenza artificiale (AI) è uno dei più grandi cambiamenti tecnologici della nostra era, ma oltre alle applicazioni pratiche che vediamo già oggi, il suo impatto sulla società sarà profondo e duraturo. Guardare al futuro ci permette di immaginare come l&amp;rsquo;AI possa influenzare la nostra vita quotidiana, il lavoro, l&amp;rsquo;economia e la struttura stessa delle società nei decenni a venire. In questo articolo, esploriamo una tabella di marcia decennale, proiettandoci verso il 2100.</description>
     </item>
-    
+    <item>
+      <title>Cosa fanno gli sviluppatori CRM?</title>
+      <link>https://hardcode.blog/posts/crm/20210210-crm-developer/</link>
+      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/crm/20210210-crm-developer/</guid>
+      <description>Cosa fanno gli sviluppatori CRM? CRM è l&amp;rsquo;acronimo di Customer Relationship Management, un termine usato per descrivere qualsiasi sistema utilizzato da un&amp;rsquo;azienda per gestire le sue interazioni relative ai clienti. I sistemi CRM hanno comunemente legami con diverse funzioni aziendali interne, comprese le vendite, il marketing, le comunicazioni e il servizio clienti.&#xA;In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie convenzionali di posta, telefono e mass media. Sebbene i call center facciano ancora parte delle moderne strategie di CRM, la maggior parte di questi altri componenti tradizionali è stata sostituita con soluzioni basate su software.</description>
+    </item>
     <item>
       <title>L&#39;Università serve ancora?</title>
       <link>https://hardcode.blog/posts/20200902-universita-serve-ancora/</link>
       <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/20200902-universita-serve-ancora/</guid>
       <description>Nel mondo contemporaneo, caratterizzato da rapide innovazioni tecnologiche e cambiamenti nel mercato del lavoro, una domanda ricorrente è: l’università serve ancora? La risposta, sebbene complessa, tende a confermare l&amp;rsquo;importanza di un&amp;rsquo;istruzione universitaria, pur riconoscendo il valore crescente dei corsi professionali e delle certificazioni. In questo blog post, esploreremo perché l’università resta un pilastro fondamentale della formazione e come i corsi di breve durata possano comunque offrire un&amp;rsquo;importante introduzione al mondo del lavoro.</description>
     </item>
-    
-    <item>
-      <title>L&#39;Università serve ancora? &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20210210-crm-developer/</link>
-      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20210210-crm-developer/</guid>
-      <description>Cosa fanno gli sviluppatori CRM? CRM è l&amp;rsquo;acronimo di Customer Relationship Management, un termine usato per descrivere qualsiasi sistema utilizzato da un&amp;rsquo;azienda per gestire le sue interazioni relative ai clienti. I sistemi CRM hanno comunemente legami con diverse funzioni aziendali interne, comprese le vendite, il marketing, le comunicazioni e il servizio clienti.
-In passato, i sistemi CRM erano molto analogici, incentrati sulle metodologie convenzionali di posta, telefono e mass media. Sebbene i call center facciano ancora parte delle moderne strategie di CRM, la maggior parte di questi altri componenti tradizionali è stata sostituita con soluzioni basate su software.</description>
-    </item>
-    
     <item>
       <title>La figura del CRM Developer: skill, opportunità e campo di azione</title>
-      <link>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</link>
+      <link>https://hardcode.blog/posts/crm/20210110-le-skill-del-crm-developer/</link>
       <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20210110-le-skill-del-crm-developer/</guid>
-      <description>In un mondo sempre più orientato alla gestione efficiente delle relazioni con i clienti, il ruolo del CRM Developer sta emergendo come una figura chiave nel panorama tecnologico. Ma chi è esattamente un CRM Developer, quali competenze possiede e quali sono le sue opportunità di lavoro? Partendo da un recente annuncio che cerca sviluppatori specializzati in CRM, esploriamo questo affascinante ruolo.
-Chi è il CRM Developer? Il CRM Developer è uno sviluppatore software specializzato nella progettazione, implementazione e manutenzione di sistemi di Customer Relationship Management (CRM).</description>
+      <guid>https://hardcode.blog/posts/crm/20210110-le-skill-del-crm-developer/</guid>
+      <description>In un mondo sempre più orientato alla gestione efficiente delle relazioni con i clienti, il ruolo del CRM Developer sta emergendo come una figura chiave nel panorama tecnologico. Ma chi è esattamente un CRM Developer, quali competenze possiede e quali sono le sue opportunità di lavoro? Partendo da un recente annuncio che cerca sviluppatori specializzati in CRM, esploriamo questo affascinante ruolo.&#xA;Chi è il CRM Developer? Il CRM Developer è uno sviluppatore software specializzato nella progettazione, implementazione e manutenzione di sistemi di Customer Relationship Management (CRM).</description>
     </item>
-    
     <item>
       <title>DevOps, il mistero dietro le sue skill</title>
       <link>https://hardcode.blog/posts/devops/20200801-cosa-e-un-devops/</link>
       <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/devops/20200801-cosa-e-un-devops/</guid>
-      <description>🚧 WORK IN PROGRESS 🚧
- Un devops è una figura che lavora all&amp;rsquo;intersezione tra il team di sviluppo software e il team di operations. In genere, un devops si occupa di automatizzare il processo di build, test e deploy del software, in modo da rendere più efficiente il processo di sviluppo e rendere più facile il roll-out di nuove funzionalità. Un devops lavora anche a stretto contatto con il team di sviluppo per garantire che il software sia progettato per essere facile da distribuire e gestire in produzione.</description>
+      <description>Negli ultimi anni, la figura del DevOps è diventata centrale in molte organizzazioni tecnologiche. Ma cosa fa esattamente un DevOps? Quali competenze sono richieste per ricoprire questo ruolo così strategico? Dietro il termine DevOps si nasconde una varietà di competenze tecniche e soft skill che rendono questa figura un vero e proprio ponte tra il team di sviluppo software e il team di operations.&#xA;Chi è il DevOps? Un DevOps è un professionista che opera all’intersezione tra sviluppo e operations, lavorando per abbattere le barriere tra questi due mondi tradizionalmente separati.</description>
     </item>
-    
     <item>
-      <title>Flutter! Sei pronto? &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200801-flutter/</link>
+      <title>Flutter! Sei pronto?</title>
+      <link>https://hardcode.blog/posts/trends/20200801-flutter/</link>
       <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200801-flutter/</guid>
-      <description>Flutter</description>
+      <guid>https://hardcode.blog/posts/trends/20200801-flutter/</guid>
+      <description>Negli ultimi anni, il panorama dello sviluppo frontend ha subito enormi cambiamenti, passando dal desktop al web e ora dirigendosi verso orizzonti ancora inesplorati. Framework come Angular, React e Vue hanno definito l&amp;rsquo;era moderna dello sviluppo frontend web, ma ora, con il rapido avvento di nuove tecnologie e piattaforme, si comincia a intravedere l&amp;rsquo;alba di una nuova generazione. Potrebbe Flutter essere il dominatore del mondo frontend nella prossima era post-2030?</description>
     </item>
-    
     <item>
       <title>La Pubblica Amministrazione, il treno del digitale è sempre in ritardo</title>
       <link>https://hardcode.blog/posts/20200722-le-pa-sono-lente-ma-lente/</link>
       <pubDate>Wed, 22 Jul 2020 21:12:40 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/20200722-le-pa-sono-lente-ma-lente/</guid>
       <description>Negli ultimi anni, la trasformazione digitale ha rivoluzionato il mondo privato, portando a miglioramenti significativi in termini di efficienza, produttività e accessibilità dei servizi. Tuttavia, la Pubblica Amministrazione (PA) sembra procedere con un passo più lento. Mentre molte aziende private hanno abbracciato con entusiasmo l&amp;rsquo;era digitale, molte istituzioni pubbliche, incluse le scuole, lottano ancora per adattarsi a questa nuova realtà. In questo blogpost, esploreremo le sfide e le opportunità legate alla digitalizzazione della PA.</description>
     </item>
-    
     <item>
-      <title>Le Features, queste sconosciute &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200701-features/</link>
+      <title>Le Features, queste sconosciute</title>
+      <link>https://hardcode.blog/posts/software-design/20200701-features/</link>
       <pubDate>Wed, 01 Jul 2020 12:43:36 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200701-features/</guid>
-      <description></description>
+      <guid>https://hardcode.blog/posts/software-design/20200701-features/</guid>
+      <description>Nel mondo dello sviluppo software, si sente parlare spesso di &amp;ldquo;feature&amp;rdquo;. Ma cosa si intende esattamente con questo termine, e perché è così centrale in ogni progetto moderno? In questo articolo cercheremo di esplorare il concetto di feature, la sua importanza nel ciclo di sviluppo software e come si integra con pratiche come le user story nell&amp;rsquo;Agile e i flussi di lavoro su Git, come il feature branch flow.&#xA;Cos&amp;rsquo;è una Feature?</description>
     </item>
-    
     <item>
-      <title>PHP8, Prime impressioni &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200621-php8/</link>
+      <title>PHP8, Dalle prime impressioni alle riflessioni sul futuro</title>
+      <link>https://hardcode.blog/posts/php/20200621-php8/</link>
       <pubDate>Sun, 21 Jun 2020 12:58:30 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200621-php8/</guid>
-      <description>Puoi parlare di php8 cosa c’è da aspettarsi</description>
+      <guid>https://hardcode.blog/posts/php/20200621-php8/</guid>
+      <description>Sono già passati diversi anni dal lancio di PHP 8, eppure sembra ieri che si discuteva delle sue nuove feature come JIT (Just-in-Time Compiler) e le union types. Con il passare del tempo, PHP ha dimostrato di essere un linguaggio che sa come evolversi senza spezzare il legame con il passato. Ogni nuova versione porta miglioramenti significativi, ma sempre con l’obiettivo di garantire che le applicazioni esistenti possano continuare a funzionare senza intoppi.</description>
     </item>
-    
     <item>
-      <title>Neuralink: dalla fantascienza l&#39;inspirazione per la medicina &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200512-neuralink/</link>
+      <title>Neuralink: dalla fantascienza l&#39;inspirazione per la medicina</title>
+      <link>https://hardcode.blog/posts/science/20200512-neuralink/</link>
       <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200512-neuralink/</guid>
-      <description>Puoi parlare della nuova invenzione neuroscientifica di elon musk</description>
+      <guid>https://hardcode.blog/posts/science/20200512-neuralink/</guid>
+      <description>Neuralink, l&amp;rsquo;ambizioso progetto neuroscientifico di Elon Musk, sembra uscito direttamente da un romanzo di fantascienza. Eppure, questa tecnologia non è frutto di fantasie futuristiche, ma un passo concreto verso una rivoluzione nel campo della medicina e delle neuroscienze. L&amp;rsquo;idea di poter interfacciare il cervello umano con un computer, potenzialmente restituendo mobilità e funzioni cognitive a persone affette da gravi patologie, è un&amp;rsquo;innovazione che ha il potenziale di cambiare il modo in cui concepiamo il rapporto tra mente, corpo e tecnologia.</description>
     </item>
-    
     <item>
-      <title>Remote Working Spaghetti &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</link>
+      <title>WordPress, come adoperarlo al meglio</title>
+      <link>https://hardcode.blog/posts/web/20200413-wordpress/</link>
+      <pubDate>Mon, 13 Apr 2020 11:21:43 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/web/20200413-wordpress/</guid>
+      <description>WordPress è una delle piattaforme più popolari per la creazione di siti web, grazie alla sua flessibilità, facilità d&amp;rsquo;uso e l&amp;rsquo;enorme ecosistema di plugin e temi. Tuttavia, utilizzarlo al meglio richiede una comprensione più profonda delle sue funzionalità, dei suoi limiti e delle conoscenze tecniche necessarie. In questo articolo, esamineremo come sfruttare il potenziale di WordPress rimanendo sempre consapevoli che è una piattaforma con specifiche limitazioni.&#xA;1. Conoscenza di Base di WordPress Prima di tutto, per usare WordPress in modo efficace, è necessario avere una buona padronanza delle sue funzioni di base.</description>
+    </item>
+    <item>
+      <title>Remote Working Spaghetti</title>
+      <link>https://hardcode.blog/posts/rant/20200412-remote-working-spaghetti/</link>
       <pubDate>Sun, 12 Apr 2020 13:31:31 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200412-remote-working-spaghetti/</guid>
-      <description>Puoi parlare di come adoperare al meglio wp e quali conoscenze bisogna avere per saper realmente utilizzare i suoi potenziali ma rimanendo sempre ben saldi a terra che appunto è wp e non puoi uscire da certi cavilli</description>
+      <guid>https://hardcode.blog/posts/rant/20200412-remote-working-spaghetti/</guid>
+      <description>Il lavoro da remoto è come un bel piatto di spaghetti. Sì, proprio così: spaghetti. E non parlo di quelli fatti bene, al dente, con la salsa perfettamente amalgamata. No, parlo di quel disastroso pasticcio che rischi di fare se non sai gestire bene le cose.&#xA;La salsa al lavoro remoto: troppe variabili Quando inizi a lavorare da remoto, ti dicono che è facile. “Basta un laptop, una buona connessione e sei a posto!</description>
     </item>
-    
     <item>
-      <title>Nanotecnologie, facciamo il punto &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200409-nanotecnologie/</link>
+      <title>Nanotecnologie, facciamo il punto</title>
+      <link>https://hardcode.blog/posts/science/20200409-nanotecnologie/</link>
       <pubDate>Thu, 09 Apr 2020 16:13:06 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200409-nanotecnologie/</guid>
-      <description></description>
+      <guid>https://hardcode.blog/posts/science/20200409-nanotecnologie/</guid>
+      <description>Le nanotecnologie rappresentano uno dei campi più affascinanti e rivoluzionari della scienza moderna. Grazie alle scoperte fatte negli ultimi decenni, stiamo assistendo a una trasformazione profonda in settori che spaziano dall’elettronica alla medicina, dall’energia ai materiali avanzati. Ma cosa sono esattamente le nanotecnologie e quali sono le loro principali applicazioni? Facciamo il punto.&#xA;Che cosa sono le nanotecnologie? Le nanotecnologie si riferiscono allo studio e alla manipolazione della materia su scala nanometrica, ovvero dell&amp;rsquo;ordine di miliardesimi di metro (1 nm = 10⁻⁹ metri).</description>
     </item>
-    
     <item>
-      <title>Marte, come riusciremo a sopravvivere? 🇮🇹&amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200404-marte/</link>
+      <title>La storia del Konami Code: una sequenza leggendaria</title>
+      <link>https://hardcode.blog/posts/gaming/20200405-konami-code/</link>
+      <pubDate>Sun, 05 Apr 2020 04:18:06 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/gaming/20200405-konami-code/</guid>
+      <description>Era il 1986 quando Kazuhisa Hashimoto, un programmatore della Konami, stava lavorando alla conversione per NES del gioco Gradius. Durante lo sviluppo, trovò il gioco troppo difficile da testare. Decise quindi di implementare una sequenza segreta di tasti che gli permettesse di ottenere tutti i power-up istantaneamente.&#xA;Quella sequenza di tasti, che doveva essere solo uno strumento di debug, fu accidentalmente lasciata nel gioco finale. Nacque così il leggendario &amp;ldquo;Konami Code&amp;rdquo;:</description>
+    </item>
+    <item>
+      <title>Marte, come riusciremo a sopravvivere?</title>
+      <link>https://hardcode.blog/posts/science/20200404-marte/</link>
       <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200404-marte/</guid>
-      <description></description>
+      <guid>https://hardcode.blog/posts/science/20200404-marte/</guid>
+      <description>Il tema della colonizzazione di Marte è affascinante e solleva molte domande. Saremo noi a mettere piede sul Pianeta Rosso e a costruire una nuova civiltà, o sarà più probabile che siano gli extraterrestri a farci una visita prima? Questi scenari, sebbene uno sia frutto della scienza e l&amp;rsquo;altro più fantascientifico, offrono un&amp;rsquo;interessante occasione per fare un confronto dal punto di vista statistico.&#xA;Quanto è probabile arrivare su Marte? La colonizzazione di Marte è da anni l&amp;rsquo;obiettivo di molte agenzie spaziali, in particolare di Elon Musk e la sua SpaceX.</description>
     </item>
-    
     <item>
-      <title>Full-stack, esistono davvero? &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200305-fullstack/</link>
+      <title>Questo blog post è una shell!</title>
+      <link>https://hardcode.blog/posts/20200404-shell/</link>
+      <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/20200404-shell/</guid>
+      <description># # Scrivi un comando, ovviamente tranne rm -fr /, non vogliamo distruggere il mondo, vero? # </description>
+    </item>
+    <item>
+      <title>Full-stack, esistono davvero?</title>
+      <link>https://hardcode.blog/posts/rant/20200305-fullstack/</link>
       <pubDate>Thu, 05 Mar 2020 10:51:18 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200305-fullstack/</guid>
-      <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?
- https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740  </description>
+      <guid>https://hardcode.blog/posts/rant/20200305-fullstack/</guid>
+      <description>Ah, il full-stack developer. Questa figura ormai onnipresente negli annunci di lavoro, celebrata come l&amp;rsquo;unicorno del mondo tecnologico: colui che, da solo, riesce a dominare il frontend, il backend, i database, le reti, la sicurezza e, perché no, pure il design. Un essere mitologico che sarebbe capace di risolvere qualsiasi problema tecnico da solo, dallo sviluppo di un&amp;rsquo;intera piattaforma web alla sua messa in produzione.&#xA;Ma fermiamoci un attimo e riflettiamo.</description>
     </item>
-    
     <item>
-      <title>Full-stack, esistono davvero? &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/fun/20200305-the-lifter/</link>
+      <title>L&#39;Effetto Lifter: La Magia dell&#39;Alta Tensione e del Condensatore Volante</title>
+      <link>https://hardcode.blog/posts/science/20200305-the-lifter/</link>
       <pubDate>Thu, 05 Mar 2020 10:51:18 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/fun/20200305-the-lifter/</guid>
-      <description>Puoi parlare di fullstack, creatura mitologica, conviene o non?
- https://medium.com/@yafb/full-stack-developer-ed-altre-creature-mitologiche-c283b91a5740  </description>
+      <guid>https://hardcode.blog/posts/science/20200305-the-lifter/</guid>
+      <description>Negli anni, molti esperimenti amatoriali e scientifici hanno cercato di trovare metodi alternativi per il sollevamento e il movimento senza l&amp;rsquo;uso di meccanismi tradizionali come eliche o jet. Tra questi, uno dei fenomeni più affascinanti e controversi è il cosiddetto &amp;ldquo;effetto Lifter&amp;rdquo;. Questo effetto si verifica quando un dispositivo rudimentale, composto da un semplice condensatore d&amp;rsquo;aria, viene sottoposto ad alta tensione e sembra produrre una spinta che lo solleva nell&amp;rsquo;aria.</description>
     </item>
-    
     <item>
-      <title>Il ventennio telematico degli smartphone &amp;#x1f1ee;&amp;#x1f1f9;</title>
+      <title>Il ventennio telematico degli smartphone</title>
       <link>https://hardcode.blog/posts/20200202-smartphone-is-dead/</link>
       <pubDate>Sun, 02 Feb 2020 18:44:36 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/20200202-smartphone-is-dead/</guid>
-      <description>Puoi parlare di cosa ci sarà dopo lo smartphone ? Gira voce che sia solo un ponte per una tecnologia sostitutiva</description>
+      <description>Gli smartphone hanno dominato il panorama tecnologico per oltre due decenni, trasformandosi da semplici dispositivi di comunicazione a strumenti indispensabili per la nostra vita quotidiana. Tuttavia, ci sono sempre più voci che affermano che gli smartphone non siano il punto di arrivo, ma piuttosto un ponte verso una tecnologia sostitutiva. Se consideriamo l’evoluzione rapida della tecnologia, è lecito chiedersi: cosa ci sarà dopo gli smartphone?&#xA;L&amp;rsquo;era post-smartphone: la miniaturizzazione del computing Una delle principali tendenze che potrebbe caratterizzare il futuro è la miniaturizzazione e l&amp;rsquo;integrazione della tecnologia.</description>
     </item>
-    
     <item>
-      <title>I figli del coding, la nuova generazione di baby-automi &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200201-coding-spaghetti/</link>
+      <title>I figli del coding, la nuova generazione di baby-automi</title>
+      <link>https://hardcode.blog/posts/stem/20200201-coding-spaghetti/</link>
       <pubDate>Sat, 01 Feb 2020 02:13:32 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200201-coding-spaghetti/</guid>
-      <description>Puoi parlare di come insegnare la programmazione ai bambini</description>
+      <guid>https://hardcode.blog/posts/stem/20200201-coding-spaghetti/</guid>
+      <description>Nel panorama educativo contemporaneo, lo STEM (Scienza, Tecnologia, Ingegneria e Matematica) è diventato un mantra, una panacea per preparare i giovani al futuro. Tuttavia, dietro questa facciata di progresso tecnologico si cela un rischio insidioso: la possibilità di trasformare i nostri bambini in meri automi, piuttosto che in pensatori critici e creativi.&#xA;Il miraggio del coding L&amp;rsquo;introduzione del coding nelle scuole è stata salutata come una rivoluzione educativa. Si promette ai genitori che i loro figli diventeranno i prossimi Steve Jobs o Mark Zuckerberg.</description>
     </item>
-    
-    <item>
-      <title>Le Blockchain sono morte! 🇮🇹</title>
-      <link>https://hardcode.blog/posts/20200101-blockchain-is-dead/</link>
-      <pubDate>Wed, 01 Jan 2020 12:17:31 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200101-blockchain-is-dead/</guid>
-      <description>🇮🇹
-Puoi parlare di blockchain e della Svizzera che le ha introdotte per pagare tasse</description>
-    </item>
-    
     <item>
       <title>Docker: Il cuore di GitLab CI</title>
       <link>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</link>
       <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</guid>
-      <description>Introduzione Docker è ormai dappertutto. In pochi anni, è diventato uno strumento imprescindibile nel panorama DevOps, rivoluzionando il modo in cui sviluppatori e ingegneri gestiscono il ciclo di vita delle applicazioni. Oggi, voglio condividere con voi come Docker sia diventato il cuore pulsante della Continuous Integration (CI) di GitLab e come questa integrazione renda le pipeline di sviluppo incredibilmente potenti ed efficienti.
-Docker e GitLab CI: Una combinazione vincente GitLab CI è una piattaforma di Continuous Integration e Continuous Delivery (CI/CD) che permette ai team di sviluppo di automatizzare la costruzione, il testing e il deployment delle applicazioni.</description>
+      <description>Introduzione Docker è ormai dappertutto. In pochi anni, è diventato uno strumento imprescindibile nel panorama DevOps, rivoluzionando il modo in cui sviluppatori e ingegneri gestiscono il ciclo di vita delle applicazioni. Oggi, voglio condividere con voi come Docker sia diventato il cuore pulsante della Continuous Integration (CI) di GitLab e come questa integrazione renda le pipeline di sviluppo incredibilmente potenti ed efficienti.&#xA;Docker e GitLab CI: Una combinazione vincente GitLab CI è una piattaforma di Continuous Integration e Continuous Delivery (CI/CD) che permette ai team di sviluppo di automatizzare la costruzione, il testing e il deployment delle applicazioni.</description>
     </item>
-    
-    <item>
-      <title>Docker: Not soo bad!</title>
-      <link>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</link>
-      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</guid>
-      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
-  https://www.youtube.com/watch?v=XVJ5EkiqLkk
-  &amp;ldquo;Quanto spreco di byte&amp;rdquo;
-  </description>
-    </item>
-    
-    <item>
-      <title>Docker: Not soo bad!</title>
-      <link>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</link>
-      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/shell/20210401-tools-for-shell-developer/</guid>
-      <description>Docker Si tratta di una storia molto lunga per adesso beccatevi questo:
- https://www.youtube.com/watch?v=XVJ5EkiqLkk  </description>
-    </item>
-    
     <item>
       <title>Docker: Un ambiente ideale per il CRM vtiger</title>
       <link>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</link>
       <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</guid>
-      <description>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).
-Perché scegliere Docker per vtiger?   Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
+      <description>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).&#xA;Perché scegliere Docker per vtiger? Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
     </item>
-    
     <item>
       <title>My First Post</title>
       <link>https://hardcode.blog/posts/19700101-my-first-post/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:01 +0000</pubDate>
-      
       <guid>https://hardcode.blog/posts/19700101-my-first-post/</guid>
-      <description>As first post, I want to move your focus to one the most important technological constant of our era. I&amp;rsquo;m talking about the first second of the Unix time, and the word joke inside.
-Ream more:
- https://en.wikipedia.org/wiki/Unix_time  </description>
+      <description>As first post, I want to move your focus to one the most important technological constant of our era. I&amp;rsquo;m talking about the first second of the Unix time, and the word joke inside.&#xA;Read more:&#xA;https://en.wikipedia.org/wiki/Unix_time </description>
     </item>
-    
   </channel>
 </rss>

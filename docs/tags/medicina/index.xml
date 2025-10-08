@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>medicina on HARDCODE.BLOG</title>
+    <title>Medicina on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/medicina/</link>
-    <description>Recent content in medicina on HARDCODE.BLOG</description>
+    <description>Recent content in Medicina on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Tue, 12 May 2020 18:10:20 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/medicina/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 May 2020 18:10:20 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/medicina/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Neuralink: dalla fantascienza l&#39;inspirazione per la medicina &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200512-neuralink/</link>
+      <title>Neuralink: dalla fantascienza l&#39;inspirazione per la medicina</title>
+      <link>https://hardcode.blog/posts/science/20200512-neuralink/</link>
       <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200512-neuralink/</guid>
-      <description>Puoi parlare della nuova invenzione neuroscientifica di elon musk</description>
+      <guid>https://hardcode.blog/posts/science/20200512-neuralink/</guid>
+      <description>Neuralink, l&amp;rsquo;ambizioso progetto neuroscientifico di Elon Musk, sembra uscito direttamente da un romanzo di fantascienza. Eppure, questa tecnologia non è frutto di fantasie futuristiche, ma un passo concreto verso una rivoluzione nel campo della medicina e delle neuroscienze. L&amp;rsquo;idea di poter interfacciare il cervello umano con un computer, potenzialmente restituendo mobilità e funzioni cognitive a persone affette da gravi patologie, è un&amp;rsquo;innovazione che ha il potenziale di cambiare il modo in cui concepiamo il rapporto tra mente, corpo e tecnologia.</description>
     </item>
-    
   </channel>
 </rss>

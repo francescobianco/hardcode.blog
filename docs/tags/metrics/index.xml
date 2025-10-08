@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metrics on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/metrics/</link>
+    <description>Recent content in Metrics on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Sat, 05 Oct 2024 08:13:47 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/metrics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Le metriche DORA: La chiave per misurare e migliorare le prestazioni DevOps</title>
+      <link>https://hardcode.blog/posts/devops/20241005-dora-metrics/</link>
+      <pubDate>Sat, 05 Oct 2024 08:13:47 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20241005-dora-metrics/</guid>
+      <description>Nell&amp;rsquo;ambito dell&amp;rsquo;ingegneria del software e del DevOps, la misurazione delle prestazioni è fondamentale per il miglioramento continuo. Le metriche DORA (DevOps Research and Assessment) sono emerse come uno standard de facto per valutare l&amp;rsquo;efficacia delle pratiche DevOps. In questo articolo, esploreremo cosa sono le metriche DORA, perché sono importanti e come possono essere utilizzate per ottimizzare i processi di sviluppo software.&#xA;Cosa sono le metriche DORA? Le metriche DORA sono un insieme di quattro indicatori chiave di prestazione (KPI) sviluppati dal team di ricerca DevOps di Google.</description>
+    </item>
+  </channel>
+</rss>

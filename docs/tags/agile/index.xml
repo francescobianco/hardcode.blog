@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>agile on HARDCODE.BLOG</title>
+    <title>Agile on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/agile/</link>
-    <description>Recent content in agile on HARDCODE.BLOG</description>
+    <description>Recent content in Agile on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Thu, 20 Jun 2024 16:08:23 +0000</lastBuildDate><atom:link href="https://hardcode.blog/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jun 2024 16:08:23 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Il pericolo del **gold plating**: quando le troppe funzionalità portano al fallimento</title>
-      <link>https://hardcode.blog/posts/20240620-gold-plating/</link>
+      <link>https://hardcode.blog/posts/agile/20240620-gold-plating/</link>
       <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20240620-gold-plating/</guid>
-      <description>Nel mondo della gestione dei progetti e dello sviluppo software, il termine &amp;ldquo;gold plating&amp;rdquo; si riferisce all&amp;rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un&amp;rsquo;ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po&#39; di zucchero può migliorare il sapore, ma troppo può renderla imbevibile.</description>
+      <guid>https://hardcode.blog/posts/agile/20240620-gold-plating/</guid>
+      <description>Nel mondo della gestione dei progetti e dello sviluppo software, il termine &amp;ldquo;gold plating&amp;rdquo; si riferisce all&amp;rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti. Sebbene possa sembrare un&amp;rsquo;ottima idea arricchire un prodotto con funzioni aggiuntive, questa pratica può portare a una serie di problemi significativi, tra cui sforamento dei tempi e dei costi, complicazioni tecniche e insoddisfazione degli utenti. Una metafora interessante per comprendere il concetto è quella dello zucchero in una bevanda: un po&amp;rsquo; di zucchero può migliorare il sapore, ma troppo può renderla imbevibile.</description>
     </item>
-    
     <item>
-      <title>Agile is dead!</title>
-      <link>https://hardcode.blog/posts/20200928-agile-is-dead/</link>
+      <title>L&#39;Agile è Morto!!!</title>
+      <link>https://hardcode.blog/posts/agile/20200928-agile-is-dead/</link>
       <pubDate>Mon, 05 Apr 2021 13:19:26 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200928-agile-is-dead/</guid>
-      <description>Intro The premise is perhaps too dramatic and maybe a little click-catcher, but I think there is juice. Today when we talk about Agile everyone wants to have their say, everyone wants to apply their method with their thousand variations derived from their own experience. This leads me to ask myself some fundamental questions:
-What I miss  Can a methodology determine success or failure, or only responsible for wasted resources?</description>
+      <guid>https://hardcode.blog/posts/agile/20200928-agile-is-dead/</guid>
+      <description>Intro Il titolo potrebbe sembrare eccessivamente drammatico—forse addirittura un po&amp;rsquo; clickbait—ma c&amp;rsquo;è sostanza dietro di esso. Oggi, quando parliamo di Agile, tutti vogliono dire la loro, ansiosi di applicare i propri metodi, ognuno con innumerevoli variazioni tratte dall’esperienza personale. Questo mi porta a porre alcune domande fondamentali:&#xA;Cosa Mi Manca Può una metodologia determinare il successo o il fallimento, o è semplicemente responsabile di risorse sprecate? Perché i concetti fondamentali di Agile non sono riconosciuti come schemi che possono essere incorporati in altre metodologie?</description>
     </item>
-    
+    <item>
+      <title>Le Features, queste sconosciute</title>
+      <link>https://hardcode.blog/posts/software-design/20200701-features/</link>
+      <pubDate>Wed, 01 Jul 2020 12:43:36 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/software-design/20200701-features/</guid>
+      <description>Nel mondo dello sviluppo software, si sente parlare spesso di &amp;ldquo;feature&amp;rdquo;. Ma cosa si intende esattamente con questo termine, e perché è così centrale in ogni progetto moderno? In questo articolo cercheremo di esplorare il concetto di feature, la sua importanza nel ciclo di sviluppo software e come si integra con pratiche come le user story nell&amp;rsquo;Agile e i flussi di lavoro su Git, come il feature branch flow.&#xA;Cos&amp;rsquo;è una Feature?</description>
+    </item>
   </channel>
 </rss>

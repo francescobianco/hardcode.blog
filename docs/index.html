@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="generator" content="Hugo 0.92.2" />
+	<meta name="generator" content="Hugo 0.123.7">
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>HARDCODE.BLOG - {☕} Coding, the superpower that nobody wants to have. </title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>HARDCODE.BLOG - Coding, the superpower that nobody wants to have. </title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="alternate" type="application/rss+xml" href="https://hardcode.blog/index.xml" title="HARDCODE.BLOG" />
 	<link rel="canonical" href="https://hardcode.blog/" itemprop="url" /><meta itemprop="name" content="HARDCODE.BLOG">
-<meta itemprop="description" content=""><meta property="og:title" content="HARDCODE.BLOG" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://hardcode.blog/" />
+<meta itemprop="description" content=""><meta property="og:url" content="https://hardcode.blog/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="HARDCODE.BLOG">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="HARDCODE.BLOG"/>
-<meta name="twitter:description" content=""/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<meta property="og:type" content="website">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_4613600244789722279.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_4613600244789722279.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
@@ -22,10 +43,14 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
 
     <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
 
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
 		<script src="https://hardcode.blog/js/main.js"></script>
 
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
@@ -43,7 +68,7 @@
 		</div>
 	
     <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
-	<div class="site-description font-fixedsys"><p>{☕} Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
 			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
                     &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
                     &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
@@ -59,11 +84,11 @@
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/docker/">🐳 Docker</a>
+				<a href="/tags/devops/">🐳 DevOps</a>
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/vtiger/">🐯 Vtiger</a>
+				<a href="/tags/crm/">☁️ CRM</a>
 			</li>
 			
 			<li class="font-fixedsys">
@@ -79,6 +104,20 @@
 </div>
 
 
+        
+<div class="view-selector font-fixedsys">
+
+    
+    <span>[Recent]</span>
+    
+
+    
+    <a href="/views/grouped/">[Grouped]</a>
+    
+
+</div>
+
+
 		<div class="recent-posts section">
 			<div class="posts">
 				
@@ -88,14 +127,14 @@
 						<div class="post-header">
 							<div class="meta">
 								<div class="date">
-									<span class="day">21</span>
-							        <span class="rest">Jun 2024</span>
+									<span class="day">24</span>
+							        <span class="rest">Jun 2025</span>
 								</div>
 							</div>
 							<div class="matter">
 								<h4 class="title small">
-									<a href="/posts/php/20240621-chiamata-indiretta-di-una-funzione/">
-                                        Potenza e responsabilità, l&rsquo;uso di <code>call_user_func_array</code> in php
+									<a href="/posts/20250624-la-nuova-api-per-le-licenze-opensource/">
+                                        La Nuova API OSI per le Licenze Open Source: Una Guida Completa per Sviluppatori
                                         
                                         
                                         
@@ -103,7 +142,7 @@
 								</h4>
 								<span class="description">
 									
-										Nel vasto mondo di PHP, <code>call_user_func_array</code> è stata una delle funzioni più potenti e versatili a disposizione degli sviluppatori. Questa funzione permette di chiamare una funzione in modo dinamico, passando i parametri come array.
+										L&rsquo;Open Source Initiative (OSI) ha recentemente lanciato una nuova API che rivoluziona il modo in cui accediamo e gestiamo le informazioni sulle licenze open source approvate. Scopriamo come funziona
 									
 								</span>
 							</div>
@@ -114,14 +153,14 @@
 						<div class="post-header">
 							<div class="meta">
 								<div class="date">
-									<span class="day">20</span>
-							        <span class="rest">Jun 2024</span>
+									<span class="day">27</span>
+							        <span class="rest">May 2025</span>
 								</div>
 							</div>
 							<div class="matter">
 								<h4 class="title small">
-									<a href="/posts/20240620-gold-plating/">
-                                        Il pericolo del <strong>gold plating</strong>: quando le troppe funzionalità portano al fallimento
+									<a href="/posts/20250527-questo-post-e-un-menu/">
+                                        🎛️ Questo post è un menu
                                         
                                         
                                         
@@ -129,7 +168,7 @@
 								</h4>
 								<span class="description">
 									
-										Nel mondo della gestione dei progetti e dello sviluppo software, il termine gold plating si riferisce all&rsquo;aggiunta di funzionalità o caratteristiche non richieste ai prodotti.
+										Sto sperimentando alcune idee strampalate per rendere il blog un posto curioso da visitare&hellip;
 									
 								</span>
 							</div>
@@ -140,14 +179,14 @@
 						<div class="post-header">
 							<div class="meta">
 								<div class="date">
-									<span class="day">13</span>
-							        <span class="rest">Jun 2024</span>
+									<span class="day">19</span>
+							        <span class="rest">May 2025</span>
 								</div>
 							</div>
 							<div class="matter">
 								<h4 class="title small">
-									<a href="/posts/20240613-riflessione-sul-futuro-del-software/">
-                                        Riflessione sul futuro del software: Lezioni dalla storia dei media
+									<a href="/posts/20250519-roi-per-ingegneri/">
+                                        ROI nell’Ingegneria Informatica: Perché è Cruciale per Ogni Progetto Tecnologico
                                         
                                         
                                         
@@ -155,7 +194,7 @@
 								</h4>
 								<span class="description">
 									
-										Per comprendere come cambierà il software, possiamo trarre beneficio dallo studio di come la tecnologia ha trasformato altre industrie. La storia tende a ripetersi, se si presta attenzione.
+										Quando si parla di Return on Investment (ROI), molti pensano subito a numeri da bilancio, strategie di marketing o grandi investimenti aziendali. Ma il ROI è molto di più: parliamone
 									
 								</span>
 							</div>
@@ -166,14 +205,14 @@
 						<div class="post-header">
 							<div class="meta">
 								<div class="date">
-									<span class="day">6</span>
-							        <span class="rest">Jun 2024</span>
+									<span class="day">12</span>
+							        <span class="rest">May 2025</span>
 								</div>
 							</div>
 							<div class="matter">
 								<h4 class="title small">
-									<a href="/posts/20240606-la-storia-di-infoq/">
-                                        Ingegneria del Software, la storia del portale InfoQ
+									<a href="/posts/20250512-mush-contro-rust/">
+                                        Perché Mush è sulla strada giusta: la risposta illuminante
                                         
                                         
                                         
@@ -181,7 +220,33 @@
 								</h4>
 								<span class="description">
 									
-										Leggi il nostro blog su InfoQ.com: scopri come questo portale rivoluziona l&rsquo;ingegneria del software con contenuti di alta qualità, aggiornamenti costanti e una community di esperti.
+										Qualche giorno fa ho avuto il piacere di scambiare due parole con uno sviluppatore open source molto attivo nella community di Rust. Avevo in mente un’idea ben precisa&hellip;
+									
+								</span>
+							</div>
+						</div>
+					</div>
+				
+					<div class="post">
+						<div class="post-header">
+							<div class="meta">
+								<div class="date">
+									<span class="day">7</span>
+							        <span class="rest">May 2025</span>
+								</div>
+							</div>
+							<div class="matter">
+								<h4 class="title small">
+									<a href="/posts/devops/20250507-la-fine-di-docker/">
+                                        Docker: l’inizio della fine di un’icona?
+                                        
+                                        
+                                        
+                                    </a>
+								</h4>
+								<span class="description">
+									
+										Docker è stato, senza mezzi termini, una rivoluzione. Un cambio di paradigma nel modo in cui pensiamo, costruiamo e distribuiamo software. La cosa comincia a sembrare strana, parliamone un po
 									
 								</span>
 							</div>
@@ -208,7 +273,7 @@
 	<div class="footer wrapper">
 	<nav class="nav">
         <div>
-            2024  © Francesco Bianco | 
+            2025  © Francesco Bianco | 
             Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
             theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
             <span class="hide-on-mobile">

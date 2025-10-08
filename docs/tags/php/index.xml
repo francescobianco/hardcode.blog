@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>php on HARDCODE.BLOG</title>
+    <title>Php on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/php/</link>
-    <description>Recent content in php on HARDCODE.BLOG</description>
+    <description>Recent content in Php on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Fri, 21 Jun 2024 12:17:31 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jun 2024 12:17:31 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Potenza e responsabilità, l&#39;uso di `call_user_func_array` in php</title>
       <link>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</link>
       <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/php/20240621-chiamata-indiretta-di-una-funzione/</guid>
-      <description>Nel vasto mondo di PHP, la funzione call_user_func_array è una delle più potenti e versatili a disposizione degli sviluppatori. Permette di chiamare una funzione in modo dinamico, passando i parametri come array. Questo articolo esplora come utilizzare questa funzione, presenta esempi pratici e analizza le implicazioni filosofiche dell&amp;rsquo;uso di chiamate di funzione indiretta.
-Cos&amp;rsquo;è call_user_func_array? La funzione call_user_func_array in PHP consente di chiamare una funzione specificata con un array di parametri.</description>
+      <description>Nel vasto mondo di PHP, la funzione call_user_func_array è una delle più potenti e versatili a disposizione degli sviluppatori. Permette di chiamare una funzione in modo dinamico, passando i parametri come array. Questo articolo esplora come utilizzare questa funzione, presenta esempi pratici e analizza le implicazioni filosofiche dell&amp;rsquo;uso di chiamate di funzione indiretta.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social.</description>
     </item>
-    
     <item>
-      <title>PHP8, Prime impressioni &amp;#x1f1ee;&amp;#x1f1f9;</title>
-      <link>https://hardcode.blog/posts/20200621-php8/</link>
+      <title>PHP8, Dalle prime impressioni alle riflessioni sul futuro</title>
+      <link>https://hardcode.blog/posts/php/20200621-php8/</link>
       <pubDate>Sun, 21 Jun 2020 12:58:30 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/20200621-php8/</guid>
-      <description>Puoi parlare di php8 cosa c’è da aspettarsi</description>
+      <guid>https://hardcode.blog/posts/php/20200621-php8/</guid>
+      <description>Sono già passati diversi anni dal lancio di PHP 8, eppure sembra ieri che si discuteva delle sue nuove feature come JIT (Just-in-Time Compiler) e le union types. Con il passare del tempo, PHP ha dimostrato di essere un linguaggio che sa come evolversi senza spezzare il legame con il passato. Ogni nuova versione porta miglioramenti significativi, ma sempre con l’obiettivo di garantire che le applicazioni esistenti possano continuare a funzionare senza intoppi.</description>
     </item>
-    
   </channel>
 </rss>

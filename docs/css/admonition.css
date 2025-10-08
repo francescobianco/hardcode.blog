@@ -1,0 +1,85 @@
+
+.admonition {
+    margin-bottom: 1em;
+    padding: 15px 15px 10px 20px;
+}
+
+.admonition .admonition-title {
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.admonition-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -2px;
+    width: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.admonition-content > :last-child {
+    margin-bottom: 0;
+}
+
+.post .admonition-content p {
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+
+.admonition-warning {
+    background-color: rgba(230, 126, 34, 0.15);
+    border-left: 8px solid #e67e22;
+}
+
+.admonition-warning .admonition-title {
+    color: #e67e22;
+}
+
+.admonition-tip {
+    background-color: rgba(46, 204, 113, 0.15);
+    border-left: 8px solid #2ecc71;
+}
+
+.admonition-tip .admonition-title {
+    color: #2ecc71;
+}
+
+.admonition-caution {
+    background-color: rgba(231, 76, 60, 0.15);
+    border-left: 8px solid #e74c3c;
+}
+
+.admonition-caution .admonition-title {
+    color: #e74c3c;
+}
+
+.admonition-important {
+    background-color: rgba(52, 152, 219, 0.15);
+    border-left: 8px solid #3498db;
+}
+
+.admonition-important .admonition-title {
+    color: #3498db;
+}
+
+.admonition-note {
+    background-color: rgba(241, 196, 15, 0.15);
+    border-left: 8px solid #f1c40f;
+}
+
+.admonition-note .admonition-title {
+    color: #f1c40f;
+}
+
+.admonition-question {
+    background-color: rgba(8, 61, 119, 0.15);
+    border-left: 8px solid #083d77;
+}
+
+.admonition-question .admonition-title {
+    color: #083d77;
+}

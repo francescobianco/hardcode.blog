@@ -7,330 +7,735 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Fri, 21 Jun 2024 12:17:31 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jun 2025 08:49:04 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>coding</title>
-      <link>https://hardcode.blog/tags/coding/</link>
-      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/coding/</guid>
+      <title>License</title>
+      <link>https://hardcode.blog/tags/license/</link>
+      <pubDate>Tue, 24 Jun 2025 08:49:04 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/license/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>didattica</title>
-      <link>https://hardcode.blog/tags/didattica/</link>
-      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/didattica/</guid>
+      <title>Opensource</title>
+      <link>https://hardcode.blog/tags/opensource/</link>
+      <pubDate>Tue, 24 Jun 2025 08:49:04 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/opensource/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>php</title>
-      <link>https://hardcode.blog/tags/php/</link>
-      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/php/</guid>
+      <title>Osi</title>
+      <link>https://hardcode.blog/tags/osi/</link>
+      <pubDate>Tue, 24 Jun 2025 08:49:04 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/osi/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>agile</title>
-      <link>https://hardcode.blog/tags/agile/</link>
-      <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/tags/agile/</guid>
+      <title>Tag1</title>
+      <link>https://hardcode.blog/tags/tag1/</link>
+      <pubDate>Tue, 27 May 2025 01:06:14 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/tag1/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ingegneria del software</title>
-      <link>https://hardcode.blog/tags/ingegneria-del-software/</link>
-      <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/tags/ingegneria-del-software/</guid>
+      <title>Tag2</title>
+      <link>https://hardcode.blog/tags/tag2/</link>
+      <pubDate>Tue, 27 May 2025 01:06:14 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/tag2/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ai</title>
+      <title>Roi</title>
+      <link>https://hardcode.blog/tags/roi/</link>
+      <pubDate>Mon, 19 May 2025 14:03:38 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/roi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swe</title>
+      <link>https://hardcode.blog/tags/swe/</link>
+      <pubDate>Mon, 19 May 2025 14:03:38 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/swe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devex</title>
+      <link>https://hardcode.blog/tags/devex/</link>
+      <pubDate>Mon, 12 May 2025 16:56:11 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/devex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mush</title>
+      <link>https://hardcode.blog/tags/mush/</link>
+      <pubDate>Mon, 12 May 2025 16:56:11 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/mush/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://hardcode.blog/tags/rust/</link>
+      <pubDate>Mon, 12 May 2025 16:56:11 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shell</title>
+      <link>https://hardcode.blog/tags/shell/</link>
+      <pubDate>Mon, 12 May 2025 16:56:11 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/shell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
       <link>https://hardcode.blog/tags/ai/</link>
-      <pubDate>Thu, 13 Jun 2024 16:37:36 +0000</pubDate>
-      
+      <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
       <guid>https://hardcode.blog/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>llm</title>
-      <link>https://hardcode.blog/tags/llm/</link>
-      <pubDate>Thu, 13 Jun 2024 16:37:36 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/tags/llm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://hardcode.blog/tags/software/</link>
-      <pubDate>Thu, 13 Jun 2024 16:37:36 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fonti</title>
-      <link>https://hardcode.blog/tags/fonti/</link>
-      <pubDate>Thu, 06 Jun 2024 17:02:03 +0000</pubDate>
-      
-      <guid>https://hardcode.blog/tags/fonti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://hardcode.blog/tags/linux/</link>
-      <pubDate>Thu, 01 Feb 2024 02:13:32 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://hardcode.blog/tags/ubuntu/</link>
-      <pubDate>Thu, 01 Feb 2024 02:13:32 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://hardcode.blog/tags/javascript/</link>
-      <pubDate>Thu, 08 Sep 2022 02:13:32 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>italian</title>
-      <link>https://hardcode.blog/tags/italian/</link>
-      <pubDate>Tue, 20 Jul 2021 12:10:00 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/italian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>libri</title>
-      <link>https://hardcode.blog/tags/libri/</link>
-      <pubDate>Tue, 20 Jul 2021 12:10:00 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/libri/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>english</title>
-      <link>https://hardcode.blog/tags/english/</link>
-      <pubDate>Mon, 05 Apr 2021 13:19:26 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>geek-culture</title>
-      <link>https://hardcode.blog/tags/geek-culture/</link>
-      <pubDate>Mon, 05 Apr 2021 13:19:26 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/geek-culture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>project-management</title>
-      <link>https://hardcode.blog/tags/project-management/</link>
-      <pubDate>Mon, 05 Apr 2021 13:19:26 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/project-management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>crm</title>
-      <link>https://hardcode.blog/tags/crm/</link>
-      <pubDate>Fri, 18 Sep 2020 12:13:35 +0530</pubDate>
-      
-      <guid>https://hardcode.blog/tags/crm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vtiger</title>
-      <link>https://hardcode.blog/tags/vtiger/</link>
-      <pubDate>Fri, 18 Sep 2020 12:13:35 +0530</pubDate>
-      
-      <guid>https://hardcode.blog/tags/vtiger/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fantascienza</title>
-      <link>https://hardcode.blog/tags/fantascienza/</link>
-      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/fantascienza/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>futuro</title>
-      <link>https://hardcode.blog/tags/futuro/</link>
-      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/futuro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>carriera</title>
-      <link>https://hardcode.blog/tags/carriera/</link>
-      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/carriera/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>università</title>
-      <link>https://hardcode.blog/tags/universit%C3%A0/</link>
-      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/universit%C3%A0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>devops</title>
+      <title>Devops</title>
       <link>https://hardcode.blog/tags/devops/</link>
-      <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
-      
+      <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
       <guid>https://hardcode.blog/tags/devops/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>programmazione</title>
-      <link>https://hardcode.blog/tags/programmazione/</link>
-      <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/programmazione/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>digitalizzazione</title>
-      <link>https://hardcode.blog/tags/digitalizzazione/</link>
-      <pubDate>Wed, 22 Jul 2020 21:12:40 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/digitalizzazione/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>politica</title>
-      <link>https://hardcode.blog/tags/politica/</link>
-      <pubDate>Wed, 22 Jul 2020 21:12:40 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/politica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>medicina</title>
-      <link>https://hardcode.blog/tags/medicina/</link>
-      <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/medicina/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>remote working</title>
-      <link>https://hardcode.blog/tags/remote-working/</link>
-      <pubDate>Sun, 12 Apr 2020 13:31:31 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/remote-working/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>italiano</title>
-      <link>https://hardcode.blog/tags/italiano/</link>
-      <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/italiano/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>smartphone</title>
-      <link>https://hardcode.blog/tags/smartphone/</link>
-      <pubDate>Sun, 02 Feb 2020 18:44:36 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/smartphone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cicd</title>
-      <link>https://hardcode.blog/tags/cicd/</link>
-      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/tags/cicd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
+      <title>Docker</title>
       <link>https://hardcode.blog/tags/docker/</link>
-      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
+      <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
       <guid>https://hardcode.blog/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gitlab</title>
+      <title>Mcp</title>
+      <link>https://hardcode.blog/tags/mcp/</link>
+      <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantum Computing</title>
+      <link>https://hardcode.blog/tags/quantum-computing/</link>
+      <pubDate>Thu, 20 Feb 2025 17:05:17 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/quantum-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ide</title>
+      <link>https://hardcode.blog/tags/ide/</link>
+      <pubDate>Wed, 12 Feb 2025 17:59:53 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/ide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phpstorm</title>
+      <link>https://hardcode.blog/tags/phpstorm/</link>
+      <pubDate>Wed, 12 Feb 2025 17:59:53 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/phpstorm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pycharm</title>
+      <link>https://hardcode.blog/tags/pycharm/</link>
+      <pubDate>Wed, 12 Feb 2025 17:59:53 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/pycharm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webstorm</title>
+      <link>https://hardcode.blog/tags/webstorm/</link>
+      <pubDate>Wed, 12 Feb 2025 17:59:53 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/webstorm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>https://hardcode.blog/tags/music/</link>
+      <pubDate>Tue, 12 Nov 2024 09:41:10 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/music/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nostalgia</title>
+      <link>https://hardcode.blog/tags/nostalgia/</link>
+      <pubDate>Tue, 12 Nov 2024 09:41:10 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/nostalgia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://hardcode.blog/tags/windows/</link>
+      <pubDate>Tue, 12 Nov 2024 09:41:10 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Metrics</title>
+      <link>https://hardcode.blog/tags/metrics/</link>
+      <pubDate>Sat, 05 Oct 2024 08:13:47 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/metrics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design Pattern</title>
+      <link>https://hardcode.blog/tags/design-pattern/</link>
+      <pubDate>Tue, 17 Sep 2024 15:03:43 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/design-pattern/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>https://hardcode.blog/tags/microservices/</link>
+      <pubDate>Tue, 17 Sep 2024 15:03:43 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Computing</title>
+      <link>https://hardcode.blog/tags/cloud-computing/</link>
+      <pubDate>Wed, 11 Sep 2024 15:55:04 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Architecture</title>
+      <link>https://hardcode.blog/tags/software-architecture/</link>
+      <pubDate>Wed, 11 Sep 2024 15:55:04 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/software-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Engineering</title>
+      <link>https://hardcode.blog/tags/software-engineering/</link>
+      <pubDate>Wed, 11 Sep 2024 15:55:04 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Consultancy</title>
+      <link>https://hardcode.blog/tags/consultancy/</link>
+      <pubDate>Sun, 08 Sep 2024 13:43:41 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/consultancy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mindset</title>
+      <link>https://hardcode.blog/tags/mindset/</link>
+      <pubDate>Sun, 08 Sep 2024 13:43:41 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/mindset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming Language</title>
+      <link>https://hardcode.blog/tags/programming-language/</link>
+      <pubDate>Wed, 17 Jul 2024 18:00:49 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/programming-language/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>https://hardcode.blog/tags/tutorial/</link>
+      <pubDate>Wed, 17 Jul 2024 18:00:49 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zig</title>
+      <link>https://hardcode.blog/tags/zig/</link>
+      <pubDate>Wed, 17 Jul 2024 18:00:49 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/zig/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opinion Leader</title>
+      <link>https://hardcode.blog/tags/opinion-leader/</link>
+      <pubDate>Sat, 13 Jul 2024 05:53:30 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/opinion-leader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Substack</title>
+      <link>https://hardcode.blog/tags/substack/</link>
+      <pubDate>Sat, 13 Jul 2024 05:53:30 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/substack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>People</title>
+      <link>https://hardcode.blog/tags/people/</link>
+      <pubDate>Fri, 12 Jul 2024 12:55:22 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/people/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tdd</title>
+      <link>https://hardcode.blog/tags/tdd/</link>
+      <pubDate>Fri, 12 Jul 2024 12:55:22 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/tdd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xp</title>
+      <link>https://hardcode.blog/tags/xp/</link>
+      <pubDate>Fri, 12 Jul 2024 12:55:22 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/xp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer Experience</title>
+      <link>https://hardcode.blog/tags/developer-experience/</link>
+      <pubDate>Thu, 11 Jul 2024 14:16:29 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/developer-experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dx</title>
+      <link>https://hardcode.blog/tags/dx/</link>
+      <pubDate>Thu, 11 Jul 2024 14:16:29 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/dx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gnome</title>
+      <link>https://hardcode.blog/tags/gnome/</link>
+      <pubDate>Tue, 09 Jul 2024 10:33:00 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/gnome/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://hardcode.blog/tags/linux/</link>
+      <pubDate>Tue, 09 Jul 2024 10:33:00 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Macos</title>
+      <link>https://hardcode.blog/tags/macos/</link>
+      <pubDate>Tue, 09 Jul 2024 10:33:00 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/macos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://hardcode.blog/tags/productivity/</link>
+      <pubDate>Tue, 09 Jul 2024 10:33:00 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>https://hardcode.blog/tags/ubuntu/</link>
+      <pubDate>Tue, 09 Jul 2024 10:33:00 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Book</title>
+      <link>https://hardcode.blog/tags/book/</link>
+      <pubDate>Fri, 28 Jun 2024 12:54:35 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/book/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Publish</title>
+      <link>https://hardcode.blog/tags/self-publish/</link>
+      <pubDate>Fri, 28 Jun 2024 12:54:35 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/self-publish/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>https://hardcode.blog/tags/coding/</link>
+      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Didattica</title>
+      <link>https://hardcode.blog/tags/didattica/</link>
+      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/didattica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Php</title>
+      <link>https://hardcode.blog/tags/php/</link>
+      <pubDate>Fri, 21 Jun 2024 12:17:31 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agile</title>
+      <link>https://hardcode.blog/tags/agile/</link>
+      <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/agile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ingegneria Del Software</title>
+      <link>https://hardcode.blog/tags/ingegneria-del-software/</link>
+      <pubDate>Thu, 20 Jun 2024 16:08:23 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/ingegneria-del-software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>https://hardcode.blog/tags/llm/</link>
+      <pubDate>Thu, 13 Jun 2024 16:37:36 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://hardcode.blog/tags/software/</link>
+      <pubDate>Thu, 13 Jun 2024 16:37:36 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fonti</title>
+      <link>https://hardcode.blog/tags/fonti/</link>
+      <pubDate>Thu, 06 Jun 2024 17:02:03 +0000</pubDate>
+      <guid>https://hardcode.blog/tags/fonti/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal-Growth</title>
+      <link>https://hardcode.blog/tags/personal-growth/</link>
+      <pubDate>Thu, 08 Sep 2022 02:13:32 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/personal-growth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>https://hardcode.blog/tags/javascript/</link>
+      <pubDate>Mon, 11 Oct 2021 02:13:32 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Property Shorthand</title>
+      <link>https://hardcode.blog/tags/property-shorthand/</link>
+      <pubDate>Mon, 11 Oct 2021 02:13:32 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/property-shorthand/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rant</title>
+      <link>https://hardcode.blog/tags/rant/</link>
+      <pubDate>Mon, 11 Oct 2021 02:13:32 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/rant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Books</title>
+      <link>https://hardcode.blog/tags/books/</link>
+      <pubDate>Tue, 20 Jul 2021 12:10:00 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/books/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>https://hardcode.blog/tags/review/</link>
+      <pubDate>Tue, 20 Jul 2021 12:10:00 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geek-Culture</title>
+      <link>https://hardcode.blog/tags/geek-culture/</link>
+      <pubDate>Mon, 05 Apr 2021 13:19:26 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/geek-culture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project-Management</title>
+      <link>https://hardcode.blog/tags/project-management/</link>
+      <pubDate>Mon, 05 Apr 2021 13:19:26 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/project-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crm</title>
+      <link>https://hardcode.blog/tags/crm/</link>
+      <pubDate>Fri, 18 Sep 2020 12:13:35 +0530</pubDate>
+      <guid>https://hardcode.blog/tags/crm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vtiger</title>
+      <link>https://hardcode.blog/tags/vtiger/</link>
+      <pubDate>Fri, 18 Sep 2020 12:13:35 +0530</pubDate>
+      <guid>https://hardcode.blog/tags/vtiger/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://hardcode.blog/tags/future/</link>
+      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/future/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sci-Fi</title>
+      <link>https://hardcode.blog/tags/sci-fi/</link>
+      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/sci-fi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Society</title>
+      <link>https://hardcode.blog/tags/society/</link>
+      <pubDate>Sat, 12 Sep 2020 13:19:26 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/society/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carriera</title>
+      <link>https://hardcode.blog/tags/carriera/</link>
+      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/carriera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Università</title>
+      <link>https://hardcode.blog/tags/universit%C3%A0/</link>
+      <pubDate>Wed, 02 Sep 2020 19:38:58 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/universit%C3%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flutter</title>
+      <link>https://hardcode.blog/tags/flutter/</link>
+      <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/flutter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front-End</title>
+      <link>https://hardcode.blog/tags/front-end/</link>
+      <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/front-end/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trends</title>
+      <link>https://hardcode.blog/tags/trends/</link>
+      <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/trends/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digitalizzazione</title>
+      <link>https://hardcode.blog/tags/digitalizzazione/</link>
+      <pubDate>Wed, 22 Jul 2020 21:12:40 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/digitalizzazione/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Politica</title>
+      <link>https://hardcode.blog/tags/politica/</link>
+      <pubDate>Wed, 22 Jul 2020 21:12:40 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/politica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Feature</title>
+      <link>https://hardcode.blog/tags/feature/</link>
+      <pubDate>Wed, 01 Jul 2020 12:43:36 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/feature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://hardcode.blog/tags/git/</link>
+      <pubDate>Wed, 01 Jul 2020 12:43:36 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software-Design</title>
+      <link>https://hardcode.blog/tags/software-design/</link>
+      <pubDate>Wed, 01 Jul 2020 12:43:36 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/software-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>User-Story</title>
+      <link>https://hardcode.blog/tags/user-story/</link>
+      <pubDate>Wed, 01 Jul 2020 12:43:36 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/user-story/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fantascienza</title>
+      <link>https://hardcode.blog/tags/fantascienza/</link>
+      <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/fantascienza/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Futuro</title>
+      <link>https://hardcode.blog/tags/futuro/</link>
+      <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/futuro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medicina</title>
+      <link>https://hardcode.blog/tags/medicina/</link>
+      <pubDate>Tue, 12 May 2020 18:10:20 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/medicina/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://hardcode.blog/tags/web/</link>
+      <pubDate>Mon, 13 Apr 2020 11:21:43 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wordpress</title>
+      <link>https://hardcode.blog/tags/wordpress/</link>
+      <pubDate>Mon, 13 Apr 2020 11:21:43 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Remote-Working</title>
+      <link>https://hardcode.blog/tags/remote-working/</link>
+      <pubDate>Sun, 12 Apr 2020 13:31:31 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/remote-working/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nanotechnology</title>
+      <link>https://hardcode.blog/tags/nanotechnology/</link>
+      <pubDate>Thu, 09 Apr 2020 16:13:06 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/nanotechnology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science</title>
+      <link>https://hardcode.blog/tags/science/</link>
+      <pubDate>Thu, 09 Apr 2020 16:13:06 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debug</title>
+      <link>https://hardcode.blog/tags/debug/</link>
+      <pubDate>Sun, 05 Apr 2020 04:18:06 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/debug/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaming</title>
+      <link>https://hardcode.blog/tags/gaming/</link>
+      <pubDate>Sun, 05 Apr 2020 04:18:06 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/gaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Konami</title>
+      <link>https://hardcode.blog/tags/konami/</link>
+      <pubDate>Sun, 05 Apr 2020 04:18:06 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/konami/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bash</title>
+      <link>https://hardcode.blog/tags/bash/</link>
+      <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mars</title>
+      <link>https://hardcode.blog/tags/mars/</link>
+      <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/mars/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sh</title>
+      <link>https://hardcode.blog/tags/sh/</link>
+      <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/sh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Space</title>
+      <link>https://hardcode.blog/tags/space/</link>
+      <pubDate>Sat, 04 Apr 2020 04:18:06 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/space/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Full-Stack</title>
+      <link>https://hardcode.blog/tags/full-stack/</link>
+      <pubDate>Thu, 05 Mar 2020 10:51:18 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/full-stack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lifter</title>
+      <link>https://hardcode.blog/tags/lifter/</link>
+      <pubDate>Thu, 05 Mar 2020 10:51:18 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/lifter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smartphone</title>
+      <link>https://hardcode.blog/tags/smartphone/</link>
+      <pubDate>Sun, 02 Feb 2020 18:44:36 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/smartphone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stem</title>
+      <link>https://hardcode.blog/tags/stem/</link>
+      <pubDate>Sat, 01 Feb 2020 02:13:32 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/stem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teaching</title>
+      <link>https://hardcode.blog/tags/teaching/</link>
+      <pubDate>Sat, 01 Feb 2020 02:13:32 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/teaching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cicd</title>
+      <link>https://hardcode.blog/tags/cicd/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      <guid>https://hardcode.blog/tags/cicd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gitlab</title>
       <link>https://hardcode.blog/tags/gitlab/</link>
       <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
-      
       <guid>https://hardcode.blog/tags/gitlab/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>humor</title>
+      <title>Humor</title>
       <link>https://hardcode.blog/tags/humor/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:01 +0000</pubDate>
-      
       <guid>https://hardcode.blog/tags/humor/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>unix</title>
+      <title>Unix</title>
       <link>https://hardcode.blog/tags/unix/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:01 +0000</pubDate>
-      
       <guid>https://hardcode.blog/tags/unix/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

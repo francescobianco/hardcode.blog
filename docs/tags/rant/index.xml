@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rant on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/rant/</link>
+    <description>Recent content in Rant on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Mon, 11 Oct 2021 02:13:32 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anche se molto utile, odio le property shorthand</title>
+      <link>https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/</link>
+      <pubDate>Mon, 11 Oct 2021 02:13:32 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/</guid>
+      <description>La Property Shorthand in JavaScript è spesso acclamata per la sua sintassi concisa e intuitiva nella definizione degli oggetti. Tuttavia, dietro questa apparente comodità si nascondono alcune criticità che potrebbero compromettere la chiarezza e la manutenibilità del codice.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social. La tua condivisione ci aiuta a crescere e a portare contenuti di qualità a un pubblico sempre più ampio.</description>
+    </item>
+    <item>
+      <title>Remote Working Spaghetti</title>
+      <link>https://hardcode.blog/posts/rant/20200412-remote-working-spaghetti/</link>
+      <pubDate>Sun, 12 Apr 2020 13:31:31 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/rant/20200412-remote-working-spaghetti/</guid>
+      <description>Il lavoro da remoto è come un bel piatto di spaghetti. Sì, proprio così: spaghetti. E non parlo di quelli fatti bene, al dente, con la salsa perfettamente amalgamata. No, parlo di quel disastroso pasticcio che rischi di fare se non sai gestire bene le cose.&#xA;La salsa al lavoro remoto: troppe variabili Quando inizi a lavorare da remoto, ti dicono che è facile. “Basta un laptop, una buona connessione e sei a posto!</description>
+    </item>
+    <item>
+      <title>Full-stack, esistono davvero?</title>
+      <link>https://hardcode.blog/posts/rant/20200305-fullstack/</link>
+      <pubDate>Thu, 05 Mar 2020 10:51:18 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/rant/20200305-fullstack/</guid>
+      <description>Ah, il full-stack developer. Questa figura ormai onnipresente negli annunci di lavoro, celebrata come l&amp;rsquo;unicorno del mondo tecnologico: colui che, da solo, riesce a dominare il frontend, il backend, i database, le reti, la sicurezza e, perché no, pure il design. Un essere mitologico che sarebbe capace di risolvere qualsiasi problema tecnico da solo, dallo sviluppo di un&amp;rsquo;intera piattaforma web alla sua messa in produzione.&#xA;Ma fermiamoci un attimo e riflettiamo.</description>
+    </item>
+  </channel>
+</rss>

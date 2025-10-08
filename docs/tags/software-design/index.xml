@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software-Design on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/software-design/</link>
+    <description>Recent content in Software-Design on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Wed, 01 Jul 2020 12:43:36 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/software-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Le Features, queste sconosciute</title>
+      <link>https://hardcode.blog/posts/software-design/20200701-features/</link>
+      <pubDate>Wed, 01 Jul 2020 12:43:36 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/software-design/20200701-features/</guid>
+      <description>Nel mondo dello sviluppo software, si sente parlare spesso di &amp;ldquo;feature&amp;rdquo;. Ma cosa si intende esattamente con questo termine, e perché è così centrale in ogni progetto moderno? In questo articolo cercheremo di esplorare il concetto di feature, la sua importanza nel ciclo di sviluppo software e come si integra con pratiche come le user story nell&amp;rsquo;Agile e i flussi di lavoro su Git, come il feature branch flow.&#xA;Cos&amp;rsquo;è una Feature?</description>
+    </item>
+  </channel>
+</rss>

@@ -1,22 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devops on HARDCODE.BLOG</title>
+    <title>Devops on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/devops/</link>
-    <description>Recent content in devops on HARDCODE.BLOG</description>
+    <description>Recent content in Devops on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Sat, 01 Aug 2020 08:16:42 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 May 2025 23:17:10 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker: l’inizio della fine di un’icona?</title>
+      <link>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</link>
+      <pubDate>Wed, 07 May 2025 23:17:10 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20250507-la-fine-di-docker/</guid>
+      <description>Docker è stato, senza mezzi termini, una rivoluzione. Un cambio di paradigma nel modo in cui pensiamo, costruiamo e distribuiamo software. Un layer trasparente tra sviluppatori e infrastruttura, capace di creare una nuova normalità: build leggere, ambienti replicabili, deployment semplificati. Docker è stato molto più di una tecnologia: è stato un movimento.&#xA;Ma i movimenti, come le mode, tendono a cristallizzarsi. E quando una tecnologia da &amp;ldquo;motore del cambiamento&amp;rdquo; diventa solo &amp;ldquo;un motore di esecuzione&amp;rdquo; – un runtime engine, per capirci – allora entra in un’arena diversa.</description>
+    </item>
+    <item>
+      <title>Le metriche DORA: La chiave per misurare e migliorare le prestazioni DevOps</title>
+      <link>https://hardcode.blog/posts/devops/20241005-dora-metrics/</link>
+      <pubDate>Sat, 05 Oct 2024 08:13:47 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/devops/20241005-dora-metrics/</guid>
+      <description>Nell&amp;rsquo;ambito dell&amp;rsquo;ingegneria del software e del DevOps, la misurazione delle prestazioni è fondamentale per il miglioramento continuo. Le metriche DORA (DevOps Research and Assessment) sono emerse come uno standard de facto per valutare l&amp;rsquo;efficacia delle pratiche DevOps. In questo articolo, esploreremo cosa sono le metriche DORA, perché sono importanti e come possono essere utilizzate per ottimizzare i processi di sviluppo software.&#xA;Cosa sono le metriche DORA? Le metriche DORA sono un insieme di quattro indicatori chiave di prestazione (KPI) sviluppati dal team di ricerca DevOps di Google.</description>
+    </item>
+    <item>
+      <title>**Docker** su Windows: Un errore colossale</title>
+      <link>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</link>
+      <pubDate>Fri, 30 Aug 2024 12:45:00 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/docker/20210401-tools-for-windows-docker-developer/</guid>
+      <description>In un&amp;rsquo;era in cui l&amp;rsquo;efficienza e la velocità sono cruciali nello sviluppo software, Docker si è affermato come uno strumento indispensabile. Tuttavia, quando si tratta di Docker Desktop e Docker per Windows, ci troviamo di fronte a quello che posso solo definire un errore colossale. Lasciate che vi spieghi perché.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social.</description>
+    </item>
     <item>
       <title>DevOps, il mistero dietro le sue skill</title>
       <link>https://hardcode.blog/posts/devops/20200801-cosa-e-un-devops/</link>
       <pubDate>Sat, 01 Aug 2020 08:16:42 +0200</pubDate>
-      
       <guid>https://hardcode.blog/posts/devops/20200801-cosa-e-un-devops/</guid>
-      <description>🚧 WORK IN PROGRESS 🚧
- Un devops è una figura che lavora all&amp;rsquo;intersezione tra il team di sviluppo software e il team di operations. In genere, un devops si occupa di automatizzare il processo di build, test e deploy del software, in modo da rendere più efficiente il processo di sviluppo e rendere più facile il roll-out di nuove funzionalità. Un devops lavora anche a stretto contatto con il team di sviluppo per garantire che il software sia progettato per essere facile da distribuire e gestire in produzione.</description>
+      <description>Negli ultimi anni, la figura del DevOps è diventata centrale in molte organizzazioni tecnologiche. Ma cosa fa esattamente un DevOps? Quali competenze sono richieste per ricoprire questo ruolo così strategico? Dietro il termine DevOps si nasconde una varietà di competenze tecniche e soft skill che rendono questa figura un vero e proprio ponte tra il team di sviluppo software e il team di operations.&#xA;Chi è il DevOps? Un DevOps è un professionista che opera all’intersezione tra sviluppo e operations, lavorando per abbattere le barriere tra questi due mondi tradizionalmente separati.</description>
     </item>
-    
+    <item>
+      <title>Docker: Il cuore di GitLab CI</title>
+      <link>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/cicd/20210401-tools-for-gitlab-ci-developer/</guid>
+      <description>Introduzione Docker è ormai dappertutto. In pochi anni, è diventato uno strumento imprescindibile nel panorama DevOps, rivoluzionando il modo in cui sviluppatori e ingegneri gestiscono il ciclo di vita delle applicazioni. Oggi, voglio condividere con voi come Docker sia diventato il cuore pulsante della Continuous Integration (CI) di GitLab e come questa integrazione renda le pipeline di sviluppo incredibilmente potenti ed efficienti.&#xA;Docker e GitLab CI: Una combinazione vincente GitLab CI è una piattaforma di Continuous Integration e Continuous Delivery (CI/CD) che permette ai team di sviluppo di automatizzare la costruzione, il testing e il deployment delle applicazioni.</description>
+    </item>
+    <item>
+      <title>Docker: Un ambiente ideale per il CRM vtiger</title>
+      <link>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</link>
+      <pubDate>Wed, 01 Jan 2020 12:10:00 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/vtiger/20210401-tools-for-vtiger-developer/</guid>
+      <description>Nel mondo dello sviluppo software, la containerizzazione è diventata una pratica fondamentale per garantire ambienti di sviluppo consistenti e facilmente gestibili. Docker, in particolare, ha rivoluzionato il modo in cui gli sviluppatori creano, distribuiscono e eseguono le applicazioni. In questo articolo, esploreremo come utilizzare Docker per sviluppare vtiger CRM, un potente sistema di gestione delle relazioni con i clienti (CRM).&#xA;Perché scegliere Docker per vtiger? Ambienti consistenti: Docker permette di creare ambienti di sviluppo che sono identici a quelli di produzione.</description>
+    </item>
   </channel>
 </rss>

@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="generator" content="Hugo 0.92.2" />
+	<meta name="generator" content="Hugo 0.123.7">
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>HARDCODE.BLOG - {☕} Coding, the superpower that nobody wants to have. </title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>HARDCODE.BLOG - Coding, the superpower that nobody wants to have. </title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="alternate" type="application/rss+xml" href="https://hardcode.blog/index.xml" title="HARDCODE.BLOG" />
 	<link rel="canonical" href="https://hardcode.blog/" itemprop="url" /><meta itemprop="name" content="HARDCODE.BLOG">
-<meta itemprop="description" content=""><meta property="og:title" content="HARDCODE.BLOG" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://hardcode.blog/" />
+<meta itemprop="description" content=""><meta property="og:url" content="https://hardcode.blog/">
+<meta property="og:site_name" content="HARDCODE.BLOG">
+<meta property="og:title" content="HARDCODE.BLOG">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="HARDCODE.BLOG"/>
-<meta name="twitter:description" content=""/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<meta property="og:type" content="website">
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+        
+        <meta property="og:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_4613600244789722279.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://hardcode.blog/social-banner_9891135692834545835_hudfc737344e2097d490bebb596a21afb5_207947_filter_4613600244789722279.png">
+    
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:700" rel="stylesheet">
@@ -22,10 +43,14 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hardcode.blog/css/admonition.css" />
 
     <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://hardcode.blog/css/dark.css" />
 
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script src="https://hardcode.blog/js/terminal.js"></script>
+        <script src="https://hardcode.blog/js/nibbles.js"></script>
 		<script src="https://hardcode.blog/js/main.js"></script>
 
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5f7fc641-2e2f-4fcb-82e5-767e578040ae" data-blockingmode="auto" type="text/javascript"></script>
@@ -43,7 +68,7 @@
 		</div>
 	
     <h1 class="site-title"><a href="https://hardcode.blog/">HARDCODE<small class="text-gray">.BLOG</small></a></h1>
-	<div class="site-description font-fixedsys"><p>{☕} Coding, the superpower that nobody wants to have.</p><nav class="nav social">
+	<div class="site-description font-fixedsys"><p>Coding, the superpower that nobody wants to have.</p><nav class="nav social">
 			<ul class="flat"><li><a href="https://github.com/francescobianco" title="Github" target="_blank"><i data-feather="github"></i></a></li>
                     &#32;<li><a href="https://linkedin.com/in/yafb" title="LinkedIn" target="_blank"><i data-feather="linkedin"></i></a></li>
                     &#32;<li><a href="https://www.youtube.com/@yafb/" title="YouTube" target="_blank"><i data-feather="youtube"></i></a></li>
@@ -59,11 +84,11 @@
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/docker/">🐳 Docker</a>
+				<a href="/tags/devops/">🐳 DevOps</a>
 			</li>
 			
 			<li class="font-fixedsys">
-				<a href="/tags/vtiger/">🐯 Vtiger</a>
+				<a href="/tags/crm/">☁️ CRM</a>
 			</li>
 			
 			<li class="font-fixedsys">
@@ -79,6 +104,20 @@
 </div>
 
 
+        
+<div class="view-selector font-fixedsys">
+
+    
+    <span>[Recent]</span>
+    
+
+    
+    <a href="/views/grouped/">[Grouped]</a>
+    
+
+</div>
+
+
 		<div class="recent-posts section">
 			<div class="posts">
 				
@@ -88,24 +127,22 @@
 						<div class="post-header">
 							<div class="meta">
 								<div class="date">
-									<span class="day">5</span>
-							        <span class="rest">Apr 2021</span>
+									<span class="day">17</span>
+							        <span class="rest">Sep 2024</span>
 								</div>
 							</div>
 							<div class="matter">
 								<h4 class="title small">
-									<a href="/posts/20200928-agile-is-dead/">
-                                        Agile is dead!
+									<a href="/posts/pattern/20240917-circuit-breaker/">
+                                        Il Circuit Breaker: Il Pattern che ha Salvato Netflix
                                         
-                                        
-                                            <span>&#127468;&#127463; &#127482;&#127480;<span>
                                         
                                         
                                     </a>
 								</h4>
 								<span class="description">
 									
-										The myth of Agile culture still in ongoing fall down, the only cases of success are due to highly qualified people who would have been successful regardless of the methodology
+										Nell&rsquo;ingegneria del software, la resilienza dei sistemi è fondamentale, soprattutto quando si tratta di servizi ad alta disponibilità. Oggi esploreremo un pattern di progettazione che ha rivoluzionato la gestione del carico in sistemi distribuiti: il Circuit Breaker.
 									
 								</span>
 							</div>
@@ -116,14 +153,14 @@
 						<div class="post-header">
 							<div class="meta">
 								<div class="date">
-									<span class="day">18</span>
-							        <span class="rest">Sep 2020</span>
+									<span class="day">11</span>
+							        <span class="rest">Sep 2024</span>
 								</div>
 							</div>
 							<div class="matter">
 								<h4 class="title small">
-									<a href="/posts/vtiger/20221212-cose-vtiger/">
-                                        Che cos&rsquo;è Vtiger?
+									<a href="/posts/20240911-dal-monolitico-ai-microservizi-e-oltre/">
+                                        L&rsquo;Evoluzione dell&rsquo;Architettura Software: Dal Monolitico ai Microservizi e Oltre
                                         
                                         
                                         
@@ -131,7 +168,7 @@
 								</h4>
 								<span class="description">
 									
-										When a project stands up to difficulties, it is said to have aged well. Surely Vtiger deserves its second life with all the requirements of a modern software it has helped many businesses to progress. Now it&rsquo;s up to us to help him enter the CI/CD era.
+										Dall&rsquo;era dei mainframe all&rsquo;avvento del cloud computing, l&rsquo;architettura software ha subito una trasformazione radicale. Sei pronto a esplorare questo affascinante viaggio? In questo post approfondito, sveleremo i segreti dietro l&rsquo;evoluzione delle architetture software, dai sistemi monolitici ai microservizi e oltre. Che tu sia un veterano del settore o un novizio curioso, troverai insights preziosi per comprendere il passato, padroneggiare il presente e prepararti per il futuro dell&rsquo;ingegneria del software. Scopri come le scelte architettoniche plasmano il successo dei giganti tech e come puoi applicare queste lezioni ai tuoi progetti. Non perdere questa opportunità di elevare la tua comprensione dell&rsquo;architettura software a un nuovo livello!
 									
 								</span>
 							</div>
@@ -142,14 +179,14 @@
 						<div class="post-header">
 							<div class="meta">
 								<div class="date">
-									<span class="day">18</span>
-							        <span class="rest">Sep 2020</span>
+									<span class="day">8</span>
+							        <span class="rest">Sep 2024</span>
 								</div>
 							</div>
 							<div class="matter">
 								<h4 class="title small">
-									<a href="/posts/vtiger/20200918-modernize-vtiger/">
-                                        Modernize Vtiger
+									<a href="/posts/20240908-mindset-consulente-due-punto-zero/">
+                                        Mindset Consulente 2.0: La Teoria Triangolare della Consulenza Moderna
                                         
                                         
                                         
@@ -157,7 +194,7 @@
 								</h4>
 								<span class="description">
 									
-										When a project stands up to difficulties, it is said to have aged well. Surely Vtiger deserves its second life with all the requirements of a modern software it has helped many businesses to progress. Now it&rsquo;s up to us to help him enter the CI/CD era.
+										Nell&rsquo;era dell&rsquo;informazione, il ruolo del consulente ha subito una trasformazione radicale. Non si tratta più solo di fornire soluzioni standardizzate ai problemi dei clienti, ma c&rsquo;è dell&rsquo;altro, proviamo ad esplore un metodo innovativo
 									
 								</span>
 							</div>
@@ -168,14 +205,14 @@
 						<div class="post-header">
 							<div class="meta">
 								<div class="date">
-									<span class="day">12</span>
-							        <span class="rest">Sep 2020</span>
+									<span class="day">30</span>
+							        <span class="rest">Aug 2024</span>
 								</div>
 							</div>
 							<div class="matter">
 								<h4 class="title small">
-									<a href="/posts/20200912-ai/">
-                                        A.I. cosa ci dobbiamo aspettare? 🇮🇹
+									<a href="/posts/docker/20210401-tools-for-windows-docker-developer/">
+                                        <strong>Docker</strong> su Windows: Un errore colossale
                                         
                                         
                                         
@@ -183,7 +220,33 @@
 								</h4>
 								<span class="description">
 									
-										Tutto ciò che non avete mai pensato di leggere sull&rsquo;Inteligenza Artificiale lo troverete negli archivi di Google, per il resto trovate qualcosina qui&hellip; (da non perdere).
+										Vi racconto come Docker ha cambiato la mia giornata lavorativa, nel caso di Windows in peggio.
+									
+								</span>
+							</div>
+						</div>
+					</div>
+				
+					<div class="post">
+						<div class="post-header">
+							<div class="meta">
+								<div class="date">
+									<span class="day">16</span>
+							        <span class="rest">Aug 2024</span>
+								</div>
+							</div>
+							<div class="matter">
+								<h4 class="title small">
+									<a href="/posts/shell/20210401-tools-for-shell-developer/">
+                                        Docker e Shell: Strumenti per Potenziare il Tuo Ambiente di Sviluppo
+                                        
+                                        
+                                        
+                                    </a>
+								</h4>
+								<span class="description">
+									
+										Vi racconto come Docker ha cambiato la mia giornata lavorativa
 									
 								</span>
 							</div>
@@ -212,7 +275,7 @@
 	<div class="footer wrapper">
 	<nav class="nav">
         <div>
-            2024  © Francesco Bianco | 
+            2025  © Francesco Bianco | 
             Build with <a href="https://github.com/knadh/hugo-ink" target="_blank">Ink</a>
             theme on <a href="https://gohugo.io" target="_blank">Hugo</a>
             <span class="hide-on-mobile">

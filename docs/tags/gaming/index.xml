@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaming on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/gaming/</link>
+    <description>Recent content in Gaming on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Sun, 05 Apr 2020 04:18:06 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La storia del Konami Code: una sequenza leggendaria</title>
+      <link>https://hardcode.blog/posts/gaming/20200405-konami-code/</link>
+      <pubDate>Sun, 05 Apr 2020 04:18:06 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/gaming/20200405-konami-code/</guid>
+      <description>Era il 1986 quando Kazuhisa Hashimoto, un programmatore della Konami, stava lavorando alla conversione per NES del gioco Gradius. Durante lo sviluppo, trovò il gioco troppo difficile da testare. Decise quindi di implementare una sequenza segreta di tasti che gli permettesse di ottenere tutti i power-up istantaneamente.&#xA;Quella sequenza di tasti, che doveva essere solo uno strumento di debug, fu accidentalmente lasciata nel gioco finale. Nacque così il leggendario &amp;ldquo;Konami Code&amp;rdquo;:</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Property Shorthand on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/property-shorthand/</link>
+    <description>Recent content in Property Shorthand on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Mon, 11 Oct 2021 02:13:32 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/property-shorthand/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anche se molto utile, odio le property shorthand</title>
+      <link>https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/</link>
+      <pubDate>Mon, 11 Oct 2021 02:13:32 +0200</pubDate>
+      <guid>https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/</guid>
+      <description>La Property Shorthand in JavaScript è spesso acclamata per la sua sintassi concisa e intuitiva nella definizione degli oggetti. Tuttavia, dietro questa apparente comodità si nascondono alcune criticità che potrebbero compromettere la chiarezza e la manutenibilità del codice.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social. La tua condivisione ci aiuta a crescere e a portare contenuti di qualità a un pubblico sempre più ampio.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,36 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>javascript on HARDCODE.BLOG</title>
+    <title>Javascript on HARDCODE.BLOG</title>
     <link>https://hardcode.blog/tags/javascript/</link>
-    <description>Recent content in javascript on HARDCODE.BLOG</description>
+    <description>Recent content in Javascript on HARDCODE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>© Francesco Bianco</copyright>
-    <lastBuildDate>Thu, 08 Sep 2022 02:13:32 +0200</lastBuildDate><atom:link href="https://hardcode.blog/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Oct 2021 02:13:32 +0200</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Prima trovate un coach, poi trovate la motivazione</title>
-      <link>https://hardcode.blog/posts/motivazione/20220908-il-primo-passo/</link>
-      <pubDate>Thu, 08 Sep 2022 02:13:32 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/motivazione/20220908-il-primo-passo/</guid>
-      <description>🚧 WORK IN PROGRESS 🚧
- Motivazione - Il promo passo Dopo una bellissima chiacchierata con un coach professionista, mi è stato chiesto di stilare una lista di 10 argomenti che potrei approfondire per migliorare me stesso. Ho colto l&amp;rsquo;occasione e ho raccolto 10 video del dottor Filippo Ongaro da ascoltare fino allo sfinimento:
- Come adottare delle buone abitudini per affrontare un cambiamento - https://www.youtube.com/watch?v=JsV5EwC1Fec Impara a chiedere aiuto e vai oltre il tuo orgoglio personale - https://www.</description>
-    </item>
-    
-    <item>
-      <title>Anche se molto utile, odio le chiavi implicite</title>
-      <link>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</link>
+      <title>Anche se molto utile, odio le property shorthand</title>
+      <link>https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/</link>
       <pubDate>Mon, 11 Oct 2021 02:13:32 +0200</pubDate>
-      
-      <guid>https://hardcode.blog/posts/javascript/20210112-good-or-bad/</guid>
-      <description>🚧 WORK IN PROGRESS 🚧
- La mia ipotesi si basa sul fatto che l&amp;rsquo;approccio abbrebiato espone il codice a dimostrare l&amp;rsquo;esistenza di una variabile con quel nome
-Quindi se esiste l&amp;rsquo;attributo &amp;lsquo;name&amp;rsquo; in un oggetto potrebbe esistere una variable nel sorgente con lo stesso nome &amp;lsquo;name&amp;rsquo;
-https://twitter.com/francescobianco/status/1317772038845681664
-https://jsfiddle.net/francescobianco/4sue8ym9/27/</description>
+      <guid>https://hardcode.blog/posts/rant/20210112-javascript-shorthand-property-names/</guid>
+      <description>La Property Shorthand in JavaScript è spesso acclamata per la sua sintassi concisa e intuitiva nella definizione degli oggetti. Tuttavia, dietro questa apparente comodità si nascondono alcune criticità che potrebbero compromettere la chiarezza e la manutenibilità del codice.&#xA;🌐 Ti piacciono questi temi? Aiutaci a migliorare e a raggiungere più persone! Se trovi utile questo articolo, condividilo con i tuoi amici e colleghi sui social. La tua condivisione ci aiuta a crescere e a portare contenuti di qualità a un pubblico sempre più ampio.</description>
     </item>
-    
   </channel>
 </rss>

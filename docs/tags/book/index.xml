@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book on HARDCODE.BLOG</title>
+    <link>https://hardcode.blog/tags/book/</link>
+    <description>Recent content in Book on HARDCODE.BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <copyright>© Francesco Bianco</copyright>
+    <lastBuildDate>Fri, 28 Jun 2024 12:54:35 +0000</lastBuildDate>
+    <atom:link href="https://hardcode.blog/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutti gli informatici hanno un sogno nel cassetto: _scrivere un libro!!1!_</title>
+      <link>https://hardcode.blog/posts/20240628-scrivere-un-libro-di-informatica/</link>
+      <pubDate>Fri, 28 Jun 2024 12:54:35 +0000</pubDate>
+      <guid>https://hardcode.blog/posts/20240628-scrivere-un-libro-di-informatica/</guid>
+      <description>Ogni informatico, nel profondo, coltiva il sogno di scrivere un libro. Questo desiderio potrebbe nascere dal vedere la propria idea prendere forma concreta, un parallelo con il successo delle proprie idee. Immaginare di tenere in mano un libro con il proprio nome sulla copertina rappresenta una sorta di traguardo inconscio, una rivincita dopo anni passati a leggere i libri degli altri. Ora, grazie a piattaforme come Reedsy, questo sogno è più accessibile che mai.</description>
+    </item>
+  </channel>
+</rss>
