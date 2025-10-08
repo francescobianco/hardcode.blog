@@ -20,3 +20,4 @@ deploy:
 	mkdir docs
 	echo 'hardcode.blog' > docs/CNAME
 	hugo -d docs
+	make -s push
