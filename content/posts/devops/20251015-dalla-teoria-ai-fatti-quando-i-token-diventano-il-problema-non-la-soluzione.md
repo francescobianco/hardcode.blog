@@ -4,7 +4,7 @@ description: "Dopo anni di battage mediatico sulla supremazia dei token rispetto
 date: 2025-10-15T12:57:39.617Z
 tags: ["devops", "security", "npm"]
 authors: ["Francesco Bianco"]
-giscus: ""
+giscus: "NPM"
 ---
 
 Dopo anni di battage mediatico sulla supremazia dei token rispetto alle password tradizionali, la realtà sta finalmente presentando il conto. Gli attacchi informatici degli ultimi mesi hanno messo a nudo una verità scomoda: **i token non sono altro che super-password**, e come tali sono soggetti agli stessi problemi di gestione e sicurezza, se non peggiori.
