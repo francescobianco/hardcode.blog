@@ -1,5 +1,5 @@
 ---
-title: "Dalla Teoria ai Fatti: Quando i Token Diventano il Problema, Non la Soluzione"
+title: "Dalla teoria ai fatti: Quando i token di accesso diventano il problema, non la soluzione"
 description: "Dopo anni di battage mediatico sulla supremazia dei token rispetto alle password tradizionali, la realtà sta finalmente presentando il conto. Siamo tutti vulnerabili, capiamo il perchè"
 date: 2025-10-15T12:57:39.617Z
 tags: ["devops", "security", "npm"]
