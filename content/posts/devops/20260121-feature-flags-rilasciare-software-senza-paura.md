@@ -2,7 +2,7 @@
 title: "Feature Flags: rilasciare software senza paura"
 description: "Un omaggio a Mickey Gousset e al suo contributo nel mondo DevOps"
 date: 2026-01-21T14:48:30.502Z
-tags: ["devops", "tag1", "tag2"]
+tags: ["devops"]
 authors: ["Francesco Bianco"]
 giscus: ""
 ---
