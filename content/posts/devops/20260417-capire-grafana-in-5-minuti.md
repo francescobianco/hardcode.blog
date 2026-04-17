@@ -88,13 +88,21 @@ CSV:
 
 ## Come collegarlo
 
-Installa il plugin **Infinity** dentro Grafana.
+Installa il plugin Infinity dentro Grafana.
+
+👉 <a href="http://localhost:3000/plugins/yesoreyeram-infinity-datasource" target="_blank"><b>Vai alla pagina Infinity Plugin di Grafana</b></a>
 
 Poi:
 
-* Data source → Infinity
-* URL → `http://csv-server:8080/metrics.csv`
-* Tipo → CSV
+clicca su [Install] (in alto a destra)
+clicca su vai in Data Sources
+
+aggiungi Infinity
+
+Configura:
+
+URL → http://csv-server:8080/metrics.csv
+Tipo → CSV
 
 Fai un pannello:
 
