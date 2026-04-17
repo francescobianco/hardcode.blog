@@ -45,14 +45,11 @@ Puoi usarlo anche con un CSV.
 mkdir -p grafana-csv-demo/data && cd grafana-csv-demo && \
 
 cat << 'EOF' > docker-compose.yml
-version: '3.8'
-
 services:
   grafana:
     image: grafana/grafana:latest
     ports:
       - "3000:3000"
-
   csv-server:
     image: python:3.11-slim
     working_dir: /data
