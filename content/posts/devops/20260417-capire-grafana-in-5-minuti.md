@@ -18,7 +18,6 @@ Se hai mai provato a usare Grafana e hai pensato *“ok bello… ma a cosa serve
 Il problema non è Grafana.
 Il problema è che **ti viene sempre spiegato partendo dallo stack sbagliato**.
 
----
 
 ## Il frame mentale che ti manca
 
@@ -29,13 +28,11 @@ Grafana NON è:
 
 Grafana è **una lente sui dati**.
 
----
 
 ## La verità che ti sblocca
 
 Puoi usarlo anche con un CSV.
 
----
 
 ## ⚡ Setup 1-click (copia, incolla, boom)
 
@@ -70,7 +67,6 @@ EOF
 docker compose up -d
 ```
 
----
 
 ## Cosa hai appena fatto
 
@@ -89,7 +85,6 @@ CSV:
 
 * [http://localhost:8080/metrics.csv](http://localhost:8080/metrics.csv)
 
----
 
 ## Come collegarlo
 
@@ -106,7 +101,6 @@ Fai un pannello:
 * Table → vedi i dati
 * Time series → vedi il grafico
 
----
 
 ## Il pattern mentale (questo è tutto Grafana)
 
@@ -132,7 +126,6 @@ Quando in realtà bastava:
 dato → grafico
 ```
 
----
 
 ## Quando usare altro (Prometheus / InfluxDB)
 
@@ -148,7 +141,6 @@ Usa altro quando hai:
 * storico serio
 * alert
 
----
 
 ## Takeaway finale
 
