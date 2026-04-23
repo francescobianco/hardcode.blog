@@ -1,6 +1,6 @@
 ---
 title: "CLI ergonomiche per agenti: non più intelligenti, ma più efficienti"
-description: "Negli ultimi mesi, molti strumenti di sviluppo stanno evolvendo per integrarsi con coding agent. Spesso però il dibattito parte da un presupposto, vediamolo insieme"
+description: "Negli ultimi mesi, molti strumenti di sviluppo stanno evolvendo per integrarsi con coding agent. Spesso però il dibattito parte da un presupposto che esplorato al meglio, vediamolo insieme"
 date: 2026-04-23T09:37:30.938Z
 tags: ["devex", "ai", "agent"]
 authors: ["Francesco Bianco"]
